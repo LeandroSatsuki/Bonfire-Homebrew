@@ -1,0 +1,63 @@
+{
+  "id": "nome-interno-da-species",
+  "name": "Nome da Species",
+  "type": "species",
+  "foundryType": "race",
+  "source": {
+    "book": "",
+    "page": "",
+    "license": "",
+    "notes": ""
+  },
+  "rules": "2024",
+  "status": "draft",
+  "description": {
+    "summary": "",
+    "flavor": "",
+    "rulesText": ""
+  },
+  "size": {
+    "category": "",
+    "notes": ""
+  },
+  "movement": {
+    "walk": "",
+    "other": [],
+    "notes": ""
+  },
+  "creatureType": {
+    "value": "",
+    "notes": ""
+  },
+  "languages": [
+    {
+      "name": "",
+      "type": "standard",
+      "notes": ""
+    }
+  ],
+  "traits": [
+    {
+      "name": "",
+      "summary": "",
+      "rulesText": "",
+      "needsFoundryValidation": true
+    }
+  ],
+  "grantedFeatures": [
+    {
+      "id": "",
+      "name": "",
+      "status": "planned",
+      "notes": ""
+    }
+  ],
+  "racialFeatEligibility": {
+    "allowed": [],
+    "notes": ""
+  },
+  "notes": [
+    "Template autoral. Nao representa schema nativo final do Foundry.",
+    "Campos tecnicos reais devem ser confirmados no Foundry antes de criar o item final."
+  ]
+}
