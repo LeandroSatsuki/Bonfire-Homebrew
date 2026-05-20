@@ -31,7 +31,7 @@ Tambem ha uma referencia a `Talentos Epicos` no HTML local analisado, mas a extr
 Base de referencia atual:
 
 - `42` talentos de origem identificados
-- extracao detalhada em [talentos-de-origem.md](C:/Users/lpsan/AppData/Local/FoundryVTT/Data/modules/bonfire-homebrew/docs/extracoes/talentos/talentos-de-origem.md:1)
+- extracao detalhada em [talentos-de-origem.md](../extracoes/talentos/talentos-de-origem.md)
 
 ## 4. Talentos Gerais / Feats
 
@@ -44,7 +44,7 @@ Base de referencia atual:
 Base de referencia atual:
 
 - `96` talentos/feats identificados
-- extracao detalhada em [talentos-feat.md](C:/Users/lpsan/AppData/Local/FoundryVTT/Data/modules/bonfire-homebrew/docs/extracoes/talentos/talentos-feat.md:1)
+- extracao detalhada em [talentos-feat.md](../extracoes/talentos/talentos-feat.md)
 
 ## 5. Talentos Epicos
 
