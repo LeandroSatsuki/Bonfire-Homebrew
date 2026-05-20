@@ -1,2 +1,4 @@
-﻿packs/**/LOCK
+﻿@"
+packs/**/LOCK
 packs/**/LOG.old
+"@ | Set-Content -Encoding UTF8 .gitignore

@@ -1,0 +1,65 @@
+{
+  "name": "Teste race",
+  "type": "race",
+  "img": "systems/dnd5e/icons/svg/items/race.svg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Size",
+        "_id": "xxlKbhcY8lCzYzN7",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "teste",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "movement": {
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1779242182142,
+    "modifiedTime": 1779242182160,
+    "lastModifiedBy": "WWUngmZuaDTY5p2F"
+  },
+  "ownership": {
+    "default": 0,
+    "WWUngmZuaDTY5p2F": 3
+  },
+  "_id": "UXgTNKX5KgvvsgJr",
+  "sort": 100000
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Teste Class",
+  "type": "class",
+  "img": "systems/dnd5e/icons/svg/items/class.svg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "C6j1hXIrCugKE4C1",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "3wI2AQnUwxdsCcqa",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "MMfhtDUgfVO2FGkA",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "BLGkFxni4tXs1q2T",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "FDUtPvrfk87tuGaP",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "KcWGpVGgWutD3sIU",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "oG4F4paT3aX5WKQ8",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      }
+    ],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "teste-class",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "startingEquipment": [],
+    "hd": {
+      "additional": "",
+      "denomination": "d6",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {}
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1779242149522,
+    "modifiedTime": 1779242149551,
+    "lastModifiedBy": "WWUngmZuaDTY5p2F"
+  },
+  "ownership": {
+    "default": 0,
+    "WWUngmZuaDTY5p2F": 3
+  },
+  "_id": "uq9NtsGhXARuONgy",
+  "sort": 100000
+}

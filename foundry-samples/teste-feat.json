@@ -1,0 +1,54 @@
+{
+  "name": "Teste Feat",
+  "type": "feat",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "teste-feat",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Compendium.bonfire-homebrew.TalentosRaciais.Item.oLoXmgZlkiCxBjMw",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1779242928367,
+    "modifiedTime": 1779242928385,
+    "lastModifiedBy": "WWUngmZuaDTY5p2F"
+  },
+  "ownership": {
+    "default": 0,
+    "WWUngmZuaDTY5p2F": 3
+  },
+  "_id": "oLoXmgZlkiCxBjMw",
+  "sort": 100000
+}
