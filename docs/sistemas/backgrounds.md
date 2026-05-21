@@ -16,6 +16,8 @@ No projeto Bonfire Homebrew, `Backgrounds / Antecedentes` representam a origem s
 - `content/` e fonte autoral, nao schema nativo direto do Foundry
 - `packs/` nao devem ser editados manualmente
 - ainda nao existe pack `Backgrounds` no `module.json`
+- houve `teste manual validado` de `Backgrounds`
+- registro tecnico do teste em [backgrounds.md](../testes/backgrounds.md)
 
 ## 3. Regra geral de Backgrounds no Bonfire
 
@@ -35,12 +37,23 @@ Base de referencia atual:
 - extracao consolidada em [antecedentes.md](../extracoes/backgrounds/antecedentes.md)
 - `30` antecedentes identificados na fonte local
 
+Confirmacoes adicionais do teste tecnico:
+
+- `type` real confirmado: `background`
+- `AbilityScoreImprovement` confirmou a estrutura de `+2/+1`
+- `Trait` confirmou a camada de pericias
+- `Trait` confirmou `Comum` fixo e a escolha entre idiomas/ferramentas
+- `system.wealth: "100"` confirmou o registro de riqueza inicial no sample
+- `ItemGrant` confirmou uma forma valida de representar a habilidade de antecedente no teste
+- detalhes tecnicos consolidados em [backgrounds.md](../testes/backgrounds.md)
+
 ## 4. Relacao com Talentos de Origem
 
 - `Background` concede escolha de `1 Talento de Origem`
 - `Talentos de Origem` sao uma categoria separada de `feat`
 - a extracao dessa camada ja existe em [talentos-de-origem.md](../extracoes/talentos/talentos-de-origem.md)
-- ainda precisa validar no Foundry como representar essa escolha
+- o teste manual validou que esse fluxo funcionou
+- a referencia explicita ao `Talento de Origem` nao apareceu no JSON exportado do `Background` analisado
 - nao assumir automacao sem teste real
 
 ## 5. Relacao com o futuro pack Backgrounds
@@ -120,14 +133,12 @@ Observacao importante:
 
 ## 8. Pendencias
 
-- validar como `Background` aplica `+2/+1` no `dnd5e 5.2.4`
-- validar como `Background` concede pericias
-- validar como `Background` concede idiomas/ferramentas
-- validar como representar `100 PO` iniciais
+- confirmar em novo export como o `Background` referencia explicitamente o `Talento de Origem`
 - validar se o gasto minimo de `50 PO` em itens mundanos sera so regra textual/manual
-- validar como `Background` concede ou permite escolher `Talento de Origem`
 - validar se sera necessario pack `Backgrounds`
-- validar como criar um item `background` manual de exemplo antes de qualquer dado real
+- validar se todos os `30` antecedentes seguem o mesmo padrao estrutural do teste tecnico
+- validar antecedentes com dependencias narrativas mais complexas, como `retentores`, `escudeiro`, `companheiro animal`, `panteao`, `reino de origem` e `veiculo aquatico`
+- manter que dados reais so serao criados com autorizacao explicita do autor
 
 ## 9. Criterios para liberar dados reais
 

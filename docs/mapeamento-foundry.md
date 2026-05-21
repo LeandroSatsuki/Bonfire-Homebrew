@@ -8,6 +8,8 @@ Arquivos analisados:
 - `foundry-samples/teste-feat.json`
 - `foundry-samples/teste-background.json`
 - `foundry-samples/teste-class.json`
+- `foundry-samples/teste-background-completo.json`
+- `foundry-samples/teste-talento-origem.json`
 
 Observação:
 
@@ -254,3 +256,53 @@ Observação importante:
 - Confirmar quais campos de `effects` o sistema preenche automaticamente e quais só surgem quando há automação manual.
 - Confirmar se `compendiumSource` em `_stats` aparece apenas em itens exportados a partir de compendium, como ocorreu na amostra de feat.
 - Confirmar se `identifier` precisa obedecer alguma restrição adicional além do padrão sem acento e sem espaço adotado pelo projeto.
+
+## 11. Sample adicional de Background completo
+
+Arquivo analisado:
+
+- `foundry-samples/teste-background-completo.json`
+
+Estrutura real encontrada:
+
+- `type: "background"`
+- `system.advancement` com quatro entradas:
+  - `AbilityScoreImprovement`
+  - `Trait`
+  - `Trait`
+  - `ItemGrant`
+- `system.wealth: "100"`
+- `system.startingEquipment: []`
+- `system.source.rules: "2024"`
+
+Observacoes objetivas:
+
+- o `AbilityScoreImprovement` veio com `configuration.points: 3` e `configuration.cap: 2`
+- um `Trait` foi usado para proficiencias
+- um `Trait` foi usado para `Comum` fixo e escolhas entre idiomas/ferramentas
+- o `ItemGrant` foi usado no teste para representar a habilidade de antecedente
+
+## 12. Sample adicional de Talento de Origem
+
+Arquivo analisado:
+
+- `foundry-samples/teste-talento-origem.json`
+
+Estrutura real encontrada:
+
+- `type: "feat"`
+- `system.prerequisites` existe
+- `system.requirements` existe
+- `system.activities` veio vazio
+- `effects` veio vazio
+
+Observacoes objetivas:
+
+- `system.uses` existe, mas veio sem configuracao funcional no sample
+- `system.source.rules` veio como `2024`
+
+## 13. Vinculo entre Background e Talento de Origem
+
+- o teste manual de `Backgrounds` foi informado como funcional
+- o sample de `Background` e o sample de `Talento de Origem` confirmam os `type` reais esperados
+- a referencia explicita entre o `Background` exportado e o `Talento de Origem` exportado ainda precisa de novo export ou novo teste
