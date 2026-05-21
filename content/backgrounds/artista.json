@@ -1,0 +1,31 @@
+{
+  "id": "artista",
+  "name": "Artista",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "encontra lugar para se apresentar e recebe hospedagem/alimentacao enquanto se apresenta; vantagem em `Atuacao`; depois de boa performance, ganha vantagem em `Enganacao` e `Persuasao` contra presentes",
+    "mechanicsSummary": "vantagens sociais e acesso narrativo a apresentacoes",
+    "automation": "parcial",
+    "dependencies": ["estabelecimento", "publico", "performance"],
+    "questions": ["validar duracao e gatilho da \"boa performance\"", "validar hospedagem/alimentacao como regra manual"]
+  },
+  "description": "personagem feito para o publico, para entreter, inspirar e prender a atencao",
+  "mechanicsSummary": "vantagens sociais e acesso narrativo a apresentacoes",
+  "automation": "parcial",
+  "dependencies": ["estabelecimento", "publico", "performance"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

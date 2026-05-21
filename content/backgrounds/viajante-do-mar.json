@@ -1,0 +1,31 @@
+{
+  "id": "viajante-do-mar",
+  "name": "Viajante do Mar",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "vantagem em `Persuasao` e `Enganacao` com pessoas de vida maritima; encontra bares/tavernas com jogos de azar em cidade portuaria; com ferramentas de carpinteiro e madeira, repara veiculo aquatico e restaura PV do casco igual a `5 x modificador de proficiencia`",
+    "mechanicsSummary": "vantagens sociais contextuais; reparo de veiculo aquatico",
+    "automation": "parcial",
+    "dependencies": ["cidade portuaria", "jogos de azar", "ferramentas de carpinteiro", "veiculo aquatico"],
+    "questions": ["validar como representar reparo de casco", "validar dependencia de ferramenta especifica"]
+  },
+  "description": "navegante experiente acostumado a perigos do mar, criaturas monstruosas e piratas",
+  "mechanicsSummary": "vantagens sociais contextuais; reparo de veiculo aquatico",
+  "automation": "parcial",
+  "dependencies": ["cidade portuaria", "jogos de azar", "ferramentas de carpinteiro", "veiculo aquatico"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

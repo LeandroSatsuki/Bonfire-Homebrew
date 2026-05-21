@@ -1,0 +1,31 @@
+{
+  "id": "espiritualista",
+  "name": "Espiritualista",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "percebe o estado emocional de criaturas a pelo menos `3 m [10 feet]`",
+    "mechanicsSummary": "leitura emocional contextual",
+    "automation": "parcial",
+    "dependencies": ["mundo espiritual", "estado emocional"],
+    "questions": ["validar alcance e gatilho", "validar leitura emocional como camada manual"]
+  },
+  "description": "personagem com ligacao natural ao mundo espiritual e aos estados emocionais alheios",
+  "mechanicsSummary": "leitura emocional contextual",
+  "automation": "parcial",
+  "dependencies": ["mundo espiritual", "estado emocional"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

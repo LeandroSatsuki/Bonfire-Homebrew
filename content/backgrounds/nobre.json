@@ -1,0 +1,31 @@
+{
+  "id": "nobre",
+  "name": "Nobre",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "bem-vindo na alta sociedade; pode garantir audiencia com nobre local; vantagem em `Persuasao` com nobres; possui `3` retentores leais, incluindo um conselheiro nobre",
+    "mechanicsSummary": "beneficio social/narrativo; retentores auxiliares fora de combate",
+    "automation": "parcial",
+    "dependencies": ["nobreza", "audiencia", "retentores"],
+    "questions": ["validar como tratar retentores", "validar audiencia e status social como camada manual"]
+  },
+  "description": "personagem de linhagem nobre, com terras, impostos e influencia politica",
+  "mechanicsSummary": "beneficio social/narrativo; retentores auxiliares fora de combate",
+  "automation": "parcial",
+  "dependencies": ["nobreza", "audiencia", "retentores"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

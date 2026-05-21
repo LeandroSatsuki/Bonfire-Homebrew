@@ -1,0 +1,31 @@
+{
+  "id": "mercenario",
+  "name": "Mercenario",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "rede de mercenarios e contratantes em grandes cidades; acesso a esconderijo, hospedagem, alimentacao e ajuda para obter informacoes; lista semanal de contratos com acontecimentos locais e regionais",
+    "mechanicsSummary": "beneficio social/narrativo; acesso periodico a informacoes",
+    "automation": "parcial",
+    "dependencies": ["rede de mercenarios", "contratantes", "grandes cidades"],
+    "questions": ["validar lista semanal de contratos", "validar rede de contato como regra manual"]
+  },
+  "description": "combatente pago, habituado a contratos, riscos e rede profissional",
+  "mechanicsSummary": "beneficio social/narrativo; acesso periodico a informacoes",
+  "automation": "parcial",
+  "dependencies": ["rede de mercenarios", "contratantes", "grandes cidades"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

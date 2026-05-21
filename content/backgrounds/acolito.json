@@ -1,0 +1,31 @@
+{
+  "id": "acolito",
+  "name": "Acolito",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "pode realizar testes de `Religiao` com `Sabedoria` em vez de `Inteligencia`; vantagem para informacoes referentes ao seu panteao; exige escolha de `panteao`",
+    "mechanicsSummary": "mudanca de atributo em `Religiao`; vantagem contextual em tema religioso",
+    "automation": "parcial",
+    "dependencies": ["panteao", "deus"],
+    "questions": ["validar escolha de `panteao`", "validar se mudanca de atributo em pericia sera manual/contextual"]
+  },
+  "description": "servo de templos, divindades ou entidades ligadas a crencas e conviccoes do personagem",
+  "mechanicsSummary": "mudanca de atributo em `Religiao`; vantagem contextual em tema religioso",
+  "automation": "parcial",
+  "dependencies": ["panteao", "deus"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

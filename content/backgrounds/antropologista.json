@@ -1,0 +1,31 @@
+{
+  "id": "antropologista",
+  "name": "Antropologista",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "apos observar e interagir com uma civilizacao por `6` horas, aprende palavras e gestos suficientes para comunicacao rudimentar; vantagem em pesquisas de antropologia",
+    "mechanicsSummary": "comunicacao rudimentar contextual; vantagem em pesquisas",
+    "automation": "parcial",
+    "dependencies": ["idioma", "civilizacao"],
+    "questions": ["validar como registrar aprendizado rudimentar de idioma", "validar pesquisas contextuais"]
+  },
+  "description": "estudioso de civilizacoes perdidas, lugares esquecidos e formas de organizacao social",
+  "mechanicsSummary": "comunicacao rudimentar contextual; vantagem em pesquisas",
+  "automation": "parcial",
+  "dependencies": ["idioma", "civilizacao"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

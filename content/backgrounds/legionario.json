@@ -1,0 +1,31 @@
+{
+  "id": "legionario",
+  "name": "Legionario",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "simbolos de armadura/escudo sao reconhecidos; discurso de `1` minuto motiva pessoas e concede vantagem em `Persuasao` para coordenar civis em emergencia",
+    "mechanicsSummary": "vantagem contextual apos discurso",
+    "automation": "parcial",
+    "dependencies": ["ordem", "deus-fe", "civis em emergencia"],
+    "questions": ["validar ordem especifica", "validar gatilho do discurso e seu alcance"]
+  },
+  "description": "membro de ordem legionaria com objetivo comum e forte presenca de fe",
+  "mechanicsSummary": "vantagem contextual apos discurso",
+  "automation": "parcial",
+  "dependencies": ["ordem", "deus-fe", "civis em emergencia"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

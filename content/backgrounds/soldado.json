@@ -1,0 +1,31 @@
+{
+  "id": "soldado",
+  "name": "Soldado",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "possui patente militar; pode influenciar soldados de patente inferior, requisitar equipamentos simples ou cavalos temporarios e obter acesso a acampamentos/fortalezas amigaveis; move-se ate `16` horas por dia antes de marcha forcada",
+    "mechanicsSummary": "acesso narrativo militar; extensao de marcha",
+    "automation": "parcial",
+    "dependencies": ["patente militar", "organizacao militar", "cavalos", "acampamentos"],
+    "questions": ["validar como tratar requisicao temporaria de equipamento", "validar regra de viagem ampliada"]
+  },
+  "description": "combatente treinado desde cedo em guerra, sobrevivencia e uso de equipamento militar",
+  "mechanicsSummary": "acesso narrativo militar; extensao de marcha",
+  "automation": "parcial",
+  "dependencies": ["patente militar", "organizacao militar", "cavalos", "acampamentos"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

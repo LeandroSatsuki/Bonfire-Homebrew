@@ -1,0 +1,31 @@
+{
+  "id": "charlatao",
+  "name": "Charlatao",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "pode falsificar documentos com dificuldade baseada em `Enganacao`; vantagem em jogos de azar e em esconder trapaça",
+    "mechanicsSummary": "criacao contextual de documentos; vantagem em interacoes especificas",
+    "automation": "parcial",
+    "dependencies": ["documentos", "jogos de azar"],
+    "questions": ["validar como registrar a CD baseada em `Enganacao`", "validar falsificacao como fluxo manual"]
+  },
+  "description": "manipulador, orador e trapaceiro acostumado a dobrar situacoes e pessoas",
+  "mechanicsSummary": "criacao contextual de documentos; vantagem em interacoes especificas",
+  "automation": "parcial",
+  "dependencies": ["documentos", "jogos de azar"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}

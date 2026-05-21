@@ -1,0 +1,31 @@
+{
+  "id": "estudante-de-biomancia",
+  "name": "Estudante de Biomancia",
+  "type": "background",
+  "foundryType": "background",
+  "source": "Bonfire Tales RPG - Antecedentes",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "baseRules": {
+    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
+    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
+    "fixedLanguages": ["Comum"],
+    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "startingGold": 100,
+    "mundaneGoldRequirement": 50,
+    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+  },
+  "backgroundFeature": {
+    "name": "Habilidade do Antecedente",
+    "description": "vantagem em testes ligados a organismos e doencas; bonus igual ao bonus de proficiencia em pesquisas sobre `Biomancia`",
+    "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
+    "automation": "parcial",
+    "dependencies": ["Biomancia", "organismos", "doencas"],
+    "questions": ["validar uso dessa vantagem fora de contexto de pesquisa"]
+  },
+  "description": "pesquisador de magia moderna voltado a vida, organismos e doencas",
+  "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
+  "automation": "parcial",
+  "dependencies": ["Biomancia", "organismos", "doencas"],
+  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+}
