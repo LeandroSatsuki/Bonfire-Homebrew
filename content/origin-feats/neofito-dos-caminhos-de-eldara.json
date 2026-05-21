@@ -1,0 +1,48 @@
+{
+  "id": "neofito-dos-caminhos-de-eldara",
+  "name": "Neófito dos Caminhos de Eldára",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"A floresta não fala com palavras, mas ela responde a quem aprende a escutar. Entre trilhas antigas e ritos discretos, você aprendeu a tratar a natureza como uma conversa, não como cenário.\" Você recebeu instrução em tradições druídicas élficas e aprendeu a caminhar em sintonia com criaturas e sinais do mundo natural, transformando comunhão em utilidade real para o grupo.\n - Aprendizado do Bosque: Você ganha proficiência em uma perícia à sua escolha: Natureza (Nature) ou Adestrar Animais (Animal Handling).\n - Voz das Criaturas: Você está permanentemente sob o efeito da magia Falar com Animais (Speak with Animals). Além disso, escolha uma magia de 1º círculo da lista de magias de Druida. - Conjuração: Você sempre tem essa magia preparada e pode conjurá-la usando quaisquer espaços de magia que você tenha. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecio ...",
+  "mechanicsSummary": "Aprendizado do Bosque: Você ganha proficiência em uma perícia à sua escolha: Natureza (Nature) ou Adestrar Animais (Animal Handling). | Voz das Criaturas: Você está permanentemente sob o efeito da magia Falar com Animais (Speak with Animals). Além disso, escolha uma magia de 1º círculo da lista de magias de Druida. - Conjuração: Você sempre tem essa magia preparada e pode conjurá-la usando quaisquer espaços de magia que você tenha. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. | Troca de Formação: Quando você realiza a Ação de Ajuda (Help Action), você pode trocar de lugar com um aliado voluntário a até 1,5 metro [5 pés] de você como parte dessa mesma ação. - Movimento Tático: Esse movimento não provoca Ataques de Oportunidade. Você não pode usar este benefício se o aliado estiver com a condição Incapacitado (Incapacitated).",
+  "benefits": [
+    "Aprendizado do Bosque: Você ganha proficiência em uma perícia à sua escolha: Natureza (Nature) ou Adestrar Animais (Animal Handling).",
+    "Voz das Criaturas: Você está permanentemente sob o efeito da magia Falar com Animais (Speak with Animals). Além disso, escolha uma magia de 1º círculo da lista de magias de Druida. - Conjuração: Você sempre tem essa magia preparada e pode conjurá-la usando quaisquer espaços de magia que você tenha. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento.",
+    "Troca de Formação: Quando você realiza a Ação de Ajuda (Help Action), você pode trocar de lugar com um aliado voluntário a até 1,5 metro [5 pés] de você como parte dessa mesma ação. - Movimento Tático: Esse movimento não provoca Ataques de Oportunidade. Você não pode usar este benefício se o aliado estiver com a condição Incapacitado (Incapacitated)."
+  ],
+  "grantedSpells": [
+    "Voz das Criaturas: Você está permanentemente sob o efeito da magia Falar com Animais (Speak with Animals). Além disso, escolha uma magia de 1º círculo da lista de magias de Druida. - Conjuração: Você sempre tem essa magia preparada e pode conjurá-la usando quaisquer espaços de magia que você tenha. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento."
+  ],
+  "grantedProficiencies": [
+    "Aprendizado do Bosque: Você ganha proficiência em uma perícia à sua escolha: Natureza (Nature) ou Adestrar Animais (Animal Handling)."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

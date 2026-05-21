@@ -1,0 +1,42 @@
+{
+  "id": "cacador-de-vampiros",
+  "name": "Caçador de Vampiros",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Enquanto estes seres rastejarem por aí, eu estarei lá para antagonizar a existência deles.\" \n Você treinou para caçar e se proteger essas criaturas, o que lhe confere os seguintes benefícios:\n\n - Fuga Astuta. Você tem Vantagem em testes para escapar de restrições não mágicas ou da condição Agarrado.\n- Resiliência do Caçador. Quando você sofrer dano Necrótico , você pode usar uma Reação para mitigar o dano. Role uma quantidade de d6 igual ao seu Bônus de Proficiência e some os resultados. Reduza o dano Necrótico que você sofre por esse total. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Longo.",
+  "mechanicsSummary": "Fuga Astuta. Você tem Vantagem em testes para escapar de restrições não mágicas ou da condição Agarrado. | Resiliência do Caçador. Quando você sofrer dano Necrótico , você pode usar uma Reação para mitigar o dano. Role uma quantidade de d6 igual ao seu Bônus de Proficiência e some os resultados. Reduza o dano Necrótico que você sofre por esse total. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Longo.",
+  "benefits": [
+    "Fuga Astuta. Você tem Vantagem em testes para escapar de restrições não mágicas ou da condição Agarrado.",
+    "Resiliência do Caçador. Quando você sofrer dano Necrótico , você pode usar uma Reação para mitigar o dano. Role uma quantidade de d6 igual ao seu Bônus de Proficiência e some os resultados. Reduza o dano Necrótico que você sofre por esse total. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "short-or-long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

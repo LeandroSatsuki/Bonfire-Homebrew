@@ -1,0 +1,45 @@
+{
+  "id": "musico",
+  "name": "Músico",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"O aço vence batalhas, mas é a música que vence a guerra contra o desespero. Quando as fogueiras se apagam e o frio aperta, minhas notas lembram aos homens por que eles ainda lutam.\" \n Sua música transcende o entretenimento, tornando-se uma ferramenta de moral e liderança espiritual, concedendo os seguintes benefícios:\n\n - Treinamento Instrumental: Você ganha proficiência com três Instrumentos Musicais (Musical Instruments) de sua escolha.\n- Canção Encorajadora: Ao terminar um Descanso Curto (Short Rest) ou Descanso Longo , você pode tocar uma canção utilizando um Instrumento Musical com o qual tenha proficiência. - Efeito: Você escolhe um número de aliados que possam ouvir a canção igual ao seu Bônus de Proficiência .\n- Benefício: Cada aliado escolhido ganha Inspiração Heroica (Heroic Inspiration) .",
+  "mechanicsSummary": "Treinamento Instrumental: Você ganha proficiência com três Instrumentos Musicais (Musical Instruments) de sua escolha. | Canção Encorajadora: Ao terminar um Descanso Curto (Short Rest) ou Descanso Longo , você pode tocar uma canção utilizando um Instrumento Musical com o qual tenha proficiência. - Efeito: Você escolhe um número de aliados que possam ouvir a canção igual ao seu Bônus de Proficiência . | Benefício: Cada aliado escolhido ganha Inspiração Heroica (Heroic Inspiration) .",
+  "benefits": [
+    "Treinamento Instrumental: Você ganha proficiência com três Instrumentos Musicais (Musical Instruments) de sua escolha.",
+    "Canção Encorajadora: Ao terminar um Descanso Curto (Short Rest) ou Descanso Longo , você pode tocar uma canção utilizando um Instrumento Musical com o qual tenha proficiência. - Efeito: Você escolhe um número de aliados que possam ouvir a canção igual ao seu Bônus de Proficiência .",
+    "Benefício: Cada aliado escolhido ganha Inspiração Heroica (Heroic Inspiration) ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Treinamento Instrumental: Você ganha proficiência com três Instrumentos Musicais (Musical Instruments) de sua escolha."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

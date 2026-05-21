@@ -1,0 +1,52 @@
+{
+  "id": "marca-arcana-da-travessia",
+  "name": "Marca Arcana da Travessia",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Seu corpo aprende caminhos como quem aprende a respirar: rápido e preciso. Você não some, você aparece onde o passo sempre foi possível. \n Sua Marca sela movimento e deslocamento como um juramento na Trama: todo caminho pode ser trilhado.\n\n - Velocidade do Mensageiro: Seu deslocamento aumenta em 1,5 metro [5 pés].\n - Movimento Intuitivo: Quando você fizer um teste de Força (Atletismo) ou Destreza (Acrobacia), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Passagem Mágica: Você sempre tem Passo Nebuloso (Misty Step) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa ...",
+  "mechanicsSummary": "Velocidade do Mensageiro: Seu deslocamento aumenta em 1,5 metro [5 pés]. | Movimento Intuitivo: Quando você fizer um teste de Força (Atletismo) ou Destreza (Acrobacia), você pode rolar 1d4 e adicionar o resultado ao teste. | Passagem Mágica: Você sempre tem Passo Nebuloso (Misty Step) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica",
+  "benefits": [
+    "Velocidade do Mensageiro: Seu deslocamento aumenta em 1,5 metro [5 pés].",
+    "Movimento Intuitivo: Quando você fizer um teste de Força (Atletismo) ou Destreza (Acrobacia), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Passagem Mágica: Você sempre tem Passo Nebuloso (Misty Step) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento).",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica"
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

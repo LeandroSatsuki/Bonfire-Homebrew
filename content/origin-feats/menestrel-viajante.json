@@ -1,0 +1,45 @@
+{
+  "id": "menestrel-viajante",
+  "name": "Menestrel Viajante",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "Você vive de estrada e público, mas aprendeu que uma música bem colocada também salva vidas quando o aço canta. Você domina truques de palco e conflito, usando ritmo, voz e presença para criar aberturas e coordenar aliados em meio ao caos pelos lugares por onde você passa.\n - Treino de Instrumento. Você ganha proficiência com 1 Instrumento Musical de sua escolha.\n- Ofício do Palco. Você ganha proficiência em uma perícia à sua escolha: Atuação ou Persuasão.\n- Melodia Distraidora. Quando você realiza a ação Ajuda [Help] para ajudar a jogada de ataque de um aliado, o inimigo que você está distraindo pode estar a até 9 metros [30 pés] de você, em vez de a até 1,5 metro [5 pés] de você, desde que o inimigo possa ver ou ouvir você. Se você já puder auxiliar um alvo em um alcance maior com a Ação Ajuda, esse alcance aumenta em 4,5 metros [15 pés].",
+  "mechanicsSummary": "Treino de Instrumento. Você ganha proficiência com 1 Instrumento Musical de sua escolha. | Ofício do Palco. Você ganha proficiência em uma perícia à sua escolha: Atuação ou Persuasão. | Melodia Distraidora. Quando você realiza a ação Ajuda [Help] para ajudar a jogada de ataque de um aliado, o inimigo que você está distraindo pode estar a até 9 metros [30 pés] de você, em vez de a até 1,5 metro [5 pés] de você, desde que o inimigo possa ver ou ouvir você. Se você já puder auxiliar um alvo em um alcance maior com a Ação Ajuda, esse alcance aumenta em 4,5 metros [15 pés].",
+  "benefits": [
+    "Treino de Instrumento. Você ganha proficiência com 1 Instrumento Musical de sua escolha.",
+    "Ofício do Palco. Você ganha proficiência em uma perícia à sua escolha: Atuação ou Persuasão.",
+    "Melodia Distraidora. Quando você realiza a ação Ajuda [Help] para ajudar a jogada de ataque de um aliado, o inimigo que você está distraindo pode estar a até 9 metros [30 pés] de você, em vez de a até 1,5 metro [5 pés] de você, desde que o inimigo possa ver ou ouvir você. Se você já puder auxiliar um alvo em um alcance maior com a Ação Ajuda, esse alcance aumenta em 4,5 metros [15 pés]."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Treino de Instrumento. Você ganha proficiência com 1 Instrumento Musical de sua escolha.",
+    "Ofício do Palco. Você ganha proficiência em uma perícia à sua escolha: Atuação ou Persuasão."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

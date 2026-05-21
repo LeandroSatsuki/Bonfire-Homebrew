@@ -1,0 +1,47 @@
+{
+  "id": "iluminado-pelo-primeiro-feixe",
+  "name": "Iluminado pelo Primeiro Feixe",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Antes dos deuses moldarem a argila, antes dos elementos ganharem nomes, havia apenas o choque. Meus olhos não refletem o sol, eles lembram o momento exato em que o Nada se tornou Tudo.\" Você carrega em sua alma uma centelha da Luz Primordial, aquela que existia na Era da Solidão. Essa ressonância antiga permite que você veja através das mentiras da Umbra e revele a verdade oculta no tecido da realidade.\n - Olhos do Iluminado: A luz original queima a escuridão ao seu redor. - Proteção Visual: Você e aliados a até 3 metros [10 pés] de você têm Vantagem em Testes de Resistência feitos para evitar ou encerrar a condição Cego (Blinded).\n \n\n - Luz da Revelação: Você aprende a magia Fogo das Fadas (Faerie Fire). - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo para esta magia ao selecionar o talento.\n - Conjuração Gratuita: Você pode conjurar essa magia um ...",
+  "mechanicsSummary": "Olhos do Iluminado: A luz original queima a escuridão ao seu redor. - Proteção Visual: Você e aliados a até 3 metros [10 pés] de você têm Vantagem em Testes de Resistência feitos para evitar ou encerrar a condição Cego (Blinded). | Luz da Revelação: Você aprende a magia Fogo das Fadas (Faerie Fire). - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo para esta magia ao selecionar o talento. | Conjuração Gratuita: Você pode conjurar essa magia uma vez sem gastar um espaço de magia, recuperando o uso ao terminar um Descanso Longo. Você também pode conjurá-la usando seus espaços de magia normais. | Estabilidade Primordial: Quando você conjura Fogo das Fadas usando o benefício de uso gratuito deste talento, a magia não requer Concentração (Concentration), durando toda a sua duração ou até você dispensá-la.",
+  "benefits": [
+    "Olhos do Iluminado: A luz original queima a escuridão ao seu redor. - Proteção Visual: Você e aliados a até 3 metros [10 pés] de você têm Vantagem em Testes de Resistência feitos para evitar ou encerrar a condição Cego (Blinded).",
+    "Luz da Revelação: Você aprende a magia Fogo das Fadas (Faerie Fire). - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo para esta magia ao selecionar o talento.",
+    "Conjuração Gratuita: Você pode conjurar essa magia uma vez sem gastar um espaço de magia, recuperando o uso ao terminar um Descanso Longo. Você também pode conjurá-la usando seus espaços de magia normais.",
+    "Estabilidade Primordial: Quando você conjura Fogo das Fadas usando o benefício de uso gratuito deste talento, a magia não requer Concentração (Concentration), durando toda a sua duração ou até você dispensá-la."
+  ],
+  "grantedSpells": [
+    "Luz da Revelação: Você aprende a magia Fogo das Fadas (Faerie Fire). - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo para esta magia ao selecionar o talento.",
+    "Conjuração Gratuita: Você pode conjurar essa magia uma vez sem gastar um espaço de magia, recuperando o uso ao terminar um Descanso Longo. Você também pode conjurá-la usando seus espaços de magia normais."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

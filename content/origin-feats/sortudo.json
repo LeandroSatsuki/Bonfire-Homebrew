@@ -1,0 +1,44 @@
+{
+  "id": "sortudo",
+  "name": "Sortudo",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "O destino parece proteger você das piores calamidades, desviando lâminas e garantindo sucessos improváveis. Não é apenas acaso; é uma habilidade tangível de alterar a probabilidade ao seu favor. \n Você aprendeu a manipular a sorte para escapar de perigos ou garantir acertos, ganhando os seguintes benefícios:\n\n - Pontos de Sorte: Você possui um número de Pontos de Sorte igual ao seu Bônus de Proficiência . Você pode gastar esses pontos nos benefícios descritos abaixo e recupera todos os pontos gastos quando termina um Descanso Longo .\n- Vantagem: Quando você rolar 1d20 para um Teste de d20 , você pode gastar 1 Ponto de Sorte para dar a si mesmo Vantagem na rolagem.\n- Desvantagem: Quando uma criatura rolar 1d20 para uma Jogada de Ataque (Attack Roll) contra você, você pode gastar 1 Ponto de Sorte para impor Desvantagem nessa rolagem.\n\n \n \n \n \n \n \n \n Talentos Gerais\n \n Talentos Gerais são e ...",
+  "mechanicsSummary": "Pontos de Sorte: Você possui um número de Pontos de Sorte igual ao seu Bônus de Proficiência . Você pode gastar esses pontos nos benefícios descritos abaixo e recupera todos os pontos gastos quando termina um Descanso Longo . | Vantagem: Quando você rolar 1d20 para um Teste de d20 , você pode gastar 1 Ponto de Sorte para dar a si mesmo Vantagem na rolagem. | Desvantagem: Quando uma criatura rolar 1d20 para uma Jogada de Ataque (Attack Roll) contra você, você pode gastar 1 Ponto de Sorte para impor Desvantagem nessa rolagem.",
+  "benefits": [
+    "Pontos de Sorte: Você possui um número de Pontos de Sorte igual ao seu Bônus de Proficiência . Você pode gastar esses pontos nos benefícios descritos abaixo e recupera todos os pontos gastos quando termina um Descanso Longo .",
+    "Vantagem: Quando você rolar 1d20 para um Teste de d20 , você pode gastar 1 Ponto de Sorte para dar a si mesmo Vantagem na rolagem.",
+    "Desvantagem: Quando uma criatura rolar 1d20 para uma Jogada de Ataque (Attack Roll) contra você, você pode gastar 1 Ponto de Sorte para impor Desvantagem nessa rolagem."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

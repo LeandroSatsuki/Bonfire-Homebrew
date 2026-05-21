@@ -1,0 +1,38 @@
+{
+  "id": "cao-de-caca",
+  "name": "Cão de Caça",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Eles podem apagar as tochas e caminhar nas sombras, mas não podem silenciar o batimento de seus próprios corações ou o cheiro do medo.\" Seus sentidos foram aguçados muito além dos limites normais, tornando-o um rastreador implacável capaz de perceber o imperceptível e caçar presas feridas.\n - Sensor de Movimento: Você ganha Visão às Cegas com alcance de 3 metros [10 pés]. Se você já possuir esse sentido proveniente de outra fonte, o alcance dele aumenta em 3 metros [10 pés].\n - Rastro de Sangue: Você sabe automaticamente a localização de qualquer criatura a até 18 metros [60 pés] de você, desde que ela atenda aos seguintes critérios: - Vitalidade: A criatura possui menos da metade de seus Pontos de Vida máximos.\n - Natureza: A criatura não é do tipo Construto (Construct) ou Morto-Vivo (Undead).\n \n\n - Nenhum Refúgio: Você tem Vantagem em testes de Sabedoria (Percepção) que dependam da au ...",
+  "mechanicsSummary": "Sensor de Movimento: Você ganha Visão às Cegas com alcance de 3 metros [10 pés]. Se você já possuir esse sentido proveniente de outra fonte, o alcance dele aumenta em 3 metros [10 pés]. | Rastro de Sangue: Você sabe automaticamente a localização de qualquer criatura a até 18 metros [60 pés] de você, desde que ela atenda aos seguintes critérios: - Vitalidade: A criatura possui menos da metade de seus Pontos de Vida máximos. | Natureza: A criatura não é do tipo Construto (Construct) ou Morto-Vivo (Undead). | Nenhum Refúgio: Você tem Vantagem em testes de Sabedoria (Percepção) que dependam da audição ou do olfato.",
+  "benefits": [
+    "Sensor de Movimento: Você ganha Visão às Cegas com alcance de 3 metros [10 pés]. Se você já possuir esse sentido proveniente de outra fonte, o alcance dele aumenta em 3 metros [10 pés].",
+    "Rastro de Sangue: Você sabe automaticamente a localização de qualquer criatura a até 18 metros [60 pés] de você, desde que ela atenda aos seguintes critérios: - Vitalidade: A criatura possui menos da metade de seus Pontos de Vida máximos.",
+    "Natureza: A criatura não é do tipo Construto (Construct) ou Morto-Vivo (Undead).",
+    "Nenhum Refúgio: Você tem Vantagem em testes de Sabedoria (Percepção) que dependam da audição ou do olfato."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

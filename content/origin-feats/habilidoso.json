@@ -1,0 +1,40 @@
+{
+  "id": "habilidoso",
+  "name": "Habilidoso",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "Enquanto outros se especializam em uma única arte, você buscou a vastidão do conhecimento. Seja através de livros empoeirados ou prática calejada, não há tarefa para a qual você não tenha se preparado. \n Você dedicou seu tempo para ampliar seu repertório prático, ganhando os seguintes benefícios:\n\n - Aprendizado Versátil: Você ganha proficiência em qualquer combinação de três Perícias ou Ferramentas de sua escolha.\n- Repetível (Repeatable): Você pode escolher este talento mais de uma vez.",
+  "mechanicsSummary": "Aprendizado Versátil: Você ganha proficiência em qualquer combinação de três Perícias ou Ferramentas de sua escolha. | Repetível (Repeatable): Você pode escolher este talento mais de uma vez.",
+  "benefits": [
+    "Aprendizado Versátil: Você ganha proficiência em qualquer combinação de três Perícias ou Ferramentas de sua escolha.",
+    "Repetível (Repeatable): Você pode escolher este talento mais de uma vez."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Aprendizado Versátil: Você ganha proficiência em qualquer combinação de três Perícias ou Ferramentas de sua escolha."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

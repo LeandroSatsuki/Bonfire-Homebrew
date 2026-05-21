@@ -1,0 +1,53 @@
+{
+  "id": "marca-arcana-da-tormenta",
+  "name": "Marca Arcana da Tormenta",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Você sente o arrepio no ar antes de qualquer feitiço nascer. O céu te reconhece, e responde com estrondo e correnteza. \n Sua runa sintoniza você com marés de mana violentas, como uma tempestade que aprende a obedecer ao seu chamado.\n\n - Intuição do Navegante: Quando você fizer um teste de Destreza (Acrobacia) ou um teste de habilidade usando Ferramentas de Navegador (Navigator’s Tools), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Dádiva da Tormenta: Você tem Resistência a dano de Relâmpago (Lightning).\n - Magia da Tormenta: Você aprende o truque Estalo Trovejante (Thunderclap). Ao alcançar nível de personagem 3, você também sempre tem Rajada de Vento (Gust of Wind) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode c ...",
+  "mechanicsSummary": "Intuição do Navegante: Quando você fizer um teste de Destreza (Acrobacia) ou um teste de habilidade usando Ferramentas de Navegador (Navigator’s Tools), você pode rolar 1d4 e adicionar o resultado ao teste. | Dádiva da Tormenta: Você tem Resistência a dano de Relâmpago (Lightning). | Magia da Tormenta: Você aprende o truque Estalo Trovejante (Thunderclap). Ao alcançar nível de personagem 3, você também sempre tem Rajada de Vento (Gust of Wind) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição do Navegante: Quando você fizer um teste de Destreza (Acrobacia) ou um teste de habilidade usando Ferramentas de Navegador (Navigator’s Tools), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Dádiva da Tormenta: Você tem Resistência a dano de Relâmpago (Lightning).",
+    "Magia da Tormenta: Você aprende o truque Estalo Trovejante (Thunderclap). Ao alcançar nível de personagem 3, você também sempre tem Rajada de Vento (Gust of Wind) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento).",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [
+    "Magia da Tormenta: Você aprende o truque Estalo Trovejante (Thunderclap). Ao alcançar nível de personagem 3, você também sempre tem Rajada de Vento (Gust of Wind) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento)."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

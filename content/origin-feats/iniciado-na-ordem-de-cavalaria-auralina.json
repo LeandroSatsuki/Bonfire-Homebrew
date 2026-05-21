@@ -1,0 +1,36 @@
+{
+  "id": "iniciado-na-ordem-de-cavalaria-auralina",
+  "name": "Iniciado na Ordem de Cavalaria Auralina",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Minha lâmina não serve apenas para ferir, mas para lembrar aos meus irmãos por que lutamos. A esperança é forjada no aço.\" Você foi treinado nos costumes de honra dos cavaleiros auralianos, tornando-se um símbolo vivo de coragem que sustenta a confiança de seus aliados no calor da batalha.\n - Golpe Inspirador: Uma vez por turno, quando você conseguir um Acerto Crítico contra uma criatura. - Glória Repentina: Você pode escolher 1 aliado a até 9 metros [30 pés] de você que possa vê-lo ou ouvi-lo e que ainda não possua uma Inspiração Heroica. Esse aliado ganha uma Inspiração Heroica.\n \n\n - Honra Reafirmada: Quando um inimigo que você possa ver causar dano a um aliado seu que esteja a até 1,5 metro [5 pés] de você. - Justiça Vingativa: Você tem Vantagem na sua próxima jogada de ataque contra esse inimigo antes do final do seu próximo turno.",
+  "mechanicsSummary": "Golpe Inspirador: Uma vez por turno, quando você conseguir um Acerto Crítico contra uma criatura. - Glória Repentina: Você pode escolher 1 aliado a até 9 metros [30 pés] de você que possa vê-lo ou ouvi-lo e que ainda não possua uma Inspiração Heroica. Esse aliado ganha uma Inspiração Heroica. | Honra Reafirmada: Quando um inimigo que você possa ver causar dano a um aliado seu que esteja a até 1,5 metro [5 pés] de você. - Justiça Vingativa: Você tem Vantagem na sua próxima jogada de ataque contra esse inimigo antes do final do seu próximo turno.",
+  "benefits": [
+    "Golpe Inspirador: Uma vez por turno, quando você conseguir um Acerto Crítico contra uma criatura. - Glória Repentina: Você pode escolher 1 aliado a até 9 metros [30 pés] de você que possa vê-lo ou ouvi-lo e que ainda não possua uma Inspiração Heroica. Esse aliado ganha uma Inspiração Heroica.",
+    "Honra Reafirmada: Quando um inimigo que você possa ver causar dano a um aliado seu que esteja a até 1,5 metro [5 pés] de você. - Justiça Vingativa: Você tem Vantagem na sua próxima jogada de ataque contra esse inimigo antes do final do seu próximo turno."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "marca-arcana-do-refugio",
+  "name": "Marca Arcana do Refúgio",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Onde sua runa acende, o mundo lembra que descanso também é magia. Um limiar bem cuidado sustenta a Criação, noite após noite. \n Sua Marca sela abrigo, alimento e calma como pactos simples, porém antigos, do tipo que mantém pessoas vivas.\n\n - Sempre Hospitaleiro: Quando você fizer um teste de Carisma (Persuasão) ou um teste de habilidade usando Suprimentos de Cervejeiro (Brewer’s Supplies) ou Utensílios de Cozinha (Cook’s Utensils), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Magia do Estalajadeiro: Você sempre tem Purificar Comida e Bebida (Purify Food and Drink) e Servo Invisível (Unseen Servant) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia ...",
+  "mechanicsSummary": "Sempre Hospitaleiro: Quando você fizer um teste de Carisma (Persuasão) ou um teste de habilidade usando Suprimentos de Cervejeiro (Brewer’s Supplies) ou Utensílios de Cozinha (Cook’s Utensils), você pode rolar 1d4 e adicionar o resultado ao teste. | Magia do Estalajadeiro: Você sempre tem Purificar Comida e Bebida (Purify Food and Drink) e Servo Invisível (Unseen Servant) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Acalmar Emoções (Calm Emotions) preparada e pode conjurá-la da mesma forma. | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Sempre Hospitaleiro: Quando você fizer um teste de Carisma (Persuasão) ou um teste de habilidade usando Suprimentos de Cervejeiro (Brewer’s Supplies) ou Utensílios de Cozinha (Cook’s Utensils), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Magia do Estalajadeiro: Você sempre tem Purificar Comida e Bebida (Purify Food and Drink) e Servo Invisível (Unseen Servant) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Acalmar Emoções (Calm Emotions) preparada e pode conjurá-la da mesma forma.",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

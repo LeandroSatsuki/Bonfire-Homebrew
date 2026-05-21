@@ -1,0 +1,51 @@
+{
+  "id": "favorecido-pelo-divino",
+  "name": "Favorecido pelo Divino",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Em Cinéria, a fé não é sempre uma catedral de pedra; às vezes é apenas um sussurro teimoso que lhe diz para virar à esquerda quando a morte espera à direita.\" Alguma força maior notou sua existência. Você aprendeu a interpretar pequenos milagres e intuições divinas, entendendo que todo dom carrega o peso de uma postura perante o sagrado.\n - Truque Abençoado: Você aprende 1 truque de sua escolha da lista de magias de Clérigo.\n - Presságio: Você aprende a magia Augúrio (Augury).\n - Magia da Afinidade: Você aprende 1 magia de 1º nível com base na afinidade do seu personagem. Consulte a tabela \"Afinidades Divinas\" abaixo para determinar sua lista de escolha.\n - Mecânica de Conjuração: - Conjuração Gratuita: Você pode conjurar a magia de 1º nível escolhida e a magia Augúrio uma vez cada sem gastar um espaço de magia. Você deve terminar um Descanso Longo antes de poder conjurá-las desta forma ...",
+  "mechanicsSummary": "Truque Abençoado: Você aprende 1 truque de sua escolha da lista de magias de Clérigo. | Presságio: Você aprende a magia Augúrio (Augury). | Magia da Afinidade: Você aprende 1 magia de 1º nível com base na afinidade do seu personagem. Consulte a tabela \"Afinidades Divinas\" abaixo para determinar sua lista de escolha. | Mecânica de Conjuração: - Conjuração Gratuita: Você pode conjurar a magia de 1º nível escolhida e a magia Augúrio uma vez cada sem gastar um espaço de magia. Você deve terminar um Descanso Longo antes de poder conjurá-las desta forma novamente. | Espaços de Magia: Você também pode conjurar essas magias utilizando quaisquer espaços de magia que você possua do nível apropriado. | Atributo: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. | Foco Sagrado (Holy Focus): Você pode usar um Símbolo Sagrado como foco de conjuração para qualquer magia que você conjure utilizando o atributo escolhido para este talento.",
+  "benefits": [
+    "Truque Abençoado: Você aprende 1 truque de sua escolha da lista de magias de Clérigo.",
+    "Presságio: Você aprende a magia Augúrio (Augury).",
+    "Magia da Afinidade: Você aprende 1 magia de 1º nível com base na afinidade do seu personagem. Consulte a tabela \"Afinidades Divinas\" abaixo para determinar sua lista de escolha.",
+    "Mecânica de Conjuração: - Conjuração Gratuita: Você pode conjurar a magia de 1º nível escolhida e a magia Augúrio uma vez cada sem gastar um espaço de magia. Você deve terminar um Descanso Longo antes de poder conjurá-las desta forma novamente.",
+    "Espaços de Magia: Você também pode conjurar essas magias utilizando quaisquer espaços de magia que você possua do nível apropriado.",
+    "Atributo: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento.",
+    "Foco Sagrado (Holy Focus): Você pode usar um Símbolo Sagrado como foco de conjuração para qualquer magia que você conjure utilizando o atributo escolhido para este talento."
+  ],
+  "grantedSpells": [
+    "Truque Abençoado: Você aprende 1 truque de sua escolha da lista de magias de Clérigo.",
+    "Presságio: Você aprende a magia Augúrio (Augury).",
+    "Magia da Afinidade: Você aprende 1 magia de 1º nível com base na afinidade do seu personagem. Consulte a tabela \"Afinidades Divinas\" abaixo para determinar sua lista de escolha.",
+    "Mecânica de Conjuração: - Conjuração Gratuita: Você pode conjurar a magia de 1º nível escolhida e a magia Augúrio uma vez cada sem gastar um espaço de magia. Você deve terminar um Descanso Longo antes de poder conjurá-las desta forma novamente."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "lingua-de-prata",
+  "name": "Língua de Prata",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"A verdade é uma lâmina que eu amolo com sorrisos, e a sua vontade é apenas argila nas minhas mãos.\" Você sabe como identificar um mentiroso e consegue moldar a percepção alheia, seja por charme, lógica fria ou pura imposição de vontade.\n - Proficiência: Você ganha Proficiência na perícia Atuação ou Persuasão.\n- Presença Encantadora: Quando você realiza a ação Influenciar: - Hostil: Você não sofre Desvantagem em testes para influenciar criaturas Hostis.\n - Indiferente: Você tem Vantagem em testes para influenciar criaturas Indiferentes.\n \n\n - Múltiplos Caminhos: Ao realizar a ação Influenciar para fazer um teste de Intimidação ou Persuasão, você pode utilizar qualquer modificador de atributo para a jogada.\n - Discernimento Zeloso: Quando você obtém sucesso em um teste de Sabedoria através da ação Procurar para detectar mentiras ou respostas evasivas. - Prontidão: Você tem Vantagem em jog ...",
+  "mechanicsSummary": "Proficiência: Você ganha Proficiência na perícia Atuação ou Persuasão. | Presença Encantadora: Quando você realiza a ação Influenciar: - Hostil: Você não sofre Desvantagem em testes para influenciar criaturas Hostis. | Indiferente: Você tem Vantagem em testes para influenciar criaturas Indiferentes. | Múltiplos Caminhos: Ao realizar a ação Influenciar para fazer um teste de Intimidação ou Persuasão, você pode utilizar qualquer modificador de atributo para a jogada. | Discernimento Zeloso: Quando você obtém sucesso em um teste de Sabedoria através da ação Procurar para detectar mentiras ou respostas evasivas. - Prontidão: Você tem Vantagem em jogadas de Iniciativa envolvendo combate contra essa criatura pela próxima 1 hora.",
+  "benefits": [
+    "Proficiência: Você ganha Proficiência na perícia Atuação ou Persuasão.",
+    "Presença Encantadora: Quando você realiza a ação Influenciar: - Hostil: Você não sofre Desvantagem em testes para influenciar criaturas Hostis.",
+    "Indiferente: Você tem Vantagem em testes para influenciar criaturas Indiferentes.",
+    "Múltiplos Caminhos: Ao realizar a ação Influenciar para fazer um teste de Intimidação ou Persuasão, você pode utilizar qualquer modificador de atributo para a jogada.",
+    "Discernimento Zeloso: Quando você obtém sucesso em um teste de Sabedoria através da ação Procurar para detectar mentiras ou respostas evasivas. - Prontidão: Você tem Vantagem em jogadas de Iniciativa envolvendo combate contra essa criatura pela próxima 1 hora."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiência: Você ganha Proficiência na perícia Atuação ou Persuasão."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

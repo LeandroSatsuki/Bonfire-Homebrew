@@ -1,0 +1,51 @@
+{
+  "id": "iniciado-no-juramento-das-tres-luas",
+  "name": "Iniciado no Juramento das Três Luas",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Em Lunaris, a lua não muda sua magia. Ela batiza seu método. O juramento feito sob sua luz não é uma escolha, é uma cicatriz na alma.\" Você recebeu treinamento das escolas de Lunaris, jurando fidelidade a uma das três Vestes Lunares e incorporando suas fórmulas tradicionais ao seu repertório de forma irrevogável.\n - Veste Lunar: Escolha 1 das 3 luas de Lunaris para influenciar sua magia: Lua Negra, Lua de Sangue ou Lua de Cristal. Essa escolha define quais magias você pode aprender com este talento (consulte a tabela abaixo).\n - Truque de Iniciação: Você aprende 1 truque de sua escolha da lista de magias de Mago.\n - Magias da Veste: Você aprende 2 magias de 1º círculo com base na Veste escolhida. Escolha 2 entre as 4 opções disponíveis na sua Veste.\n - Conjuração da Veste: Você pode conjurar cada uma das duas magias de 1º círculo escolhidas uma vez sem gastar um espaço de magia. - Recup ...",
+  "mechanicsSummary": "Veste Lunar: Escolha 1 das 3 luas de Lunaris para influenciar sua magia: Lua Negra, Lua de Sangue ou Lua de Cristal. Essa escolha define quais magias você pode aprender com este talento (consulte a tabela abaixo). | Truque de Iniciação: Você aprende 1 truque de sua escolha da lista de magias de Mago. | Magias da Veste: Você aprende 2 magias de 1º círculo com base na Veste escolhida. Escolha 2 entre as 4 opções disponíveis na sua Veste. | Conjuração da Veste: Você pode conjurar cada uma das duas magias de 1º círculo escolhidas uma vez sem gastar um espaço de magia. - Recuperação: Você deve terminar um Descanso Longo antes de poder conjurá-las gratuitamente novamente. | Uso com Espaços: Você também pode conjurar essas magias utilizando quaisquer espaços de magia que possua. | Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento.",
+  "benefits": [
+    "Veste Lunar: Escolha 1 das 3 luas de Lunaris para influenciar sua magia: Lua Negra, Lua de Sangue ou Lua de Cristal. Essa escolha define quais magias você pode aprender com este talento (consulte a tabela abaixo).",
+    "Truque de Iniciação: Você aprende 1 truque de sua escolha da lista de magias de Mago.",
+    "Magias da Veste: Você aprende 2 magias de 1º círculo com base na Veste escolhida. Escolha 2 entre as 4 opções disponíveis na sua Veste.",
+    "Conjuração da Veste: Você pode conjurar cada uma das duas magias de 1º círculo escolhidas uma vez sem gastar um espaço de magia. - Recuperação: Você deve terminar um Descanso Longo antes de poder conjurá-las gratuitamente novamente.",
+    "Uso com Espaços: Você também pode conjurar essas magias utilizando quaisquer espaços de magia que possua.",
+    "Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento."
+  ],
+  "grantedSpells": [
+    "Truque de Iniciação: Você aprende 1 truque de sua escolha da lista de magias de Mago.",
+    "Magias da Veste: Você aprende 2 magias de 1º círculo com base na Veste escolhida. Escolha 2 entre as 4 opções disponíveis na sua Veste."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

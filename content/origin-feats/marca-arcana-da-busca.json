@@ -1,0 +1,49 @@
+{
+  "id": "marca-arcana-da-busca",
+  "name": "Marca Arcana da Busca",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Coisas perdidas não somem, elas escorregam para as curvas do mundo. Sua Marca sente o fio certo quando todo o resto parece igual. \n Sua runa afia instintos de rastreio e destino, guiando você até aquilo que tentou se esconder do caminho.\n\n - Intuição do Caçador: Quando você fizer um teste de Sabedoria (Percepção) ou Sabedoria (Sobrevivência), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Magia do Rastro: Você sempre tem Marca do Caçador (Hunter’s Mark) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). Ao alcançar nível ...",
+  "mechanicsSummary": "Intuição do Caçador: Quando você fizer um teste de Sabedoria (Percepção) ou Sabedoria (Sobrevivência), você pode rolar 1d4 e adicionar o resultado ao teste. | Magia do Rastro: Você sempre tem Marca do Caçador (Hunter’s Mark) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Localizar Objeto (Locate Object) preparada e pode conjurá-la da mesma forma. | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição do Caçador: Quando você fizer um teste de Sabedoria (Percepção) ou Sabedoria (Sobrevivência), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Magia do Rastro: Você sempre tem Marca do Caçador (Hunter’s Mark) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Localizar Objeto (Locate Object) preparada e pode conjurá-la da mesma forma.",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "brigao-de-taverna",
+  "name": "Brigão de Taverna",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Para alguns, uma cadeira quebrada é lixo; para mim, é uma oportunidade. Eu não preciso de uma espada para vencer uma guerra, eu só preciso que você esteja ao alcance das minhas mãos.\" \n Você é naturalmente inato a utilizar objetos simples como armas, o que lhe confere os seguintes benefícios:\n\n - Golpe Desarmado Aprimorado. Quando você acerta com seu Golpe Desarmado Aprimorado e causa dano, você pode causar dano Contundente igual a 1d6 + seu modificador de Força em vez do dano normal de um Golpe Desarmado.\n- Armamento improvisado. Você tem proficiência com armas improvisadas.\n- Golpe Certeiro: Sempre que você rolar um dado de dano do seu Golpe Desarmado, você pode rolar novamente o dado de dano se o resultado da rolagem for 1 e deve usar o novo resultado da rolagem. \n- Maestria Desarmada: Você ganha a maestria de arma Push (Empurrar) para seus ataques desarmados.",
+  "mechanicsSummary": "Golpe Desarmado Aprimorado. Quando você acerta com seu Golpe Desarmado Aprimorado e causa dano, você pode causar dano Contundente igual a 1d6 + seu modificador de Força em vez do dano normal de um Golpe Desarmado. | Armamento improvisado. Você tem proficiência com armas improvisadas. | Golpe Certeiro: Sempre que você rolar um dado de dano do seu Golpe Desarmado, você pode rolar novamente o dado de dano se o resultado da rolagem for 1 e deve usar o novo resultado da rolagem. | Maestria Desarmada: Você ganha a maestria de arma Push (Empurrar) para seus ataques desarmados.",
+  "benefits": [
+    "Golpe Desarmado Aprimorado. Quando você acerta com seu Golpe Desarmado Aprimorado e causa dano, você pode causar dano Contundente igual a 1d6 + seu modificador de Força em vez do dano normal de um Golpe Desarmado.",
+    "Armamento improvisado. Você tem proficiência com armas improvisadas.",
+    "Golpe Certeiro: Sempre que você rolar um dado de dano do seu Golpe Desarmado, você pode rolar novamente o dado de dano se o resultado da rolagem for 1 e deve usar o novo resultado da rolagem.",
+    "Maestria Desarmada: Você ganha a maestria de arma Push (Empurrar) para seus ataques desarmados."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Armamento improvisado. Você tem proficiência com armas improvisadas."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

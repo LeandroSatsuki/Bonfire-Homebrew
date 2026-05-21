@@ -1,0 +1,41 @@
+{
+  "id": "atacante-selvagem",
+  "name": "Atacante Selvagem",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Um golpe preciso pode encerrar uma luta, mas um golpe brutal garante que nada reste para contar a história.\" \n Você treinou para desferir golpes particularmente danosos, que funciona da seguinte forma:\n - Golpe Aprimorado. Uma vez por turno, ao atingir um alvo com uma Arma ou Golpe Desarmado, você pode rolar os dados de dano do ataque duas vezes e usar qualquer um dos resultados contra o alvo.\n- Atacante Violento. Quando você ataca uma criatura que esteja Sangrando (Bloodied) com um ataque com arma ou Golpe Desarmado, você sempre pode rolar os dados de dano do ataque duas vezes e usar quaisquer resultados.",
+  "mechanicsSummary": "Golpe Aprimorado. Uma vez por turno, ao atingir um alvo com uma Arma ou Golpe Desarmado, você pode rolar os dados de dano do ataque duas vezes e usar qualquer um dos resultados contra o alvo. | Atacante Violento. Quando você ataca uma criatura que esteja Sangrando (Bloodied) com um ataque com arma ou Golpe Desarmado, você sempre pode rolar os dados de dano do ataque duas vezes e usar quaisquer resultados.",
+  "benefits": [
+    "Golpe Aprimorado. Uma vez por turno, ao atingir um alvo com uma Arma ou Golpe Desarmado, você pode rolar os dados de dano do ataque duas vezes e usar qualquer um dos resultados contra o alvo.",
+    "Atacante Violento. Quando você ataca uma criatura que esteja Sangrando (Bloodied) com um ataque com arma ou Golpe Desarmado, você sempre pode rolar os dados de dano do ataque duas vezes e usar quaisquer resultados."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

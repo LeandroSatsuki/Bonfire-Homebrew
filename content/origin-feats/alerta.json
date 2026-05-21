@@ -1,0 +1,44 @@
+{
+  "id": "alerta",
+  "name": "Alerta",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Tente me pegar desprevenido. Será o último erro que você cometerá enquanto respira.\" Sua mente está sempre vigilante contra o perigo e você ganha os seguintes benefícios:\n - Proficiência em Iniciativa. Quando você rolar Iniciativa, você pode adicionar seu Bônus de Proficiência à rolagem.\n- Troca de Iniciativa. Imediatamente depois de você rolar Iniciativa, você pode trocar sua Iniciativa com a Iniciativa de um aliado disposto no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver com a condição Incapacitado.\n- Outras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você.",
+  "mechanicsSummary": "Proficiência em Iniciativa. Quando você rolar Iniciativa, você pode adicionar seu Bônus de Proficiência à rolagem. | Troca de Iniciativa. Imediatamente depois de você rolar Iniciativa, você pode trocar sua Iniciativa com a Iniciativa de um aliado disposto no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver com a condição Incapacitado. | Outras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você.",
+  "benefits": [
+    "Proficiência em Iniciativa. Quando você rolar Iniciativa, você pode adicionar seu Bônus de Proficiência à rolagem.",
+    "Troca de Iniciativa. Imediatamente depois de você rolar Iniciativa, você pode trocar sua Iniciativa com a Iniciativa de um aliado disposto no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver com a condição Incapacitado.",
+    "Outras criaturas não ganham vantagem nas jogadas de ataque contra você por estarem escondidas de você."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiência em Iniciativa. Quando você rolar Iniciativa, você pode adicionar seu Bônus de Proficiência à rolagem."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

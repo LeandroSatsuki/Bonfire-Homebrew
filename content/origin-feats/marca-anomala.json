@@ -1,0 +1,53 @@
+{
+  "id": "marca-anomala",
+  "name": "Marca Anômala",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana.\n\n Algo na sua alma não “acendeu” na Trama, ele se prendeu nas fendas. \n Quando a Umbra te olha de volta, seu corpo aprende a pagar o preço. \n Uma anomalia espiritual ligada à influência da Umbra marca você com uma runa irregular. Ela concede magia instintiva, mas sempre com consequências imprevisíveis.\n\n - Fortitude Anômala: Quando você falhar em um teste de resistência de Constituição, você pode usar uma Reação para rolar 1d4 e somar o resultado ao teste, potencialmente transformando a falha em sucesso. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo.\n - Magia Anômala: Você aprende 1 truque (cantrip) à sua escolha da lista de magias de Feiticeiro (Sorcerer). Além disso, escolha 1 magia de 1º nível dessa lista. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar ...",
+  "mechanicsSummary": "Fortitude Anômala: Quando você falhar em um teste de resistência de Constituição, você pode usar uma Reação para rolar 1d4 e somar o resultado ao teste, potencialmente transformando a falha em sucesso. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. | Magia Anômala: Você aprende 1 truque (cantrip) à sua escolha da lista de magias de Feiticeiro (Sorcerer). Além disso, escolha 1 magia de 1º nível dessa lista. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera a capacidade de conjurá-la dessa forma ao terminar um Descanso Curto (Short Rest) ou Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha. Constituição (Constitution) é seu atributo de conjuração para essa magia. | Surto Anômalo: Quando você conjurar a magia de 1º nível deste talento, você pode gastar um dos seus Dados de Vida (Hit Dice) e rolá-lo. - Número Par: Você ganha Pontos de Vida Temporários (Temporary Hit Points) iguais ao número rolado. | Número Ímpar: Uma criatura a até 9 metros [30 pés] de você (não incluindo você) sofre dano de Força (Force) igual ao número rolado. Se não houver outras criaturas no alcance, você sofre o dano.",
+  "benefits": [
+    "Fortitude Anômala: Quando você falhar em um teste de resistência de Constituição, você pode usar uma Reação para rolar 1d4 e somar o resultado ao teste, potencialmente transformando a falha em sucesso. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo.",
+    "Magia Anômala: Você aprende 1 truque (cantrip) à sua escolha da lista de magias de Feiticeiro (Sorcerer). Além disso, escolha 1 magia de 1º nível dessa lista. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera a capacidade de conjurá-la dessa forma ao terminar um Descanso Curto (Short Rest) ou Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha. Constituição (Constitution) é seu atributo de conjuração para essa magia.",
+    "Surto Anômalo: Quando você conjurar a magia de 1º nível deste talento, você pode gastar um dos seus Dados de Vida (Hit Dice) e rolá-lo. - Número Par: Você ganha Pontos de Vida Temporários (Temporary Hit Points) iguais ao número rolado.",
+    "Número Ímpar: Uma criatura a até 9 metros [30 pés] de você (não incluindo você) sofre dano de Força (Force) igual ao número rolado. Se não houver outras criaturas no alcance, você sofre o dano."
+  ],
+  "grantedSpells": [
+    "Magia Anômala: Você aprende 1 truque (cantrip) à sua escolha da lista de magias de Feiticeiro (Sorcerer). Além disso, escolha 1 magia de 1º nível dessa lista. Você sempre tem essa magia preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera a capacidade de conjurá-la dessa forma ao terminar um Descanso Curto (Short Rest) ou Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha. Constituição (Constitution) é seu atributo de conjuração para essa magia."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

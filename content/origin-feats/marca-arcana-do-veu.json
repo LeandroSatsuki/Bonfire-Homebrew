@@ -1,0 +1,51 @@
+{
+  "id": "marca-arcana-do-veu",
+  "name": "Marca Arcana do Véu",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Você não apaga o mundo, você dobra a percepção dele. A Trama aceita o disfarce, desde que você não a rasgue. \n Sua runa reescreve aparências e sombras com precisão, como quem troca máscaras sem quebrar o rosto por baixo.\n\n - Intuição Sutil: Quando você fizer um teste de Destreza (Furtividade) ou Carisma (Atuação), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Moldar Sombras: Você aprende o truque Ilusão Menor (Minor Illusion). Você também sempre tem Invisibilidade (Invisibility) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este ta ...",
+  "mechanicsSummary": "Intuição Sutil: Quando você fizer um teste de Destreza (Furtividade) ou Carisma (Atuação), você pode rolar 1d4 e adicionar o resultado ao teste. | Moldar Sombras: Você aprende o truque Ilusão Menor (Minor Illusion). Você também sempre tem Invisibilidade (Invisibility) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição Sutil: Quando você fizer um teste de Destreza (Furtividade) ou Carisma (Atuação), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Moldar Sombras: Você aprende o truque Ilusão Menor (Minor Illusion). Você também sempre tem Invisibilidade (Invisibility) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento).",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [
+    "Moldar Sombras: Você aprende o truque Ilusão Menor (Minor Illusion). Você também sempre tem Invisibilidade (Invisibility) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento)."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "marca-arcana-da-restauracao",
+  "name": "Marca Arcana da Restauração",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Você sente a febre da vida como se fosse calor na pele. Seu toque não cria, ele devolve a forma certa para a vida caber. \n Sua runa reconhece falhas no corpo e no espírito, e empurra a existência de volta para o lugar onde ela deveria estar.\n\n - Intuição Médica: Quando você fizer um teste de Sabedoria (Medicina) ou um teste de habilidade usando um Kit de Herbalismo (Herbalism Kit), você pode rolar 1d4 e adicionar o resultado ao teste.\n- Toque Restaurador: Você sempre tem Curar Ferimentos (Cure Wounds) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecion ...",
+  "mechanicsSummary": "Intuição Médica: Quando você fizer um teste de Sabedoria (Medicina) ou um teste de habilidade usando um Kit de Herbalismo (Herbalism Kit), você pode rolar 1d4 e adicionar o resultado ao teste. | Toque Restaurador: Você sempre tem Curar Ferimentos (Cure Wounds) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Restauração Menor (Lesser Restoration) preparada e pode conjurá-la da mesma forma. | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição Médica: Quando você fizer um teste de Sabedoria (Medicina) ou um teste de habilidade usando um Kit de Herbalismo (Herbalism Kit), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Toque Restaurador: Você sempre tem Curar Ferimentos (Cure Wounds) preparada. Você pode conjurá-la uma vez sem gastar espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Restauração Menor (Lesser Restoration) preparada e pode conjurá-la da mesma forma.",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

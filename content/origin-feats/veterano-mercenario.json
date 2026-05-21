@@ -1,0 +1,39 @@
+{
+  "id": "veterano-mercenario",
+  "name": "Veterano Mercenário",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Dor é apenas um lembrete de que o pagamento ainda está pendente. Já fui empurrado por ogros e encantado por bruxas; nenhum deles conseguiu me tirar do lugar.\" Seu passado de batalhas por contrato lhe concedeu um vigor extraordinário e uma teimosia tática que impede inimigos de controlarem seu corpo ou sua mente.\n - Manter Posição: Quando você for movido por uma criatura sem usar seu próprio movimento, você pode usar uma Reação para reduzir a distância que é movido em um valor igual ao seu Deslocamento.\n \n - Resoluto: Você possui Vantagem em Testes de Resistência que aplicariam uma Condição em você.\n \n \n Social",
+  "mechanicsSummary": "Manter Posição: Quando você for movido por uma criatura sem usar seu próprio movimento, você pode usar uma Reação para reduzir a distância que é movido em um valor igual ao seu Deslocamento. | Resoluto: Você possui Vantagem em Testes de Resistência que aplicariam uma Condição em você.",
+  "benefits": [
+    "Manter Posição: Quando você for movido por uma criatura sem usar seu próprio movimento, você pode usar uma Reação para reduzir a distância que é movido em um valor igual ao seu Deslocamento.",
+    "Resoluto: Você possui Vantagem em Testes de Resistência que aplicariam uma Condição em você."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

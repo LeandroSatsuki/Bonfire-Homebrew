@@ -1,0 +1,45 @@
+{
+  "id": "curandeiro",
+  "name": "Curandeiro",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Remédios amargos e ataduras apertadas salvam mais vidas do que preces sussurradas ao vento.\" Você combina conhecimento anatômico prático com a capacidade de maximizar a potência de magias restauradoras, garantindo tratamentos mais eficazes.\n - Treinamento Médico: Você ganha proficiência na perícia Medicina.\n - Médico de Batalha: Se você tiver um Kit de Curandeiro, você pode gastar 1 uso dele e atender uma criatura a até 1,5 metro [5 pés] de você como uma ação de Utilizar. - Tratamento de Campo: Essa criatura pode gastar 1 de seus Dados de Vida. Você rola esse dado e a criatura recupera um número de Pontos de Vida igual ao resultado + seu Bônus de Proficiência.\n \n\n - Cura Aprimorada: Sempre que você rolar um dado para determinar o número de Pontos de Vida que você restaura com uma magia ou com o benefício Médico de Batalha deste talento. - Maximização: Você pode rolar um dado extra e des ...",
+  "mechanicsSummary": "Treinamento Médico: Você ganha proficiência na perícia Medicina. | Médico de Batalha: Se você tiver um Kit de Curandeiro, você pode gastar 1 uso dele e atender uma criatura a até 1,5 metro [5 pés] de você como uma ação de Utilizar. - Tratamento de Campo: Essa criatura pode gastar 1 de seus Dados de Vida. Você rola esse dado e a criatura recupera um número de Pontos de Vida igual ao resultado + seu Bônus de Proficiência. | Cura Aprimorada: Sempre que você rolar um dado para determinar o número de Pontos de Vida que você restaura com uma magia ou com o benefício Médico de Batalha deste talento. - Maximização: Você pode rolar um dado extra e descartar o dado com o menor valor.",
+  "benefits": [
+    "Treinamento Médico: Você ganha proficiência na perícia Medicina.",
+    "Médico de Batalha: Se você tiver um Kit de Curandeiro, você pode gastar 1 uso dele e atender uma criatura a até 1,5 metro [5 pés] de você como uma ação de Utilizar. - Tratamento de Campo: Essa criatura pode gastar 1 de seus Dados de Vida. Você rola esse dado e a criatura recupera um número de Pontos de Vida igual ao resultado + seu Bônus de Proficiência.",
+    "Cura Aprimorada: Sempre que você rolar um dado para determinar o número de Pontos de Vida que você restaura com uma magia ou com o benefício Médico de Batalha deste talento. - Maximização: Você pode rolar um dado extra e descartar o dado com o menor valor."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Treinamento Médico: Você ganha proficiência na perícia Medicina."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

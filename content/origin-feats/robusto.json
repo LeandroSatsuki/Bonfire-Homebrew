@@ -1,0 +1,36 @@
+{
+  "id": "robusto",
+  "name": "Robusto",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Eu não sangro fácil, e caio ainda mais difícil. Cicatrizes são apenas o mapa de onde o mundo tentou me quebrar e falhou.\" Sua compleição física é anormalmente densa e resistente, concedendo uma vitalidade que excede os limites naturais da sua espécie.\n - Vigor Inabalável: Seu máximo de Pontos de Vida aumenta em um valor igual a 2 vezes o seu nível de personagem no momento em que você adquire este talento.\n - Progressão de Vitalidade: Sempre que você ganhar um nível de personagem posteriormente, seu máximo de Pontos de Vida aumenta em 2 pontos adicionais.",
+  "mechanicsSummary": "Vigor Inabalável: Seu máximo de Pontos de Vida aumenta em um valor igual a 2 vezes o seu nível de personagem no momento em que você adquire este talento. | Progressão de Vitalidade: Sempre que você ganhar um nível de personagem posteriormente, seu máximo de Pontos de Vida aumenta em 2 pontos adicionais.",
+  "benefits": [
+    "Vigor Inabalável: Seu máximo de Pontos de Vida aumenta em um valor igual a 2 vezes o seu nível de personagem no momento em que você adquire este talento.",
+    "Progressão de Vitalidade: Sempre que você ganhar um nível de personagem posteriormente, seu máximo de Pontos de Vida aumenta em 2 pontos adicionais."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

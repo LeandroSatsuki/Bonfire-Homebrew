@@ -1,0 +1,41 @@
+{
+  "id": "joguete-de-vampiro",
+  "name": "Joguete de Vampiro",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "Sobreviver como o favorito de um predador imortal lhe ensinou duas coisas: como remendar feridas para durar mais tempo e, crucialmente, quando correr para não ser drenado até a última gota. \n Sua experiência traumática servindo a mortos-vivos garantiu os seguintes instintos de sobrevivência:\n\n - Decantar: Quando você terminar um Descanso Longo , você pode criar uma Poção de Cura (Potion of Healing) ou um Antídoto (Antitoxin) , desde que possua um frasco ou cantil vazio. O líquido criado perde a potência e evapora se você não o utilizar antes de terminar seu próximo Descanso Longo.\n- Retirada Oportuna: Você pode usar uma Ação Bônus para realizar a ação de Disparada (Dash) ou a ação de Desengajar (Disengage) . Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+  "mechanicsSummary": "Decantar: Quando você terminar um Descanso Longo , você pode criar uma Poção de Cura (Potion of Healing) ou um Antídoto (Antitoxin) , desde que possua um frasco ou cantil vazio. O líquido criado perde a potência e evapora se você não o utilizar antes de terminar seu próximo Descanso Longo. | Retirada Oportuna: Você pode usar uma Ação Bônus para realizar a ação de Disparada (Dash) ou a ação de Desengajar (Disengage) . Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+  "benefits": [
+    "Decantar: Quando você terminar um Descanso Longo , você pode criar uma Poção de Cura (Potion of Healing) ou um Antídoto (Antitoxin) , desde que possua um frasco ou cantil vazio. O líquido criado perde a potência e evapora se você não o utilizar antes de terminar seu próximo Descanso Longo.",
+    "Retirada Oportuna: Você pode usar uma Ação Bônus para realizar a ação de Disparada (Dash) ou a ação de Desengajar (Disengage) . Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

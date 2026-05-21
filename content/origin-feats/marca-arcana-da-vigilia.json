@@ -1,0 +1,55 @@
+{
+  "id": "marca-arcana-da-vigilia",
+  "name": "Marca Arcana da Vigília",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n\n Entre um golpe e outro existe um espaço, e você sempre sabe onde ele está. Proteger o que importa não é impulso: é regra gravada na Trama. \n Sua Marca sela prontidão e sacrifício: você aprende a ocupar o lugar certo, na hora certa, mesmo que doa.\n\n - Intuição do Sentinela: Quando você fizer um teste de Sabedoria (Intuição) ou Sabedoria (Percepção), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Escudo do Guardião: Você sempre tem Escudo (Shield) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento).\n - Guardião Vigilante: Qua ...",
+  "mechanicsSummary": "Intuição do Sentinela: Quando você fizer um teste de Sabedoria (Intuição) ou Sabedoria (Percepção), você pode rolar 1d4 e adicionar o resultado ao teste. | Escudo do Guardião: Você sempre tem Escudo (Shield) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento). | Guardião Vigilante: Quando uma criatura que você possa ver a até 1,5 metro [5 pés] de você for atingida por uma jogada de ataque, você pode usar uma Reação para trocar de lugar com essa criatura, e você é atingido pelo ataque no lugar dela. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo. | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição do Sentinela: Quando você fizer um teste de Sabedoria (Intuição) ou Sabedoria (Percepção), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Escudo do Guardião: Você sempre tem Escudo (Shield) preparada. Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essa magia (escolha ao selecionar este talento).",
+    "Guardião Vigilante: Quando uma criatura que você possa ver a até 1,5 metro [5 pés] de você for atingida por uma jogada de ataque, você pode usar uma Reação para trocar de lugar com essa criatura, e você é atingido pelo ataque no lugar dela. Você pode usar esta característica um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo.",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

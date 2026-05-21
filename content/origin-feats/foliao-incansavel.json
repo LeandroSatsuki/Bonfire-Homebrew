@@ -1,0 +1,40 @@
+{
+  "id": "foliao-incansavel",
+  "name": "Folião Incansável",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"A glória de um brinde nunca é solitária; quando um de nós brilha, todos nós queimamos mais forte.\" Você se alimenta da energia e do sucesso dos seus companheiros, transformando a vitória alheia em combustível próprio.\n - Sinergia Inspiradora: Quando um aliado que você pode ver a até 18 metros [60 pés] de você gastar uma Inspiração Heroica, você pode ganhar uma Inspiração Heroica caso ainda não a tenha.\n - Limitação e Recuperação: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Você recupera todos os usos gastos quando termina um Descanso Longo.",
+  "mechanicsSummary": "Sinergia Inspiradora: Quando um aliado que você pode ver a até 18 metros [60 pés] de você gastar uma Inspiração Heroica, você pode ganhar uma Inspiração Heroica caso ainda não a tenha. | Limitação e Recuperação: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Você recupera todos os usos gastos quando termina um Descanso Longo.",
+  "benefits": [
+    "Sinergia Inspiradora: Quando um aliado que você pode ver a até 18 metros [60 pés] de você gastar uma Inspiração Heroica, você pode ganhar uma Inspiração Heroica caso ainda não a tenha.",
+    "Limitação e Recuperação: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Você recupera todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

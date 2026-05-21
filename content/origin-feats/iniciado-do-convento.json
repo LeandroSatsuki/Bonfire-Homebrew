@@ -1,0 +1,47 @@
+{
+  "id": "iniciado-do-convento",
+  "name": "Iniciado do Convento",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"O primeiro passo para servir à Umbra não é uma prece, é um alvo. Você aprendeu que a realidade tem costuras, e que basta puxar o fio certo para ver alguém sangrar.\" Você deu os primeiros passos nos ensinamentos ocultos dos conventos de Velmourn, aprendendo a marcar as almas de seus inimigos com a mácula da ilha.\n - Maldição: Você aprende a magia Hex. Você sempre a tem preparada e ela não conta no número de magias que você pode preparar. - Conjuração: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera essa capacidade ao terminar um Descanso Longo. Você também pode conjurá-la utilizando seus espaços de magia normais.\n - Atributo: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração para esta magia ao selecionar este talento.\n - Variação Psíquica: Ao conjurar esta magia usando este talento, você pode escolher causar dano Psíquico em vez de dano Nec ...",
+  "mechanicsSummary": "Maldição: Você aprende a magia Hex. Você sempre a tem preparada e ela não conta no número de magias que você pode preparar. - Conjuração: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera essa capacidade ao terminar um Descanso Longo. Você também pode conjurá-la utilizando seus espaços de magia normais. | Atributo: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração para esta magia ao selecionar este talento. | Variação Psíquica: Ao conjurar esta magia usando este talento, você pode escolher causar dano Psíquico em vez de dano Necrótico. | Magia da Má Sorte: Quando uma criatura que esteja atualmente sob efeito da sua magia Hex acertar você com uma jogada de ataque. - Retribuição Mental: A criatura sofre dano Psíquico igual ao seu Bônus de Proficiência. Uma criatura sofre esse dano apenas uma vez por turno.",
+  "benefits": [
+    "Maldição: Você aprende a magia Hex. Você sempre a tem preparada e ela não conta no número de magias que você pode preparar. - Conjuração: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera essa capacidade ao terminar um Descanso Longo. Você também pode conjurá-la utilizando seus espaços de magia normais.",
+    "Atributo: Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração para esta magia ao selecionar este talento.",
+    "Variação Psíquica: Ao conjurar esta magia usando este talento, você pode escolher causar dano Psíquico em vez de dano Necrótico.",
+    "Magia da Má Sorte: Quando uma criatura que esteja atualmente sob efeito da sua magia Hex acertar você com uma jogada de ataque. - Retribuição Mental: A criatura sofre dano Psíquico igual ao seu Bônus de Proficiência. Uma criatura sofre esse dano apenas uma vez por turno."
+  ],
+  "grantedSpells": [
+    "Maldição: Você aprende a magia Hex. Você sempre a tem preparada e ela não conta no número de magias que você pode preparar. - Conjuração: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera essa capacidade ao terminar um Descanso Longo. Você também pode conjurá-la utilizando seus espaços de magia normais."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

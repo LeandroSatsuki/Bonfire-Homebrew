@@ -1,0 +1,42 @@
+{
+  "id": "ninja-de-hanryo",
+  "name": "Ninja de Hanryo",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "Em Hanryo, o vento ensina a esconder passos e a pedra ensina a esperar. Você reage como sombra treinada, punindo a abertura antes que ela vire grito. Você aprendeu técnicas de contra-ataque e coordenação silenciosa típicas dos ninjas de Hanryo, explorando brechas com precisão e guiando seu time no primeiro batimento do combate.\n - Retaliação: Imediatamente depois que uma criatura a 1,5 metro [5 pés] de você acertar você com um ataque corpo a corpo, você pode fazer um Ataque de Oportunidade (Opportunity Attack) contra essa criatura.\n- Explorar Brecha: Quando você rolar dano para um Ataque de Oportunidade (Opportunity Attack), você pode rolar os dados de dano duas vezes e usar qualquer uma das rolagens contra o alvo.\n- Primeiro o Time: Se você tiver Inspiração Heroica (Heroic Inspiration) quando rolar Iniciativa (Initiative), você pode gastá-la para dar a você e aos seus aliados Vantagem ( ...",
+  "mechanicsSummary": "Retaliação: Imediatamente depois que uma criatura a 1,5 metro [5 pés] de você acertar você com um ataque corpo a corpo, você pode fazer um Ataque de Oportunidade (Opportunity Attack) contra essa criatura. | Explorar Brecha: Quando você rolar dano para um Ataque de Oportunidade (Opportunity Attack), você pode rolar os dados de dano duas vezes e usar qualquer uma das rolagens contra o alvo. | Primeiro o Time: Se você tiver Inspiração Heroica (Heroic Inspiration) quando rolar Iniciativa (Initiative), você pode gastá-la para dar a você e aos seus aliados Vantagem (Advantage) nessa rolagem de Iniciativa.",
+  "benefits": [
+    "Retaliação: Imediatamente depois que uma criatura a 1,5 metro [5 pés] de você acertar você com um ataque corpo a corpo, você pode fazer um Ataque de Oportunidade (Opportunity Attack) contra essa criatura.",
+    "Explorar Brecha: Quando você rolar dano para um Ataque de Oportunidade (Opportunity Attack), você pode rolar os dados de dano duas vezes e usar qualquer uma das rolagens contra o alvo.",
+    "Primeiro o Time: Se você tiver Inspiração Heroica (Heroic Inspiration) quando rolar Iniciativa (Initiative), você pode gastá-la para dar a você e aos seus aliados Vantagem (Advantage) nessa rolagem de Iniciativa."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "marca-arcana-da-protecao",
+  "name": "Marca Arcana da Proteção",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [
+    "Nível 1+",
+    "não possuir outra Marca Arcana ou Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 1+, não possuir outra Marca Arcana ou Marca Anômala.\n Quando sua runa brilha, o mundo entende: ali existe limite. E toda regra verdadeira cobra preço de quem tenta atravessar. \n Sua Marca sela limiares, alarmes e lacres: você aprende a dizer “aqui não” de um jeito que a Trama respeita.\n - Intuição do Lacre: Quando você fizer um teste de Inteligência (Investigação) ou um teste de habilidade usando Ferramentas de Ladino (Thieves’ Tools), você pode rolar 1d4 e adicionar o resultado ao teste.\n - Selos e Alarmes: Você sempre tem Alarme (Alarm) e Armadura Arcana (Mage Armor) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjura ...",
+  "mechanicsSummary": "Intuição do Lacre: Quando você fizer um teste de Inteligência (Investigação) ou um teste de habilidade usando Ferramentas de Ladino (Thieves’ Tools), você pode rolar 1d4 e adicionar o resultado ao teste. | Selos e Alarmes: Você sempre tem Alarme (Alarm) e Armadura Arcana (Mage Armor) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Tranca Arcana (Arcane Lock) preparada e pode conjurá-la da mesma forma. | Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica.",
+  "benefits": [
+    "Intuição do Lacre: Quando você fizer um teste de Inteligência (Investigação) ou um teste de habilidade usando Ferramentas de Ladino (Thieves’ Tools), você pode rolar 1d4 e adicionar o resultado ao teste.",
+    "Selos e Alarmes: Você sempre tem Alarme (Alarm) e Armadura Arcana (Mage Armor) preparadas. Você pode conjurar cada uma dessas magias uma vez sem gastar um espaço de magia, e recupera esse uso ao terminar um Descanso Longo. Você também pode conjurá-las usando quaisquer espaços de magia que você tenha do nível apropriado. Inteligência, Sabedoria ou Carisma é seu atributo de conjuração para essas magias (escolha ao selecionar este talento). Ao alcançar nível de personagem 3, você também sempre tem Tranca Arcana (Arcane Lock) preparada e pode conjurá-la da mesma forma.",
+    "Magias do Decreto: Se você tiver Conjuração ou Magia de Pacto, as magias abaixo são adicionadas à lista de magias dessa característica."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

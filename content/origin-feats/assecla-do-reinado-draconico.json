@@ -1,0 +1,49 @@
+{
+  "id": "assecla-do-reinado-draconico",
+  "name": "Assecla do Reinado Dracônico",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Eles olham para mim e veem apenas um mortal, mas quando eu falo, eles ouvem o eco de uma montanha se movendo. Ajoelhem-se, ou queimem.\" Você internalizou a majestade tirânica ou benevolente dos dragões de Dakyhaenor ou Vyrmheim, aprendendo a projetar uma aura de comando que dobra vontades.\n - Língua da Corte: Você aprende a ler, falar e escrever em Dracônico.\n - Voz de Autoridade: Você ganha Proficiência na perícia Intimidação ou Persuasão. \n\n - Glória e Imponência: Como uma Ação Bônus, você projeta sua presença para uma criatura a até 18 metros [60 pés]. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência por Descanso Longo. - CD da Habilidade: 8 + Bônus de Proficiência + Modificador de Carisma ou Sabedoria (escolha ao adquirir o talento).\n - Se Hostil: O alvo deve passar em um Teste de Resistência de Sabedoria. Em uma falha, fica Amedrontado até o final ...",
+  "mechanicsSummary": "Língua da Corte: Você aprende a ler, falar e escrever em Dracônico. | Voz de Autoridade: Você ganha Proficiência na perícia Intimidação ou Persuasão. | Glória e Imponência: Como uma Ação Bônus, você projeta sua presença para uma criatura a até 18 metros [60 pés]. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência por Descanso Longo. - CD da Habilidade: 8 + Bônus de Proficiência + Modificador de Carisma ou Sabedoria (escolha ao adquirir o talento). | Se Hostil: O alvo deve passar em um Teste de Resistência de Sabedoria. Em uma falha, fica Amedrontado até o final do seu próximo turno. Em um sucesso, torna-se imune a esta habilidade por 24 horas. | Se Aliado: O alvo se sente inspirado e ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + o Modificador do atributo usado na CD. | Soberania Inspiradora: Quando você causar a condição Amedrontado em uma criatura (sendo você a fonte do medo), você pode ganhar uma Inspiração Heroica caso não a possua. Você recupera o uso deste benefício após terminar um Descanso Curto ou Longo.",
+  "benefits": [
+    "Língua da Corte: Você aprende a ler, falar e escrever em Dracônico.",
+    "Voz de Autoridade: Você ganha Proficiência na perícia Intimidação ou Persuasão.",
+    "Glória e Imponência: Como uma Ação Bônus, você projeta sua presença para uma criatura a até 18 metros [60 pés]. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência por Descanso Longo. - CD da Habilidade: 8 + Bônus de Proficiência + Modificador de Carisma ou Sabedoria (escolha ao adquirir o talento).",
+    "Se Hostil: O alvo deve passar em um Teste de Resistência de Sabedoria. Em uma falha, fica Amedrontado até o final do seu próximo turno. Em um sucesso, torna-se imune a esta habilidade por 24 horas.",
+    "Se Aliado: O alvo se sente inspirado e ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + o Modificador do atributo usado na CD.",
+    "Soberania Inspiradora: Quando você causar a condição Amedrontado em uma criatura (sendo você a fonte do medo), você pode ganhar uma Inspiração Heroica caso não a possua. Você recupera o uso deste benefício após terminar um Descanso Curto ou Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Voz de Autoridade: Você ganha Proficiência na perícia Intimidação ou Persuasão."
+  ],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "short-or-long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario"
+  ],
+  "questions": [
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

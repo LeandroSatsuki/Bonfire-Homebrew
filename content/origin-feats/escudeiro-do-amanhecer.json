@@ -1,0 +1,47 @@
+{
+  "id": "escudeiro-do-amanhecer",
+  "name": "Escudeiro do Amanhecer",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Nas escolas do Amanhecer, a disciplina não é discurso, é rotina. A batalha é decidida no primeiro fôlego, e eu treinei para nunca desperdiçá-lo.\" Você foi treinado para dominar o momento decisivo do combate, combinando agilidade na montaria com a capacidade de desferir o primeiro golpe com precisão letal.\n - Entrada e Saída da Sela: Assumir ou abandonar a sela custa apenas 1,5 metro [5 pés] de seu movimento, em vez da metade do seu deslocamento.\n - Golpe Preciso Uma vez por turno, ao realizar uma jogada de ataque com arma contra uma criatura, você pode declarar um golpe preciso. - Foco: Você realiza a jogada de ataque com Vantagem.\n - Impacto: Se o ataque acertar, você adiciona 1d8 à rolagem de dano.\n - Custo: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Um uso é gasto apenas se o ataque acertar. Você recupera todos os usos ao terminar um Descanso ...",
+  "mechanicsSummary": "Entrada e Saída da Sela: Assumir ou abandonar a sela custa apenas 1,5 metro [5 pés] de seu movimento, em vez da metade do seu deslocamento. | Golpe Preciso Uma vez por turno, ao realizar uma jogada de ataque com arma contra uma criatura, você pode declarar um golpe preciso. - Foco: Você realiza a jogada de ataque com Vantagem. | Impacto: Se o ataque acertar, você adiciona 1d8 à rolagem de dano. | Custo: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Um uso é gasto apenas se o ataque acertar. Você recupera todos os usos ao terminar um Descanso Longo. | Disciplina de Cavalgada e Voz de Comando: Você ganha proficiência com Veículos Terrestres e na perícia Persuasão.",
+  "benefits": [
+    "Entrada e Saída da Sela: Assumir ou abandonar a sela custa apenas 1,5 metro [5 pés] de seu movimento, em vez da metade do seu deslocamento.",
+    "Golpe Preciso Uma vez por turno, ao realizar uma jogada de ataque com arma contra uma criatura, você pode declarar um golpe preciso. - Foco: Você realiza a jogada de ataque com Vantagem.",
+    "Impacto: Se o ataque acertar, você adiciona 1d8 à rolagem de dano.",
+    "Custo: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência. Um uso é gasto apenas se o ataque acertar. Você recupera todos os usos ao terminar um Descanso Longo.",
+    "Disciplina de Cavalgada e Voz de Comando: Você ganha proficiência com Veículos Terrestres e na perícia Persuasão."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Disciplina de Cavalgada e Voz de Comando: Você ganha proficiência com Veículos Terrestres e na perícia Persuasão."
+  ],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

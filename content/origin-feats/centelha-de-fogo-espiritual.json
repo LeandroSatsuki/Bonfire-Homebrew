@@ -1,0 +1,47 @@
+{
+  "id": "centelha-de-fogo-espiritual",
+  "name": "Centelha de Fogo Espiritual",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"O fogo de Tsunari não precisa de lenha, ele se alimenta de mentiras. Respire fundo; se arder, é porque sua alma tem algo a esconder.\" Você aprendeu a sintonizar sua vontade com as marés de mana da ilha, utilizando disciplina e respiração para manifestar chamas que purgam intenções e amortecem a magia hostil.\n - Absorção Espiritual: Uma vez por turno, quando você sofrer dano proveniente de uma magia ou efeito mágico, você pode reduzir o dano total sofrido em 1d6. - Foco Necessário: Você não pode usar este benefício se estiver com a condição Incapacitado.\n \n\n - Chama da Centelha: Você aprende o truque Chama Sagrada. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. - Ignição Rápida: Você pode conjurar esse truque como uma Ação Bônus. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos o ...",
+  "mechanicsSummary": "Absorção Espiritual: Uma vez por turno, quando você sofrer dano proveniente de uma magia ou efeito mágico, você pode reduzir o dano total sofrido em 1d6. - Foco Necessário: Você não pode usar este benefício se estiver com a condição Incapacitado. | Chama da Centelha: Você aprende o truque Chama Sagrada. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. - Ignição Rápida: Você pode conjurar esse truque como uma Ação Bônus. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos gastos quando termina um Descanso Longo.",
+  "benefits": [
+    "Absorção Espiritual: Uma vez por turno, quando você sofrer dano proveniente de uma magia ou efeito mágico, você pode reduzir o dano total sofrido em 1d6. - Foco Necessário: Você não pode usar este benefício se estiver com a condição Incapacitado.",
+    "Chama da Centelha: Você aprende o truque Chama Sagrada. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. - Ignição Rápida: Você pode conjurar esse truque como uma Ação Bônus. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Chama da Centelha: Você aprende o truque Chama Sagrada. Escolha Inteligência, Sabedoria ou Carisma como seu atributo de conjuração ao selecionar este talento. - Ignição Rápida: Você pode conjurar esse truque como uma Ação Bônus. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "espiao-do-submundo",
+  "name": "Espião do Submundo",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"Fechaduras são sugestões, rostos são máscaras e assinaturas são apenas desenhos que eu ainda não copiei. No meu ramo, ser você mesmo é o caminho mais rápido para a cova.\" \n Você se tornou uma lenda nos becos e cortes, dominando as artes ocultas da infiltração e espionagem para garantir os seguintes benefícios:\n\n - Chaveiro: Você ganha proficiência com Ferramentas de Ladrão (Thieves' Tools) . Enquanto estiver segurando essas ferramentas, você pode fabricar uma chave funcional para uma fechadura específica gastando 10 minutos trabalhando nela.\n- Mestre dos Disfarces: Você ganha proficiência com o Kit de Disfarce (Disguise Kit) . Se você gastar 10 minutos criando um disfarce, você define sua aparência (altura, peso, rosto, voz, cabelo). Você pode parecer um membro de outra espécie, mas suas estatísticas e estrutura básica de membros (bípede/quadrúpede) não mudam.\n- Mestre Calígrafo: Você g ...",
+  "mechanicsSummary": "Chaveiro: Você ganha proficiência com Ferramentas de Ladrão (Thieves' Tools) . Enquanto estiver segurando essas ferramentas, você pode fabricar uma chave funcional para uma fechadura específica gastando 10 minutos trabalhando nela. | Mestre dos Disfarces: Você ganha proficiência com o Kit de Disfarce (Disguise Kit) . Se você gastar 10 minutos criando um disfarce, você define sua aparência (altura, peso, rosto, voz, cabelo). Você pode parecer um membro de outra espécie, mas suas estatísticas e estrutura básica de membros (bípede/quadrúpede) não mudam. | Mestre Calígrafo: Você ganha proficiência com o Kit de Falsificação (Forgery Kit) . Ao imitar a caligrafia de outra pessoa, você não sofre o limite de 10 palavras ou menos para falsificações rápidas. | Misturar-se: Ao realizar a ação de Esconder (Hide) para se ocultar de criaturas que não estejam Hostis (Hostile) a você, você precisa estar apenas Levemente Obscurecido (Lightly Obscured) . Além disso, você pode usar seu modificador de Carisma em vez de Destreza para este teste.",
+  "benefits": [
+    "Chaveiro: Você ganha proficiência com Ferramentas de Ladrão (Thieves' Tools) . Enquanto estiver segurando essas ferramentas, você pode fabricar uma chave funcional para uma fechadura específica gastando 10 minutos trabalhando nela.",
+    "Mestre dos Disfarces: Você ganha proficiência com o Kit de Disfarce (Disguise Kit) . Se você gastar 10 minutos criando um disfarce, você define sua aparência (altura, peso, rosto, voz, cabelo). Você pode parecer um membro de outra espécie, mas suas estatísticas e estrutura básica de membros (bípede/quadrúpede) não mudam.",
+    "Mestre Calígrafo: Você ganha proficiência com o Kit de Falsificação (Forgery Kit) . Ao imitar a caligrafia de outra pessoa, você não sofre o limite de 10 palavras ou menos para falsificações rápidas.",
+    "Misturar-se: Ao realizar a ação de Esconder (Hide) para se ocultar de criaturas que não estejam Hostis (Hostile) a você, você precisa estar apenas Levemente Obscurecido (Lightly Obscured) . Além disso, você pode usar seu modificador de Carisma em vez de Destreza para este teste."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Chaveiro: Você ganha proficiência com Ferramentas de Ladrão (Thieves' Tools) . Enquanto estiver segurando essas ferramentas, você pode fabricar uma chave funcional para uma fechadura específica gastando 10 minutos trabalhando nela.",
+    "Mestre dos Disfarces: Você ganha proficiência com o Kit de Disfarce (Disguise Kit) . Se você gastar 10 minutos criando um disfarce, você define sua aparência (altura, peso, rosto, voz, cabelo). Você pode parecer um membro de outra espécie, mas suas estatísticas e estrutura básica de membros (bípede/quadrúpede) não mudam.",
+    "Mestre Calígrafo: Você ganha proficiência com o Kit de Falsificação (Forgery Kit) . Ao imitar a caligrafia de outra pessoa, você não sofre o limite de 10 palavras ou menos para falsificações rápidas."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

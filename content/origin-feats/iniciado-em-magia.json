@@ -1,0 +1,47 @@
+{
+  "id": "iniciado-em-magia",
+  "name": "Iniciado em Magia",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"O tecido da realidade é vasto e complexo, mas basta puxar um único fio para ver o mundo mudar de cor diante dos seus olhos.\" Você desbloqueou um potencial mágico latente ou estudou o suficiente para dominar os fundamentos práticos de uma tradição arcana, divina ou natural.\n - Truques: Você aprende dois truques de sua escolha da lista de magias de Clérigo, Druida ou Mago. - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma para ser seu atributo de conjuração para todas as magias deste talento no momento em que o selecionar.\n \n\n - Magia de 1º Círculo: Escolha uma magia de 1º nível da mesma lista que você selecionou para os truques deste talento. Você sempre tem essa magia preparada. - Uso Gratuito: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a capacidade de fazê-lo quando termina um Descanso Longo.\n - Uso com Espaços: Você também pode conjurar e ...",
+  "mechanicsSummary": "Truques: Você aprende dois truques de sua escolha da lista de magias de Clérigo, Druida ou Mago. - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma para ser seu atributo de conjuração para todas as magias deste talento no momento em que o selecionar. | Magia de 1º Círculo: Escolha uma magia de 1º nível da mesma lista que você selecionou para os truques deste talento. Você sempre tem essa magia preparada. - Uso Gratuito: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a capacidade de fazê-lo quando termina um Descanso Longo. | Uso com Espaços: Você também pode conjurar esta magia utilizando quaisquer espaços de magia que você possua. | Adaptação Arcana: Sempre que você ganhar um novo nível de personagem, você pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo nível, proveniente da lista escolhida originalmente. | Repetível: Você pode escolher este talento mais de uma vez. No entanto, você deve escolher uma lista de magias diferente (Clérigo, Druida ou Mago) a cada vez que o selecionar.",
+  "benefits": [
+    "Truques: Você aprende dois truques de sua escolha da lista de magias de Clérigo, Druida ou Mago. - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma para ser seu atributo de conjuração para todas as magias deste talento no momento em que o selecionar.",
+    "Magia de 1º Círculo: Escolha uma magia de 1º nível da mesma lista que você selecionou para os truques deste talento. Você sempre tem essa magia preparada. - Uso Gratuito: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a capacidade de fazê-lo quando termina um Descanso Longo.",
+    "Uso com Espaços: Você também pode conjurar esta magia utilizando quaisquer espaços de magia que você possua.",
+    "Adaptação Arcana: Sempre que você ganhar um novo nível de personagem, você pode substituir uma das magias que escolheu para este talento por uma magia diferente do mesmo nível, proveniente da lista escolhida originalmente.",
+    "Repetível: Você pode escolher este talento mais de uma vez. No entanto, você deve escolher uma lista de magias diferente (Clérigo, Druida ou Mago) a cada vez que o selecionar."
+  ],
+  "grantedSpells": [
+    "Truques: Você aprende dois truques de sua escolha da lista de magias de Clérigo, Druida ou Mago. - Atributo de Conjuração: Escolha Inteligência, Sabedoria ou Carisma para ser seu atributo de conjuração para todas as magias deste talento no momento em que o selecionar.",
+    "Magia de 1º Círculo: Escolha uma magia de 1º nível da mesma lista que você selecionou para os truques deste talento. Você sempre tem essa magia preparada. - Uso Gratuito: Você pode conjurá-la uma vez sem gastar um espaço de magia, e recupera a capacidade de fazê-lo quando termina um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

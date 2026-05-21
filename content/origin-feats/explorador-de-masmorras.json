@@ -1,0 +1,57 @@
+{
+  "id": "explorador-de-masmorras",
+  "name": "Explorador de Masmorras",
+  "type": "origin-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "origin",
+  "availableAtCharacterCreation": true,
+  "linkedBackgroundRule": {
+    "backgroundsChooseOneOriginFeat": true,
+    "status": "pending-explicit-foundry-link"
+  },
+  "prerequisites": [],
+  "description": "\"O silêncio de uma tumba é uma mentira; cada pedra solta é um gatilho e cada sombra é um predador esperando para acontecer.\" Você aprimorou seus sentidos para sobreviver aos ambientes traiçoeiros de ruínas subterrâneas, desenvolvendo uma paranoia tática que lhe permite antecipar desastres.\n - Olhos para o Oculto: Você tem Vantagem em testes de Sabedoria (Percepção) e Inteligência (Investigação) para detectar portas secretas, passagens ocultas e armadilhas. - Contra-Espionagem: Você também possui Vantagem nesses testes para perceber criaturas ocultas ou disfarçadas.\n \n\n - Instinto Anti Perigo: Você tem Vantagem em Testes de Resistência feitos para evitar ou resistir a armadilhas e perigos ambientais naturais ou mágicos.\n - Pele Endurecida: Você possui Resistência ao dano causado por armadilhas.\n- Aviso no Último Segundo: Quando você ou uma criatura que você possa ver a até 9 metros [30 pé ...",
+  "mechanicsSummary": "Olhos para o Oculto: Você tem Vantagem em testes de Sabedoria (Percepção) e Inteligência (Investigação) para detectar portas secretas, passagens ocultas e armadilhas. - Contra-Espionagem: Você também possui Vantagem nesses testes para perceber criaturas ocultas ou disfarçadas. | Instinto Anti Perigo: Você tem Vantagem em Testes de Resistência feitos para evitar ou resistir a armadilhas e perigos ambientais naturais ou mágicos. | Pele Endurecida: Você possui Resistência ao dano causado por armadilhas. | Aviso no Último Segundo: Quando você ou uma criatura que você possa ver a até 9 metros [30 pés] for forçada a fazer um Teste de Resistência contra uma armadilha ou perigo ambiental. - Intervenção: Você pode usar sua Reação para conceder Vantagem ao alvo nesse teste. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo. | Marcha Atenta: Você ganha proficiência na perícia Sobrevivência. Viajar em ritmo rápido não impõe a penalidade de -5 no seu valor passivo de Sabedoria (Percepção). | Uma Marca por personagem: você escolhe uma Marca Arcana ou a Marca Anômala. Personagens com uma Marca não podem acessar outra Marca. | Runa manifesta: ao despertar, surge uma runa visível no corpo. Você define o local, a forma e como ela “reage” (calor, brilho, frio, pulsar etc.). | Mecânica fixa, narrativa livre: os efeitos do talento não mudam, mas o visual, a origem e o significado na história podem variar. | Gancho de trama: Marcas atraem curiosidade de templos, academias e gente que coleciona segredos. Isso é intencional e serve como combustível para histórias.",
+  "benefits": [
+    "Olhos para o Oculto: Você tem Vantagem em testes de Sabedoria (Percepção) e Inteligência (Investigação) para detectar portas secretas, passagens ocultas e armadilhas. - Contra-Espionagem: Você também possui Vantagem nesses testes para perceber criaturas ocultas ou disfarçadas.",
+    "Instinto Anti Perigo: Você tem Vantagem em Testes de Resistência feitos para evitar ou resistir a armadilhas e perigos ambientais naturais ou mágicos.",
+    "Pele Endurecida: Você possui Resistência ao dano causado por armadilhas.",
+    "Aviso no Último Segundo: Quando você ou uma criatura que você possa ver a até 9 metros [30 pés] for forçada a fazer um Teste de Resistência contra uma armadilha ou perigo ambiental. - Intervenção: Você pode usar sua Reação para conceder Vantagem ao alvo nesse teste. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo.",
+    "Marcha Atenta: Você ganha proficiência na perícia Sobrevivência. Viajar em ritmo rápido não impõe a penalidade de -5 no seu valor passivo de Sabedoria (Percepção).",
+    "Uma Marca por personagem: você escolhe uma Marca Arcana ou a Marca Anômala. Personagens com uma Marca não podem acessar outra Marca.",
+    "Runa manifesta: ao despertar, surge uma runa visível no corpo. Você define o local, a forma e como ela “reage” (calor, brilho, frio, pulsar etc.).",
+    "Mecânica fixa, narrativa livre: os efeitos do talento não mudam, mas o visual, a origem e o significado na história podem variar.",
+    "Gancho de trama: Marcas atraem curiosidade de templos, academias e gente que coleciona segredos. Isso é intencional e serve como combustível para histórias."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Marcha Atenta: Você ganha proficiência na perícia Sobrevivência. Viajar em ritmo rápido não impõe a penalidade de -5 no seu valor passivo de Sabedoria (Percepção)."
+  ],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "vinculo com outra camada de personagem"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos de Origem.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

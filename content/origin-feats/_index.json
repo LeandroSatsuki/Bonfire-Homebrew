@@ -1,0 +1,429 @@
+{
+  "type": "origin-feat-index",
+  "source": "Bonfire Tales RPG - Talentos de Origem",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "count": 42,
+  "originFeats": [
+    {
+      "id": "alerta",
+      "name": "Alerta",
+      "file": "content/origin-feats/alerta.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "atacante-selvagem",
+      "name": "Atacante Selvagem",
+      "file": "content/origin-feats/atacante-selvagem.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "brigao-de-taverna",
+      "name": "Brigão de Taverna",
+      "file": "content/origin-feats/brigao-de-taverna.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "cacador-de-vampiros",
+      "name": "Caçador de Vampiros",
+      "file": "content/origin-feats/cacador-de-vampiros.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "escudeiro-do-amanhecer",
+      "name": "Escudeiro do Amanhecer",
+      "file": "content/origin-feats/escudeiro-do-amanhecer.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "ninja-de-hanryo",
+      "name": "Ninja de Hanryo",
+      "file": "content/origin-feats/ninja-de-hanryo.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "centelha-de-fogo-espiritual",
+      "name": "Centelha de Fogo Espiritual",
+      "file": "content/origin-feats/centelha-de-fogo-espiritual.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "iluminado-pelo-primeiro-feixe",
+      "name": "Iluminado pelo Primeiro Feixe",
+      "file": "content/origin-feats/iluminado-pelo-primeiro-feixe.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "favorecido-pelo-divino",
+      "name": "Favorecido pelo Divino",
+      "file": "content/origin-feats/favorecido-pelo-divino.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "iniciado-do-convento",
+      "name": "Iniciado do Convento",
+      "file": "content/origin-feats/iniciado-do-convento.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "iniciado-em-magia",
+      "name": "Iniciado em Magia",
+      "file": "content/origin-feats/iniciado-em-magia.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "iniciado-no-juramento-das-tres-luas",
+      "name": "Iniciado no Juramento das Três Luas",
+      "file": "content/origin-feats/iniciado-no-juramento-das-tres-luas.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "cao-de-caca",
+      "name": "Cão de Caça",
+      "file": "content/origin-feats/cao-de-caca.json",
+      "automation": "parcial",
+      "hasDependencies": false,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "explorador-de-masmorras",
+      "name": "Explorador de Masmorras",
+      "file": "content/origin-feats/explorador-de-masmorras.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "marca-anomala",
+      "name": "Marca Anômala",
+      "file": "content/origin-feats/marca-anomala.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-revelacao",
+      "name": "Marca Arcana da Revelação",
+      "file": "content/origin-feats/marca-arcana-da-revelacao.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-tormenta",
+      "name": "Marca Arcana da Tormenta",
+      "file": "content/origin-feats/marca-arcana-da-tormenta.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-do-veu",
+      "name": "Marca Arcana do Véu",
+      "file": "content/origin-feats/marca-arcana-do-veu.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-restauracao",
+      "name": "Marca Arcana da Restauração",
+      "file": "content/origin-feats/marca-arcana-da-restauracao.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-busca",
+      "name": "Marca Arcana da Busca",
+      "file": "content/origin-feats/marca-arcana-da-busca.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-do-pastoreio",
+      "name": "Marca Arcana do Pastoreio",
+      "file": "content/origin-feats/marca-arcana-do-pastoreio.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-do-refugio",
+      "name": "Marca Arcana do Refúgio",
+      "file": "content/origin-feats/marca-arcana-do-refugio.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-criacao",
+      "name": "Marca Arcana da Criação",
+      "file": "content/origin-feats/marca-arcana-da-criacao.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-travessia",
+      "name": "Marca Arcana da Travessia",
+      "file": "content/origin-feats/marca-arcana-da-travessia.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-escrita",
+      "name": "Marca Arcana da Escrita",
+      "file": "content/origin-feats/marca-arcana-da-escrita.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": true,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-vigilia",
+      "name": "Marca Arcana da Vigília",
+      "file": "content/origin-feats/marca-arcana-da-vigilia.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "marca-arcana-da-protecao",
+      "name": "Marca Arcana da Proteção",
+      "file": "content/origin-feats/marca-arcana-da-protecao.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "robusto",
+      "name": "Robusto",
+      "file": "content/origin-feats/robusto.json",
+      "automation": "parcial",
+      "hasDependencies": false,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "veterano-mercenario",
+      "name": "Veterano Mercenário",
+      "file": "content/origin-feats/veterano-mercenario.json",
+      "automation": "parcial",
+      "hasDependencies": false,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "lingua-de-prata",
+      "name": "Língua de Prata",
+      "file": "content/origin-feats/lingua-de-prata.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "assecla-do-reinado-draconico",
+      "name": "Assecla do Reinado Dracônico",
+      "file": "content/origin-feats/assecla-do-reinado-draconico.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "curandeiro",
+      "name": "Curandeiro",
+      "file": "content/origin-feats/curandeiro.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "foliao-incansavel",
+      "name": "Folião Incansável",
+      "file": "content/origin-feats/foliao-incansavel.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "iniciado-na-ordem-de-cavalaria-auralina",
+      "name": "Iniciado na Ordem de Cavalaria Auralina",
+      "file": "content/origin-feats/iniciado-na-ordem-de-cavalaria-auralina.json",
+      "automation": "parcial",
+      "hasDependencies": false,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "menestrel-viajante",
+      "name": "Menestrel Viajante",
+      "file": "content/origin-feats/menestrel-viajante.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "musico",
+      "name": "Músico",
+      "file": "content/origin-feats/musico.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "neofito-dos-caminhos-de-eldara",
+      "name": "Neófito dos Caminhos de Eldára",
+      "file": "content/origin-feats/neofito-dos-caminhos-de-eldara.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": true,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "porta-estandarte-da-wyrm",
+      "name": "Porta-Estandarte da Wyrm",
+      "file": "content/origin-feats/porta-estandarte-da-wyrm.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "espiao-do-submundo",
+      "name": "Espião do Submundo",
+      "file": "content/origin-feats/espiao-do-submundo.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "habilidoso",
+      "name": "Habilidoso",
+      "file": "content/origin-feats/habilidoso.json",
+      "automation": "sim",
+      "hasDependencies": true,
+      "hasUses": false,
+      "grantsSpells": false,
+      "grantsProficiencies": true
+    },
+    {
+      "id": "joguete-de-vampiro",
+      "name": "Joguete de Vampiro",
+      "file": "content/origin-feats/joguete-de-vampiro.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    },
+    {
+      "id": "sortudo",
+      "name": "Sortudo",
+      "file": "content/origin-feats/sortudo.json",
+      "automation": "parcial",
+      "hasDependencies": true,
+      "hasUses": true,
+      "grantsSpells": false,
+      "grantsProficiencies": false
+    }
+  ]
+}
