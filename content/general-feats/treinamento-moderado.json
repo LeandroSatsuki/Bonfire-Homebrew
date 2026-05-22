@@ -24,7 +24,9 @@
     "Treinamento de Armadura: Você ganha treinamento com armaduras leves, armaduras médias e escudos."
   ],
   "grantedSpells": [],
-  "grantedProficiencies": [],
+  "grantedProficiencies": [
+    "Treinamento de Armadura: Você ganha treinamento com armaduras leves, armaduras médias e escudos."
+  ],
   "uses": {
     "hasUses": false,
     "scalesWithProficiency": false,

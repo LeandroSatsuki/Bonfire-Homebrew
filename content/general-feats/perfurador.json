@@ -11,9 +11,10 @@
   "abilityIncrease": {
     "hasIncrease": true,
     "options": [
+      "Força",
       "Destreza"
     ],
-    "description": "+1 de Força ou +1 de Destreza. Entre anéis de armadura, sob a costela, no ponto exato onde o corpo cede. Sua mão aprende a sentir resistência como se fosse textura, e cada estocada vira uma pergunta que o alvo não consegue responder a tempo. Você refina ataques perfurantes até que cada acerto pareça inevitável, explorando pontos fracos e transformando um bom golpe em uma sentença."
+    "description": "+1 de Força ou +1 de Destreza."
   },
   "prerequisites": [
     "Nível 4+"

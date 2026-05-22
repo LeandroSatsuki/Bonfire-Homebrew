@@ -131,7 +131,7 @@
       "hasDependencies": true,
       "hasUses": false,
       "grantsSpells": false,
-      "grantsProficiencies": false,
+      "grantsProficiencies": true,
       "hasReaction": false,
       "hasAbilityIncrease": true
     },

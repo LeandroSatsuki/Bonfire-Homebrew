@@ -11,10 +11,12 @@
   "abilityIncrease": {
     "hasIncrease": true,
     "options": [
+      "Força",
+      "Constituição",
       "Sabedoria",
       "Carisma"
     ],
-    "description": "+1 de Força, Constituição, Sabedoria ou Carisma. Você não luta sozinho, mesmo quando está na frente. Você é o encaixe que impede a linha de desmontar. Você desenvolveu a disciplina de formação ensinada nas rotas do Bastião Rochaeterna, onde filas, pontes e portões só funcionam quando cada passo entra no tempo certo. Seu corpo aprende a reerguer sem hesitar, seu ombro aprende a negar o tranco, e sua prontidão nasce do instinto de manter a passagem segura. - Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente. - Linha Fechada. Se você estiver a até 3 metros[10 pés] de um aliado que não tenha a condição Incapacitado, vo ..."
+    "description": "+1 de Força, Constituição, Sabedoria ou Carisma."
   },
   "prerequisites": [
     "Nível 4+"

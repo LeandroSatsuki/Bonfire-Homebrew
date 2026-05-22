@@ -11,10 +11,11 @@
   "abilityIncrease": {
     "hasIncrease": true,
     "options": [
+      "Inteligência",
       "Sabedoria",
       "Carisma"
     ],
-    "description": "+1 de Inteligência, Sabedoria ou Carisma. Em Tsunari, você descobriu o “custo limpo”: oferecer ritmo e vida para que o fogo espiritual responda, em vez de ser arrancado à força. Você refina sua relação com a luz espiritual, tornando seu poder mais intenso, estável e difícil de ser apagado. - Feitiolume Alimentado: Uma vez por turno, quando uma magia que você conjura causar dano Radiante, você pode gastar até 2 Dados de Vida. Role os Dados de Vida gastos e adicione o total rolado a uma rolagem de dano da magia. - Feitiolume Incandescente: Dano Radiante causado por magias que você conjura ignora Resistência a dano Radiante."
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
   },
   "prerequisites": [
     "Nível 4+",
