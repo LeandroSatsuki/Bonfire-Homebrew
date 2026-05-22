@@ -1,0 +1,52 @@
+{
+  "id": "especialista-em-pericias",
+  "name": "Especialista em Perícias",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Você não confia em sorte: você repete até virar hábito. \n E quando vira hábito, vira vantagem. Quando vira vantagem, vira certeza. \n Você lapida técnicas até elas virarem reflexo, expandindo seu repertório e tornando uma das suas perícias absurdamente confiável.\n\n - Proficiências em Perícias: Você ganha proficiência em 2 perícias de sua escolha.\n- Especialização: Escolha 1 perícia na qual você tenha proficiência, mas ainda não tenha Especialização (Expertise). Você ganha Especialização (Expertise) nessa perícia.\n\n\n Inteligência",
+  "mechanicsSummary": "Proficiências em Perícias: Você ganha proficiência em 2 perícias de sua escolha. | Especialização: Escolha 1 perícia na qual você tenha proficiência, mas ainda não tenha Especialização (Expertise). Você ganha Especialização (Expertise) nessa perícia.",
+  "benefits": [
+    "Proficiências em Perícias: Você ganha proficiência em 2 perícias de sua escolha.",
+    "Especialização: Escolha 1 perícia na qual você tenha proficiência, mas ainda não tenha Especialização (Expertise). Você ganha Especialização (Expertise) nessa perícia."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiências em Perícias: Você ganha proficiência em 2 perícias de sua escolha."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

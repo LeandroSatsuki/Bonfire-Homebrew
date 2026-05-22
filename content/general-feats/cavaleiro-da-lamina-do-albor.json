@@ -1,0 +1,65 @@
+{
+  "id": "cavaleiro-da-lamina-do-albor",
+  "name": "Cavaleiro da Lâmina do Albor",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Escudeiro do Amanhecer"
+  ],
+  "description": "Pré-requisito: Nível 4+, Escudeiro do Amanhecer.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n A Lâmina do Albor não é fúria sem rumo: é a coragem ensinada, a pressão constante, o contra-ataque que devolve a linha ao lugar certo. Você pressiona o inimigo com um golpe que abala a vontade e ganha presença de comando para manter a vanguarda firme.\n - Golpe Desmoralizante: Uma vez por turno, quando você acertar uma criatura com uma jogada de ataque com arma, você pode forçar o alvo a fazer um teste de resistência de Sabedoria com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: O alvo fica com a condição Amedrontado de você até o final do seu próximo turno.\n- Sucesso: O alvo tem Desvantagem na próxima jogada de ataque que fizer antes do final do próximo turno dele.\n- Usos: Você pode usar este benefício um número de ...",
+  "mechanicsSummary": "Golpe Desmoralizante: Uma vez por turno, quando você acertar uma criatura com uma jogada de ataque com arma, você pode forçar o alvo a fazer um teste de resistência de Sabedoria com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: O alvo fica com a condição Amedrontado de você até o final do seu próximo turno. | Sucesso: O alvo tem Desvantagem na próxima jogada de ataque que fizer antes do final do próximo turno dele. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo . | Voz de Vanguarda: Você ganha proficiência em Intimidação. Se você já tiver proficiência em Intimidação, você pode adicionar duas vezes seu Bônus de Proficiência aos testes de Intimidação que fizer.",
+  "benefits": [
+    "Golpe Desmoralizante: Uma vez por turno, quando você acertar uma criatura com uma jogada de ataque com arma, você pode forçar o alvo a fazer um teste de resistência de Sabedoria com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: O alvo fica com a condição Amedrontado de você até o final do seu próximo turno.",
+    "Sucesso: O alvo tem Desvantagem na próxima jogada de ataque que fizer antes do final do próximo turno dele.",
+    "Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+    "Voz de Vanguarda: Você ganha proficiência em Intimidação. Se você já tiver proficiência em Intimidação, você pode adicionar duas vezes seu Bônus de Proficiência aos testes de Intimidação que fizer."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Voz de Vanguarda: Você ganha proficiência em Intimidação. Se você já tiver proficiência em Intimidação, você pode adicionar duas vezes seu Bônus de Proficiência aos testes de Intimidação que fizer."
+  ],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Golpe Desmoralizante: Uma vez por turno, quando você acertar uma criatura com uma jogada de ataque com arma, você pode forçar o alvo a fazer um teste de resistência de Sabedoria com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: O alvo fica com a condição Amedrontado de você até o final do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

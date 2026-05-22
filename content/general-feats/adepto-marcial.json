@@ -1,0 +1,62 @@
+{
+  "id": "adepto-marcial",
+  "name": "Adepto Marcial",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força, +1 de Destreza ou +1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Proficiência com Arma Marcial"
+  ],
+  "description": "Pré-requisito: Nível 4+, Proficiência com Arma Marcial.\n\n Aumento de Atributo: +1 de Força, +1 de Destreza ou +1 de Constituição.\n\n O peso da arma, o ângulo do punho, a distância de um passo. Você aprende a ler tudo isso como uma linguagem, e seu corpo responde antes mesmo que a mente termine de formular a decisão. \n Você consolida fundamentos de guerra, adquirindo técnica constante, uma maestria confiável e manobras para impor controle no combate.\n\n - Treinamento Marcial Básico: Você aprende 1 opção de Estilo de Luta da classe Guerreiro à sua escolha. Se você já tiver um estilo de luta, o escolhido deve ser diferente. Sempre que você alcançar um nível novo, você pode substituir o estilo de luta concedido por este talento por outro Estilo de Luta do Guerreiro que você não tenha.\n- Maestria Primária: Escolha 1 arma simples ou marcial com a qual você tenha proficiência. Enquanto empunhar a ...",
+  "mechanicsSummary": "Treinamento Marcial Básico: Você aprende 1 opção de Estilo de Luta da classe Guerreiro à sua escolha. Se você já tiver um estilo de luta, o escolhido deve ser diferente. Sempre que você alcançar um nível novo, você pode substituir o estilo de luta concedido por este talento por outro Estilo de Luta do Guerreiro que você não tenha. | Maestria Primária: Escolha 1 arma simples ou marcial com a qual você tenha proficiência. Enquanto empunhar a arma escolhida, você pode usar a propriedade de Maestria associada a ela. Ao final de um Descanso Longo , você pode substituir a arma escolhida por outra arma com a qual você tenha proficiência. | Fundamentos Básicos de Batalha: Você aprende 2 manobras de combate à sua escolha dentre as disponíveis para o Guerreiro . Se uma manobra exigir que o alvo faça um teste de resistência, a CD é 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha quando você obtém este talento). | Dados de Combate: Você ganha 2 Dados de Combate , que são d6 (esses dados são adicionados a quaisquer Dados de Combate que você tenha de outra fonte). Você gasta um Dado de Combate quando o usa. Você recupera todos os Dados de Combate gastos ao terminar um Descanso Curto ou Descanso Longo . Se você tiver níveis na classe Guerreiro , o tamanho desses dados aumenta em conformidade com os níveis da classe, como normalmente ocorreria.",
+  "benefits": [
+    "Treinamento Marcial Básico: Você aprende 1 opção de Estilo de Luta da classe Guerreiro à sua escolha. Se você já tiver um estilo de luta, o escolhido deve ser diferente. Sempre que você alcançar um nível novo, você pode substituir o estilo de luta concedido por este talento por outro Estilo de Luta do Guerreiro que você não tenha.",
+    "Maestria Primária: Escolha 1 arma simples ou marcial com a qual você tenha proficiência. Enquanto empunhar a arma escolhida, você pode usar a propriedade de Maestria associada a ela. Ao final de um Descanso Longo , você pode substituir a arma escolhida por outra arma com a qual você tenha proficiência.",
+    "Fundamentos Básicos de Batalha: Você aprende 2 manobras de combate à sua escolha dentre as disponíveis para o Guerreiro . Se uma manobra exigir que o alvo faça um teste de resistência, a CD é 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha quando você obtém este talento).",
+    "Dados de Combate: Você ganha 2 Dados de Combate , que são d6 (esses dados são adicionados a quaisquer Dados de Combate que você tenha de outra fonte). Você gasta um Dado de Combate quando o usa. Você recupera todos os Dados de Combate gastos ao terminar um Descanso Curto ou Descanso Longo . Se você tiver níveis na classe Guerreiro , o tamanho desses dados aumenta em conformidade com os níveis da classe, como normalmente ocorreria."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Fundamentos Básicos de Batalha: Você aprende 2 manobras de combate à sua escolha dentre as disponíveis para o Guerreiro . Se uma manobra exigir que o alvo faça um teste de resistência, a CD é 8 + seu bônus de proficiência + seu modificador de Força ou Destreza (à sua escolha quando você obtém este talento). | Dados de Combate: Você ganha 2 Dados de Combate , que são d6 (esses dados são adicionados a quaisquer Dados de Combate que você tenha de outra fonte). Você gasta um Dado de Combate quando o usa. Você recupera todos os Dados de Combate gastos ao terminar um Descanso Curto ou Descanso Longo . Se você tiver níveis na classe Guerreiro , o tamanho desses dados aumenta em conformidade com os níveis da classe, como normalmente ocorreria."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

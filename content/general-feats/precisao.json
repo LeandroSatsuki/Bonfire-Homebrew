@@ -1,0 +1,51 @@
+{
+  "id": "precisao",
+  "name": "Precisão",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza",
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Destreza, Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Destreza, Inteligência, Sabedoria ou Carisma.\n\n Você não depende de sorte, você depende do detalhe. \n Quando a chance aparece, sua mão já está pronta para transformar um bom golpe em um golpe perfeito. \n Você aprendeu a refazer o instante certo, ajustando ataques com técnica refinada e repetindo o que já estava quase perfeito.\n\n - Olho Crítico: Quando você tiver Vantagem em uma jogada de ataque que use como modificador para o acerto Destraza, Inteligência, Sabedoria ou Carisma, você pode rolar 1d20 adicional.\n\n\n Destreza ou Inteligência",
+  "mechanicsSummary": "Olho Crítico: Quando você tiver Vantagem em uma jogada de ataque que use como modificador para o acerto Destraza, Inteligência, Sabedoria ou Carisma, você pode rolar 1d20 adicional.",
+  "benefits": [
+    "Olho Crítico: Quando você tiver Vantagem em uma jogada de ataque que use como modificador para o acerto Destraza, Inteligência, Sabedoria ou Carisma, você pode rolar 1d20 adicional."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Olho Crítico: Quando você tiver Vantagem em uma jogada de ataque que use como modificador para o acerto Destraza, Inteligência, Sabedoria ou Carisma, você pode rolar 1d20 adicional."
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

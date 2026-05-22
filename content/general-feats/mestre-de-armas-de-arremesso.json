@@ -1,0 +1,57 @@
+{
+  "id": "mestre-de-armas-de-arremesso",
+  "name": "Mestre de Armas de Arremesso",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força ou Destreza.\n\n Você faz do ar uma bainha. \n E do movimento, uma mira que nunca perde o ritmo. \n Você domina o fluxo de armas com a propriedade Arremesso (Thrown), mantendo pressão constante sem desperdiçar tempo com saque e posicionamento.\n\n - Arremesso Rápido: Uma vez por turno, quando você realizar um ataque à distância no seu turno com uma arma que possua a propriedade Arremesso (Thrown), você pode sacar uma arma que possua a propriedade Arremesso (Thrown) e realizar 1 ataque à distância adicional imediatamente como parte da mesma ação de Ataque.\n- Saque Ágil: Como uma Ação Bônus, você pode pegar e guardar ou sacar e empunhar todas as armas com a propriedade Arremesso (Thrown) que estejam a até 1,5 metro[5 pés] de você. Você precisa ter 1 mão livre para usar este benefício.\n- Long Shots: Seus alcances curto e longo com armas ...",
+  "mechanicsSummary": "Arremesso Rápido: Uma vez por turno, quando você realizar um ataque à distância no seu turno com uma arma que possua a propriedade Arremesso (Thrown), você pode sacar uma arma que possua a propriedade Arremesso (Thrown) e realizar 1 ataque à distância adicional imediatamente como parte da mesma ação de Ataque. | Saque Ágil: Como uma Ação Bônus, você pode pegar e guardar ou sacar e empunhar todas as armas com a propriedade Arremesso (Thrown) que estejam a até 1,5 metro[5 pés] de você. Você precisa ter 1 mão livre para usar este benefício. | Long Shots: Seus alcances curto e longo com armas com a propriedade Arremesso (Thrown) dobram. Além disso, atacar a longo alcance não impõe Desvantagem nas suas jogadas de ataque com armas com a propriedade Arremesso (Thrown). | Encadeamento Aerodinâmico: Uma vez por turno, se a arma arremessada tiver a Maestria Aerodinâmica, quando você conseguir um Acerto Crítico (Critical Hit) com ela ou reduzir uma criatura a 0 Pontos de Vida com ela, você pode realizar 1 ataque adicional como parte da mesma ação contra: - O Mesmo Alvo: a mesma criatura, ou | Novo Alvo Próximo: outra criatura a até 4,5 metros[15 pés] do alvo original.",
+  "benefits": [
+    "Arremesso Rápido: Uma vez por turno, quando você realizar um ataque à distância no seu turno com uma arma que possua a propriedade Arremesso (Thrown), você pode sacar uma arma que possua a propriedade Arremesso (Thrown) e realizar 1 ataque à distância adicional imediatamente como parte da mesma ação de Ataque.",
+    "Saque Ágil: Como uma Ação Bônus, você pode pegar e guardar ou sacar e empunhar todas as armas com a propriedade Arremesso (Thrown) que estejam a até 1,5 metro[5 pés] de você. Você precisa ter 1 mão livre para usar este benefício.",
+    "Long Shots: Seus alcances curto e longo com armas com a propriedade Arremesso (Thrown) dobram. Além disso, atacar a longo alcance não impõe Desvantagem nas suas jogadas de ataque com armas com a propriedade Arremesso (Thrown).",
+    "Encadeamento Aerodinâmico: Uma vez por turno, se a arma arremessada tiver a Maestria Aerodinâmica, quando você conseguir um Acerto Crítico (Critical Hit) com ela ou reduzir uma criatura a 0 Pontos de Vida com ela, você pode realizar 1 ataque adicional como parte da mesma ação contra: - O Mesmo Alvo: a mesma criatura, ou",
+    "Novo Alvo Próximo: outra criatura a até 4,5 metros[15 pés] do alvo original."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Arremesso Rápido: Uma vez por turno, quando você realizar um ataque à distância no seu turno com uma arma que possua a propriedade Arremesso (Thrown), você pode sacar uma arma que possua a propriedade Arremesso (Thrown) e realizar 1 ataque à distância adicional imediatamente como parte da mesma ação de Ataque. | Saque Ágil: Como uma Ação Bônus, você pode pegar e guardar ou sacar e empunhar todas as armas com a propriedade Arremesso (Thrown) que estejam a até 1,5 metro[5 pés] de você. Você precisa ter 1 mão livre para usar este benefício. | Encadeamento Aerodinâmico: Uma vez por turno, se a arma arremessada tiver a Maestria Aerodinâmica, quando você conseguir um Acerto Crítico (Critical Hit) com ela ou reduzir uma criatura a 0 Pontos de Vida com ela, você pode realizar 1 ataque adicional como parte da mesma ação contra: - O Mesmo Alvo: a mesma criatura, ou"
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

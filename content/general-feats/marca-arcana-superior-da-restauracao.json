@@ -1,0 +1,60 @@
+{
+  "id": "marca-arcana-superior-da-restauracao",
+  "name": "Marca Arcana Superior da Restauração",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Restauração"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Restauração.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n A runa reconhece a forma correta da vida, mesmo quando ela se quebra.Você não cria milagres, você devolve o corpo ao lugar onde ele ainda cabe. \n Sua Marca torna sua cura mais frequente e mais consistente, como se a Trama “aceitasse” melhor o seu toque.\n\n - Intuição Aprimorada. Quando você usa Intuição Médica do seu talento Marca Arcana da Restauração, você rola 1d6 em vez de 1d4.\n- Restauração Aprimorada. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia usando Toque Curativo (Healing Touch) um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo.\n- Mão Segura. Além disso, quando você conjura Curar Ferimentos (Cure Wounds) e rola dados para determinar os Pontos de Vida restaurados, você ...",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição Médica do seu talento Marca Arcana da Restauração, você rola 1d6 em vez de 1d4. | Restauração Aprimorada. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia usando Toque Curativo (Healing Touch) um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo. | Mão Segura. Além disso, quando você conjura Curar Ferimentos (Cure Wounds) e rola dados para determinar os Pontos de Vida restaurados, você pode tratar qualquer 1 ou 2 rolado como 3.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição Médica do seu talento Marca Arcana da Restauração, você rola 1d6 em vez de 1d4.",
+    "Restauração Aprimorada. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia usando Toque Curativo (Healing Touch) um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo.",
+    "Mão Segura. Além disso, quando você conjura Curar Ferimentos (Cure Wounds) e rola dados para determinar os Pontos de Vida restaurados, você pode tratar qualquer 1 ou 2 rolado como 3."
+  ],
+  "grantedSpells": [
+    "Restauração Aprimorada. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia usando Toque Curativo (Healing Touch) um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição Médica do seu talento Marca Arcana da Restauração, você rola 1d6 em vez de 1d4. | Restauração Aprimorada. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia usando Toque Curativo (Healing Touch) um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo. | Mão Segura. Além disso, quando você conjura Curar Ferimentos (Cure Wounds) e rola dados para determinar os Pontos de Vida restaurados, você pode tratar qualquer 1 ou 2 rolado como 3."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

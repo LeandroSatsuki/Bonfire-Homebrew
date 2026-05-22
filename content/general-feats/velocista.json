@@ -1,0 +1,52 @@
+{
+  "id": "velocista",
+  "name": "Velocista",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza ou Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Destreza 13+ ou Constituição 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Destreza 13+ ou Constituição 13+.\n\n Aumento de Atributo: +1 de Destreza ou Constituição.\n\n Você não corre apenas para chegar. Você corre para não estar mais lá quando o golpe vier. \n Seu passo é leve, sua troca de ritmo é cruel, e cada abertura vira uma rota de fuga antes que o inimigo entenda o que aconteceu. \n Você ganha velocidade e controle de espaço, atravessando terreno ruim com eficiência e evitando represálias quando engaja de perto.\n\n - Aumento de Deslocamento: Seu Deslocamentoaumenta em 3 metros[10 pés].\n- Corrida no Terreno Difícil: Quando você realiza a ação Disparada (Dash) no seu turno, Terreno Difícil não custa movimento extra para você pelo restante daquele turno.\n- Engajar e Sair: Quando você realiza um ataque corpo a corpo contra uma criatura, você não provoca Ataques de Oportunidade dessa criatura pelo resto do turno, independentemente de ter a ...",
+  "mechanicsSummary": "Aumento de Deslocamento: Seu Deslocamentoaumenta em 3 metros[10 pés]. | Corrida no Terreno Difícil: Quando você realiza a ação Disparada (Dash) no seu turno, Terreno Difícil não custa movimento extra para você pelo restante daquele turno. | Engajar e Sair: Quando você realiza um ataque corpo a corpo contra uma criatura, você não provoca Ataques de Oportunidade dessa criatura pelo resto do turno, independentemente de ter acertado ou não.",
+  "benefits": [
+    "Aumento de Deslocamento: Seu Deslocamentoaumenta em 3 metros[10 pés].",
+    "Corrida no Terreno Difícil: Quando você realiza a ação Disparada (Dash) no seu turno, Terreno Difícil não custa movimento extra para você pelo restante daquele turno.",
+    "Engajar e Sair: Quando você realiza um ataque corpo a corpo contra uma criatura, você não provoca Ataques de Oportunidade dessa criatura pelo resto do turno, independentemente de ter acertado ou não."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Corrida no Terreno Difícil: Quando você realiza a ação Disparada (Dash) no seu turno, Terreno Difícil não custa movimento extra para você pelo restante daquele turno. | Engajar e Sair: Quando você realiza um ataque corpo a corpo contra uma criatura, você não provoca Ataques de Oportunidade dessa criatura pelo resto do turno, independentemente de ter acertado ou não."
+  },
+  "automation": "sim",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

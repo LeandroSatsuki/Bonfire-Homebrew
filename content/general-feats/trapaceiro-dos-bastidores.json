@@ -1,0 +1,57 @@
+{
+  "id": "trapaceiro-dos-bastidores",
+  "name": "Trapaceiro dos Bastidores",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza",
+      "Carisma"
+    ],
+    "description": "+1 de Destreza ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Destreza ou Carisma.\n\n Uma risada na hora certa faz a guarda piscar, e um passo fora do compasso vira o truque perfeito. Você domina manhas de palco e artimanhas de encruzilhada, usando movimento, timing e distração para fazer o mundo errar o próprio julgamento.\n\n - Pisa Leve: Quando você realizar a ação Desengajar no seu turno, Terreno Difícil não custa movimento extra para você até o fim desse turno.\n- Golpe Desconcertante: Quando você acertar uma criatura com uma jogada de ataque, você pode tentar desconcerta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência ou ficará com Desvantagem em testes de resistência até o final do seu próximo turno. - Usos: Você pode usar este benefício um número de vezes igual ao seu ...",
+  "mechanicsSummary": "Pisa Leve: Quando você realizar a ação Desengajar no seu turno, Terreno Difícil não custa movimento extra para você até o fim desse turno. | Golpe Desconcertante: Quando você acertar uma criatura com uma jogada de ataque, você pode tentar desconcerta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência ou ficará com Desvantagem em testes de resistência até o final do seu próximo turno. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando terminar um Descanso Longo.",
+  "benefits": [
+    "Pisa Leve: Quando você realizar a ação Desengajar no seu turno, Terreno Difícil não custa movimento extra para você até o fim desse turno.",
+    "Golpe Desconcertante: Quando você acertar uma criatura com uma jogada de ataque, você pode tentar desconcerta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência ou ficará com Desvantagem em testes de resistência até o final do seu próximo turno. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando terminar um Descanso Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Pisa Leve: Quando você realizar a ação Desengajar no seu turno, Terreno Difícil não custa movimento extra para você até o fim desse turno. | Golpe Desconcertante: Quando você acertar uma criatura com uma jogada de ataque, você pode tentar desconcerta-la. O alvo deve ser bem sucedido em um teste de resistência de Sabedoria com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência ou ficará com Desvantagem em testes de resistência até o final do seu próximo turno. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

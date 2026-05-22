@@ -1,0 +1,57 @@
+{
+  "id": "mestre-atirador-de-elite",
+  "name": "Mestre Atirador de Elite",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Destreza 13+.\n\n Aumento de Atributo: +1 de Destreza.\n\n Você não mira apenas no alvo. Você mira no espaço entre as placas, na fresta do escudo, no instante em que a guarda falha. Seus ataques à distância são mais letais e consistentes, ignorando vantagens defensivas comuns do campo de batalha.\n - Impacto Preciso: Quando você realiza um ataque com uma arma à distância, você adiciona seu Bônus de Proficiência ao dano do ataque.\n- Cobertura Não Importa: Seus ataques à distância com armas ignoram Meia Cobertura e Cobertura de Três Quartos.\n- Sem Penalidade em Alcance e Pressão: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas rolagens de ataque com armas à distância. Além disso, atacar a longo alcance não impõe Desvantagem nas suas rolagens de ataque com armas à distância.",
+  "mechanicsSummary": "Impacto Preciso: Quando você realiza um ataque com uma arma à distância, você adiciona seu Bônus de Proficiência ao dano do ataque. | Cobertura Não Importa: Seus ataques à distância com armas ignoram Meia Cobertura e Cobertura de Três Quartos. | Sem Penalidade em Alcance e Pressão: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas rolagens de ataque com armas à distância. Além disso, atacar a longo alcance não impõe Desvantagem nas suas rolagens de ataque com armas à distância.",
+  "benefits": [
+    "Impacto Preciso: Quando você realiza um ataque com uma arma à distância, você adiciona seu Bônus de Proficiência ao dano do ataque.",
+    "Cobertura Não Importa: Seus ataques à distância com armas ignoram Meia Cobertura e Cobertura de Três Quartos.",
+    "Sem Penalidade em Alcance e Pressão: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas rolagens de ataque com armas à distância. Além disso, atacar a longo alcance não impõe Desvantagem nas suas rolagens de ataque com armas à distância."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Impacto Preciso: Quando você realiza um ataque com uma arma à distância, você adiciona seu Bônus de Proficiência ao dano do ataque."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

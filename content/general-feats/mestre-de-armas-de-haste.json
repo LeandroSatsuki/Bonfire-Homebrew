@@ -1,0 +1,55 @@
+{
+  "id": "mestre-de-armas-de-haste",
+  "name": "Mestre de Armas de Haste",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Você não guarda distância. \n Você controla o espaço, como se ele fosse parte da arma. \n Você aprende a lutar com armas longas de forma eficiente, alternando golpes e punindo qualquer um que tente atravessar seu alcance.\n\n - Golpe de Retaguarda: Quando você realizar um Ataque com uma arma com a propriedade Arma de Haste com sua Ação, você pode usar uma Ação Bônus para realizar um ataque corpo a corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de atributo do ataque primário, causa dano de Concussão (Bludgeoning) e usa 1d4 como dado de dano.\n- Parede de Alcance: Enquanto você estiver empunhando uma arma com a propriedade Arma de Haste, outras criaturas provocam um Ataque de Oportunidade de você quando entrarem no seu alcance.",
+  "mechanicsSummary": "Golpe de Retaguarda: Quando você realizar um Ataque com uma arma com a propriedade Arma de Haste com sua Ação, você pode usar uma Ação Bônus para realizar um ataque corpo a corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de atributo do ataque primário, causa dano de Concussão (Bludgeoning) e usa 1d4 como dado de dano. | Parede de Alcance: Enquanto você estiver empunhando uma arma com a propriedade Arma de Haste, outras criaturas provocam um Ataque de Oportunidade de você quando entrarem no seu alcance.",
+  "benefits": [
+    "Golpe de Retaguarda: Quando você realizar um Ataque com uma arma com a propriedade Arma de Haste com sua Ação, você pode usar uma Ação Bônus para realizar um ataque corpo a corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de atributo do ataque primário, causa dano de Concussão (Bludgeoning) e usa 1d4 como dado de dano.",
+    "Parede de Alcance: Enquanto você estiver empunhando uma arma com a propriedade Arma de Haste, outras criaturas provocam um Ataque de Oportunidade de você quando entrarem no seu alcance."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Golpe de Retaguarda: Quando você realizar um Ataque com uma arma com a propriedade Arma de Haste com sua Ação, você pode usar uma Ação Bônus para realizar um ataque corpo a corpo com a outra extremidade da arma. Esse ataque usa o mesmo modificador de atributo do ataque primário, causa dano de Concussão (Bludgeoning) e usa 1d4 como dado de dano. | Parede de Alcance: Enquanto você estiver empunhando uma arma com a propriedade Arma de Haste, outras criaturas provocam um Ataque de Oportunidade de você quando entrarem no seu alcance."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

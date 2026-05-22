@@ -1,0 +1,61 @@
+{
+  "id": "atirador-de-magias",
+  "name": "Atirador de Magias",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu a mirar o invisível: o ângulo de uma runa, o pulso de um gesto, a linha exata entre você e o alvo. \n Cobertura vira detalhe. Pressão em combate vira pano de fundo. Sua magia vai onde você aponta. \n Você melhora seu tiro com magias: ignora coberturas, mantém precisão no corpo a corpo e estende o alcance de disparos arcanos.\n\n - Ignorar Cobertura: Suas rolagens de ataque de magias (spell attack rolls) ignoram Meia Cobertura e Cobertura de Três Quartos.\n- Conjurar em Combate Corpo a Corpo: Estar a 1,5 metro[5 pés] de uma criatura hostil não impõe Desvantagem nas suas rolagens de ataque com magias.\n- Alcance Aumentado: Quando você conjurar uma magia que tenha alcance de pelo menos 3 metros[10 pés] e exija que você faça uma rolagem de ataque, você pode aument ...",
+  "mechanicsSummary": "Ignorar Cobertura: Suas rolagens de ataque de magias (spell attack rolls) ignoram Meia Cobertura e Cobertura de Três Quartos. | Conjurar em Combate Corpo a Corpo: Estar a 1,5 metro[5 pés] de uma criatura hostil não impõe Desvantagem nas suas rolagens de ataque com magias. | Alcance Aumentado: Quando você conjurar uma magia que tenha alcance de pelo menos 3 metros[10 pés] e exija que você faça uma rolagem de ataque, você pode aumentar o alcance dessa magia em 18 metros[60 pés].",
+  "benefits": [
+    "Ignorar Cobertura: Suas rolagens de ataque de magias (spell attack rolls) ignoram Meia Cobertura e Cobertura de Três Quartos.",
+    "Conjurar em Combate Corpo a Corpo: Estar a 1,5 metro[5 pés] de uma criatura hostil não impõe Desvantagem nas suas rolagens de ataque com magias.",
+    "Alcance Aumentado: Quando você conjurar uma magia que tenha alcance de pelo menos 3 metros[10 pés] e exija que você faça uma rolagem de ataque, você pode aumentar o alcance dessa magia em 18 metros[60 pés]."
+  ],
+  "grantedSpells": [
+    "Alcance Aumentado: Quando você conjurar uma magia que tenha alcance de pelo menos 3 metros[10 pés] e exija que você faça uma rolagem de ataque, você pode aumentar o alcance dessa magia em 18 metros[60 pés]."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Alcance Aumentado: Quando você conjurar uma magia que tenha alcance de pelo menos 3 metros[10 pés] e exija que você faça uma rolagem de ataque, você pode aumentar o alcance dessa magia em 18 metros[60 pés]."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

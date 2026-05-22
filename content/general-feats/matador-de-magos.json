@@ -1,0 +1,56 @@
+{
+  "id": "matador-de-magos",
+  "name": "Matador de Magos",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de (atributo à sua escolha)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de (atributo à sua escolha).\n\n Você não luta contra fogo ou relâmpago. Você luta contra o gesto antes do feitiço. \n Onde outros veem brilho e palavras, você vê abertura, respiração, distração. \n Você aprendeu técnicas para punir conjuradores e quebrar a estabilidade da concentração.\n\n - Quebra-Concentração: Quando você causar dano a uma criatura que esteja mantendo Concentração, ela tem Desvantagem no teste de resistência que fizer para manter a Concentração.\n- Mente Guardada: Se você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode escolher ser bem-sucedido em vez disso. - Recarga: Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Descanso Longo .\n\n\n- Punir Conjuração: Quando uma criatura que estiver no alcance da sua arma corpo a corpo conjurar uma magia, v ...",
+  "mechanicsSummary": "Quebra-Concentração: Quando você causar dano a uma criatura que esteja mantendo Concentração, ela tem Desvantagem no teste de resistência que fizer para manter a Concentração. | Mente Guardada: Se você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode escolher ser bem-sucedido em vez disso. - Recarga: Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Descanso Longo . | Punir Conjuração: Quando uma criatura que estiver no alcance da sua arma corpo a corpo conjurar uma magia, você pode fazer um Ataque de Oportunidade contra ela.",
+  "benefits": [
+    "Quebra-Concentração: Quando você causar dano a uma criatura que esteja mantendo Concentração, ela tem Desvantagem no teste de resistência que fizer para manter a Concentração.",
+    "Mente Guardada: Se você falhar em um teste de resistência de Inteligência, Sabedoria ou Carisma, você pode escolher ser bem-sucedido em vez disso. - Recarga: Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Curto ou Descanso Longo .",
+    "Punir Conjuração: Quando uma criatura que estiver no alcance da sua arma corpo a corpo conjurar uma magia, você pode fazer um Ataque de Oportunidade contra ela."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Quebra-Concentração: Quando você causar dano a uma criatura que esteja mantendo Concentração, ela tem Desvantagem no teste de resistência que fizer para manter a Concentração. | Punir Conjuração: Quando uma criatura que estiver no alcance da sua arma corpo a corpo conjurar uma magia, você pode fazer um Ataque de Oportunidade contra ela."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

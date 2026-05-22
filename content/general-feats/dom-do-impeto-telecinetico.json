@@ -1,0 +1,59 @@
+{
+  "id": "dom-do-impeto-telecinetico",
+  "name": "Dom do Ímpeto Telecinético",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Quando o golpe chega, sua resposta não é só dor ou raiva: é empurrar o destino de volta, com um pulso limpo e preciso. Você aprendeu a reagir ao impacto com uma represália vetorial, convertendo agressão em recuo e força em choque.\n - Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros[10 pés] de você, você pode usar sua Reação para liberar um pulso telecinético contra ela. A criatura deve fazer um teste de resistência de Força com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: A criatura sofre 2d8 de dano de força e é empurrada até 3 metros[10 pés] para longe de você.\n- Sucesso: A criatura sofre metade do dano e não é empurrada.\n- Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus ...",
+  "mechanicsSummary": "Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros[10 pés] de você, você pode usar sua Reação para liberar um pulso telecinético contra ela. A criatura deve fazer um teste de resistência de Força com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: A criatura sofre 2d8 de dano de força e é empurrada até 3 metros[10 pés] para longe de você. | Sucesso: A criatura sofre metade do dano e não é empurrada. | Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+  "benefits": [
+    "Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros[10 pés] de você, você pode usar sua Reação para liberar um pulso telecinético contra ela. A criatura deve fazer um teste de resistência de Força com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: A criatura sofre 2d8 de dano de força e é empurrada até 3 metros[10 pés] para longe de você.",
+    "Sucesso: A criatura sofre metade do dano e não é empurrada.",
+    "Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros[10 pés] de você, você pode usar sua Reação para liberar um pulso telecinético contra ela. A criatura deve fazer um teste de resistência de Força com CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento. - Falha: A criatura sofre 2d8 de dano de força e é empurrada até 3 metros[10 pés] para longe de você. | Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tocado-pelo-no-do-selamento",
+  "name": "Tocado pelo Nó do Selamento",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Sabedoria ou Carisma. Algumas cicatrizes não ficam na pele. Ficam na própria Trama. Em regiões onde os Selamentos antigos e os “nós” de mana foram tensionados desde eras remotas, alguns sobreviventes passam a reagir quando a magia tenta esmagar seu corpo, como se um mecanismo antigo ainda os protegesse. - Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n Aumento de Atributo: +1 de Sabedoria ou Carisma.\n Algumas cicatrizes não ficam na pele. Ficam na própria Trama. Em regiões onde os Selamentos antigos e os “nós” de mana foram tensionados desde eras remotas, alguns sobreviventes passam a reagir quando a magia tenta esmagar seu corpo, como se um mecanismo antigo ainda os protegesse.\n - Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo.\n\n\n \n 1d20 Efeito \n 1 a 2 Você e cada cria ...",
+  "mechanicsSummary": "Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo.",
+  "benefits": [
+    "Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Guarda do Nó: Se um ataque de magia atingir você ou se você falhar em um teste de resistência contra uma magia, você pode usar uma Reação para rolar na tabela Tocado pelo Nó e criar um efeito mágico. Se um efeito exigir um teste de resistência, a CD é igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

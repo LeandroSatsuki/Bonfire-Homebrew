@@ -1,0 +1,51 @@
+{
+  "id": "resiliente",
+  "name": "Resiliente",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo escolhido (no qual você não tenha Proficiência em testes de resistência)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de um atributo escolhido (no qual você não tenha Proficiência em testes de resistência).\n\n Onde outros quebram, você aguenta e volta ao eixo, como se o corpo lembrasse o caminho de volta. \n Escolha um atributo em que você não tenha Proficiência em testes de resistência. Você ganha os benefícios abaixo, ligados a esse atributo escolhido.\n\n - Proficiência em Testes de Resistência: Você ganha Proficiência em testes de resistência do atributo escolhido.\n\n\n Força ou Carisma",
+  "mechanicsSummary": "Proficiência em Testes de Resistência: Você ganha Proficiência em testes de resistência do atributo escolhido.",
+  "benefits": [
+    "Proficiência em Testes de Resistência: Você ganha Proficiência em testes de resistência do atributo escolhido."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiência em Testes de Resistência: Você ganha Proficiência em testes de resistência do atributo escolhido."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

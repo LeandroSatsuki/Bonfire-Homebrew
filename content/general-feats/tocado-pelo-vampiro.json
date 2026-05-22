@@ -1,0 +1,63 @@
+{
+  "id": "tocado-pelo-vampiro",
+  "name": "Tocado pelo Vampiro",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você sentiu o chamado do sangue, não como fome, mas como uma certeza silenciosa. \n Há noites em que seu corpo lembra o caminho das aranhas e sua voz aprende a dobrar vontades. \n Você aprende magias associadas a predadores noturnos e pode invocá-las sem custo uma vez por descanso, além de conjurá-las normalmente com seus espaços.\n\n - Magia Vampírica: Escolha 1 magia de 1º círculo da escola de Encantamento ou Ilusão. Você sempre tem essa magia e Escalar como Aranha (Spider Climb) preparadas.\n- Conjuração Gratuita: Você pode conjurar a magia de 1º círculo escolhida e Escalar como Aranha (Spider Climb) sem gastar um espaço de magia. Quando conjurar Escalar como Aranha (Spider Climb) dessa forma, você deve escolher você mesmo como alvo.\n- Recarga: Depois de conjurar cada magia dessa forma, você não pod ...",
+  "mechanicsSummary": "Magia Vampírica: Escolha 1 magia de 1º círculo da escola de Encantamento ou Ilusão. Você sempre tem essa magia e Escalar como Aranha (Spider Climb) preparadas. | Conjuração Gratuita: Você pode conjurar a magia de 1º círculo escolhida e Escalar como Aranha (Spider Climb) sem gastar um espaço de magia. Quando conjurar Escalar como Aranha (Spider Climb) dessa forma, você deve escolher você mesmo como alvo. | Recarga: Depois de conjurar cada magia dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo. | Conjuração Normal: Você também pode conjurar qualquer uma dessas magias usando espaços de magia que você tenha do nível apropriado. | Atributo de Conjuração: O atributo de conjuração dessas magias é o atributo escolhido no Aumento de Atributo deste talento.",
+  "benefits": [
+    "Magia Vampírica: Escolha 1 magia de 1º círculo da escola de Encantamento ou Ilusão. Você sempre tem essa magia e Escalar como Aranha (Spider Climb) preparadas.",
+    "Conjuração Gratuita: Você pode conjurar a magia de 1º círculo escolhida e Escalar como Aranha (Spider Climb) sem gastar um espaço de magia. Quando conjurar Escalar como Aranha (Spider Climb) dessa forma, você deve escolher você mesmo como alvo.",
+    "Recarga: Depois de conjurar cada magia dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar qualquer uma dessas magias usando espaços de magia que você tenha do nível apropriado.",
+    "Atributo de Conjuração: O atributo de conjuração dessas magias é o atributo escolhido no Aumento de Atributo deste talento."
+  ],
+  "grantedSpells": [
+    "Magia Vampírica: Escolha 1 magia de 1º círculo da escola de Encantamento ou Ilusão. Você sempre tem essa magia e Escalar como Aranha (Spider Climb) preparadas.",
+    "Conjuração Gratuita: Você pode conjurar a magia de 1º círculo escolhida e Escalar como Aranha (Spider Climb) sem gastar um espaço de magia. Quando conjurar Escalar como Aranha (Spider Climb) dessa forma, você deve escolher você mesmo como alvo.",
+    "Recarga: Depois de conjurar cada magia dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar qualquer uma dessas magias usando espaços de magia que você tenha do nível apropriado."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Conjuração Gratuita: Você pode conjurar a magia de 1º círculo escolhida e Escalar como Aranha (Spider Climb) sem gastar um espaço de magia. Quando conjurar Escalar como Aranha (Spider Climb) dessa forma, você deve escolher você mesmo como alvo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

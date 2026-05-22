@@ -1,0 +1,63 @@
+{
+  "id": "cartomante",
+  "name": "Cartomante",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "característica de Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, característica de Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu a esconder fórmulas em floreios: um corte de baralho, um sorriso, uma carta virada na hora certa. Você canaliza magia através de um baralho, usando truques como máscara e guardando uma carta especial para lançar uma magia no momento exato.\n - Foco de Cartas: Você pode usar um baralho de cartas como foco de conjuração.\n- Truques de Carta: Você aprende o truque Prestidigitação. Quando você usar Prestidigitação para criar efeitos que imitam mágica de palco (pequenas ilusões, floreios, “truques”), você pode disfarçar os componentes verbais e somáticos como conversa comum e manuseio de cartas.\n- Ás na Manga: Quando você termina um Descanso Longo, escolha 1 magia da lista de magias da sua classe e imbua essa magia em 1 carta. A magia escolhid ...",
+  "mechanicsSummary": "Foco de Cartas: Você pode usar um baralho de cartas como foco de conjuração. | Truques de Carta: Você aprende o truque Prestidigitação. Quando você usar Prestidigitação para criar efeitos que imitam mágica de palco (pequenas ilusões, floreios, “truques”), você pode disfarçar os componentes verbais e somáticos como conversa comum e manuseio de cartas. | Ás na Manga: Quando você termina um Descanso Longo, escolha 1 magia da lista de magias da sua classe e imbua essa magia em 1 carta. A magia escolhida deve ter tempo de conjuração de 1 Ação e deve ser de um nível para o qual você tenha espaços de magia. A carta permanece imbuída por 8 horas. Enquanto estiver imbuída, você pode usar uma Ação Bônus para florear a carta, gastar o espaço de magia requerido e conjurar a magia contida nela. Em seguida, a carta perde imediatamente essa magia.",
+  "benefits": [
+    "Foco de Cartas: Você pode usar um baralho de cartas como foco de conjuração.",
+    "Truques de Carta: Você aprende o truque Prestidigitação. Quando você usar Prestidigitação para criar efeitos que imitam mágica de palco (pequenas ilusões, floreios, “truques”), você pode disfarçar os componentes verbais e somáticos como conversa comum e manuseio de cartas.",
+    "Ás na Manga: Quando você termina um Descanso Longo, escolha 1 magia da lista de magias da sua classe e imbua essa magia em 1 carta. A magia escolhida deve ter tempo de conjuração de 1 Ação e deve ser de um nível para o qual você tenha espaços de magia. A carta permanece imbuída por 8 horas. Enquanto estiver imbuída, você pode usar uma Ação Bônus para florear a carta, gastar o espaço de magia requerido e conjurar a magia contida nela. Em seguida, a carta perde imediatamente essa magia."
+  ],
+  "grantedSpells": [
+    "Truques de Carta: Você aprende o truque Prestidigitação. Quando você usar Prestidigitação para criar efeitos que imitam mágica de palco (pequenas ilusões, floreios, “truques”), você pode disfarçar os componentes verbais e somáticos como conversa comum e manuseio de cartas.",
+    "Ás na Manga: Quando você termina um Descanso Longo, escolha 1 magia da lista de magias da sua classe e imbua essa magia em 1 carta. A magia escolhida deve ter tempo de conjuração de 1 Ação e deve ser de um nível para o qual você tenha espaços de magia. A carta permanece imbuída por 8 horas. Enquanto estiver imbuída, você pode usar uma Ação Bônus para florear a carta, gastar o espaço de magia requerido e conjurar a magia contida nela. Em seguida, a carta perde imediatamente essa magia."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Truques de Carta: Você aprende o truque Prestidigitação. Quando você usar Prestidigitação para criar efeitos que imitam mágica de palco (pequenas ilusões, floreios, “truques”), você pode disfarçar os componentes verbais e somáticos como conversa comum e manuseio de cartas. | Ás na Manga: Quando você termina um Descanso Longo, escolha 1 magia da lista de magias da sua classe e imbua essa magia em 1 carta. A magia escolhida deve ter tempo de conjuração de 1 Ação e deve ser de um nível para o qual você tenha espaços de magia. A carta permanece imbuída por 8 horas. Enquanto estiver imbuída, você pode usar uma Ação Bônus para florear a carta, gastar o espaço de magia requerido e conjurar a magia contida nela. Em seguida, a carta perde imediatamente essa magia."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

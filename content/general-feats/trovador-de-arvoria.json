@@ -1,0 +1,62 @@
+{
+  "id": "trovador-de-arvoria",
+  "name": "Trovador de Árvoria",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza",
+      "Carisma"
+    ],
+    "description": "+1 de Destreza ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Menestrel Viajante"
+  ],
+  "description": "Pré-requisito: Nível 4+, Menestrel Viajante.\n\n Aumento de Atributo: +1 de Destreza ou Carisma.\n\n Em Árvoria, uma canção pode ser um escudo, e uma palavra no tempo certo pode ser uma lâmina. \n Você aprendeu a roubar o foco do inimigo e a firmar o coração de quem luta ao seu lado, como quem puxa alguém de volta da beira do abismo. \n Você usa ritmo, presença e malícia de palco para distorcer a atenção do adversário e transformar resistência em coragem compartilhada.\n\n - Graça de Árvoria: Aumente sua Destreza ou Carisma em 1, até o máximo de 20.\n- Verbo Definhante: Quando você realiza a ação Ajudar (Help) para ajudar a jogada de ataque de um aliado contra um inimigo, esse inimigo também tem Desvantagem no primeiro teste de resistência que fizer antes do início do seu próximo turno.\n- Vontade Inspirada: Quando você for bem-sucedido em um teste de resistência para encerrar em você mesmo a cond ...",
+  "mechanicsSummary": "Graça de Árvoria: Aumente sua Destreza ou Carisma em 1, até o máximo de 20. | Verbo Definhante: Quando você realiza a ação Ajudar (Help) para ajudar a jogada de ataque de um aliado contra um inimigo, esse inimigo também tem Desvantagem no primeiro teste de resistência que fizer antes do início do seu próximo turno. | Vontade Inspirada: Quando você for bem-sucedido em um teste de resistência para encerrar em você mesmo a condição Amedrontado (Frightened) ou Paralisado (Paralyzed), você pode escolher 1 aliado que você possa ver a até 9 metros[30 pés] de você que esteja com a mesma condição. - Amedrontado (Frightened): A condição termina imediatamente para esse aliado. | Paralisado (Paralyzed): A condição termina imediatamente para esse aliado.",
+  "benefits": [
+    "Graça de Árvoria: Aumente sua Destreza ou Carisma em 1, até o máximo de 20.",
+    "Verbo Definhante: Quando você realiza a ação Ajudar (Help) para ajudar a jogada de ataque de um aliado contra um inimigo, esse inimigo também tem Desvantagem no primeiro teste de resistência que fizer antes do início do seu próximo turno.",
+    "Vontade Inspirada: Quando você for bem-sucedido em um teste de resistência para encerrar em você mesmo a condição Amedrontado (Frightened) ou Paralisado (Paralyzed), você pode escolher 1 aliado que você possa ver a até 9 metros[30 pés] de você que esteja com a mesma condição. - Amedrontado (Frightened): A condição termina imediatamente para esse aliado.",
+    "Paralisado (Paralyzed): A condição termina imediatamente para esse aliado."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Verbo Definhante: Quando você realiza a ação Ajudar (Help) para ajudar a jogada de ataque de um aliado contra um inimigo, esse inimigo também tem Desvantagem no primeiro teste de resistência que fizer antes do início do seu próximo turno. | Vontade Inspirada: Quando você for bem-sucedido em um teste de resistência para encerrar em você mesmo a condição Amedrontado (Frightened) ou Paralisado (Paralyzed), você pode escolher 1 aliado que você possa ver a até 9 metros[30 pés] de você que esteja com a mesma condição. - Amedrontado (Frightened): A condição termina imediatamente para esse aliado."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "vinculo com outra camada de personagem",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

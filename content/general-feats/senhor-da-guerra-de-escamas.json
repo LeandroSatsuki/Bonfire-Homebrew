@@ -1,0 +1,62 @@
+{
+  "id": "senhor-da-guerra-de-escamas",
+  "name": "Senhor da Guerra de Escamas",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Proficiência em Armas Marciais ou Talento Porta-Estandarte da Wyrm"
+  ],
+  "description": "Pré-requisito: Nível 4+, Proficiência em Armas Marciais ou Talento Porta-Estandarte da Wyrm.\n\n Aumento de Atributo: +1 de Força ou Destreza.\n\n Como os dragões que não recuam feridos, você aprende a lutar com o peito aberto e o olhar firme. Quando a batalha aperta e o sangue esquenta, seu instinto não é pedir espaço, é tomar espaço. Você se move como uma muralha viva, e cada golpe que te encontra vira ordem para os seus: aguentar mais um passo, respirar mais uma vez, não ceder um palmo. \n Você lidera do front, convertendo sua resistência física em vantagem tática e proteção para o grupo.\n\n \n- Ordem de Proteção: Como uma Ação Bônus , escolha 1 aliado que você possa ver a até 9 metros [30 pés] de você. O alvo deve poder ver ou ouvir você. - Efeito: O aliado ganha Pontos de Vida Temporários iguais a 2d6 + o modificador do atributo aumentado por este talento .\n\n\n\n\n- Usos: Você pode usar este ...",
+  "mechanicsSummary": "Ordem de Proteção: Como uma Ação Bônus , escolha 1 aliado que você possa ver a até 9 metros [30 pés] de você. O alvo deve poder ver ou ouvir você. - Efeito: O aliado ganha Pontos de Vida Temporários iguais a 2d6 + o modificador do atributo aumentado por este talento . | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência , e recupera todos os usos gastos quando termina um Descanso Longo . | Postura da Última Resistência: Enquanto você estiver Sangrando (Bloodied) , você tem Vantagem em jogadas de ataque.",
+  "benefits": [
+    "Ordem de Proteção: Como uma Ação Bônus , escolha 1 aliado que você possa ver a até 9 metros [30 pés] de você. O alvo deve poder ver ou ouvir você. - Efeito: O aliado ganha Pontos de Vida Temporários iguais a 2d6 + o modificador do atributo aumentado por este talento .",
+    "Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência , e recupera todos os usos gastos quando termina um Descanso Longo .",
+    "Postura da Última Resistência: Enquanto você estiver Sangrando (Bloodied) , você tem Vantagem em jogadas de ataque."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Ordem de Proteção: Como uma Ação Bônus , escolha 1 aliado que você possa ver a até 9 metros [30 pés] de você. O alvo deve poder ver ou ouvir você. - Efeito: O aliado ganha Pontos de Vida Temporários iguais a 2d6 + o modificador do atributo aumentado por este talento . | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência , e recupera todos os usos gastos quando termina um Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

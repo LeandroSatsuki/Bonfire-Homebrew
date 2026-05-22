@@ -1,0 +1,58 @@
+{
+  "id": "dom-da-infusao-elemental",
+  "name": "Dom da Infusão Elemental",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Pré-requisito: Nível 4+.\n\n Você aprendeu a tingir o golpe com a cor do elemento, por um juramento curto e firme. Você pode infundir uma arma com energia elemental por tempo limitado e responder a um impacto elemental com um reflexo instintivo de proteção.\n\n - Infusão Elemental: Como uma Ação Bônus, você pode tocar 1 arma simples ou marcial e infundi-la com 1 dos seguintes tipos de dano: ácido, frio, fogo, relâmpago ou trovão. Por 1 minuto, quando a arma acertar, ela causa 1d4 de dano extra do tipo escolhido. Depois de usar este benefício, você não pode usá lo novamente até terminar um Descanso Longo .\n- Resistência Reativa: Quando você sofrer dano de ácido , frio, fogo, relâmpago ou trovão, você pode usar sua Reação para ganhar resistência a essa instância de dano. - Usos: Você pode usar esta Reação um número de vezes igual ...",
+  "mechanicsSummary": "Infusão Elemental: Como uma Ação Bônus, você pode tocar 1 arma simples ou marcial e infundi-la com 1 dos seguintes tipos de dano: ácido, frio, fogo, relâmpago ou trovão. Por 1 minuto, quando a arma acertar, ela causa 1d4 de dano extra do tipo escolhido. Depois de usar este benefício, você não pode usá lo novamente até terminar um Descanso Longo . | Resistência Reativa: Quando você sofrer dano de ácido , frio, fogo, relâmpago ou trovão, você pode usar sua Reação para ganhar resistência a essa instância de dano. - Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+  "benefits": [
+    "Infusão Elemental: Como uma Ação Bônus, você pode tocar 1 arma simples ou marcial e infundi-la com 1 dos seguintes tipos de dano: ácido, frio, fogo, relâmpago ou trovão. Por 1 minuto, quando a arma acertar, ela causa 1d4 de dano extra do tipo escolhido. Depois de usar este benefício, você não pode usá lo novamente até terminar um Descanso Longo .",
+    "Resistência Reativa: Quando você sofrer dano de ácido , frio, fogo, relâmpago ou trovão, você pode usar sua Reação para ganhar resistência a essa instância de dano. - Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Infusão Elemental: Como uma Ação Bônus, você pode tocar 1 arma simples ou marcial e infundi-la com 1 dos seguintes tipos de dano: ácido, frio, fogo, relâmpago ou trovão. Por 1 minuto, quando a arma acertar, ela causa 1d4 de dano extra do tipo escolhido. Depois de usar este benefício, você não pode usá lo novamente até terminar um Descanso Longo . | Resistência Reativa: Quando você sofrer dano de ácido , frio, fogo, relâmpago ou trovão, você pode usar sua Reação para ganhar resistência a essa instância de dano. - Usos: Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

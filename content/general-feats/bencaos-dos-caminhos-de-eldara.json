@@ -1,0 +1,71 @@
+{
+  "id": "bencaos-dos-caminhos-de-eldara",
+  "name": "Bênçãos dos Caminhos de Eldára",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Neófito dos Caminhos de Eldára ou Druida"
+  ],
+  "description": "Pré-requisito: Nível 4+, Neófito dos Caminhos de Eldára ou Druida.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Quando você entende um animal, o próximo passo é entender como ele enxerga o mundo. Quando você entende uma planta, você entende o lugar inteiro. \n Sua comunhão se aprofunda: instinto e silêncio viram linguagem, e a estrada passa a responder quando você pergunta do jeito certo. \n Você amplia sua ligação com a natureza, tornando sua influência mais confiável sobre bestas e aprendendo a arrancar respostas da própria vegetação.\n\n - Aprendizado Aprofundado: Você ganha proficiência em Natureza (Nature) ou Adestrar Animais (Animal Handling), à sua escolha. Se você já tiver proficiência na perícia escolhida, você ganha Especialização (Expertise) nela.\n- Amigo das Bestas: Você tem Vantagem em testes de atributo feitos para realizar a ação Influenciar (Influence) c ...",
+  "mechanicsSummary": "Aprendizado Aprofundado: Você ganha proficiência em Natureza (Nature) ou Adestrar Animais (Animal Handling), à sua escolha. Se você já tiver proficiência na perícia escolhida, você ganha Especialização (Expertise) nela. | Amigo das Bestas: Você tem Vantagem em testes de atributo feitos para realizar a ação Influenciar (Influence) com Bestas (Beasts). | Dois Corações, Um Olhar: Você sempre tem as magias Sentidos Bestiais (Beast Sense) e Falar com Plantas (Speak with Plants) preparadas. - Conjuração Gratuita: Você pode conjurar cada uma dessas magias 1 vez sem gastar espaço de magia e recupera a capacidade de conjurá-las dessa forma ao terminar um Descanso Longo. | Sem Concentração: Quando você conjura Sentidos Bestiais (Beast Sense) sem gastar espaço de magia usando este benefício, a magia não exige Concentração. | Conjurar com Espaços: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração é o atributo aumentado por este talento.",
+  "benefits": [
+    "Aprendizado Aprofundado: Você ganha proficiência em Natureza (Nature) ou Adestrar Animais (Animal Handling), à sua escolha. Se você já tiver proficiência na perícia escolhida, você ganha Especialização (Expertise) nela.",
+    "Amigo das Bestas: Você tem Vantagem em testes de atributo feitos para realizar a ação Influenciar (Influence) com Bestas (Beasts).",
+    "Dois Corações, Um Olhar: Você sempre tem as magias Sentidos Bestiais (Beast Sense) e Falar com Plantas (Speak with Plants) preparadas. - Conjuração Gratuita: Você pode conjurar cada uma dessas magias 1 vez sem gastar espaço de magia e recupera a capacidade de conjurá-las dessa forma ao terminar um Descanso Longo.",
+    "Sem Concentração: Quando você conjura Sentidos Bestiais (Beast Sense) sem gastar espaço de magia usando este benefício, a magia não exige Concentração.",
+    "Conjurar com Espaços: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração é o atributo aumentado por este talento."
+  ],
+  "grantedSpells": [
+    "Dois Corações, Um Olhar: Você sempre tem as magias Sentidos Bestiais (Beast Sense) e Falar com Plantas (Speak with Plants) preparadas. - Conjuração Gratuita: Você pode conjurar cada uma dessas magias 1 vez sem gastar espaço de magia e recupera a capacidade de conjurá-las dessa forma ao terminar um Descanso Longo.",
+    "Sem Concentração: Quando você conjura Sentidos Bestiais (Beast Sense) sem gastar espaço de magia usando este benefício, a magia não exige Concentração.",
+    "Conjurar com Espaços: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração é o atributo aumentado por este talento."
+  ],
+  "grantedProficiencies": [
+    "Aprendizado Aprofundado: Você ganha proficiência em Natureza (Nature) ou Adestrar Animais (Animal Handling), à sua escolha. Se você já tiver proficiência na perícia escolhida, você ganha Especialização (Expertise) nela."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Dois Corações, Um Olhar: Você sempre tem as magias Sentidos Bestiais (Beast Sense) e Falar com Plantas (Speak with Plants) preparadas. - Conjuração Gratuita: Você pode conjurar cada uma dessas magias 1 vez sem gastar espaço de magia e recupera a capacidade de conjurá-las dessa forma ao terminar um Descanso Longo. | Sem Concentração: Quando você conjura Sentidos Bestiais (Beast Sense) sem gastar espaço de magia usando este benefício, a magia não exige Concentração."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

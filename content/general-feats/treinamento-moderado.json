@@ -1,0 +1,52 @@
+{
+  "id": "treinamento-moderado",
+  "name": "Treinamento Moderado",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n A correia bem ajustada, o encaixe que não prende o ombro, o peso distribuído para não roubar fôlego. A cada dia, você passa menos tempo “vestindo” e mais tempo “vivendo” dentro dela. \n Você recebeu treino básico para operar proteção leve e um escudo sem que isso atrapalhe seu ritmo de combate.\n\n - Treinamento de Armadura: Você ganha treinamento com armaduras leves, armaduras médias e escudos.",
+  "mechanicsSummary": "Treinamento de Armadura: Você ganha treinamento com armaduras leves, armaduras médias e escudos.",
+  "benefits": [
+    "Treinamento de Armadura: Você ganha treinamento com armaduras leves, armaduras médias e escudos."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

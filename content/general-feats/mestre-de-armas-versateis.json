@@ -1,0 +1,58 @@
+{
+  "id": "mestre-de-armas-versateis",
+  "name": "Mestre de Armas Versáteis",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Você aprendeu a mudar a intenção sem trocar a arma. Um passo encurta a lâmina, um giro alonga o alcance, uma mão solta e a outra assume. A empunhadura vira linguagem: firme quando precisa impor peso, leve quando precisa ganhar tempo. \n Você domina a mudança de empunhadura como parte do combate, alternando entre alcance, força e defesa sem perder o compasso.\n\n - Versatilidade Plena: O dado de dano da sua arma com a propriedade Versátil aumenta em uma categoria, tanto quando ela estiver em 1 mão quanto quando estiver em 2 mãos. A progressão é 1d4 para 1d6, 1d6 para 1d8, 1d8 para 1d10, 1d10 para 1d12.\n- Maestria Versátil: Quando estiver empunhando uma arma Versátil com 2 mãos, ao acertar um ataque com essa arma, você pode aplicar 2 Propriedades de Maestria com as quais você seja profi ...",
+  "mechanicsSummary": "Versatilidade Plena: O dado de dano da sua arma com a propriedade Versátil aumenta em uma categoria, tanto quando ela estiver em 1 mão quanto quando estiver em 2 mãos. A progressão é 1d4 para 1d6, 1d6 para 1d8, 1d8 para 1d10, 1d10 para 1d12. | Maestria Versátil: Quando estiver empunhando uma arma Versátil com 2 mãos, ao acertar um ataque com essa arma, você pode aplicar 2 Propriedades de Maestria com as quais você seja proficiente nesse acerto. | Postura Defensiva Adaptável: Enquanto você empunhar uma arma corpo a corpo Versátil em 1 mão e não estiver empunhando nenhuma outra arma, quando uma criatura a até 1,5 metro[5 pés] fizer um ataque corpo a corpo com arma contra você, você pode usar sua Reação para impor Desvantagem nessa jogada de ataque. Se a jogada de ataque falhar, você pode fazer 1 ataque contra a criatura como parte da mesma Reação. | Troca de Guarda Rápida: Você pode equipar ou desequipar um escudo usando uma Ação Bônus, em vez de uma ação.",
+  "benefits": [
+    "Versatilidade Plena: O dado de dano da sua arma com a propriedade Versátil aumenta em uma categoria, tanto quando ela estiver em 1 mão quanto quando estiver em 2 mãos. A progressão é 1d4 para 1d6, 1d6 para 1d8, 1d8 para 1d10, 1d10 para 1d12.",
+    "Maestria Versátil: Quando estiver empunhando uma arma Versátil com 2 mãos, ao acertar um ataque com essa arma, você pode aplicar 2 Propriedades de Maestria com as quais você seja proficiente nesse acerto.",
+    "Postura Defensiva Adaptável: Enquanto você empunhar uma arma corpo a corpo Versátil em 1 mão e não estiver empunhando nenhuma outra arma, quando uma criatura a até 1,5 metro[5 pés] fizer um ataque corpo a corpo com arma contra você, você pode usar sua Reação para impor Desvantagem nessa jogada de ataque. Se a jogada de ataque falhar, você pode fazer 1 ataque contra a criatura como parte da mesma Reação.",
+    "Troca de Guarda Rápida: Você pode equipar ou desequipar um escudo usando uma Ação Bônus, em vez de uma ação."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Versatilidade Plena: O dado de dano da sua arma com a propriedade Versátil aumenta em uma categoria, tanto quando ela estiver em 1 mão quanto quando estiver em 2 mãos. A progressão é 1d4 para 1d6, 1d6 para 1d8, 1d8 para 1d10, 1d10 para 1d12. | Maestria Versátil: Quando estiver empunhando uma arma Versátil com 2 mãos, ao acertar um ataque com essa arma, você pode aplicar 2 Propriedades de Maestria com as quais você seja proficiente nesse acerto. | Postura Defensiva Adaptável: Enquanto você empunhar uma arma corpo a corpo Versátil em 1 mão e não estiver empunhando nenhuma outra arma, quando uma criatura a até 1,5 metro[5 pés] fizer um ataque corpo a corpo com arma contra você, você pode usar sua Reação para impor Desvantagem nessa jogada de ataque. Se a jogada de ataque falhar, você pode fazer 1 ataque contra a criatura como parte da mesma Reação. | Troca de Guarda Rápida: Você pode equipar ou desequipar um escudo usando uma Ação Bônus, em vez de uma ação."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

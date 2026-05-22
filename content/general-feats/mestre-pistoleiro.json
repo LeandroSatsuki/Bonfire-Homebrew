@@ -1,0 +1,57 @@
+{
+  "id": "mestre-pistoleiro",
+  "name": "Mestre Pistoleiro",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": null,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza."
+  },
+  "prerequisites": [],
+  "description": "Aumento de Atributo: +1 de Destreza.\n\n Você aprendeu a respirar no momento certo e a manter o pulso imóvel mesmo quando o mundo treme. O estampido não te apressa nem te assusta. Para você, é só mais um ritmo de combate. Você se especializou em armas de fogo, operando recarga e disparo com precisão eficiente mesmo sob pressão.\n - Proficiência em Armas de Fogo: Você ganha proficiência com armas de fogo conforme as regras do Dungeon Master’s Guide.\n- Carregar Ignorado: Você ignora a propriedade Carregar de armas de fogo com as quais você tem proficiência.\n- Recarga Rápida: Para armas de fogo com a propriedade Recarga, você pode usar sua Ação Bônus em vez da sua Ação para recarregar. Além disso, você não precisa mais de uma mão livre para colocar munição na arma.\n- Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de uma criatura hostil não impõe Desvantagem nas suas jogadas de ...",
+  "mechanicsSummary": "Proficiência em Armas de Fogo: Você ganha proficiência com armas de fogo conforme as regras do Dungeon Master’s Guide. | Carregar Ignorado: Você ignora a propriedade Carregar de armas de fogo com as quais você tem proficiência. | Recarga Rápida: Para armas de fogo com a propriedade Recarga, você pode usar sua Ação Bônus em vez da sua Ação para recarregar. Além disso, você não precisa mais de uma mão livre para colocar munição na arma. | Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de uma criatura hostil não impõe Desvantagem nas suas jogadas de ataque à distância com armas de fogo.",
+  "benefits": [
+    "Proficiência em Armas de Fogo: Você ganha proficiência com armas de fogo conforme as regras do Dungeon Master’s Guide.",
+    "Carregar Ignorado: Você ignora a propriedade Carregar de armas de fogo com as quais você tem proficiência.",
+    "Recarga Rápida: Para armas de fogo com a propriedade Recarga, você pode usar sua Ação Bônus em vez da sua Ação para recarregar. Além disso, você não precisa mais de uma mão livre para colocar munição na arma.",
+    "Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de uma criatura hostil não impõe Desvantagem nas suas jogadas de ataque à distância com armas de fogo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiência em Armas de Fogo: Você ganha proficiência com armas de fogo conforme as regras do Dungeon Master’s Guide.",
+    "Carregar Ignorado: Você ignora a propriedade Carregar de armas de fogo com as quais você tem proficiência."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": "Recarga Rápida: Para armas de fogo com a propriedade Recarga, você pode usar sua Ação Bônus em vez da sua Ação para recarregar. Além disso, você não precisa mais de uma mão livre para colocar munição na arma."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

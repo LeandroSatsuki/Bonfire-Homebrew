@@ -1,0 +1,52 @@
+{
+  "id": "apodrecer",
+  "name": "Apodrecer",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de (atributo à sua escolha)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de (atributo à sua escolha).\n\n Seu toque não precisa matar para assustar: ele estraga, enfraquece, contamina. \n A carne sente o aviso antes do fim, como se a vida perdesse cor por um instante. \n Quando você causa dano necrótico, você pode impor um efeito curto de deterioração no alvo.\n\n - Necrose: Quando você fizer uma rolagem de dano que cause dano necrótico (Necrotic), você pode fazer com que uma criatura que esteja recebendo esse dano fique na condição Envenenado (Poisoned) até o início do seu próximo turno.\n- Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo .",
+  "mechanicsSummary": "Necrose: Quando você fizer uma rolagem de dano que cause dano necrótico (Necrotic), você pode fazer com que uma criatura que esteja recebendo esse dano fique na condição Envenenado (Poisoned) até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo .",
+  "benefits": [
+    "Necrose: Quando você fizer uma rolagem de dano que cause dano necrótico (Necrotic), você pode fazer com que uma criatura que esteja recebendo esse dano fique na condição Envenenado (Poisoned) até o início do seu próximo turno.",
+    "Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Necrose: Quando você fizer uma rolagem de dano que cause dano necrótico (Necrotic), você pode fazer com que uma criatura que esteja recebendo esse dano fique na condição Envenenado (Poisoned) até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

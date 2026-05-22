@@ -1,0 +1,54 @@
+{
+  "id": "mestre-de-armas",
+  "name": "Mestre de Armas",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Você não coleciona lâminas e cabos. \n Você coleciona respostas para cada distância, peso e abertura. \n Seu treino com armas refina a forma como você aplica Maestrias, adaptando seu estilo ao que a missão exige.\n\n - Maestrias Aprendidas: Escolha 2 tipos de arma (Simples ou Marciais) com as quais você tenha proficiência. Você aprende 1 Propriedade de Maestria para cada um desses tipos de arma (à sua escolha, entre as disponíveis para esse tipo).\n- Troca de Treinamento: Sempre que você terminar um Descanso Longo, você pode substituir um ou ambos os tipos de arma escolhidos por outros tipos elegíveis (com os quais você tenha proficiência).",
+  "mechanicsSummary": "Maestrias Aprendidas: Escolha 2 tipos de arma (Simples ou Marciais) com as quais você tenha proficiência. Você aprende 1 Propriedade de Maestria para cada um desses tipos de arma (à sua escolha, entre as disponíveis para esse tipo). | Troca de Treinamento: Sempre que você terminar um Descanso Longo, você pode substituir um ou ambos os tipos de arma escolhidos por outros tipos elegíveis (com os quais você tenha proficiência).",
+  "benefits": [
+    "Maestrias Aprendidas: Escolha 2 tipos de arma (Simples ou Marciais) com as quais você tenha proficiência. Você aprende 1 Propriedade de Maestria para cada um desses tipos de arma (à sua escolha, entre as disponíveis para esse tipo).",
+    "Troca de Treinamento: Sempre que você terminar um Descanso Longo, você pode substituir um ou ambos os tipos de arma escolhidos por outros tipos elegíveis (com os quais você tenha proficiência)."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

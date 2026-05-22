@@ -1,0 +1,60 @@
+{
+  "id": "marca-arcana-superior-do-refugio",
+  "name": "Marca Arcana Superior do Refúgio",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana do Refúgio"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana do Refúgio.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Sua runa acende como uma janela aberta em noite ruim.Onde você firma um limiar, o mundo lembra que descanso também é lei. \n Sua Marca transforma acolhimento em vigor real, como um acordo antigo que protege a Criação uma noite de cada vez.\n\n - Intuição Aprimorada. Quando você usa Sempre Hospitaleiro do seu talento Marca Arcana do Refúgio, você rola 1d6 em vez de 1d4.\n- Refúgio Aprimorado. Quando você conjura Purificar Comida e Bebida (Purify Food and Drink), você pode modificar a magia para que, em vez do efeito normal, cada criatura à sua escolha a até 9 metros[30 pés] de você seja revigorada. - Alívio. O nível de Exaustão (Exhaustion) de cada criatura afetada é reduzido em 1.\n- Fôlego Guardado. Cada criatura afetada ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiên ...",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Sempre Hospitaleiro do seu talento Marca Arcana do Refúgio, você rola 1d6 em vez de 1d4. | Refúgio Aprimorado. Quando você conjura Purificar Comida e Bebida (Purify Food and Drink), você pode modificar a magia para que, em vez do efeito normal, cada criatura à sua escolha a até 9 metros[30 pés] de você seja revigorada. - Alívio. O nível de Exaustão (Exhaustion) de cada criatura afetada é reduzido em 1. | Fôlego Guardado. Cada criatura afetada ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + seu modificador de Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento).",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Sempre Hospitaleiro do seu talento Marca Arcana do Refúgio, você rola 1d6 em vez de 1d4.",
+    "Refúgio Aprimorado. Quando você conjura Purificar Comida e Bebida (Purify Food and Drink), você pode modificar a magia para que, em vez do efeito normal, cada criatura à sua escolha a até 9 metros[30 pés] de você seja revigorada. - Alívio. O nível de Exaustão (Exhaustion) de cada criatura afetada é reduzido em 1.",
+    "Fôlego Guardado. Cada criatura afetada ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + seu modificador de Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento)."
+  ],
+  "grantedSpells": [
+    "Refúgio Aprimorado. Quando você conjura Purificar Comida e Bebida (Purify Food and Drink), você pode modificar a magia para que, em vez do efeito normal, cada criatura à sua escolha a até 9 metros[30 pés] de você seja revigorada. - Alívio. O nível de Exaustão (Exhaustion) de cada criatura afetada é reduzido em 1."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Sempre Hospitaleiro do seu talento Marca Arcana do Refúgio, você rola 1d6 em vez de 1d4. | Refúgio Aprimorado. Quando você conjura Purificar Comida e Bebida (Purify Food and Drink), você pode modificar a magia para que, em vez do efeito normal, cada criatura à sua escolha a até 9 metros[30 pés] de você seja revigorada. - Alívio. O nível de Exaustão (Exhaustion) de cada criatura afetada é reduzido em 1. | Fôlego Guardado. Cada criatura afetada ganha Pontos de Vida Temporários iguais ao seu Bônus de Proficiência + seu modificador de Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento)."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

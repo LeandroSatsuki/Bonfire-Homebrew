@@ -1,0 +1,64 @@
+{
+  "id": "ritualista",
+  "name": "Ritualista",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Inteligência 13+ ou Sabedoria 13+ ou Carisma 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Inteligência 13+ ou Sabedoria 13+ ou Carisma 13+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você não corre atrás da magia, você prepara o terreno para que ela aconteça do jeito certo. \n Com tempo, tinta e palavras precisas, o impossível deixa de ser risco e vira procedimento. \n Você aprende magias de ritual e as registra em um livro próprio, podendo expandir essa lista conforme encontra novos escritos arcanos.\n\n - Livro de Rituais: Você adquire um livro de rituais e aprende um número de magias que pode conjurar como rituais (rituals). Você deve ter o livro em mãos para conjurar qualquer magia dele como ritual.\n- Duas Magias Iniciais: Ao escolher este talento, seu livro contém duas magias de 1º nível à sua escolha que tenham o descritor Ritual. Escolha uma das seguintes classes: Bardo, Místico, Clérigo, Druida, Feiticeiro ou Mago. As magia ...",
+  "mechanicsSummary": "Livro de Rituais: Você adquire um livro de rituais e aprende um número de magias que pode conjurar como rituais (rituals). Você deve ter o livro em mãos para conjurar qualquer magia dele como ritual. | Duas Magias Iniciais: Ao escolher este talento, seu livro contém duas magias de 1º nível à sua escolha que tenham o descritor Ritual. Escolha uma das seguintes classes: Bardo, Místico, Clérigo, Druida, Feiticeiro ou Mago. As magias escolhidas devem vir da lista dessa classe, e a classe escolhida também determina seu atributo de conjuração para essas magias: Carisma para Bardo, Místico ou Feiticeiro; Sabedoria para Clérigo ou Druida; Inteligência para Mago. | Adicionar Novos Rituais: Se você encontrar uma magia em forma escrita, como em um pergaminho de magia ou no grimório de um mago, você pode adicioná-la ao seu livro de rituais se cumprir todos os requisitos abaixo. - Lista e Ritual: A magia deve estar na lista da classe escolhida e ter o descritor Ritual. | Limite de Nível: O nível da magia não pode ser maior que metade do seu nível (arredondado para cima). | Tempo e Custo: Copiar a magia leva 2 horas por nível da magia e custa 50 po por nível. Esse custo representa componentes materiais e testes necessários para dominar a magia, além de tintas especiais para registrá-la.",
+  "benefits": [
+    "Livro de Rituais: Você adquire um livro de rituais e aprende um número de magias que pode conjurar como rituais (rituals). Você deve ter o livro em mãos para conjurar qualquer magia dele como ritual.",
+    "Duas Magias Iniciais: Ao escolher este talento, seu livro contém duas magias de 1º nível à sua escolha que tenham o descritor Ritual. Escolha uma das seguintes classes: Bardo, Místico, Clérigo, Druida, Feiticeiro ou Mago. As magias escolhidas devem vir da lista dessa classe, e a classe escolhida também determina seu atributo de conjuração para essas magias: Carisma para Bardo, Místico ou Feiticeiro; Sabedoria para Clérigo ou Druida; Inteligência para Mago.",
+    "Adicionar Novos Rituais: Se você encontrar uma magia em forma escrita, como em um pergaminho de magia ou no grimório de um mago, você pode adicioná-la ao seu livro de rituais se cumprir todos os requisitos abaixo. - Lista e Ritual: A magia deve estar na lista da classe escolhida e ter o descritor Ritual.",
+    "Limite de Nível: O nível da magia não pode ser maior que metade do seu nível (arredondado para cima).",
+    "Tempo e Custo: Copiar a magia leva 2 horas por nível da magia e custa 50 po por nível. Esse custo representa componentes materiais e testes necessários para dominar a magia, além de tintas especiais para registrá-la."
+  ],
+  "grantedSpells": [
+    "Livro de Rituais: Você adquire um livro de rituais e aprende um número de magias que pode conjurar como rituais (rituals). Você deve ter o livro em mãos para conjurar qualquer magia dele como ritual.",
+    "Adicionar Novos Rituais: Se você encontrar uma magia em forma escrita, como em um pergaminho de magia ou no grimório de um mago, você pode adicioná-la ao seu livro de rituais se cumprir todos os requisitos abaixo. - Lista e Ritual: A magia deve estar na lista da classe escolhida e ter o descritor Ritual.",
+    "Limite de Nível: O nível da magia não pode ser maior que metade do seu nível (arredondado para cima).",
+    "Tempo e Custo: Copiar a magia leva 2 horas por nível da magia e custa 50 po por nível. Esse custo representa componentes materiais e testes necessários para dominar a magia, além de tintas especiais para registrá-la."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mente-afiada",
+  "name": "Mente Afiada",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Inteligência."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Inteligência 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Inteligência 13+.\n\n Aumento de Atributo: +1 de Inteligência.\n\n Você não “lembra”. Você arquiva. \n Detalhes viram mapas na sua cabeça, e coincidências viram padrões antes que alguém perceba que existiam. \n Seu raciocínio é rápido, metódico e atento a sinais sutis, tornando estudo e dedução parte do seu ritmo natural.\n\n - Conhecimento de Lore: Escolha uma das seguintes perícias: Arcanismo (Arcana), História (History), Investigação (Investigation), Natureza (Nature) ou Religião (Religion). - Sem proficiência: Você ganha proficiência na perícia escolhida.\n- Com proficiência: Você ganha Especialização (Expertise) na perícia escolhida.\n\n\n- Estudo Rápido: Você pode realizar a ação Estudar (Study) como uma Ação Bônus.\n- Mente Analítica: Você tem Vantagem em testes de habilidade de Inteligência para identificar ilusões e para lembrar de informações que viu, ouviu ou leu. ...",
+  "mechanicsSummary": "Conhecimento de Lore: Escolha uma das seguintes perícias: Arcanismo (Arcana), História (History), Investigação (Investigation), Natureza (Nature) ou Religião (Religion). - Sem proficiência: Você ganha proficiência na perícia escolhida. | Com proficiência: Você ganha Especialização (Expertise) na perícia escolhida. | Estudo Rápido: Você pode realizar a ação Estudar (Study) como uma Ação Bônus. | Mente Analítica: Você tem Vantagem em testes de habilidade de Inteligência para identificar ilusões e para lembrar de informações que viu, ouviu ou leu.",
+  "benefits": [
+    "Conhecimento de Lore: Escolha uma das seguintes perícias: Arcanismo (Arcana), História (History), Investigação (Investigation), Natureza (Nature) ou Religião (Religion). - Sem proficiência: Você ganha proficiência na perícia escolhida.",
+    "Com proficiência: Você ganha Especialização (Expertise) na perícia escolhida.",
+    "Estudo Rápido: Você pode realizar a ação Estudar (Study) como uma Ação Bônus.",
+    "Mente Analítica: Você tem Vantagem em testes de habilidade de Inteligência para identificar ilusões e para lembrar de informações que viu, ouviu ou leu."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Conhecimento de Lore: Escolha uma das seguintes perícias: Arcanismo (Arcana), História (History), Investigação (Investigation), Natureza (Nature) ou Religião (Religion). - Sem proficiência: Você ganha proficiência na perícia escolhida."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": "Estudo Rápido: Você pode realizar a ação Estudar (Study) como uma Ação Bônus."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

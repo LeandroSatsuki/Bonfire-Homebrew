@@ -1,0 +1,64 @@
+{
+  "id": "conjurador-de-guerra",
+  "name": "Conjurador de Guerra",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu a manter o fio da magia firme mesmo quando aço e caos tentam arrancá-lo das suas mãos. \n Se o inimigo abre a guarda por um instante, você responde com um feitiço no lugar de uma lâmina. \n Você conjura sob pressão, sustenta Concentração com mais facilidade e lança magias em janelas curtas de combate, mesmo com as mãos ocupadas.\n\n - Concentração Firme: Você tem Vantagem em testes de resistência de Constituição que fizer para manter Concentração.\n- Magia Reativa: Quando uma criatura provocar um Ataque de Oportunidade seu, você pode usar uma Reação para conjurar uma magia contra ela em vez de fazer o ataque. A magia deve ter tempo de conjuração de 1 Ação e deve ter como alvo apenas aquela criatura.\n- Componentes Somáticos Livres: Você pode realizar os compon ...",
+  "mechanicsSummary": "Concentração Firme: Você tem Vantagem em testes de resistência de Constituição que fizer para manter Concentração. | Magia Reativa: Quando uma criatura provocar um Ataque de Oportunidade seu, você pode usar uma Reação para conjurar uma magia contra ela em vez de fazer o ataque. A magia deve ter tempo de conjuração de 1 Ação e deve ter como alvo apenas aquela criatura. | Componentes Somáticos Livres: Você pode realizar os componentes somáticos de magias mesmo quando estiver segurando armas ou um escudo (Shield) em uma ou nas duas mãos.",
+  "benefits": [
+    "Concentração Firme: Você tem Vantagem em testes de resistência de Constituição que fizer para manter Concentração.",
+    "Magia Reativa: Quando uma criatura provocar um Ataque de Oportunidade seu, você pode usar uma Reação para conjurar uma magia contra ela em vez de fazer o ataque. A magia deve ter tempo de conjuração de 1 Ação e deve ter como alvo apenas aquela criatura.",
+    "Componentes Somáticos Livres: Você pode realizar os componentes somáticos de magias mesmo quando estiver segurando armas ou um escudo (Shield) em uma ou nas duas mãos."
+  ],
+  "grantedSpells": [
+    "Magia Reativa: Quando uma criatura provocar um Ataque de Oportunidade seu, você pode usar uma Reação para conjurar uma magia contra ela em vez de fazer o ataque. A magia deve ter tempo de conjuração de 1 Ação e deve ter como alvo apenas aquela criatura."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Magia Reativa: Quando uma criatura provocar um Ataque de Oportunidade seu, você pode usar uma Reação para conjurar uma magia contra ela em vez de fazer o ataque. A magia deve ter tempo de conjuração de 1 Ação e deve ter como alvo apenas aquela criatura. | Componentes Somáticos Livres: Você pode realizar os componentes somáticos de magias mesmo quando estiver segurando armas ou um escudo (Shield) em uma ou nas duas mãos."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

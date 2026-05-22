@@ -1,0 +1,58 @@
+{
+  "id": "brumas-ofuscantes",
+  "name": "Brumas Ofuscantes",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu a chamar a neblina como quem puxa uma cortina sobre o mundo. \n Dentro dela, luzes falham, passos se arrastam e a vantagem vira dúvida no mesmo instante. \n Você invoca névoas densas com facilidade e as torna mais incômodas para inimigos, apagando chamas e reduzindo a mobilidade dentro da área.\n - Erga-se, Névoa: Você sempre tem a magia Nuvem de Névoa (Fog Cloud) preparada. Você pode conjurá-la sem gastar um espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento.\n- Névoa que Agarra: Sempre que você conjurar Nuvem de Névoa (Fog Cloud), chamas não mágicas dentro da esfera da magia são apagadas. Além di ...",
+  "mechanicsSummary": "Erga-se, Névoa: Você sempre tem a magia Nuvem de Névoa (Fog Cloud) preparada. Você pode conjurá-la sem gastar um espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento. | Névoa que Agarra: Sempre que você conjurar Nuvem de Névoa (Fog Cloud), chamas não mágicas dentro da esfera da magia são apagadas. Além disso, criaturas que não sejam você e seus aliados têm seu Deslocamentoreduzido em 3 metros[10 pés] enquanto estiverem dentro da esfera da magia.",
+  "benefits": [
+    "Erga-se, Névoa: Você sempre tem a magia Nuvem de Névoa (Fog Cloud) preparada. Você pode conjurá-la sem gastar um espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento.",
+    "Névoa que Agarra: Sempre que você conjurar Nuvem de Névoa (Fog Cloud), chamas não mágicas dentro da esfera da magia são apagadas. Além disso, criaturas que não sejam você e seus aliados têm seu Deslocamentoreduzido em 3 metros[10 pés] enquanto estiverem dentro da esfera da magia."
+  ],
+  "grantedSpells": [
+    "Erga-se, Névoa: Você sempre tem a magia Nuvem de Névoa (Fog Cloud) preparada. Você pode conjurá-la sem gastar um espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento.",
+    "Névoa que Agarra: Sempre que você conjurar Nuvem de Névoa (Fog Cloud), chamas não mágicas dentro da esfera da magia são apagadas. Além disso, criaturas que não sejam você e seus aliados têm seu Deslocamentoreduzido em 3 metros[10 pés] enquanto estiverem dentro da esfera da magia."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Erga-se, Névoa: Você sempre tem a magia Nuvem de Névoa (Fog Cloud) preparada. Você pode conjurá-la sem gastar um espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

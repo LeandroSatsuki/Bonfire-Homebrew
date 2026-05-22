@@ -1,0 +1,61 @@
+{
+  "id": "cavaleiro-do-escudo-brilhante",
+  "name": "Cavaleiro do Escudo Brilhante",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força, Destreza ou Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Escudeiro do Amanhecer"
+  ],
+  "description": "Pré-requisito: Nível 4+, Escudeiro do Amanhecer.\n\n Aumento de Atributo: +1 de Força, Destreza ou Constituição.\n\n Você aprende a ser parede sem virar pedra, firme o bastante para proteger, leve o bastante para não esmagar quem confia em você. \n Nas ruas e muralhas de Auralon, sua voz vira sinal, seu escudo vira ritmo, e a linha inteira se move como um só corpo. \n Você comanda aberturas para aliados e inicia o combate com um protocolo defensivo que reduz o dano dentro da formação.\n\n - Reunião Comandada: Como uma Ação Bônus, você escolhe 1 aliado a até 9 metros[30 pés] de você. Se esse aliado puder ver ou ouvir você, ele pode usar uma Reação para fazer imediatamente 1 ataque com arma . Se o ataque acertar, o aliado rola 1d8 e adiciona o resultado como bônus à jogada de dano desse ataque. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera t ...",
+  "mechanicsSummary": "Reunião Comandada: Como uma Ação Bônus, você escolhe 1 aliado a até 9 metros[30 pés] de você. Se esse aliado puder ver ou ouvir você, ele pode usar uma Reação para fazer imediatamente 1 ataque com arma . Se o ataque acertar, o aliado rola 1d8 e adiciona o resultado como bônus à jogada de dano desse ataque. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo . | Protocolo do Muro: Quando você rolar Iniciativa e não estiver com a condição Incapacitado, você pode escolher qualquer número de aliados a até 1,5 metro[5 pés] de você. Até o início do seu segundo turno na ordem de iniciativa, sempre que um desses aliados sofrer dano de um ataque enquanto estiver a até 1,5 metro[5 pés] de você, ele reduz esse dano em um valor igual ao seu Bônus de Proficiência (mínimo 0).",
+  "benefits": [
+    "Reunião Comandada: Como uma Ação Bônus, você escolhe 1 aliado a até 9 metros[30 pés] de você. Se esse aliado puder ver ou ouvir você, ele pode usar uma Reação para fazer imediatamente 1 ataque com arma . Se o ataque acertar, o aliado rola 1d8 e adiciona o resultado como bônus à jogada de dano desse ataque. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo .",
+    "Protocolo do Muro: Quando você rolar Iniciativa e não estiver com a condição Incapacitado, você pode escolher qualquer número de aliados a até 1,5 metro[5 pés] de você. Até o início do seu segundo turno na ordem de iniciativa, sempre que um desses aliados sofrer dano de um ataque enquanto estiver a até 1,5 metro[5 pés] de você, ele reduz esse dano em um valor igual ao seu Bônus de Proficiência (mínimo 0)."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Reunião Comandada: Como uma Ação Bônus, você escolhe 1 aliado a até 9 metros[30 pés] de você. Se esse aliado puder ver ou ouvir você, ele pode usar uma Reação para fazer imediatamente 1 ataque com arma . Se o ataque acertar, o aliado rola 1d8 e adiciona o resultado como bônus à jogada de dano desse ataque. - Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo . | Protocolo do Muro: Quando você rolar Iniciativa e não estiver com a condição Incapacitado, você pode escolher qualquer número de aliados a até 1,5 metro[5 pés] de você. Até o início do seu segundo turno na ordem de iniciativa, sempre que um desses aliados sofrer dano de um ataque enquanto estiver a até 1,5 metro[5 pés] de você, ele reduz esse dano em um valor igual ao seu Bônus de Proficiência (mínimo 0)."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

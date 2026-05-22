@@ -1,0 +1,65 @@
+{
+  "id": "estigma-draconico",
+  "name": "Estigma Dracônico",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Carisma"
+    ],
+    "description": "+1 de Força, Constituição ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Talento Assecla do Reinado Dracônico"
+  ],
+  "description": "Pré-requisito: Nível 4+, Talento Assecla do Reinado Dracônico.\n\n Aumento de Atributo: +1 de Força, Constituição ou Carisma.\n\n A marca não é um adorno. É uma lembrança viva de que você esteve perto demais do rugido. Seu corpo se adapta para suportar a pressão da essência dracônica, endurecendo por fora e acelerando por dentro quando você libera sua presença.\n\n - Escamas Ancestrais: Escolha 1 tipo de dano, exceto Concussão, Cortante ou Perfurante. Você ganha Resistência ao tipo de dano escolhido.\n- Despertar do Estigma : O alcance da sua habilidade Glória e Imponência se torna uma aura de 3 metros[10 pés] ao seu redor. Quando você ativar Glória e Imponência, você pode escolher quais criaturas dentro da aura serão afetadas por ela.\n- Poder do Soberano: Quando você realizar a ação Ataque ou conjurar uma magia que cause dano ou restaure Pontos de Vida, você pode gastar 1 uso de Glória e Impon ...",
+  "mechanicsSummary": "Escamas Ancestrais: Escolha 1 tipo de dano, exceto Concussão, Cortante ou Perfurante. Você ganha Resistência ao tipo de dano escolhido. | Despertar do Estigma : O alcance da sua habilidade Glória e Imponência se torna uma aura de 3 metros[10 pés] ao seu redor. Quando você ativar Glória e Imponência, você pode escolher quais criaturas dentro da aura serão afetadas por ela. | Poder do Soberano: Quando você realizar a ação Ataque ou conjurar uma magia que cause dano ou restaure Pontos de Vida, você pode gastar 1 uso de Glória e Imponência como parte dessa mesma ação (sem gastar Ação Bônus). Ao fazer isso, escolha um alvo válido dentro da sua aura de 3 metros[10 pés] e aplique um dos efeitos abaixo, conforme o tipo de ação que você acabou de realizar: - Ao causar dano: o alvo faz o teste de resistência exigido por Glória e Imponência. Em uma falha, além do efeito normal da habilidade, o alvo sofre dano adicional igual ao seu Bônus de Proficiência, do tipo escolhido em Escamas Ancestrais. | Ao curar: o alvo recebe imediatamente os Pontos de Vida Temporários concedidos por Glória e Imponência.",
+  "benefits": [
+    "Escamas Ancestrais: Escolha 1 tipo de dano, exceto Concussão, Cortante ou Perfurante. Você ganha Resistência ao tipo de dano escolhido.",
+    "Despertar do Estigma : O alcance da sua habilidade Glória e Imponência se torna uma aura de 3 metros[10 pés] ao seu redor. Quando você ativar Glória e Imponência, você pode escolher quais criaturas dentro da aura serão afetadas por ela.",
+    "Poder do Soberano: Quando você realizar a ação Ataque ou conjurar uma magia que cause dano ou restaure Pontos de Vida, você pode gastar 1 uso de Glória e Imponência como parte dessa mesma ação (sem gastar Ação Bônus). Ao fazer isso, escolha um alvo válido dentro da sua aura de 3 metros[10 pés] e aplique um dos efeitos abaixo, conforme o tipo de ação que você acabou de realizar: - Ao causar dano: o alvo faz o teste de resistência exigido por Glória e Imponência. Em uma falha, além do efeito normal da habilidade, o alvo sofre dano adicional igual ao seu Bônus de Proficiência, do tipo escolhido em Escamas Ancestrais.",
+    "Ao curar: o alvo recebe imediatamente os Pontos de Vida Temporários concedidos por Glória e Imponência."
+  ],
+  "grantedSpells": [
+    "Poder do Soberano: Quando você realizar a ação Ataque ou conjurar uma magia que cause dano ou restaure Pontos de Vida, você pode gastar 1 uso de Glória e Imponência como parte dessa mesma ação (sem gastar Ação Bônus). Ao fazer isso, escolha um alvo válido dentro da sua aura de 3 metros[10 pés] e aplique um dos efeitos abaixo, conforme o tipo de ação que você acabou de realizar: - Ao causar dano: o alvo faz o teste de resistência exigido por Glória e Imponência. Em uma falha, além do efeito normal da habilidade, o alvo sofre dano adicional igual ao seu Bônus de Proficiência, do tipo escolhido em Escamas Ancestrais."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Despertar do Estigma : O alcance da sua habilidade Glória e Imponência se torna uma aura de 3 metros[10 pés] ao seu redor. Quando você ativar Glória e Imponência, você pode escolher quais criaturas dentro da aura serão afetadas por ela. | Poder do Soberano: Quando você realizar a ação Ataque ou conjurar uma magia que cause dano ou restaure Pontos de Vida, você pode gastar 1 uso de Glória e Imponência como parte dessa mesma ação (sem gastar Ação Bônus). Ao fazer isso, escolha um alvo válido dentro da sua aura de 3 metros[10 pés] e aplique um dos efeitos abaixo, conforme o tipo de ação que você acabou de realizar: - Ao causar dano: o alvo faz o teste de resistência exigido por Glória e Imponência. Em uma falha, além do efeito normal da habilidade, o alvo sofre dano adicional igual ao seu Bônus de Proficiência, do tipo escolhido em Escamas Ancestrais."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "vinculo com outra camada de personagem",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "determinacao-da-cavalaria",
+  "name": "Determinação da Cavalaria",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Carisma"
+    ],
+    "description": "+1 de Força ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Iniciado na Ordem de Cavalaria Auralina"
+  ],
+  "description": "Pré-requisito: Nível 4+, Iniciado na Ordem de Cavalaria Auralina.\n\n Aumento de Atributo: +1 de Força ou Carisma.\n\n Quando o estandarte se levanta, a linha se recompõe. \n Você aprendeu a reconhecer o instante em que a coragem vacila e a puxá-la de volta com voz, presença e disciplina, como quem segura uma corda antes que o pelotão se parta. \n Seu treinamento auraliano transforma Inspiração Heroica (Heroic Inspiration) em fôlego real e faz sua ordem curta reorganizar aliados, expulsando pânico e interferência mental antes que virem derrota.\n - Vigor do Porta Estandarte: Quando você concede Inspiração Heroica (Heroic Inspiration) a um aliado por meio de Golpe Inspirador do talento Iniciado na Ordem de Cavalaria Auralina, esse aliado também ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1).\n- Manter a Linha: Como uma Ação Bônus, es ...",
+  "mechanicsSummary": "Vigor do Porta Estandarte: Quando você concede Inspiração Heroica (Heroic Inspiration) a um aliado por meio de Golpe Inspirador do talento Iniciado na Ordem de Cavalaria Auralina, esse aliado também ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1). | Manter a Linha: Como uma Ação Bônus, escolha até 3 criaturas a até 18 metros[60 pés] de você que possam ver você. Cada alvo pode imediatamente usar uma Reação para se endireitar e encerrar a condição Caído (Prone), desde que o deslocamento do alvo não seja 0. Além disso, cada alvo é fortalecido por 1 minuto ou até você ficar com a condição Incapacitado. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. - Fôlego de Batalha: Um alvo fortalecido ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1). | Efeito imediato: Se um alvo estiver Enfeitiçado (Charmed) ou Amedrontado (Frightened), essa condição termina imediatamente para ele. | Resistência mental: Enquanto estiver fortalecido, um alvo não pode ser possuído e não pode receber as condições Enfeitiçado (Charmed) ou Amedrontado (Frightened). | Se já estiver sob influência: Se um alvo já estiver possuído, ele tem Vantagem em qualquer novo teste de resistência contra o efeito que o está possuindo (conforme as regras do efeito).",
+  "benefits": [
+    "Vigor do Porta Estandarte: Quando você concede Inspiração Heroica (Heroic Inspiration) a um aliado por meio de Golpe Inspirador do talento Iniciado na Ordem de Cavalaria Auralina, esse aliado também ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1).",
+    "Manter a Linha: Como uma Ação Bônus, escolha até 3 criaturas a até 18 metros[60 pés] de você que possam ver você. Cada alvo pode imediatamente usar uma Reação para se endireitar e encerrar a condição Caído (Prone), desde que o deslocamento do alvo não seja 0. Além disso, cada alvo é fortalecido por 1 minuto ou até você ficar com a condição Incapacitado. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. - Fôlego de Batalha: Um alvo fortalecido ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1).",
+    "Efeito imediato: Se um alvo estiver Enfeitiçado (Charmed) ou Amedrontado (Frightened), essa condição termina imediatamente para ele.",
+    "Resistência mental: Enquanto estiver fortalecido, um alvo não pode ser possuído e não pode receber as condições Enfeitiçado (Charmed) ou Amedrontado (Frightened).",
+    "Se já estiver sob influência: Se um alvo já estiver possuído, ele tem Vantagem em qualquer novo teste de resistência contra o efeito que o está possuindo (conforme as regras do efeito)."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Vigor do Porta Estandarte: Quando você concede Inspiração Heroica (Heroic Inspiration) a um aliado por meio de Golpe Inspirador do talento Iniciado na Ordem de Cavalaria Auralina, esse aliado também ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1). | Manter a Linha: Como uma Ação Bônus, escolha até 3 criaturas a até 18 metros[60 pés] de você que possam ver você. Cada alvo pode imediatamente usar uma Reação para se endireitar e encerrar a condição Caído (Prone), desde que o deslocamento do alvo não seja 0. Além disso, cada alvo é fortalecido por 1 minuto ou até você ficar com a condição Incapacitado. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. - Fôlego de Batalha: Um alvo fortalecido ganha Pontos de Vida Temporários iguais ao seu bônus de proficiência + o seu modificador de Carisma (mínimo 1)."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

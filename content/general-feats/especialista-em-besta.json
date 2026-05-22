@@ -1,0 +1,56 @@
+{
+  "id": "especialista-em-besta",
+  "name": "Especialista em Besta",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Destreza 13+.\n\n Aumento de Atributo: +1 de Destreza.\n\n Você aprendeu que uma besta não é lenta. Lento é o pensamento de quem ainda “espera” o disparo acontecer. Você domina o manuseio de bestas em qualquer distância e ritmo, mantendo o fluxo de ataques mesmo sob pressão.\n\n - Ignorar Carregamento: Você ignora a característica Carregar de bestas com as quais você é proficiente. Além disso, você não precisa mais de uma mão livre para colocar munição na besta.\n- Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas jogadas de ataque com bestas.\n- Duas Armas, Um Ritmo: Quando você fizer o ataque extra da propriedade Leve, você pode adicionar seu modificador de atributo ao dano desse ataque adicional, desde que esse ataque seja feito com uma besta que tenha a propriedade Leve e você ainda não esteja adicionando ess ...",
+  "mechanicsSummary": "Ignorar Carregamento: Você ignora a característica Carregar de bestas com as quais você é proficiente. Além disso, você não precisa mais de uma mão livre para colocar munição na besta. | Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas jogadas de ataque com bestas. | Duas Armas, Um Ritmo: Quando você fizer o ataque extra da propriedade Leve, você pode adicionar seu modificador de atributo ao dano desse ataque adicional, desde que esse ataque seja feito com uma besta que tenha a propriedade Leve e você ainda não esteja adicionando esse modificador ao dano.",
+  "benefits": [
+    "Ignorar Carregamento: Você ignora a característica Carregar de bestas com as quais você é proficiente. Além disso, você não precisa mais de uma mão livre para colocar munição na besta.",
+    "Disparo em Combate Corpo a Corpo: Estar a até 1,5 metros[5 pés] de um inimigo não impõe Desvantagem nas suas jogadas de ataque com bestas.",
+    "Duas Armas, Um Ritmo: Quando você fizer o ataque extra da propriedade Leve, você pode adicionar seu modificador de atributo ao dano desse ataque adicional, desde que esse ataque seja feito com uma besta que tenha a propriedade Leve e você ainda não esteja adicionando esse modificador ao dano."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Duas Armas, Um Ritmo: Quando você fizer o ataque extra da propriedade Leve, você pode adicionar seu modificador de atributo ao dano desse ataque adicional, desde que esse ataque seja feito com uma besta que tenha a propriedade Leve e você ainda não esteja adicionando esse modificador ao dano."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

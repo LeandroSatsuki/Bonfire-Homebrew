@@ -1,0 +1,58 @@
+{
+  "id": "marca-arcana-superior-da-busca",
+  "name": "Marca Arcana Superior da Busca",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Busca"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Busca.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Coisas perdidas ainda deixam um fio, mesmo quando o mundo insiste em negar.Sua runa não procura pegadas, ela procura intenções. \n Sua Marca refina o instinto de caça e transforma perseguição em certeza.\n\n - Intuição Aprimorada. Quando você usa Intuição do Caçador do seu talento Marca Arcana da Busca, você rola 1d6 em vez de 1d4.\n- Busca Aprimorada. Quando você usa Magia do Rastro para conjurar Marca do Caçador (Hunter's Mark) sem gastar um espaço de magia, o alcance da magia é dobrado e você pode modificar a magia para que o alvo não possa se beneficiar da condição Invisível pela duração.",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição do Caçador do seu talento Marca Arcana da Busca, você rola 1d6 em vez de 1d4. | Busca Aprimorada. Quando você usa Magia do Rastro para conjurar Marca do Caçador (Hunter's Mark) sem gastar um espaço de magia, o alcance da magia é dobrado e você pode modificar a magia para que o alvo não possa se beneficiar da condição Invisível pela duração.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição do Caçador do seu talento Marca Arcana da Busca, você rola 1d6 em vez de 1d4.",
+    "Busca Aprimorada. Quando você usa Magia do Rastro para conjurar Marca do Caçador (Hunter's Mark) sem gastar um espaço de magia, o alcance da magia é dobrado e você pode modificar a magia para que o alvo não possa se beneficiar da condição Invisível pela duração."
+  ],
+  "grantedSpells": [
+    "Busca Aprimorada. Quando você usa Magia do Rastro para conjurar Marca do Caçador (Hunter's Mark) sem gastar um espaço de magia, o alcance da magia é dobrado e você pode modificar a magia para que o alvo não possa se beneficiar da condição Invisível pela duração."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição do Caçador do seu talento Marca Arcana da Busca, você rola 1d6 em vez de 1d4. | Busca Aprimorada. Quando você usa Magia do Rastro para conjurar Marca do Caçador (Hunter's Mark) sem gastar um espaço de magia, o alcance da magia é dobrado e você pode modificar a magia para que o alvo não possa se beneficiar da condição Invisível pela duração."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

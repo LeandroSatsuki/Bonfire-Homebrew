@@ -1,0 +1,52 @@
+{
+  "id": "guerreiro-hemomante",
+  "name": "Guerreiro Hemomante",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Constituição.\n\n Você estica o instante do golpe como quem puxa um fio dentro do próprio pulso. \n Por um minuto, seu corpo obedece a uma ordem impossível e depois cobra o preço na carne. \n Você empurra seu alcance e sua pressão de combate para além do normal por um breve período, sustentando isso com exsanguinação controlada.\n\n - Corte de Sangue: Quando você realizar a ação Ataque no seu turno, você pode gastar 2 Dados de Vida. Durante 1 minuto, seu alcance com ataques corpo a corpo com armas e ataques desarmados aumenta em 1,5 metro[5 pés].\n- Exsanguinação: Quando você usar Corte de Sangue, role os 2 Dados de Vida gastos e some os resultados. Você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução de máximo não podem ser red ...",
+  "mechanicsSummary": "Corte de Sangue: Quando você realizar a ação Ataque no seu turno, você pode gastar 2 Dados de Vida. Durante 1 minuto, seu alcance com ataques corpo a corpo com armas e ataques desarmados aumenta em 1,5 metro[5 pés]. | Exsanguinação: Quando você usar Corte de Sangue, role os 2 Dados de Vida gastos e some os resultados. Você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo.",
+  "benefits": [
+    "Corte de Sangue: Quando você realizar a ação Ataque no seu turno, você pode gastar 2 Dados de Vida. Durante 1 minuto, seu alcance com ataques corpo a corpo com armas e ataques desarmados aumenta em 1,5 metro[5 pés].",
+    "Exsanguinação: Quando você usar Corte de Sangue, role os 2 Dados de Vida gastos e some os resultados. Você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Corte de Sangue: Quando você realizar a ação Ataque no seu turno, você pode gastar 2 Dados de Vida. Durante 1 minuto, seu alcance com ataques corpo a corpo com armas e ataques desarmados aumenta em 1,5 metro[5 pés]. | Exsanguinação: Quando você usar Corte de Sangue, role os 2 Dados de Vida gastos e some os resultados. Você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

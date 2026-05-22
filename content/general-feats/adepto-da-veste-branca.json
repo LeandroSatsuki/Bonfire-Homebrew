@@ -1,0 +1,66 @@
+{
+  "id": "adepto-da-veste-branca",
+  "name": "Adepto da Veste Branca",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Iniciado no Juramento das Três Luas (Lua de Cristal)"
+  ],
+  "description": "Pré-requisito: Nível 4+, Iniciado no Juramento das Três Luas (Lua de Cristal).\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n A Veste Branca é a arte de reagir na fresta do golpe, onde uma decisão vale mais que um escudo. \n Você aprende a envolver a dor antes que ela vire tragédia, como cristal que se forma no ar. \n Você amplia sua magia de contenção, aprendendo um encanto protetor e convertendo energia arcana em redução imediata de dano.\n\n - Magia Protetora: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Abjuração ou Adivinhação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolh ...",
+  "mechanicsSummary": "Magia Protetora: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Abjuração ou Adivinhação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris. | Proteção Protetora: Quando você ou uma criatura que você consegue ver a até 9 metros[30 pés] de você sofrer dano, você pode usar uma Reação para gastar 1 espaço de magia e tecer uma contenção protetora ao redor do alvo. - Rolagem: Role um número de d6 igual ao nível do espaço de magia gasto. | Redução de Dano: Reduza o dano sofrido pelo alvo pelo total rolado nos dados + seu modificador do atributo de conjuração.",
+  "benefits": [
+    "Magia Protetora: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Abjuração ou Adivinhação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris.",
+    "Proteção Protetora: Quando você ou uma criatura que você consegue ver a até 9 metros[30 pés] de você sofrer dano, você pode usar uma Reação para gastar 1 espaço de magia e tecer uma contenção protetora ao redor do alvo. - Rolagem: Role um número de d6 igual ao nível do espaço de magia gasto.",
+    "Redução de Dano: Reduza o dano sofrido pelo alvo pelo total rolado nos dados + seu modificador do atributo de conjuração."
+  ],
+  "grantedSpells": [
+    "Magia Protetora: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Abjuração ou Adivinhação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris.",
+    "Proteção Protetora: Quando você ou uma criatura que você consegue ver a até 9 metros[30 pés] de você sofrer dano, você pode usar uma Reação para gastar 1 espaço de magia e tecer uma contenção protetora ao redor do alvo. - Rolagem: Role um número de d6 igual ao nível do espaço de magia gasto."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Proteção Protetora: Quando você ou uma criatura que você consegue ver a até 9 metros[30 pés] de você sofrer dano, você pode usar uma Reação para gastar 1 espaço de magia e tecer uma contenção protetora ao redor do alvo. - Rolagem: Role um número de d6 igual ao nível do espaço de magia gasto."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

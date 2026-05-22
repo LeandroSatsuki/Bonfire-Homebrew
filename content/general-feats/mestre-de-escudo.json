@@ -1,0 +1,63 @@
+{
+  "id": "mestre-de-escudo",
+  "name": "Mestre de Escudo",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Força."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Treinamento com Escudo (Shield Training)"
+  ],
+  "description": "Pré-requisito: Nível 4+, Treinamento com Escudo (Shield Training).\n\n Aumento de Atributo: +1 de Força.\n\n Seu escudo não é defesa passiva. É uma parede que responde. \n Você abre espaço, quebra postura e faz a batalha acontecer do seu lado. \n Você usa o escudo para controlar a curta distância e para transformar reflexo em proteção total no instante certo.\n\n - Pancada de Escudo: Se você atacar uma criatura a 1,5 metro[5 pés] de você como parte da ação de Ataque e acertar com uma arma corpo a corpo, você pode imediatamente dar uma pancada no alvo com seu escudo (Shield), se ele estiver equipado. O alvo deve fazer um teste de resistência de Força (Strength) com CD igual a 8 + seu modificador de Força + seu Bônus de Proficiência. Em uma falha, você empurra o alvo 1,5 metro[5 pés] para longe de você ou faz com que ele fique na condição Caído (Prone) (à sua escolha). Você pode usar este benefíci ...",
+  "mechanicsSummary": "Pancada de Escudo: Se você atacar uma criatura a 1,5 metro[5 pés] de você como parte da ação de Ataque e acertar com uma arma corpo a corpo, você pode imediatamente dar uma pancada no alvo com seu escudo (Shield), se ele estiver equipado. O alvo deve fazer um teste de resistência de Força (Strength) com CD igual a 8 + seu modificador de Força + seu Bônus de Proficiência. Em uma falha, você empurra o alvo 1,5 metro[5 pés] para longe de você ou faz com que ele fique na condição Caído (Prone) (à sua escolha). Você pode usar este benefício apenas uma vez em cada um dos seus turnos. | Interpor Escudo (Interpose Shield): Se você for submetido a um efeito que permita fazer um teste de resistência de Destreza (Dexterity) para sofrer apenas metade do dano, você pode usar sua Reação para não sofrer dano se for bem-sucedido na resistência e estiver segurando um escudo. | Reflexo Protegido: Se você não estiver Incapacitado, você pode adicionar o bônus de CA do seu escudo a qualquer teste de resistência de Destreza que você fizer contra uma magia ou outro efeito nocivo que tenha somente você como alvo.",
+  "benefits": [
+    "Pancada de Escudo: Se você atacar uma criatura a 1,5 metro[5 pés] de você como parte da ação de Ataque e acertar com uma arma corpo a corpo, você pode imediatamente dar uma pancada no alvo com seu escudo (Shield), se ele estiver equipado. O alvo deve fazer um teste de resistência de Força (Strength) com CD igual a 8 + seu modificador de Força + seu Bônus de Proficiência. Em uma falha, você empurra o alvo 1,5 metro[5 pés] para longe de você ou faz com que ele fique na condição Caído (Prone) (à sua escolha). Você pode usar este benefício apenas uma vez em cada um dos seus turnos.",
+    "Interpor Escudo (Interpose Shield): Se você for submetido a um efeito que permita fazer um teste de resistência de Destreza (Dexterity) para sofrer apenas metade do dano, você pode usar sua Reação para não sofrer dano se for bem-sucedido na resistência e estiver segurando um escudo.",
+    "Reflexo Protegido: Se você não estiver Incapacitado, você pode adicionar o bônus de CA do seu escudo a qualquer teste de resistência de Destreza que você fizer contra uma magia ou outro efeito nocivo que tenha somente você como alvo."
+  ],
+  "grantedSpells": [
+    "Reflexo Protegido: Se você não estiver Incapacitado, você pode adicionar o bônus de CA do seu escudo a qualquer teste de resistência de Destreza que você fizer contra uma magia ou outro efeito nocivo que tenha somente você como alvo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": false,
+    "description": "Pancada de Escudo: Se você atacar uma criatura a 1,5 metro[5 pés] de você como parte da ação de Ataque e acertar com uma arma corpo a corpo, você pode imediatamente dar uma pancada no alvo com seu escudo (Shield), se ele estiver equipado. O alvo deve fazer um teste de resistência de Força (Strength) com CD igual a 8 + seu modificador de Força + seu Bônus de Proficiência. Em uma falha, você empurra o alvo 1,5 metro[5 pés] para longe de você ou faz com que ele fique na condição Caído (Prone) (à sua escolha). Você pode usar este benefício apenas uma vez em cada um dos seus turnos. | Interpor Escudo (Interpose Shield): Se você for submetido a um efeito que permita fazer um teste de resistência de Destreza (Dexterity) para sofrer apenas metade do dano, você pode usar sua Reação para não sofrer dano se for bem-sucedido na resistência e estiver segurando um escudo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

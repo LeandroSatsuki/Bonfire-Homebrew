@@ -1,0 +1,61 @@
+{
+  "id": "tocado-pelo-feerico",
+  "name": "Tocado pelo Feérico",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você deu um passo fora da trilha e, por um segundo, o mundo pareceu sorrir de volta. \n Desde então, promessas têm peso, nomes têm eco e a distância vira só uma sugestão. \n Você aprende magias feéricas e pode conjurá-las sem gastar espaços algumas vezes, além de mantê-las sempre prontas.\n\n - Magia Feérica: Escolha 1 magia de 1º círculo da escola de Adivinhação ou Encantamento. Você sempre tem essa magia e Passo Nebuloso (Misty Step) preparadas.\n- Conjuração Gratuita: Você pode conjurar Passo Nebuloso (Misty Step) e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois que você conjurar qualquer uma delas dessa forma, você não pode conjurar aquela magia dessa forma novamente até terminar um Descanso Longo.\n- Conjuração Normal: Você também pode conjurar essas magias usando espaços de ...",
+  "mechanicsSummary": "Magia Feérica: Escolha 1 magia de 1º círculo da escola de Adivinhação ou Encantamento. Você sempre tem essa magia e Passo Nebuloso (Misty Step) preparadas. | Conjuração Gratuita: Você pode conjurar Passo Nebuloso (Misty Step) e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois que você conjurar qualquer uma delas dessa forma, você não pode conjurar aquela magia dessa forma novamente até terminar um Descanso Longo. | Conjuração Normal: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado. | Atributo de Conjuração: O atributo de conjuração dessas magias é o atributo escolhido no Aumento de Atributo deste talento.",
+  "benefits": [
+    "Magia Feérica: Escolha 1 magia de 1º círculo da escola de Adivinhação ou Encantamento. Você sempre tem essa magia e Passo Nebuloso (Misty Step) preparadas.",
+    "Conjuração Gratuita: Você pode conjurar Passo Nebuloso (Misty Step) e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois que você conjurar qualquer uma delas dessa forma, você não pode conjurar aquela magia dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado.",
+    "Atributo de Conjuração: O atributo de conjuração dessas magias é o atributo escolhido no Aumento de Atributo deste talento."
+  ],
+  "grantedSpells": [
+    "Magia Feérica: Escolha 1 magia de 1º círculo da escola de Adivinhação ou Encantamento. Você sempre tem essa magia e Passo Nebuloso (Misty Step) preparadas.",
+    "Conjuração Gratuita: Você pode conjurar Passo Nebuloso (Misty Step) e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois que você conjurar qualquer uma delas dessa forma, você não pode conjurar aquela magia dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essas magias usando espaços de magia que você tenha do nível apropriado."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Conjuração Gratuita: Você pode conjurar Passo Nebuloso (Misty Step) e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois que você conjurar qualquer uma delas dessa forma, você não pode conjurar aquela magia dessa forma novamente até terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

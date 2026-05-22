@@ -1,0 +1,61 @@
+{
+  "id": "tocado-pelas-sombras",
+  "name": "Tocado pelas Sombras",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Um frio que não vem do vento passou por você e deixou marcas onde a luz não alcança. \n Agora, quando você fala palavras de poder, a sombra responde antes do mundo. \n Você aprende magias ligadas às trevas e pode conjurá-las com facilidade limitada, recuperando esse poder após descansar.\n\n - Magia das Sombras: Você aprende a magia Invisibilidade e escolhe 1 magia de 1º círculo. A magia escolhida deve ser da escola de Ilusão ou Necromancia.\n- Conjuração Gratuita: Você pode conjurar Invisibilidade e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois de conjurar uma dessas magias dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo.\n- Conjuração Normal: Você também pode conjurar essas magias usando quaisquer espaços de magia que você tenha do nív ...",
+  "mechanicsSummary": "Magia das Sombras: Você aprende a magia Invisibilidade e escolhe 1 magia de 1º círculo. A magia escolhida deve ser da escola de Ilusão ou Necromancia. | Conjuração Gratuita: Você pode conjurar Invisibilidade e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois de conjurar uma dessas magias dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo. | Conjuração Normal: Você também pode conjurar essas magias usando quaisquer espaços de magia que você tenha do nível apropriado. | Atributo de Conjuração: O atributo de conjuração dessas magias é o mesmo atributo escolhido no Aumento de Atributo deste talento.",
+  "benefits": [
+    "Magia das Sombras: Você aprende a magia Invisibilidade e escolhe 1 magia de 1º círculo. A magia escolhida deve ser da escola de Ilusão ou Necromancia.",
+    "Conjuração Gratuita: Você pode conjurar Invisibilidade e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois de conjurar uma dessas magias dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essas magias usando quaisquer espaços de magia que você tenha do nível apropriado.",
+    "Atributo de Conjuração: O atributo de conjuração dessas magias é o mesmo atributo escolhido no Aumento de Atributo deste talento."
+  ],
+  "grantedSpells": [
+    "Magia das Sombras: Você aprende a magia Invisibilidade e escolhe 1 magia de 1º círculo. A magia escolhida deve ser da escola de Ilusão ou Necromancia.",
+    "Conjuração Gratuita: Você pode conjurar Invisibilidade e a magia de 1º círculo escolhida sem gastar um espaço de magia. Depois de conjurar uma dessas magias dessa forma, você não pode conjurá-la dessa forma novamente até terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essas magias usando quaisquer espaços de magia que você tenha do nível apropriado."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

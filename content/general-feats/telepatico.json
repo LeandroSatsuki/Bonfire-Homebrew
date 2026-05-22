@@ -1,0 +1,63 @@
+{
+  "id": "telepatico",
+  "name": "Telepático",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu que o verdadeiro controle não é invadir uma mente, é escolher quando permitir contato. \n Você abre um canal com cuidado, ou fecha portas que ninguém sabia que existiam, deixando do lado de fora até a intenção. \n Você desenvolveu técnicas para estabelecer comunicação mental segura, perceber sondas psíquicas e tocar pensamentos quando necessário.\n\n - Pronunciamento Telepático: Você pode falar telepaticamente com qualquer criatura que você possa ver a até 18 metros[60 pés] de você. Suas mensagens telepáticas são em um idioma que você conheça, e a criatura só entende a mensagem se também conhecer esse idioma. Essa comunicação não concede à criatura a capacidade de responder telepaticamente.\n- Selo e Canal: Como uma Ação Bônus, você alterna entre os estados Mente Aberta e Mente Fechada , ...",
+  "mechanicsSummary": "Pronunciamento Telepático: Você pode falar telepaticamente com qualquer criatura que você possa ver a até 18 metros[60 pés] de você. Suas mensagens telepáticas são em um idioma que você conheça, e a criatura só entende a mensagem se também conhecer esse idioma. Essa comunicação não concede à criatura a capacidade de responder telepaticamente. | Selo e Canal: Como uma Ação Bônus, você alterna entre os estados Mente Aberta e Mente Fechada , que duram até você alternar novamente ou até você ficar com a condição Incapacitado. - Mente Aberta: Quando você usa Pronunciamento Telepático, a criatura pode responder a você telepaticamente enquanto estiver a até 18 metros[60 pés] de você, desde que ela entenda seu idioma. | Mente Fechada: Você tem Vantagem em testes de resistência contra efeitos que leriam seus pensamentos, detectariam suas emoções ou determinariam se você está mentindo. Além disso, quando uma criatura tentar ler sua mente ou usar telepatia para se comunicar com você sem sua permissão, você percebe a tentativa. | Leitura de Superfície: Você sempre tem Detectar Pensamentos (Detect Thoughts) preparada. Você pode conjurá-la sem gastar espaço de magia ou componentes, e deve terminar um Descanso Longo antes de conjurá-la dessa forma novamente. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento.",
+  "benefits": [
+    "Pronunciamento Telepático: Você pode falar telepaticamente com qualquer criatura que você possa ver a até 18 metros[60 pés] de você. Suas mensagens telepáticas são em um idioma que você conheça, e a criatura só entende a mensagem se também conhecer esse idioma. Essa comunicação não concede à criatura a capacidade de responder telepaticamente.",
+    "Selo e Canal: Como uma Ação Bônus, você alterna entre os estados Mente Aberta e Mente Fechada , que duram até você alternar novamente ou até você ficar com a condição Incapacitado. - Mente Aberta: Quando você usa Pronunciamento Telepático, a criatura pode responder a você telepaticamente enquanto estiver a até 18 metros[60 pés] de você, desde que ela entenda seu idioma.",
+    "Mente Fechada: Você tem Vantagem em testes de resistência contra efeitos que leriam seus pensamentos, detectariam suas emoções ou determinariam se você está mentindo. Além disso, quando uma criatura tentar ler sua mente ou usar telepatia para se comunicar com você sem sua permissão, você percebe a tentativa.",
+    "Leitura de Superfície: Você sempre tem Detectar Pensamentos (Detect Thoughts) preparada. Você pode conjurá-la sem gastar espaço de magia ou componentes, e deve terminar um Descanso Longo antes de conjurá-la dessa forma novamente. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+  ],
+  "grantedSpells": [
+    "Leitura de Superfície: Você sempre tem Detectar Pensamentos (Detect Thoughts) preparada. Você pode conjurá-la sem gastar espaço de magia ou componentes, e deve terminar um Descanso Longo antes de conjurá-la dessa forma novamente. Você também pode conjurá-la usando quaisquer espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Selo e Canal: Como uma Ação Bônus, você alterna entre os estados Mente Aberta e Mente Fechada , que duram até você alternar novamente ou até você ficar com a condição Incapacitado. - Mente Aberta: Quando você usa Pronunciamento Telepático, a criatura pode responder a você telepaticamente enquanto estiver a até 18 metros[60 pés] de você, desde que ela entenda seu idioma. | Mente Fechada: Você tem Vantagem em testes de resistência contra efeitos que leriam seus pensamentos, detectariam suas emoções ou determinariam se você está mentindo. Além disso, quando uma criatura tentar ler sua mente ou usar telepatia para se comunicar com você sem sua permissão, você percebe a tentativa."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "observador",
+  "name": "Observador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria"
+    ],
+    "description": "+1 de Inteligência ou Sabedoria."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Inteligência 13+ ou Sabedoria 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Inteligência 13+ ou Sabedoria 13+.\n\n Aumento de Atributo: +1 de Inteligência ou Sabedoria.\n\n Você nota o que não foi dito: o microgesto, a pausa curta demais, o olhar que tenta fugir da resposta. \n Enquanto outros procuram “pistas”, você lê o lugar inteiro como se ele estivesse confessando sozinho. \n Você aprimora seu olhar investigativo e sua atenção aos detalhes, reagindo mais rápido para buscar informações e interpretar sinais.\n\n - Observador Aguçado: Escolha uma das seguintes perícias: Intuição (Insight), Investigação (Investigation) ou Percepção (Perception). Se você não tiver proficiência na perícia escolhida, você ganha proficiência nela. Se já tiver proficiência, você ganha Especialização (Expertise) nela.\n- Busca Rápida: Você pode realizar a ação Buscar (Search) como uma Ação Bônus.\n- Leitura Labial: Se você puder ver a boca de uma criatura enquanto ela ...",
+  "mechanicsSummary": "Observador Aguçado: Escolha uma das seguintes perícias: Intuição (Insight), Investigação (Investigation) ou Percepção (Perception). Se você não tiver proficiência na perícia escolhida, você ganha proficiência nela. Se já tiver proficiência, você ganha Especialização (Expertise) nela. | Busca Rápida: Você pode realizar a ação Buscar (Search) como uma Ação Bônus. | Leitura Labial: Se você puder ver a boca de uma criatura enquanto ela fala um idioma que você compreenda, você pode interpretar o que ela está dizendo ao ler seus lábios.",
+  "benefits": [
+    "Observador Aguçado: Escolha uma das seguintes perícias: Intuição (Insight), Investigação (Investigation) ou Percepção (Perception). Se você não tiver proficiência na perícia escolhida, você ganha proficiência nela. Se já tiver proficiência, você ganha Especialização (Expertise) nela.",
+    "Busca Rápida: Você pode realizar a ação Buscar (Search) como uma Ação Bônus.",
+    "Leitura Labial: Se você puder ver a boca de uma criatura enquanto ela fala um idioma que você compreenda, você pode interpretar o que ela está dizendo ao ler seus lábios."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Observador Aguçado: Escolha uma das seguintes perícias: Intuição (Insight), Investigação (Investigation) ou Percepção (Perception). Se você não tiver proficiência na perícia escolhida, você ganha proficiência nela. Se já tiver proficiência, você ganha Especialização (Expertise) nela."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": "Busca Rápida: Você pode realizar a ação Buscar (Search) como uma Ação Bônus."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

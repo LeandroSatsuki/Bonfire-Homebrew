@@ -1,0 +1,58 @@
+{
+  "id": "sacrificio-vital",
+  "name": "Sacrifício Vital",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Constituição.\n\n Você transforma dor em vantagem como quem escreve um acordo no próprio sangue. \n A dádiva fica guardada no corpo, esperando o instante certo para cobrar e cumprir. \n Você cria uma reserva hemática temporária e a gasta para ajustar ataque, dano ou a pressão de um teste no momento decisivo.\n\n - Forjar Dádiva de Sangue: Como uma Ação Bônus, você pode gastar 1 Dado de Vida para criar uma Dádiva de Sangue, que dura por 1 hora ou até ser gasta. Ao criar a dádiva, você rola o Dado de Vida gasto e guarda o resultado como seu Dado de Dádiva. Você não pode ter mais de uma Dádiva de Sangue ativa por vez.\n- Gastar a Dádiva: Quando você gastar sua Dádiva de Sangue, escolha um dos benefícios abaixo (a dádiva é gasta quando você usa um deles): - Impulso Preciso: Quando você fizer uma rolagem de ataque, role seu Dado de Dádiva e adici ...",
+  "mechanicsSummary": "Forjar Dádiva de Sangue: Como uma Ação Bônus, você pode gastar 1 Dado de Vida para criar uma Dádiva de Sangue, que dura por 1 hora ou até ser gasta. Ao criar a dádiva, você rola o Dado de Vida gasto e guarda o resultado como seu Dado de Dádiva. Você não pode ter mais de uma Dádiva de Sangue ativa por vez. | Gastar a Dádiva: Quando você gastar sua Dádiva de Sangue, escolha um dos benefícios abaixo (a dádiva é gasta quando você usa um deles): - Impulso Preciso: Quando você fizer uma rolagem de ataque, role seu Dado de Dádiva e adicione ao total. Você decide usar este benefício depois de rolar o d20, mas antes de saber se o ataque acertou ou errou. | Golpe Exsanguinante: Quando você acertar uma criatura com um ataque, ou quando uma magia ou efeito de classe causar dano a uma criatura, role seu Dado de Dádiva e cause dano necrótico adicional igual ao número rolado. | Pressão Hemática: Quando você fizer uma criatura realizar um teste de resistência de Força, Destreza ou Constituição, role seu Dado de Dádiva e reduza o resultado desse teste pelo número rolado. Você decide usar este benefício depois de o alvo rolar o d20, mas antes do Mestre dizer se o teste foi bem-sucedido ou não. | Preço Irrecusável: Sempre que você usar Forjar Dádiva de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao resultado rolado no Dado de Vida gasto (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo.",
+  "benefits": [
+    "Forjar Dádiva de Sangue: Como uma Ação Bônus, você pode gastar 1 Dado de Vida para criar uma Dádiva de Sangue, que dura por 1 hora ou até ser gasta. Ao criar a dádiva, você rola o Dado de Vida gasto e guarda o resultado como seu Dado de Dádiva. Você não pode ter mais de uma Dádiva de Sangue ativa por vez.",
+    "Gastar a Dádiva: Quando você gastar sua Dádiva de Sangue, escolha um dos benefícios abaixo (a dádiva é gasta quando você usa um deles): - Impulso Preciso: Quando você fizer uma rolagem de ataque, role seu Dado de Dádiva e adicione ao total. Você decide usar este benefício depois de rolar o d20, mas antes de saber se o ataque acertou ou errou.",
+    "Golpe Exsanguinante: Quando você acertar uma criatura com um ataque, ou quando uma magia ou efeito de classe causar dano a uma criatura, role seu Dado de Dádiva e cause dano necrótico adicional igual ao número rolado.",
+    "Pressão Hemática: Quando você fizer uma criatura realizar um teste de resistência de Força, Destreza ou Constituição, role seu Dado de Dádiva e reduza o resultado desse teste pelo número rolado. Você decide usar este benefício depois de o alvo rolar o d20, mas antes do Mestre dizer se o teste foi bem-sucedido ou não.",
+    "Preço Irrecusável: Sempre que você usar Forjar Dádiva de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao resultado rolado no Dado de Vida gasto (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Golpe Exsanguinante: Quando você acertar uma criatura com um ataque, ou quando uma magia ou efeito de classe causar dano a uma criatura, role seu Dado de Dádiva e cause dano necrótico adicional igual ao número rolado."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Forjar Dádiva de Sangue: Como uma Ação Bônus, você pode gastar 1 Dado de Vida para criar uma Dádiva de Sangue, que dura por 1 hora ou até ser gasta. Ao criar a dádiva, você rola o Dado de Vida gasto e guarda o resultado como seu Dado de Dádiva. Você não pode ter mais de uma Dádiva de Sangue ativa por vez. | Gastar a Dádiva: Quando você gastar sua Dádiva de Sangue, escolha um dos benefícios abaixo (a dádiva é gasta quando você usa um deles): - Impulso Preciso: Quando você fizer uma rolagem de ataque, role seu Dado de Dádiva e adicione ao total. Você decide usar este benefício depois de rolar o d20, mas antes de saber se o ataque acertou ou errou. | Golpe Exsanguinante: Quando você acertar uma criatura com um ataque, ou quando uma magia ou efeito de classe causar dano a uma criatura, role seu Dado de Dádiva e cause dano necrótico adicional igual ao número rolado. | Pressão Hemática: Quando você fizer uma criatura realizar um teste de resistência de Força, Destreza ou Constituição, role seu Dado de Dádiva e reduza o resultado desse teste pelo número rolado. Você decide usar este benefício depois de o alvo rolar o d20, mas antes do Mestre dizer se o teste foi bem-sucedido ou não. | Preço Irrecusável: Sempre que você usar Forjar Dádiva de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao resultado rolado no Dado de Vida gasto (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "marca-arcana-superior-da-revelacao",
+  "name": "Marca Arcana Superior da Revelação",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Revelação"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Revelação.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n A runa aprende a “ler” o mundo como um texto com rasuras.Onde outros veem silêncio, você enxerga a assinatura do que tentou se esconder. \n Sua Marca amplia o alcance das pistas e permite que você compartilhe, por instantes, a mesma verdade com outra pessoa.\n\n - Intuição Aprimorada. Quando você usa Intuição do Reveladora do seu talento Marca Arcana da Revelação, você rola 1d6 em vez de 1d4.\n- Detecção Compartilhada. Quando você conjura Ver o Invisível (See Invisibility) sem gastar um espaço de magia usando sua Marca Arcana da Revelação, você pode escolher 1 criatura que você possa ver a até 9 metros[30 pés] de você. Essa criatura também recebe os benefícios da magia pela duração dela.",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição do Reveladora do seu talento Marca Arcana da Revelação, você rola 1d6 em vez de 1d4. | Detecção Compartilhada. Quando você conjura Ver o Invisível (See Invisibility) sem gastar um espaço de magia usando sua Marca Arcana da Revelação, você pode escolher 1 criatura que você possa ver a até 9 metros[30 pés] de você. Essa criatura também recebe os benefícios da magia pela duração dela.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição do Reveladora do seu talento Marca Arcana da Revelação, você rola 1d6 em vez de 1d4.",
+    "Detecção Compartilhada. Quando você conjura Ver o Invisível (See Invisibility) sem gastar um espaço de magia usando sua Marca Arcana da Revelação, você pode escolher 1 criatura que você possa ver a até 9 metros[30 pés] de você. Essa criatura também recebe os benefícios da magia pela duração dela."
+  ],
+  "grantedSpells": [
+    "Detecção Compartilhada. Quando você conjura Ver o Invisível (See Invisibility) sem gastar um espaço de magia usando sua Marca Arcana da Revelação, você pode escolher 1 criatura que você possa ver a até 9 metros[30 pés] de você. Essa criatura também recebe os benefícios da magia pela duração dela."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição do Reveladora do seu talento Marca Arcana da Revelação, você rola 1d6 em vez de 1d4. | Detecção Compartilhada. Quando você conjura Ver o Invisível (See Invisibility) sem gastar um espaço de magia usando sua Marca Arcana da Revelação, você pode escolher 1 criatura que você possa ver a até 9 metros[30 pés] de você. Essa criatura também recebe os benefícios da magia pela duração dela."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

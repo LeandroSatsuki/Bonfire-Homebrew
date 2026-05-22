@@ -1,0 +1,54 @@
+{
+  "id": "formacao-bastionica",
+  "name": "Formação Bastiônica",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Força, Constituição, Sabedoria ou Carisma. Você não luta sozinho, mesmo quando está na frente. Você é o encaixe que impede a linha de desmontar. Você desenvolveu a disciplina de formação ensinada nas rotas do Bastião Rochaeterna, onde filas, pontes e portões só funcionam quando cada passo entra no tempo certo. Seu corpo aprende a reerguer sem hesitar, seu ombro aprende a negar o tranco, e sua prontidão nasce do instinto de manter a passagem segura. - Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente. - Linha Fechada. Se você estiver a até 3 metros[10 pés] de um aliado que não tenha a condição Incapacitado, vo ..."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n Aumento de Atributo. +1 de Força, Constituição, Sabedoria ou Carisma.\n Você não luta sozinho, mesmo quando está na frente. Você é o encaixe que impede a linha de desmontar. Você desenvolveu a disciplina de formação ensinada nas rotas do Bastião Rochaeterna, onde filas, pontes e portões só funcionam quando cada passo entra no tempo certo. Seu corpo aprende a reerguer sem hesitar, seu ombro aprende a negar o tranco, e sua prontidão nasce do instinto de manter a passagem segura.\n - Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente.\n- Linha Fechada. Se você estiver a até 3 metros[10 pés] de um aliado que não tenha a condição Incapacitado, vo ...",
+  "mechanicsSummary": "Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente. | Linha Fechada. Se você estiver a até 3 metros[10 pés] de um aliado que não tenha a condição Incapacitado, você e esse aliado têm Vantagem em testes de resistência de Força, e cada um de vocês tem Vantagem em testes de resistência para evitar ser empurrado, puxado ou derrubado Caído (Prone). Você não pode usar este benefício enquanto tiver a condição Incapacitado. | Guarda de Formação. Quando um aliado a até 3 metros[10 pés] de você for submetido a um efeito que o empurraria, puxaria ou derrubaria Caído (Prone), você pode usar sua Reação para se movimentar para a até 1,5 metro[5 pés] do aliado e impedir esse efeito. Para receber este benefício, o aliado não pode estar com a condição Incapacitado.",
+  "benefits": [
+    "Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente.",
+    "Linha Fechada. Se você estiver a até 3 metros[10 pés] de um aliado que não tenha a condição Incapacitado, você e esse aliado têm Vantagem em testes de resistência de Força, e cada um de vocês tem Vantagem em testes de resistência para evitar ser empurrado, puxado ou derrubado Caído (Prone). Você não pode usar este benefício enquanto tiver a condição Incapacitado.",
+    "Guarda de Formação. Quando um aliado a até 3 metros[10 pés] de você for submetido a um efeito que o empurraria, puxaria ou derrubaria Caído (Prone), você pode usar sua Reação para se movimentar para a até 1,5 metro[5 pés] do aliado e impedir esse efeito. Para receber este benefício, o aliado não pode estar com a condição Incapacitado."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Reerguida Instintiva. Quando você estiver na condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. Além disso, a primeira vez em cada rodada que você ficar na condição Caído (Prone), você pode usar sua Reação para se levantar imediatamente. | Guarda de Formação. Quando um aliado a até 3 metros[10 pés] de você for submetido a um efeito que o empurraria, puxaria ou derrubaria Caído (Prone), você pode usar sua Reação para se movimentar para a até 1,5 metro[5 pés] do aliado e impedir esse efeito. Para receber este benefício, o aliado não pode estar com a condição Incapacitado."
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

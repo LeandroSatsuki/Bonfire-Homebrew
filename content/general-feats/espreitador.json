@@ -1,0 +1,52 @@
+{
+  "id": "espreitador",
+  "name": "Espreitador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Destreza 13+.\n\n Aumento de Atributo: +1 de Destreza.\n\n Você aprendeu a existir onde a luz falha: no ângulo morto, no pano de fundo, no instante em que ninguém está olhando. \n Seu corpo sabe onde o som morre, e seus olhos encontram caminho mesmo quando a fumaça e o caos tentam apagar tudo. \n Você aprimora técnicas de infiltração e tiro furtivo, usando a própria batalha como cobertura para desaparecer e agir sem ser localizado.\n\n - Visão às Cegas: Você tem Visão às Cegas (Blindsight) com alcance de 3 metros[10 pés]. Se você já tiver Visão às Cegas, o alcance dela aumenta em 1,5 metro[5 pés].\n- Névoa do Conflito: Você tem Vantagem em qualquer teste de Destreza (Furtividade (Stealth)) que fizer como parte da ação Esconder-se (Hide) durante o combate.\n- Atirador Invisível: Se você fizer uma rolagem de ataque enquanto estiver escondido e errar o ataque, a rolagem não r ...",
+  "mechanicsSummary": "Visão às Cegas: Você tem Visão às Cegas (Blindsight) com alcance de 3 metros[10 pés]. Se você já tiver Visão às Cegas, o alcance dela aumenta em 1,5 metro[5 pés]. | Névoa do Conflito: Você tem Vantagem em qualquer teste de Destreza (Furtividade (Stealth)) que fizer como parte da ação Esconder-se (Hide) durante o combate. | Atirador Invisível: Se você fizer uma rolagem de ataque enquanto estiver escondido e errar o ataque, a rolagem não revela sua localização.",
+  "benefits": [
+    "Visão às Cegas: Você tem Visão às Cegas (Blindsight) com alcance de 3 metros[10 pés]. Se você já tiver Visão às Cegas, o alcance dela aumenta em 1,5 metro[5 pés].",
+    "Névoa do Conflito: Você tem Vantagem em qualquer teste de Destreza (Furtividade (Stealth)) que fizer como parte da ação Esconder-se (Hide) durante o combate.",
+    "Atirador Invisível: Se você fizer uma rolagem de ataque enquanto estiver escondido e errar o ataque, a rolagem não revela sua localização."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

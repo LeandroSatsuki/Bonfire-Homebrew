@@ -1,0 +1,63 @@
+{
+  "id": "mestre-de-armas-duplas",
+  "name": "Mestre de Armas Duplas",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Uma arma de duas pontas não perdoa descuido. \n Quem a domina aprende a lutar sem “lado cego”, sempre com uma ameaça apontada para o mundo. \n Você aprendeu a transformar o equilíbrio de uma Arma Dupla em defesa, ritmo e pressão constante, sem perder tempo com aberturas pequenas.\n\n - Guarda de Duas Pontas: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, você recebe +1 na CA.\n- Flanco Protegido: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, criaturas não se beneficiam de flanco contra você.\n- Impacto Reforçado: O dado de dano base da sua Arma Dupla aumenta em 1 dado. Além disso, o ataque extra da outra extremidade (o ataque que normalmente causa 1d4 do tipo indicado) também aumenta em 1 dado. - Exemplo: uma arma que causa 2d4 passa a causar 3d4, ...",
+  "mechanicsSummary": "Guarda de Duas Pontas: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, você recebe +1 na CA. | Flanco Protegido: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, criaturas não se beneficiam de flanco contra você. | Impacto Reforçado: O dado de dano base da sua Arma Dupla aumenta em 1 dado. Além disso, o ataque extra da outra extremidade (o ataque que normalmente causa 1d4 do tipo indicado) também aumenta em 1 dado. - Exemplo: uma arma que causa 2d4 passa a causar 3d4, e o ataque da outra extremidade que causava 1d4 passa a causar 2d4. | Golpe de Retorno Integrado: Quando você usar a ação de Ataque com uma Arma Dupla, você pode realizar o ataque extra da outra extremidade como parte da mesma ação de Ataque, em vez de usar uma Ação Bônus. Você pode fazer esse ataque extra uma vez por turno. | Cortes Distribuídos: Uma vez por turno, quando você acertar uma criatura com um ataque usando uma Arma Dupla, você pode distribuir parte do dano desse acerto para outros inimigos. Você decide usar este benefício depois de acertar, mas antes de rolar o dano. - Condição A: Escolha um alvo principal, que é a criatura que você acertou. | Condição B: Para cada 1 dado de dano da arma que você remover do dano do alvo principal, você pode fazer 1 ataque adicional contra uma criatura diferente dentro do alcance da arma, imediatamente, como parte desse mesmo ataque. | Se o ataque adicional acertar: ele causa dano igual a 1 dado de dano da arma, e você adiciona os modificadores normais ao dano desse ataque (como modificador de atributo e bônus da arma, se houver). | Dano no alvo principal: o alvo principal sofre o dano restante (com os modificadores normais) depois de você remover os dados escolhidos. | Limite: você não pode reduzir o dano do alvo principal abaixo de 1 dado de dano da arma.",
+  "benefits": [
+    "Guarda de Duas Pontas: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, você recebe +1 na CA.",
+    "Flanco Protegido: Enquanto estiver empunhando uma arma com a propriedade Arma Dupla, criaturas não se beneficiam de flanco contra você.",
+    "Impacto Reforçado: O dado de dano base da sua Arma Dupla aumenta em 1 dado. Além disso, o ataque extra da outra extremidade (o ataque que normalmente causa 1d4 do tipo indicado) também aumenta em 1 dado. - Exemplo: uma arma que causa 2d4 passa a causar 3d4, e o ataque da outra extremidade que causava 1d4 passa a causar 2d4.",
+    "Golpe de Retorno Integrado: Quando você usar a ação de Ataque com uma Arma Dupla, você pode realizar o ataque extra da outra extremidade como parte da mesma ação de Ataque, em vez de usar uma Ação Bônus. Você pode fazer esse ataque extra uma vez por turno.",
+    "Cortes Distribuídos: Uma vez por turno, quando você acertar uma criatura com um ataque usando uma Arma Dupla, você pode distribuir parte do dano desse acerto para outros inimigos. Você decide usar este benefício depois de acertar, mas antes de rolar o dano. - Condição A: Escolha um alvo principal, que é a criatura que você acertou.",
+    "Condição B: Para cada 1 dado de dano da arma que você remover do dano do alvo principal, você pode fazer 1 ataque adicional contra uma criatura diferente dentro do alcance da arma, imediatamente, como parte desse mesmo ataque.",
+    "Se o ataque adicional acertar: ele causa dano igual a 1 dado de dano da arma, e você adiciona os modificadores normais ao dano desse ataque (como modificador de atributo e bônus da arma, se houver).",
+    "Dano no alvo principal: o alvo principal sofre o dano restante (com os modificadores normais) depois de você remover os dados escolhidos.",
+    "Limite: você não pode reduzir o dano do alvo principal abaixo de 1 dado de dano da arma."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Golpe de Retorno Integrado: Quando você usar a ação de Ataque com uma Arma Dupla, você pode realizar o ataque extra da outra extremidade como parte da mesma ação de Ataque, em vez de usar uma Ação Bônus. Você pode fazer esse ataque extra uma vez por turno. | Cortes Distribuídos: Uma vez por turno, quando você acertar uma criatura com um ataque usando uma Arma Dupla, você pode distribuir parte do dano desse acerto para outros inimigos. Você decide usar este benefício depois de acertar, mas antes de rolar o dano. - Condição A: Escolha um alvo principal, que é a criatura que você acertou."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

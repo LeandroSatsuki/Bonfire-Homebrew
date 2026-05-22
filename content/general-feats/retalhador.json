@@ -1,0 +1,51 @@
+{
+  "id": "retalhador",
+  "name": "Retalhador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Um bom golpe diz para o inimigo onde ele pode pisar. Um corte certeiro tira a confiança do passo, rouba o tempo da reação e cobra atenção a cada balanço de lâmina. \n Você domina a lógica do dano cortante para limitar movimento e quebrar o ímpeto do alvo.\n\n - Golpe no Joelho: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano cortante, você pode reduzir o Deslocamento dela em 3 metros[10 pés] até o início do seu próximo turno.\n- Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano cortante em uma criatura, ela tem Desvantagem em jogadas de ataque até o início do seu próximo turno.",
+  "mechanicsSummary": "Golpe no Joelho: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano cortante, você pode reduzir o Deslocamento dela em 3 metros[10 pés] até o início do seu próximo turno. | Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano cortante em uma criatura, ela tem Desvantagem em jogadas de ataque até o início do seu próximo turno.",
+  "benefits": [
+    "Golpe no Joelho: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano cortante, você pode reduzir o Deslocamento dela em 3 metros[10 pés] até o início do seu próximo turno.",
+    "Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano cortante em uma criatura, ela tem Desvantagem em jogadas de ataque até o início do seu próximo turno."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Golpe no Joelho: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano cortante, você pode reduzir o Deslocamento dela em 3 metros[10 pés] até o início do seu próximo turno. | Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano cortante em uma criatura, ela tem Desvantagem em jogadas de ataque até o início do seu próximo turno."
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

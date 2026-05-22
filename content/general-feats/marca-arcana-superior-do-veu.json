@@ -1,0 +1,57 @@
+{
+  "id": "marca-arcana-superior-do-veu",
+  "name": "Marca Arcana Superior do Véu",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana do Véu"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana do Véu.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Você dobra a percepção como quem dobra um mapa, sem rasgar a folha.A runa aprende a esconder não só você, mas o “porquê” de estar ali. \n Sua Marca fortalece suas ilusões e faz a invisibilidade durar com peso maior na Trama.\n\n - Intuição Aprimorada. Quando você usa Intuição Sutil do seu talento Marca Arcana do Véu, você rola 1d6 em vez de 1d4.\n- Véu Aprimorado. Quando você usa Moldar Sombras para conjurar Invisibilidade sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível.",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição Sutil do seu talento Marca Arcana do Véu, você rola 1d6 em vez de 1d4. | Véu Aprimorado. Quando você usa Moldar Sombras para conjurar Invisibilidade sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição Sutil do seu talento Marca Arcana do Véu, você rola 1d6 em vez de 1d4.",
+    "Véu Aprimorado. Quando você usa Moldar Sombras para conjurar Invisibilidade sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  ],
+  "grantedSpells": [
+    "Véu Aprimorado. Quando você usa Moldar Sombras para conjurar Invisibilidade sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição Sutil do seu talento Marca Arcana do Véu, você rola 1d6 em vez de 1d4. | Véu Aprimorado. Quando você usa Moldar Sombras para conjurar Invisibilidade sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

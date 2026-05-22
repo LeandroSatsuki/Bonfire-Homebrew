@@ -1,0 +1,60 @@
+{
+  "id": "magia-ancestral-zouhri",
+  "name": "Magia Ancestral Zouhri",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprendeu a pedir desejos aos elementos no tom certo, como quem chama pelo nome e aguarda a resposta. \n O segredo não é forçar a Trama, mas negociar com o eco da Faísca Elemental que ainda vibra em Cinéria. \n Você desperta um modo seguro de convocar energia elemental, canalizando um pedido breve e poderoso quando a situação exige.\n\n - Pedido Elemental: Como uma Ação Mágica, você pode conjurar 1 magia de 1º nível à sua escolha da lista de magias de Feiticeiro, desde que a magia tenha tempo de conjuração de 1 ação. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. O atributo de conjuração dessa magia é o atributo aumentado por este talento.\n- Escalonamento do Pedido: A magia conjurada por este talento é aprimorada conforme seu nível. - Nível 11: Você c ...",
+  "mechanicsSummary": "Pedido Elemental: Como uma Ação Mágica, você pode conjurar 1 magia de 1º nível à sua escolha da lista de magias de Feiticeiro, desde que a magia tenha tempo de conjuração de 1 ação. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. O atributo de conjuração dessa magia é o atributo aumentado por este talento. | Escalonamento do Pedido: A magia conjurada por este talento é aprimorada conforme seu nível. - Nível 11: Você conjura a magia como se usasse um espaço de magia de 2º nível. | Nível 17: Você conjura a magia como se usasse um espaço de magia de 3º nível.",
+  "benefits": [
+    "Pedido Elemental: Como uma Ação Mágica, você pode conjurar 1 magia de 1º nível à sua escolha da lista de magias de Feiticeiro, desde que a magia tenha tempo de conjuração de 1 ação. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. O atributo de conjuração dessa magia é o atributo aumentado por este talento.",
+    "Escalonamento do Pedido: A magia conjurada por este talento é aprimorada conforme seu nível. - Nível 11: Você conjura a magia como se usasse um espaço de magia de 2º nível.",
+    "Nível 17: Você conjura a magia como se usasse um espaço de magia de 3º nível."
+  ],
+  "grantedSpells": [
+    "Pedido Elemental: Como uma Ação Mágica, você pode conjurar 1 magia de 1º nível à sua escolha da lista de magias de Feiticeiro, desde que a magia tenha tempo de conjuração de 1 ação. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. O atributo de conjuração dessa magia é o atributo aumentado por este talento.",
+    "Escalonamento do Pedido: A magia conjurada por este talento é aprimorada conforme seu nível. - Nível 11: Você conjura a magia como se usasse um espaço de magia de 2º nível.",
+    "Nível 17: Você conjura a magia como se usasse um espaço de magia de 3º nível."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": "Pedido Elemental: Como uma Ação Mágica, você pode conjurar 1 magia de 1º nível à sua escolha da lista de magias de Feiticeiro, desde que a magia tenha tempo de conjuração de 1 ação. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. O atributo de conjuração dessa magia é o atributo aumentado por este talento."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

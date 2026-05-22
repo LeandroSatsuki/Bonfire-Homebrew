@@ -1,0 +1,61 @@
+{
+  "id": "adepto-elemental",
+  "name": "Adepto Elemental",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você não escolhe apenas um elemento. Você aprende o jeito certo dele acontecer. Chamas que mordem resistência, gelo que encontra frestas, trovão que atravessa o peito. Sua energia tem técnica. Você domina um tipo de energia elemental, fazendo suas magias passarem por resistências e serem mais consistentes no dano.\n - Maestria de Energia: Escolha um tipo de dano entre: Ácido, Frio, Fogo, Relâmpago ou Trovão. As magias que você conjura ignoram Resistência ao tipo de dano escolhido. Além disso, quando você rolar dano de uma magia que você conjura que cause esse tipo de dano, você pode tratar qualquer resultado 1 em um dado de dano como 2.\n- Repetível: Você pode escolher este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria de Energia a c ...",
+  "mechanicsSummary": "Maestria de Energia: Escolha um tipo de dano entre: Ácido, Frio, Fogo, Relâmpago ou Trovão. As magias que você conjura ignoram Resistência ao tipo de dano escolhido. Além disso, quando você rolar dano de uma magia que você conjura que cause esse tipo de dano, você pode tratar qualquer resultado 1 em um dado de dano como 2. | Repetível: Você pode escolher este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria de Energia a cada vez.",
+  "benefits": [
+    "Maestria de Energia: Escolha um tipo de dano entre: Ácido, Frio, Fogo, Relâmpago ou Trovão. As magias que você conjura ignoram Resistência ao tipo de dano escolhido. Além disso, quando você rolar dano de uma magia que você conjura que cause esse tipo de dano, você pode tratar qualquer resultado 1 em um dado de dano como 2.",
+    "Repetível: Você pode escolher este talento mais de uma vez, mas deve escolher um tipo de dano diferente para Maestria de Energia a cada vez."
+  ],
+  "grantedSpells": [
+    "Maestria de Energia: Escolha um tipo de dano entre: Ácido, Frio, Fogo, Relâmpago ou Trovão. As magias que você conjura ignoram Resistência ao tipo de dano escolhido. Além disso, quando você rolar dano de uma magia que você conjura que cause esse tipo de dano, você pode tratar qualquer resultado 1 em um dado de dano como 2."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Maestria de Energia: Escolha um tipo de dano entre: Ácido, Frio, Fogo, Relâmpago ou Trovão. As magias que você conjura ignoram Resistência ao tipo de dano escolhido. Além disso, quando você rolar dano de uma magia que você conjura que cause esse tipo de dano, você pode tratar qualquer resultado 1 em um dado de dano como 2."
+  },
+  "automation": "sim",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

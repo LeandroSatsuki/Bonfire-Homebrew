@@ -1,0 +1,55 @@
+{
+  "id": "luchador",
+  "name": "Luchador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Seu combate é contato: punho, pegada, controle. \n Você não procura um nocaute. Você procura a mão certa no lugar certo. \n Você domina a transição entre golpe e agarrão, mantendo o alvo preso e sem espaço para reagir.\n\n - Soco e Agarre: Quando você acerta uma criatura com um Ataque Desarmado como parte da ação de Ataque no seu turno, você pode usar tanto a opção de Dano quanto a opção de Agarrar (Grapple). Você pode usar este benefício apenas 1 vez por turno.\n- Vantagem no Ataque: Você tem Vantagem em jogadas de ataque contra uma criatura Agarrada (Grappled) por você.\n- Lutador Ágil: Você não precisa gastar movimento extra para mover uma criatura Agarrada (Grappled) por você se a criatura for do seu tamanho ou menor.",
+  "mechanicsSummary": "Soco e Agarre: Quando você acerta uma criatura com um Ataque Desarmado como parte da ação de Ataque no seu turno, você pode usar tanto a opção de Dano quanto a opção de Agarrar (Grapple). Você pode usar este benefício apenas 1 vez por turno. | Vantagem no Ataque: Você tem Vantagem em jogadas de ataque contra uma criatura Agarrada (Grappled) por você. | Lutador Ágil: Você não precisa gastar movimento extra para mover uma criatura Agarrada (Grappled) por você se a criatura for do seu tamanho ou menor.",
+  "benefits": [
+    "Soco e Agarre: Quando você acerta uma criatura com um Ataque Desarmado como parte da ação de Ataque no seu turno, você pode usar tanto a opção de Dano quanto a opção de Agarrar (Grapple). Você pode usar este benefício apenas 1 vez por turno.",
+    "Vantagem no Ataque: Você tem Vantagem em jogadas de ataque contra uma criatura Agarrada (Grappled) por você.",
+    "Lutador Ágil: Você não precisa gastar movimento extra para mover uma criatura Agarrada (Grappled) por você se a criatura for do seu tamanho ou menor."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Soco e Agarre: Quando você acerta uma criatura com um Ataque Desarmado como parte da ação de Ataque no seu turno, você pode usar tanto a opção de Dano quanto a opção de Agarrar (Grapple). Você pode usar este benefício apenas 1 vez por turno."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

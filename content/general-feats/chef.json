@@ -1,0 +1,57 @@
+{
+  "id": "chef",
+  "name": "Chef",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria"
+    ],
+    "description": "+1 de Constituição, Inteligência ou Sabedoria."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Constituição, Inteligência ou Sabedoria.\n\n Você sabe que a diferença entre “sobreviver” e “voltar de pé” às vezes cabe numa panela. \n Temperar é cuidado, racionar é estratégia, servir é manter o grupo inteiro respirando junto. \n Você transforma descanso em recuperação real, usando comida como ferramenta de moral, foco e sustento.\n\n - Utensílios de Cozinha: Você ganha Proficiência com Utensílios de Cozinha (Cook’s Utensils), se ainda não a tiver. Se já tiver Proficiência com essa ferramenta, você ganha Especialização (Expertise) nela.\n- Refeição Revigorante (Replenishing Meal): Como parte de um Descanso Curto, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode cozinhar uma comida especial para um número de criaturas igual a 4 + seu Bônus de Proficiência. No fim do Descanso Curto, qualquer criatura que comer a comida ...",
+  "mechanicsSummary": "Utensílios de Cozinha: Você ganha Proficiência com Utensílios de Cozinha (Cook’s Utensils), se ainda não a tiver. Se já tiver Proficiência com essa ferramenta, você ganha Especialização (Expertise) nela. | Refeição Revigorante (Replenishing Meal): Como parte de um Descanso Curto, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode cozinhar uma comida especial para um número de criaturas igual a 4 + seu Bônus de Proficiência. No fim do Descanso Curto, qualquer criatura que comer a comida e gastar 1 ou mais Dados de Vida para recuperar Pontos de Vida recupera Pontos de Vida adicionais iguais a 1d12 + seu modificador de Constituição ou Sabedoria (escolha quando você ganha este talento). | Petiscos Fortificantes (Bolstering Treats): Com 1 hora de trabalho, ou quando você termina um Descanso Longo, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode preparar um número de petiscos especiais igual ao seu Bônus de Proficiência. Esses petiscos duram 8 horas após serem feitos. Uma criatura pode usar uma Ação Bônus para comer 1 petisco e ganhar Pontos de Vida Temporários iguais ao dobro do seu Bônus de Proficiência.",
+  "benefits": [
+    "Utensílios de Cozinha: Você ganha Proficiência com Utensílios de Cozinha (Cook’s Utensils), se ainda não a tiver. Se já tiver Proficiência com essa ferramenta, você ganha Especialização (Expertise) nela.",
+    "Refeição Revigorante (Replenishing Meal): Como parte de um Descanso Curto, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode cozinhar uma comida especial para um número de criaturas igual a 4 + seu Bônus de Proficiência. No fim do Descanso Curto, qualquer criatura que comer a comida e gastar 1 ou mais Dados de Vida para recuperar Pontos de Vida recupera Pontos de Vida adicionais iguais a 1d12 + seu modificador de Constituição ou Sabedoria (escolha quando você ganha este talento).",
+    "Petiscos Fortificantes (Bolstering Treats): Com 1 hora de trabalho, ou quando você termina um Descanso Longo, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode preparar um número de petiscos especiais igual ao seu Bônus de Proficiência. Esses petiscos duram 8 horas após serem feitos. Uma criatura pode usar uma Ação Bônus para comer 1 petisco e ganhar Pontos de Vida Temporários iguais ao dobro do seu Bônus de Proficiência."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Utensílios de Cozinha: Você ganha Proficiência com Utensílios de Cozinha (Cook’s Utensils), se ainda não a tiver. Se já tiver Proficiência com essa ferramenta, você ganha Especialização (Expertise) nela."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Refeição Revigorante (Replenishing Meal): Como parte de um Descanso Curto, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode cozinhar uma comida especial para um número de criaturas igual a 4 + seu Bônus de Proficiência. No fim do Descanso Curto, qualquer criatura que comer a comida e gastar 1 ou mais Dados de Vida para recuperar Pontos de Vida recupera Pontos de Vida adicionais iguais a 1d12 + seu modificador de Constituição ou Sabedoria (escolha quando você ganha este talento). | Petiscos Fortificantes (Bolstering Treats): Com 1 hora de trabalho, ou quando você termina um Descanso Longo, se você tiver ingredientes e Utensílios de Cozinha em mãos, você pode preparar um número de petiscos especiais igual ao seu Bônus de Proficiência. Esses petiscos duram 8 horas após serem feitos. Uma criatura pode usar uma Ação Bônus para comer 1 petisco e ganhar Pontos de Vida Temporários iguais ao dobro do seu Bônus de Proficiência."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

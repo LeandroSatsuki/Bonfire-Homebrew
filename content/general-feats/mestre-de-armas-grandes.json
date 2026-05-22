@@ -1,0 +1,57 @@
+{
+  "id": "mestre-de-armas-grandes",
+  "name": "Mestre de Armas Grandes",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Força."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+.\n\n Aumento de Atributo: +1 de Força.\n\n Você não balança uma lâmina pesada. Você comanda um veredito. \n Quando decide arriscar tudo em um golpe, o impacto conta a história por você. \n Você domina armas Pesadas (Heavy), alternando entre precisão e devastação, e aproveita aberturas para um golpe extra.\n\n - Maestria com Arma Pesada: Quando você realiza um ataque Corpo-a-Corpo com uma arma que tenha a propriedade Pesada (Heavy), você causa dano igual ao seu Bônus de Proficiência. Ao invês disso, você pode sacrificar precisão por devastação: você não adiciona seu Bônus de Proficiência na rolagem de acerto desse ataque. Se você acertar, o ataque causa dano adicional igual ao dobro do seu Bônus de Proficiência.\n- Talhar: Imediatamente após você conseguir um Acerto Crítico (Critical Hit) com uma arma corpo a corpo, ou reduzir uma criatura a 0 Pontos de Vida com ...",
+  "mechanicsSummary": "Maestria com Arma Pesada: Quando você realiza um ataque Corpo-a-Corpo com uma arma que tenha a propriedade Pesada (Heavy), você causa dano igual ao seu Bônus de Proficiência. Ao invês disso, você pode sacrificar precisão por devastação: você não adiciona seu Bônus de Proficiência na rolagem de acerto desse ataque. Se você acertar, o ataque causa dano adicional igual ao dobro do seu Bônus de Proficiência. | Talhar: Imediatamente após você conseguir um Acerto Crítico (Critical Hit) com uma arma corpo a corpo, ou reduzir uma criatura a 0 Pontos de Vida com uma arma corpo a corpo, você pode fazer 1 ataque com a mesma arma como uma Ação Bônus.",
+  "benefits": [
+    "Maestria com Arma Pesada: Quando você realiza um ataque Corpo-a-Corpo com uma arma que tenha a propriedade Pesada (Heavy), você causa dano igual ao seu Bônus de Proficiência. Ao invês disso, você pode sacrificar precisão por devastação: você não adiciona seu Bônus de Proficiência na rolagem de acerto desse ataque. Se você acertar, o ataque causa dano adicional igual ao dobro do seu Bônus de Proficiência.",
+    "Talhar: Imediatamente após você conseguir um Acerto Crítico (Critical Hit) com uma arma corpo a corpo, ou reduzir uma criatura a 0 Pontos de Vida com uma arma corpo a corpo, você pode fazer 1 ataque com a mesma arma como uma Ação Bônus."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Maestria com Arma Pesada: Quando você realiza um ataque Corpo-a-Corpo com uma arma que tenha a propriedade Pesada (Heavy), você causa dano igual ao seu Bônus de Proficiência. Ao invês disso, você pode sacrificar precisão por devastação: você não adiciona seu Bônus de Proficiência na rolagem de acerto desse ataque. Se você acertar, o ataque causa dano adicional igual ao dobro do seu Bônus de Proficiência."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Maestria com Arma Pesada: Quando você realiza um ataque Corpo-a-Corpo com uma arma que tenha a propriedade Pesada (Heavy), você causa dano igual ao seu Bônus de Proficiência. Ao invês disso, você pode sacrificar precisão por devastação: você não adiciona seu Bônus de Proficiência na rolagem de acerto desse ataque. Se você acertar, o ataque causa dano adicional igual ao dobro do seu Bônus de Proficiência. | Talhar: Imediatamente após você conseguir um Acerto Crítico (Critical Hit) com uma arma corpo a corpo, ou reduzir uma criatura a 0 Pontos de Vida com uma arma corpo a corpo, você pode fazer 1 ataque com a mesma arma como uma Ação Bônus."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

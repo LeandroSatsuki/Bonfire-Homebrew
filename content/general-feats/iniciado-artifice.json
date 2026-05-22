@@ -1,0 +1,59 @@
+{
+  "id": "iniciado-artifice",
+  "name": "Iniciado Artífice",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Inteligência."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência.\n\n Uma runa bem talhada, um reagente medido no ponto, um clique de engrenagem. Para você, o milagre é método. Você aprende um pouco da arte do Artífice: uma magia engenhosa, uma ferramenta que vira foco e uma infusão simples para dar função ao impossível.\n - Magia Engenhosa: Você aprende 1 magia de 1º nível à sua escolha da lista de magias do Artífice. Ao escolher este talento, você também escolhe o atributo de conjuração dessa magia: Inteligência, Sabedoria ou Carisma. Você pode conjurar essa magia 1 vez sem gastar espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha.\n- Ferramenta Arcana (Arcane Tool): Você ganha proficiência com 1 tipo de ferramentas de artesão à sua escolha. Além disso, você pode usar essas ferramenta ...",
+  "mechanicsSummary": "Magia Engenhosa: Você aprende 1 magia de 1º nível à sua escolha da lista de magias do Artífice. Ao escolher este talento, você também escolhe o atributo de conjuração dessa magia: Inteligência, Sabedoria ou Carisma. Você pode conjurar essa magia 1 vez sem gastar espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha. | Ferramenta Arcana (Arcane Tool): Você ganha proficiência com 1 tipo de ferramentas de artesão à sua escolha. Além disso, você pode usar essas ferramentas como foco de conjuração para qualquer magia que você conjure que use Inteligência como atributo de conjuração. | Fundamentos do Artífice: Você aprende 1 opção de Infusão à sua escolha da classe Artífice. Ao escolher este talento, você escolhe o atributo usado por essa Infusão: Inteligência, Sabedoria ou Carisma. Se a Infusão tiver qualquer pré-requisito, você só pode escolhê-la se você for um Artífice que cumpra esse pré-requisito. Sempre que você ganhar um nível, você pode substituir a Infusão escolhida por outra Infusão da classe Artífice.",
+  "benefits": [
+    "Magia Engenhosa: Você aprende 1 magia de 1º nível à sua escolha da lista de magias do Artífice. Ao escolher este talento, você também escolhe o atributo de conjuração dessa magia: Inteligência, Sabedoria ou Carisma. Você pode conjurar essa magia 1 vez sem gastar espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha.",
+    "Ferramenta Arcana (Arcane Tool): Você ganha proficiência com 1 tipo de ferramentas de artesão à sua escolha. Além disso, você pode usar essas ferramentas como foco de conjuração para qualquer magia que você conjure que use Inteligência como atributo de conjuração.",
+    "Fundamentos do Artífice: Você aprende 1 opção de Infusão à sua escolha da classe Artífice. Ao escolher este talento, você escolhe o atributo usado por essa Infusão: Inteligência, Sabedoria ou Carisma. Se a Infusão tiver qualquer pré-requisito, você só pode escolhê-la se você for um Artífice que cumpra esse pré-requisito. Sempre que você ganhar um nível, você pode substituir a Infusão escolhida por outra Infusão da classe Artífice."
+  ],
+  "grantedSpells": [
+    "Magia Engenhosa: Você aprende 1 magia de 1º nível à sua escolha da lista de magias do Artífice. Ao escolher este talento, você também escolhe o atributo de conjuração dessa magia: Inteligência, Sabedoria ou Carisma. Você pode conjurar essa magia 1 vez sem gastar espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha.",
+    "Ferramenta Arcana (Arcane Tool): Você ganha proficiência com 1 tipo de ferramentas de artesão à sua escolha. Além disso, você pode usar essas ferramentas como foco de conjuração para qualquer magia que você conjure que use Inteligência como atributo de conjuração."
+  ],
+  "grantedProficiencies": [
+    "Ferramenta Arcana (Arcane Tool): Você ganha proficiência com 1 tipo de ferramentas de artesão à sua escolha. Além disso, você pode usar essas ferramentas como foco de conjuração para qualquer magia que você conjure que use Inteligência como atributo de conjuração."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Magia Engenhosa: Você aprende 1 magia de 1º nível à sua escolha da lista de magias do Artífice. Ao escolher este talento, você também escolhe o atributo de conjuração dessa magia: Inteligência, Sabedoria ou Carisma. Você pode conjurar essa magia 1 vez sem gastar espaço de magia e recupera esse uso quando termina um Descanso Longo. Você também pode conjurar essa magia usando quaisquer espaços de magia que você tenha."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

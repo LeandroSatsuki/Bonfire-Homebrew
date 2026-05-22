@@ -1,0 +1,69 @@
+{
+  "id": "adepto-de-metamagia",
+  "name": "Adepto de Metamagia",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Carisma"
+    ],
+    "description": "+1 de Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Carisma.\n\n Sua magia não é só lançada, ela é moldada, torcida, afinada como uma nota perfeita. \n Com prática e vontade, você aprende a mudar o “como” sem mudar o “quê”. \n Você aprende Metamagias e ganha pontos para distorcer o formato das suas magias, além de carregar um pequeno eco da herança feiticeira.\n\n - Metamagia Básica: Você aprende 2 opções de Metamagia da classe Feiticeiro. Você pode usar apenas 1 opção de Metamagia em uma magia quando a conjura, a menos que a opção diga o contrário.\n- Troca em Aprimoramento: Sempre que você alcançar um nível que conceda Aumento de Atributo (Ability Score Improvement), você pode substituir 1 das opções de Metamagia aprendidas por outra opção de Metamagia da classe Feiticeiro.\n- Feitiçaria Limitada: Você ganha 2 Pontos de Feitiçaria (Sorcery Points) para gastar em ...",
+  "mechanicsSummary": "Metamagia Básica: Você aprende 2 opções de Metamagia da classe Feiticeiro. Você pode usar apenas 1 opção de Metamagia em uma magia quando a conjura, a menos que a opção diga o contrário. | Troca em Aprimoramento: Sempre que você alcançar um nível que conceda Aumento de Atributo (Ability Score Improvement), você pode substituir 1 das opções de Metamagia aprendidas por outra opção de Metamagia da classe Feiticeiro. | Feitiçaria Limitada: Você ganha 2 Pontos de Feitiçaria (Sorcery Points) para gastar em Metamagia. Esses pontos são adicionados a quaisquer Pontos de Feitiçaria que você tenha de outra fonte, mas só podem ser usados em Metamagia. | Recarga: Você recupera todos os Pontos de Feitiçaria gastos concedidos por este talento ao terminar um Descanso Longo. Como alternativa, você pode converter 1 espaço de magia de 1º círculo (1st-level spell slot) ou maior para recuperar os Pontos de Feitiçaria concedidos por este talento (seguindo a conversão que você usa no seu jogo). | Herança Mágica: Você aprende 1 magia de 1º círculo à sua escolha da lista de magias do Feiticeiro. Seu atributo de conjuração para essa magia é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento). | Conjuração Gratuita: Você pode conjurar a magia aprendida por este talento 1 vez sem gastar um espaço de magia. Você recupera esse uso ao terminar um Descanso Longo. | Conjuração Normal: Você também pode conjurar essa magia usando quaisquer espaços de magia que possua do nível apropriado.",
+  "benefits": [
+    "Metamagia Básica: Você aprende 2 opções de Metamagia da classe Feiticeiro. Você pode usar apenas 1 opção de Metamagia em uma magia quando a conjura, a menos que a opção diga o contrário.",
+    "Troca em Aprimoramento: Sempre que você alcançar um nível que conceda Aumento de Atributo (Ability Score Improvement), você pode substituir 1 das opções de Metamagia aprendidas por outra opção de Metamagia da classe Feiticeiro.",
+    "Feitiçaria Limitada: Você ganha 2 Pontos de Feitiçaria (Sorcery Points) para gastar em Metamagia. Esses pontos são adicionados a quaisquer Pontos de Feitiçaria que você tenha de outra fonte, mas só podem ser usados em Metamagia.",
+    "Recarga: Você recupera todos os Pontos de Feitiçaria gastos concedidos por este talento ao terminar um Descanso Longo. Como alternativa, você pode converter 1 espaço de magia de 1º círculo (1st-level spell slot) ou maior para recuperar os Pontos de Feitiçaria concedidos por este talento (seguindo a conversão que você usa no seu jogo).",
+    "Herança Mágica: Você aprende 1 magia de 1º círculo à sua escolha da lista de magias do Feiticeiro. Seu atributo de conjuração para essa magia é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento).",
+    "Conjuração Gratuita: Você pode conjurar a magia aprendida por este talento 1 vez sem gastar um espaço de magia. Você recupera esse uso ao terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essa magia usando quaisquer espaços de magia que possua do nível apropriado."
+  ],
+  "grantedSpells": [
+    "Metamagia Básica: Você aprende 2 opções de Metamagia da classe Feiticeiro. Você pode usar apenas 1 opção de Metamagia em uma magia quando a conjura, a menos que a opção diga o contrário.",
+    "Troca em Aprimoramento: Sempre que você alcançar um nível que conceda Aumento de Atributo (Ability Score Improvement), você pode substituir 1 das opções de Metamagia aprendidas por outra opção de Metamagia da classe Feiticeiro.",
+    "Recarga: Você recupera todos os Pontos de Feitiçaria gastos concedidos por este talento ao terminar um Descanso Longo. Como alternativa, você pode converter 1 espaço de magia de 1º círculo (1st-level spell slot) ou maior para recuperar os Pontos de Feitiçaria concedidos por este talento (seguindo a conversão que você usa no seu jogo).",
+    "Herança Mágica: Você aprende 1 magia de 1º círculo à sua escolha da lista de magias do Feiticeiro. Seu atributo de conjuração para essa magia é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento).",
+    "Conjuração Gratuita: Você pode conjurar a magia aprendida por este talento 1 vez sem gastar um espaço de magia. Você recupera esse uso ao terminar um Descanso Longo.",
+    "Conjuração Normal: Você também pode conjurar essa magia usando quaisquer espaços de magia que possua do nível apropriado."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Metamagia Básica: Você aprende 2 opções de Metamagia da classe Feiticeiro. Você pode usar apenas 1 opção de Metamagia em uma magia quando a conjura, a menos que a opção diga o contrário. | Recarga: Você recupera todos os Pontos de Feitiçaria gastos concedidos por este talento ao terminar um Descanso Longo. Como alternativa, você pode converter 1 espaço de magia de 1º círculo (1st-level spell slot) ou maior para recuperar os Pontos de Feitiçaria concedidos por este talento (seguindo a conversão que você usa no seu jogo). | Herança Mágica: Você aprende 1 magia de 1º círculo à sua escolha da lista de magias do Feiticeiro. Seu atributo de conjuração para essa magia é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento). | Conjuração Gratuita: Você pode conjurar a magia aprendida por este talento 1 vez sem gastar um espaço de magia. Você recupera esse uso ao terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "adepto-da-veste-negra",
+  "name": "Adepto da Veste Negra",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Iniciado no Juramento das Três Luas (Lua Negra)"
+  ],
+  "description": "Pré-requisito: Nível 4+, Iniciado no Juramento das Três Luas (Lua Negra).\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n A Veste Negra não oferece consolo, só clareza: toda vitória tem custo, e o custo precisa ser escolhido. \n Você aprende a apertar a alma no punho, sem deixar que ela escorra pelos dedos. \n Você aprimora sua disciplina lunar, aprendendo uma magia mais ousada e convertendo sua própria vitalidade em potência destrutiva no instante exato.\n\n - Magia Ambiciosa: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Encantamento ou Necromancia. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia ...",
+  "mechanicsSummary": "Magia Ambiciosa: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Encantamento ou Necromancia. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris. | Canalizar Vida: Quando uma criatura que você consegue ver a até 18 metros[60 pés] de você falhar em um teste de resistência contra uma magia sua que cause dano, você pode canalizar sua força vital para intensificar o impacto. - Custo: Gaste um número de Dados de Vida igual ao nível da magia que causou o dano. | Efeito: Role os Dados de Vida gastos e some os resultados. O dano que a criatura sofre aumenta em uma quantidade igual a esse total.",
+  "benefits": [
+    "Magia Ambiciosa: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Encantamento ou Necromancia. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris.",
+    "Canalizar Vida: Quando uma criatura que você consegue ver a até 18 metros[60 pés] de você falhar em um teste de resistência contra uma magia sua que cause dano, você pode canalizar sua força vital para intensificar o impacto. - Custo: Gaste um número de Dados de Vida igual ao nível da magia que causou o dano.",
+    "Efeito: Role os Dados de Vida gastos e some os resultados. O dano que a criatura sofre aumenta em uma quantidade igual a esse total."
+  ],
+  "grantedSpells": [
+    "Magia Ambiciosa: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Encantamento ou Necromancia. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris.",
+    "Canalizar Vida: Quando uma criatura que você consegue ver a até 18 metros[60 pés] de você falhar em um teste de resistência contra uma magia sua que cause dano, você pode canalizar sua força vital para intensificar o impacto. - Custo: Gaste um número de Dados de Vida igual ao nível da magia que causou o dano."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Canalizar Vida: Quando uma criatura que você consegue ver a até 18 metros[60 pés] de você falhar em um teste de resistência contra uma magia sua que cause dano, você pode canalizar sua força vital para intensificar o impacto. - Custo: Gaste um número de Dados de Vida igual ao nível da magia que causou o dano."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

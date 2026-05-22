@@ -1,0 +1,63 @@
+{
+  "id": "adepto-da-hemomancia",
+  "name": "Adepto da Hemomancia",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Constituição.\n\n Você aprendeu que o sangue não é só vida. É caminho, fio e contrato. \n Quando você puxa poder por ele, o poder vem, mas cobra de volta com juros. \n Você pode alimentar uma magia com vitalidade real para empurrar sua conjuração além do limite, deixando marcas que só o descanso profundo apaga.\n\n - Trama de Sangue: Quando você conjurar uma magia usando um espaço de magia, você pode conjurá-la como se estivesse usando um espaço de magia 1 nível acima. Para fazer isso, você gasta 1 Dado de Vida. Você deve ter acesso a magias daquele nível superior (por exemplo, nível 3 para tratar a magia como magia de 3º nível). Você ainda gasta o espaço de magia original.\n- Fio Condutor: Quando você usar Trama de Sangue, role o Dado de Vida gasto. Você adiciona o número rolado a uma rolagem de dano ou cura da ...",
+  "mechanicsSummary": "Trama de Sangue: Quando você conjurar uma magia usando um espaço de magia, você pode conjurá-la como se estivesse usando um espaço de magia 1 nível acima. Para fazer isso, você gasta 1 Dado de Vida. Você deve ter acesso a magias daquele nível superior (por exemplo, nível 3 para tratar a magia como magia de 3º nível). Você ainda gasta o espaço de magia original. | Fio Condutor: Quando você usar Trama de Sangue, role o Dado de Vida gasto. Você adiciona o número rolado a uma rolagem de dano ou cura daquela magia, seguindo as regras abaixo: - Magia com vários ataques ou raios: Adicione o resultado apenas ao primeiro ataque que acertar, ou ao primeiro alvo afetado se não houver rolagem de ataque. | Magia em área: Adicione o resultado ao dano ou cura de apenas 1 criatura afetada pela magia (escolha quando a magia for resolvida). | Magia que cria efeito contínuo: Adicione o resultado apenas à primeira rolagem de dano ou cura causada por esse efeito. | O Preço do Poder: Sempre que você usar Trama de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao número rolado no Dado de Vida (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo.",
+  "benefits": [
+    "Trama de Sangue: Quando você conjurar uma magia usando um espaço de magia, você pode conjurá-la como se estivesse usando um espaço de magia 1 nível acima. Para fazer isso, você gasta 1 Dado de Vida. Você deve ter acesso a magias daquele nível superior (por exemplo, nível 3 para tratar a magia como magia de 3º nível). Você ainda gasta o espaço de magia original.",
+    "Fio Condutor: Quando você usar Trama de Sangue, role o Dado de Vida gasto. Você adiciona o número rolado a uma rolagem de dano ou cura daquela magia, seguindo as regras abaixo: - Magia com vários ataques ou raios: Adicione o resultado apenas ao primeiro ataque que acertar, ou ao primeiro alvo afetado se não houver rolagem de ataque.",
+    "Magia em área: Adicione o resultado ao dano ou cura de apenas 1 criatura afetada pela magia (escolha quando a magia for resolvida).",
+    "Magia que cria efeito contínuo: Adicione o resultado apenas à primeira rolagem de dano ou cura causada por esse efeito.",
+    "O Preço do Poder: Sempre que você usar Trama de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao número rolado no Dado de Vida (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Trama de Sangue: Quando você conjurar uma magia usando um espaço de magia, você pode conjurá-la como se estivesse usando um espaço de magia 1 nível acima. Para fazer isso, você gasta 1 Dado de Vida. Você deve ter acesso a magias daquele nível superior (por exemplo, nível 3 para tratar a magia como magia de 3º nível). Você ainda gasta o espaço de magia original.",
+    "Fio Condutor: Quando você usar Trama de Sangue, role o Dado de Vida gasto. Você adiciona o número rolado a uma rolagem de dano ou cura daquela magia, seguindo as regras abaixo: - Magia com vários ataques ou raios: Adicione o resultado apenas ao primeiro ataque que acertar, ou ao primeiro alvo afetado se não houver rolagem de ataque.",
+    "Magia em área: Adicione o resultado ao dano ou cura de apenas 1 criatura afetada pela magia (escolha quando a magia for resolvida).",
+    "Magia que cria efeito contínuo: Adicione o resultado apenas à primeira rolagem de dano ou cura causada por esse efeito."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Trama de Sangue: Quando você conjurar uma magia usando um espaço de magia, você pode conjurá-la como se estivesse usando um espaço de magia 1 nível acima. Para fazer isso, você gasta 1 Dado de Vida. Você deve ter acesso a magias daquele nível superior (por exemplo, nível 3 para tratar a magia como magia de 3º nível). Você ainda gasta o espaço de magia original. | Fio Condutor: Quando você usar Trama de Sangue, role o Dado de Vida gasto. Você adiciona o número rolado a uma rolagem de dano ou cura daquela magia, seguindo as regras abaixo: - Magia com vários ataques ou raios: Adicione o resultado apenas ao primeiro ataque que acertar, ou ao primeiro alvo afetado se não houver rolagem de ataque. | Magia em área: Adicione o resultado ao dano ou cura de apenas 1 criatura afetada pela magia (escolha quando a magia for resolvida). | O Preço do Poder: Sempre que você usar Trama de Sangue, você perde uma quantidade de Pontos de Vida atuais e tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao número rolado no Dado de Vida (mínimo 1). Essa perda e redução de máximo não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

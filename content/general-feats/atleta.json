@@ -1,0 +1,58 @@
+{
+  "id": "atleta",
+  "name": "Atleta",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou Destreza.\n\n Seu corpo aprendeu a economizar medo. \n Onde outros calculam se dá para subir, você já está no alto. Onde outros caem e perdem o turno, você toca o chão e volta a correr. Você mede o mundo em apoios, impulsos e respirações curtas. \n E quando a luta exige fôlego, você ainda tem mais uma arrancada guardada. \n Você aprimora mobilidade, escalada e recuperação de postura, mantendo ritmo físico mesmo sob pressão.\n\n - Velocidade de Escalada: Você ganha uma Velocidade de Escalada igual ao seu Deslocamento.\n- Levantar Rápido: Quando você estiver com a condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento.\n- Saltos: Você pode fazer um salto em distância (Long Jump) ou salto em altura (High Jump) com corrida após se mover apenas 1,5 metro[5 pés].\n- Apogeu Físic ...",
+  "mechanicsSummary": "Velocidade de Escalada: Você ganha uma Velocidade de Escalada igual ao seu Deslocamento. | Levantar Rápido: Quando você estiver com a condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento. | Saltos: Você pode fazer um salto em distância (Long Jump) ou salto em altura (High Jump) com corrida após se mover apenas 1,5 metro[5 pés]. | Apogeu Físico: Você ganha proficiência em Atletismo ou Acrobacia. Se você já possuir proficiência na perícia escolhida, você ganha especialização nela.",
+  "benefits": [
+    "Velocidade de Escalada: Você ganha uma Velocidade de Escalada igual ao seu Deslocamento.",
+    "Levantar Rápido: Quando você estiver com a condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento.",
+    "Saltos: Você pode fazer um salto em distância (Long Jump) ou salto em altura (High Jump) com corrida após se mover apenas 1,5 metro[5 pés].",
+    "Apogeu Físico: Você ganha proficiência em Atletismo ou Acrobacia. Se você já possuir proficiência na perícia escolhida, você ganha especialização nela."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Apogeu Físico: Você ganha proficiência em Atletismo ou Acrobacia. Se você já possuir proficiência na perícia escolhida, você ganha especialização nela."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Levantar Rápido: Quando você estiver com a condição Caído (Prone), você pode se levantar gastando apenas 1,5 metro[5 pés] de movimento."
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

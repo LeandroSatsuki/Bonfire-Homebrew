@@ -1,0 +1,62 @@
+{
+  "id": "marca-potente",
+  "name": "Marca Potente",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 do atributo de conjuração usado pela sua Marca."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "qualquer Marca Superior ou Marca Anômala Maior"
+  ],
+  "description": "Pré-requisito: Nível 4+, qualquer Marca Superior ou Marca Anômala Maior.\n\n Aumento de Atributo: +1 do atributo de conjuração usado pela sua Marca.\n\n Sua runa para de ser só um sinal e vira ferramenta declarada.A Trama “aceita” sua Marca como cláusula permanente, pronta para ser acionada. \n Você aprofunda sua Marca, tornando suas magias da Marca mais acessíveis e ganhando um reservatório dedicado para canalizá-las.\n\n - Preparação da Marca. Você sempre tem as magias da sua lista Magias da Marca, se houver, preparadas.\n- Conjuração da Marca. Você ganha 1 espaço de magia extra para conjurar as magias concedidas pela sua Marca. - Nível do espaço. O nível desse espaço de magia é metade do seu nível (arredondado para cima), até o máximo de 5º nível.\n- Recuperar uso. Você recupera esse espaço de magia gasto ao terminar um Descanso Curto ou Descanso Longo.\n- Restrição. Você pode usar esse espaço ...",
+  "mechanicsSummary": "Preparação da Marca. Você sempre tem as magias da sua lista Magias da Marca, se houver, preparadas. | Conjuração da Marca. Você ganha 1 espaço de magia extra para conjurar as magias concedidas pela sua Marca. - Nível do espaço. O nível desse espaço de magia é metade do seu nível (arredondado para cima), até o máximo de 5º nível. | Recuperar uso. Você recupera esse espaço de magia gasto ao terminar um Descanso Curto ou Descanso Longo. | Restrição. Você pode usar esse espaço de magia apenas para conjurar uma magia que você tenha preparada por causa do seu talento de Marca, ou por causa do benefício Preparação da Marca deste talento.",
+  "benefits": [
+    "Preparação da Marca. Você sempre tem as magias da sua lista Magias da Marca, se houver, preparadas.",
+    "Conjuração da Marca. Você ganha 1 espaço de magia extra para conjurar as magias concedidas pela sua Marca. - Nível do espaço. O nível desse espaço de magia é metade do seu nível (arredondado para cima), até o máximo de 5º nível.",
+    "Recuperar uso. Você recupera esse espaço de magia gasto ao terminar um Descanso Curto ou Descanso Longo.",
+    "Restrição. Você pode usar esse espaço de magia apenas para conjurar uma magia que você tenha preparada por causa do seu talento de Marca, ou por causa do benefício Preparação da Marca deste talento."
+  ],
+  "grantedSpells": [
+    "Preparação da Marca. Você sempre tem as magias da sua lista Magias da Marca, se houver, preparadas.",
+    "Conjuração da Marca. Você ganha 1 espaço de magia extra para conjurar as magias concedidas pela sua Marca. - Nível do espaço. O nível desse espaço de magia é metade do seu nível (arredondado para cima), até o máximo de 5º nível.",
+    "Recuperar uso. Você recupera esse espaço de magia gasto ao terminar um Descanso Curto ou Descanso Longo.",
+    "Restrição. Você pode usar esse espaço de magia apenas para conjurar uma magia que você tenha preparada por causa do seu talento de Marca, ou por causa do benefício Preparação da Marca deste talento."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Recuperar uso. Você recupera esse espaço de magia gasto ao terminar um Descanso Curto ou Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

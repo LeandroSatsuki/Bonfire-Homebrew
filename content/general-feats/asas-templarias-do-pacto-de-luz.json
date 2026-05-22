@@ -1,0 +1,62 @@
+{
+  "id": "asas-templarias-do-pacto-de-luz",
+  "name": "Asas Templárias do Pacto de Luz",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Em Auralon, proteger não é só promessa, é treino até virar reflexo. \n Quando o perigo pisca, sua fé se abre em asas e se coloca entre a lâmina e quem não pode cair. \n Você manifesta a disciplina do Pacto de Luz em milagres rápidos: um toque que restaura e uma defesa que chega antes do impacto.\n\n - Cura do Pacto de Luz: Você aprende a magia Curar Ferimentos (Cure Wounds). Ao ganhar este talento, escolha seu atributo de conjuração para esta magia entre Inteligência, Sabedoria ou Carisma. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia. Depois de conjurar dessa forma, você não pode fazê-lo novamente até terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver.\n- Asas Protetoras: Quando você ou outra criatura que você pos ...",
+  "mechanicsSummary": "Cura do Pacto de Luz: Você aprende a magia Curar Ferimentos (Cure Wounds). Ao ganhar este talento, escolha seu atributo de conjuração para esta magia entre Inteligência, Sabedoria ou Carisma. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia. Depois de conjurar dessa forma, você não pode fazê-lo novamente até terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver. | Asas Protetoras: Quando você ou outra criatura que você possa ver a até 1,5 metro[5 pés] de você for atingida por uma jogada de ataque, você pode usar sua Reação para manifestar asas espectrais por um instante. O alvo recebe um bônus na Classe de Armadura igual ao seu Bônus de Proficiência contra aquela jogada de ataque, potencialmente fazendo o ataque errar. Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo.",
+  "benefits": [
+    "Cura do Pacto de Luz: Você aprende a magia Curar Ferimentos (Cure Wounds). Ao ganhar este talento, escolha seu atributo de conjuração para esta magia entre Inteligência, Sabedoria ou Carisma. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia. Depois de conjurar dessa forma, você não pode fazê-lo novamente até terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver.",
+    "Asas Protetoras: Quando você ou outra criatura que você possa ver a até 1,5 metro[5 pés] de você for atingida por uma jogada de ataque, você pode usar sua Reação para manifestar asas espectrais por um instante. O alvo recebe um bônus na Classe de Armadura igual ao seu Bônus de Proficiência contra aquela jogada de ataque, potencialmente fazendo o ataque errar. Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Cura do Pacto de Luz: Você aprende a magia Curar Ferimentos (Cure Wounds). Ao ganhar este talento, escolha seu atributo de conjuração para esta magia entre Inteligência, Sabedoria ou Carisma. Você pode conjurar Curar Ferimentos (Cure Wounds) sem gastar um espaço de magia. Depois de conjurar dessa forma, você não pode fazê-lo novamente até terminar um Descanso Longo. Você também pode conjurar a magia usando quaisquer espaços de magia que tiver."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Asas Protetoras: Quando você ou outra criatura que você possa ver a até 1,5 metro[5 pés] de você for atingida por uma jogada de ataque, você pode usar sua Reação para manifestar asas espectrais por um instante. O alvo recebe um bônus na Classe de Armadura igual ao seu Bônus de Proficiência contra aquela jogada de ataque, potencialmente fazendo o ataque errar. Você pode usar esta Reação um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos quando termina um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

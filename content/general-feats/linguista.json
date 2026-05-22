@@ -1,0 +1,59 @@
+{
+  "id": "linguista",
+  "name": "Linguista",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": null,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Inteligência."
+  },
+  "prerequisites": [],
+  "description": "Aumento de Atributo: +1 de Inteligência.\n\n Cada língua tem um ritmo, cada sotaque tem uma intenção, e cada símbolo esconde um hábito. \n Você aprendeu a escutar o que não é dito e a ler o que foi escrito para não ser entendido. \n Você domina idiomas, códigos e truques de mensagem que transformam palavras em ferramenta, arma e escudo.\n\n - Poliglota: Você aprende 3 idiomas de sua escolha.\n- Cifras e Decifração: Você pode criar cifras escritas complexas. - Quebrar o código: Outras criaturas não conseguem decifrar uma cifra que você criou, a menos que você as ensine, sejam bem-sucedidas em um teste de Inteligência cuja CD é igual à sua pontuação de Inteligência + seu bônus de proficiência, ou usem magia para decifrá-la.\n- Ler o impossível: Você pode decifrar criptogramas e entender partes de escritas em idiomas que você não conhece. Você tem Vantagem em testes feitos para decifrar criptografi ...",
+  "mechanicsSummary": "Poliglota: Você aprende 3 idiomas de sua escolha. | Cifras e Decifração: Você pode criar cifras escritas complexas. - Quebrar o código: Outras criaturas não conseguem decifrar uma cifra que você criou, a menos que você as ensine, sejam bem-sucedidas em um teste de Inteligência cuja CD é igual à sua pontuação de Inteligência + seu bônus de proficiência, ou usem magia para decifrá-la. | Ler o impossível: Você pode decifrar criptogramas e entender partes de escritas em idiomas que você não conhece. Você tem Vantagem em testes feitos para decifrar criptografias e escritas desconhecidas. | Mensagens Encantadas: Você aprende as magias Escrita Ilusória (Illusory Script) e Boca Mágica (Magic Mouth). Você pode conjurar cada uma dessas magias sem gastar espaços de magia e sem gastar componentes materiais. Inteligência é o seu atributo de conjuração para essas magias. Depois que você conjurar uma delas dessa forma, você não pode conjurar a mesma magia dessa forma novamente até terminar um Descanso Longo.",
+  "benefits": [
+    "Poliglota: Você aprende 3 idiomas de sua escolha.",
+    "Cifras e Decifração: Você pode criar cifras escritas complexas. - Quebrar o código: Outras criaturas não conseguem decifrar uma cifra que você criou, a menos que você as ensine, sejam bem-sucedidas em um teste de Inteligência cuja CD é igual à sua pontuação de Inteligência + seu bônus de proficiência, ou usem magia para decifrá-la.",
+    "Ler o impossível: Você pode decifrar criptogramas e entender partes de escritas em idiomas que você não conhece. Você tem Vantagem em testes feitos para decifrar criptografias e escritas desconhecidas.",
+    "Mensagens Encantadas: Você aprende as magias Escrita Ilusória (Illusory Script) e Boca Mágica (Magic Mouth). Você pode conjurar cada uma dessas magias sem gastar espaços de magia e sem gastar componentes materiais. Inteligência é o seu atributo de conjuração para essas magias. Depois que você conjurar uma delas dessa forma, você não pode conjurar a mesma magia dessa forma novamente até terminar um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Cifras e Decifração: Você pode criar cifras escritas complexas. - Quebrar o código: Outras criaturas não conseguem decifrar uma cifra que você criou, a menos que você as ensine, sejam bem-sucedidas em um teste de Inteligência cuja CD é igual à sua pontuação de Inteligência + seu bônus de proficiência, ou usem magia para decifrá-la.",
+    "Mensagens Encantadas: Você aprende as magias Escrita Ilusória (Illusory Script) e Boca Mágica (Magic Mouth). Você pode conjurar cada uma dessas magias sem gastar espaços de magia e sem gastar componentes materiais. Inteligência é o seu atributo de conjuração para essas magias. Depois que você conjurar uma delas dessa forma, você não pode conjurar a mesma magia dessa forma novamente até terminar um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Cifras e Decifração: Você pode criar cifras escritas complexas. - Quebrar o código: Outras criaturas não conseguem decifrar uma cifra que você criou, a menos que você as ensine, sejam bem-sucedidas em um teste de Inteligência cuja CD é igual à sua pontuação de Inteligência + seu bônus de proficiência, ou usem magia para decifrá-la. | Mensagens Encantadas: Você aprende as magias Escrita Ilusória (Illusory Script) e Boca Mágica (Magic Mouth). Você pode conjurar cada uma dessas magias sem gastar espaços de magia e sem gastar componentes materiais. Inteligência é o seu atributo de conjuração para essas magias. Depois que você conjurar uma delas dessa forma, você não pode conjurar a mesma magia dessa forma novamente até terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

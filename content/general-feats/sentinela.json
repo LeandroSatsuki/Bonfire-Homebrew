@@ -1,0 +1,51 @@
+{
+  "id": "sentinela",
+  "name": "Sentinela",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n O corpo lê intenção: o pé que recua, o ombro que vira, o olhar que busca outra presa. E antes que a escolha vire ação, você já está lá, ocupando o espaço que o inimigo queria usar. \n Você protege aliados e controla o campo, punindo quem tenta escapar ou atacar sob sua guarda.\n\n - Guardião: Imediatamente depois que uma criatura a 1,5 metro[5 pés] de você realizar a ação Disengage ou acertar um alvo que não seja você com um ataque, você pode fazer um Ataque de Oportunidade contra essa criatura.\n- Parada Forçada: Quando você acerta uma criatura com um Ataque de Oportunidade, o Deslocamento dessa criatura se torna 0 pelo restante do turno atual.",
+  "mechanicsSummary": "Guardião: Imediatamente depois que uma criatura a 1,5 metro[5 pés] de você realizar a ação Disengage ou acertar um alvo que não seja você com um ataque, você pode fazer um Ataque de Oportunidade contra essa criatura. | Parada Forçada: Quando você acerta uma criatura com um Ataque de Oportunidade, o Deslocamento dessa criatura se torna 0 pelo restante do turno atual.",
+  "benefits": [
+    "Guardião: Imediatamente depois que uma criatura a 1,5 metro[5 pés] de você realizar a ação Disengage ou acertar um alvo que não seja você com um ataque, você pode fazer um Ataque de Oportunidade contra essa criatura.",
+    "Parada Forçada: Quando você acerta uma criatura com um Ataque de Oportunidade, o Deslocamento dessa criatura se torna 0 pelo restante do turno atual."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Guardião: Imediatamente depois que uma criatura a 1,5 metro[5 pés] de você realizar a ação Disengage ou acertar um alvo que não seja você com um ataque, você pode fazer um Ataque de Oportunidade contra essa criatura. | Parada Forçada: Quando você acerta uma criatura com um Ataque de Oportunidade, o Deslocamento dessa criatura se torna 0 pelo restante do turno atual."
+  },
+  "automation": "sim",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

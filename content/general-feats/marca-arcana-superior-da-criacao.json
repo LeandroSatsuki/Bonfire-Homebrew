@@ -1,0 +1,59 @@
+{
+  "id": "marca-arcana-superior-da-criacao",
+  "name": "Marca Arcana Superior da Criação",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Criação"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Criação.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Você enxerga o mundo como molde e reforço, dobra e encaixe.Sua runa não improvisa, ela “recorda” a forma certa do possível. \n Sua Marca aperfeiçoa seu toque de forja e transforma um encantamento simples em obra mais profunda.\n\n - Intuição Aprimorada. Quando você usa Intuição do Artesão do seu talento Marca Arcana da Criação, você rola 1d6 em vez de 1d4.\n- Criação Aprimorada. Quando você usa Forjador de Feitiços para conjurar Arma Mágica (Magic Weapon) sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível.",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição do Artesão do seu talento Marca Arcana da Criação, você rola 1d6 em vez de 1d4. | Criação Aprimorada. Quando você usa Forjador de Feitiços para conjurar Arma Mágica (Magic Weapon) sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição do Artesão do seu talento Marca Arcana da Criação, você rola 1d6 em vez de 1d4.",
+    "Criação Aprimorada. Quando você usa Forjador de Feitiços para conjurar Arma Mágica (Magic Weapon) sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  ],
+  "grantedSpells": [
+    "Criação Aprimorada. Quando você usa Forjador de Feitiços para conjurar Arma Mágica (Magic Weapon) sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição do Artesão do seu talento Marca Arcana da Criação, você rola 1d6 em vez de 1d4. | Criação Aprimorada. Quando você usa Forjador de Feitiços para conjurar Arma Mágica (Magic Weapon) sem gastar um espaço de magia, você conjura a magia como sua versão de 3º nível."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "legado-do-norte",
+  "name": "Legado do Norte",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Capacidade de Conjuração"
+  ],
+  "description": "Pré-requisito: Nível 4+, Capacidade de Conjuração.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você canaliza a entropia congelante das estepes do Norte. Não é só frio: é o mundo ficando quebradiço ao toque da sua magia. \n Onde seu gelo alcança, a defesa racha como cristal e a respiração pesa, como se o inverno lembrasse o corpo de que ele pode falhar. \n Você aprende a ferir com frio de um jeito que não termina no dano, e sim no enfraquecimento do próximo fôlego do inimigo.\n\n - Ventos Nortenhos: Você aprende o truque Raio de Gelo (Ray of Frost). O atributo de conjuração do truque é o atributo aumentado por este talento.\n- Maestria: Se você já conhece Raio de Gelo (Ray of Frost), o alcance do truque é dobrado e ele ignora Meia Cobertura.\n- Quebra-Gelo: Uma vez por turno, quando você causar dano de Frio (Cold) a uma criatura, as defesas dela se tornam quebradiças. - E ...",
+  "mechanicsSummary": "Ventos Nortenhos: Você aprende o truque Raio de Gelo (Ray of Frost). O atributo de conjuração do truque é o atributo aumentado por este talento. | Maestria: Se você já conhece Raio de Gelo (Ray of Frost), o alcance do truque é dobrado e ele ignora Meia Cobertura. | Quebra-Gelo: Uma vez por turno, quando você causar dano de Frio (Cold) a uma criatura, as defesas dela se tornam quebradiças. - Efeito: A criatura deve subtrair 1d4 do próximo teste de resistência (saving throw) que fizer antes do final do seu próximo turno.",
+  "benefits": [
+    "Ventos Nortenhos: Você aprende o truque Raio de Gelo (Ray of Frost). O atributo de conjuração do truque é o atributo aumentado por este talento.",
+    "Maestria: Se você já conhece Raio de Gelo (Ray of Frost), o alcance do truque é dobrado e ele ignora Meia Cobertura.",
+    "Quebra-Gelo: Uma vez por turno, quando você causar dano de Frio (Cold) a uma criatura, as defesas dela se tornam quebradiças. - Efeito: A criatura deve subtrair 1d4 do próximo teste de resistência (saving throw) que fizer antes do final do seu próximo turno."
+  ],
+  "grantedSpells": [
+    "Ventos Nortenhos: Você aprende o truque Raio de Gelo (Ray of Frost). O atributo de conjuração do truque é o atributo aumentado por este talento.",
+    "Maestria: Se você já conhece Raio de Gelo (Ray of Frost), o alcance do truque é dobrado e ele ignora Meia Cobertura."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Quebra-Gelo: Uma vez por turno, quando você causar dano de Frio (Cold) a uma criatura, as defesas dela se tornam quebradiças. - Efeito: A criatura deve subtrair 1d4 do próximo teste de resistência (saving throw) que fizer antes do final do seu próximo turno."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

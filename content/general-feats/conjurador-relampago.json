@@ -1,0 +1,62 @@
+{
+  "id": "conjurador-relampago",
+  "name": "Conjurador Relâmpago",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Conjuração ou Magia de Pacto"
+  ],
+  "description": "Pré-requisito: Nível 4+, Conjuração ou Magia de Pacto.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Seu ritmo de conjuração é rápido demais para olhos comuns, como faíscas em sequência antes do trovão. \n Um gesto termina e outro já começa, e a magia encontra duas brechas onde antes só havia uma. \n Você acelera a cadência dos seus truques e consegue responder com uma magia instantânea sem pagar o mesmo custo, uma vez por descanso.\n\n - Alvo Duplo: Quando você conjura um truque com tempo de conjuração de 1 Ação que tenha como alvo apenas 1 criatura, você pode usar uma Ação Bônus para escolher uma segunda criatura dentro do alcance do truque e também torná-la alvo. Este benefício não se aplica a truques que já possam atingir múltiplos alvos ou criar múltiplos ataques, como Rajada Mística (Eldritch Blast).\n- Resposta Imediata: Quando você conjura uma magia que tenha o te ...",
+  "mechanicsSummary": "Alvo Duplo: Quando você conjura um truque com tempo de conjuração de 1 Ação que tenha como alvo apenas 1 criatura, você pode usar uma Ação Bônus para escolher uma segunda criatura dentro do alcance do truque e também torná-la alvo. Este benefício não se aplica a truques que já possam atingir múltiplos alvos ou criar múltiplos ataques, como Rajada Mística (Eldritch Blast). | Resposta Imediata: Quando você conjura uma magia que tenha o tempo de Conjuração de uma Reação, essa magia não gasta um espaço de magia. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo.",
+  "benefits": [
+    "Alvo Duplo: Quando você conjura um truque com tempo de conjuração de 1 Ação que tenha como alvo apenas 1 criatura, você pode usar uma Ação Bônus para escolher uma segunda criatura dentro do alcance do truque e também torná-la alvo. Este benefício não se aplica a truques que já possam atingir múltiplos alvos ou criar múltiplos ataques, como Rajada Mística (Eldritch Blast).",
+    "Resposta Imediata: Quando você conjura uma magia que tenha o tempo de Conjuração de uma Reação, essa magia não gasta um espaço de magia. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Alvo Duplo: Quando você conjura um truque com tempo de conjuração de 1 Ação que tenha como alvo apenas 1 criatura, você pode usar uma Ação Bônus para escolher uma segunda criatura dentro do alcance do truque e também torná-la alvo. Este benefício não se aplica a truques que já possam atingir múltiplos alvos ou criar múltiplos ataques, como Rajada Mística (Eldritch Blast).",
+    "Resposta Imediata: Quando você conjura uma magia que tenha o tempo de Conjuração de uma Reação, essa magia não gasta um espaço de magia. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Alvo Duplo: Quando você conjura um truque com tempo de conjuração de 1 Ação que tenha como alvo apenas 1 criatura, você pode usar uma Ação Bônus para escolher uma segunda criatura dentro do alcance do truque e também torná-la alvo. Este benefício não se aplica a truques que já possam atingir múltiplos alvos ou criar múltiplos ataques, como Rajada Mística (Eldritch Blast). | Resposta Imediata: Quando você conjura uma magia que tenha o tempo de Conjuração de uma Reação, essa magia não gasta um espaço de magia. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

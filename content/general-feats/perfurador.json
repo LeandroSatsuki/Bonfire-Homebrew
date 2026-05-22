@@ -1,0 +1,53 @@
+{
+  "id": "perfurador",
+  "name": "Perfurador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza. Entre anéis de armadura, sob a costela, no ponto exato onde o corpo cede. Sua mão aprende a sentir resistência como se fosse textura, e cada estocada vira uma pergunta que o alvo não consegue responder a tempo. Você refina ataques perfurantes até que cada acerto pareça inevitável, explorando pontos fracos e transformando um bom golpe em uma sentença."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n Entre anéis de armadura, sob a costela, no ponto exato onde o corpo cede. Sua mão aprende a sentir resistência como se fosse textura, e cada estocada vira uma pergunta que o alvo não consegue responder a tempo. \n Você refina ataques perfurantes até que cada acerto pareça inevitável, explorando pontos fracos e transformando um bom golpe em uma sentença.\n\n - Punção: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano perfurante, você pode rerrolar 1 dado de dano do ataque. Você deve usar o novo resultado.\n- Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano perfurante em uma criatura, você rola 1 dado de dano perfurante adicional e o adiciona ao dano do ataque. Além disso, até o início do seu próximo turno, todas as suas rolagens de dano contra essa criatura adici ...",
+  "mechanicsSummary": "Punção: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano perfurante, você pode rerrolar 1 dado de dano do ataque. Você deve usar o novo resultado. | Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano perfurante em uma criatura, você rola 1 dado de dano perfurante adicional e o adiciona ao dano do ataque. Além disso, até o início do seu próximo turno, todas as suas rolagens de dano contra essa criatura adicionam 1d4 do mesmo tipo de dano da arma usada. Este efeito não se acumula com outro crítico.",
+  "benefits": [
+    "Punção: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano perfurante, você pode rerrolar 1 dado de dano do ataque. Você deve usar o novo resultado.",
+    "Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano perfurante em uma criatura, você rola 1 dado de dano perfurante adicional e o adiciona ao dano do ataque. Além disso, até o início do seu próximo turno, todas as suas rolagens de dano contra essa criatura adicionam 1d4 do mesmo tipo de dano da arma usada. Este efeito não se acumula com outro crítico."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Punção: Uma vez por turno, quando você acertar uma criatura com um ataque que cause dano perfurante, você pode rerrolar 1 dado de dano do ataque. Você deve usar o novo resultado. | Crítico aprimorado: Quando você obtém um Acerto Crítico que cause dano perfurante em uma criatura, você rola 1 dado de dano perfurante adicional e o adiciona ao dano do ataque. Além disso, até o início do seu próximo turno, todas as suas rolagens de dano contra essa criatura adicionam 1d4 do mesmo tipo de dano da arma usada. Este efeito não se acumula com outro crítico."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

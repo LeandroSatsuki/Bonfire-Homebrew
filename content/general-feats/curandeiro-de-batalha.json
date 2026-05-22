@@ -1,0 +1,58 @@
+{
+  "id": "curandeiro-de-batalha",
+  "name": "Curandeiro de Batalha",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria"
+    ],
+    "description": "+1 de Constituição, Inteligência ou Sabedoria."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "talento Curandeiro"
+  ],
+  "description": "Pré-requisito: Nível 4+, talento Curandeiro.\n\n Aumento de Atributo: +1 de Constituição, Inteligência ou Sabedoria.\n\n Você não trata feridas, você administra tempo: segundos de vida comprados no limite do caos. \n Seu bisturi é certeza, sua voz é comando, e sua mão sabe exatamente onde a dor vira perigo. \n Seu treinamento avançado aprimora o talento Curandeiro, elevando socorro de combate ao nível de intervenção cirúrgica.\n\n - Maestria Medicinal: Você ganha Especialização (Expertise) na perícia Medicina (Medicine).\n- Socorro Superior: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura recupera Pontos de Vida iguais ao valor do Dado de Vida (Hit Die) gasto e soma metade do seu nível de personagem (Arredondado para Baixo) ao total recuperado, em vez de somar o seu Bônus de Proficiência.\n- Cirurgião de Combate: Quando você usar o benefício Tratamento de Campo d ...",
+  "mechanicsSummary": "Maestria Medicinal: Você ganha Especialização (Expertise) na perícia Medicina (Medicine). | Socorro Superior: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura recupera Pontos de Vida iguais ao valor do Dado de Vida (Hit Die) gasto e soma metade do seu nível de personagem (Arredondado para Baixo) ao total recuperado, em vez de somar o seu Bônus de Proficiência. | Cirurgião de Combate: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura pode gastar 1 Dado de Vida (Hit Die) para encerrar em si mesma uma das condições abaixo, em vez de recuperar Pontos de Vida: - Escolha uma condição: Cego (Blinded), Surdo (Deafened), Paralisado (Paralyzed), Envenenado (Poisoned) ou Atordoado (Stunned).",
+  "benefits": [
+    "Maestria Medicinal: Você ganha Especialização (Expertise) na perícia Medicina (Medicine).",
+    "Socorro Superior: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura recupera Pontos de Vida iguais ao valor do Dado de Vida (Hit Die) gasto e soma metade do seu nível de personagem (Arredondado para Baixo) ao total recuperado, em vez de somar o seu Bônus de Proficiência.",
+    "Cirurgião de Combate: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura pode gastar 1 Dado de Vida (Hit Die) para encerrar em si mesma uma das condições abaixo, em vez de recuperar Pontos de Vida: - Escolha uma condição: Cego (Blinded), Surdo (Deafened), Paralisado (Paralyzed), Envenenado (Poisoned) ou Atordoado (Stunned)."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Socorro Superior: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura recupera Pontos de Vida iguais ao valor do Dado de Vida (Hit Die) gasto e soma metade do seu nível de personagem (Arredondado para Baixo) ao total recuperado, em vez de somar o seu Bônus de Proficiência. | Cirurgião de Combate: Quando você usar o benefício Tratamento de Campo do talento Curandeiro, a criatura pode gastar 1 Dado de Vida (Hit Die) para encerrar em si mesma uma das condições abaixo, em vez de recuperar Pontos de Vida: - Escolha uma condição: Cego (Blinded), Surdo (Deafened), Paralisado (Paralyzed), Envenenado (Poisoned) ou Atordoado (Stunned)."
+  },
+  "automation": "sim",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

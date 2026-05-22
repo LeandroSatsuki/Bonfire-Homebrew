@@ -1,0 +1,59 @@
+{
+  "id": "marca-arcana-superior-da-escrita",
+  "name": "Marca Arcana Superior da Escrita",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Escrita"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Escrita.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Sua runa transforma palavras em ponte, e ponte em caminho seguro.O que era distância vira apenas intervalo entre pensamentos. \n Sua Marca amplia o alcance do entendimento e cria um canal mental estável entre aliados por um tempo.\n\n \n- Intuição Aprimorada. Quando você usa Escriba Talentoso do seu talento Marca Arcana da Escrita, você rola 1d6 em vez de 1d4.\n- Escrita Inspirada. Quando você conjura Compreender Idiomas (Comprehend Languages), você pode modificar a magia para abranger até 3 criaturas voluntárias que você possa ver a até 9 metros[30 pés] de você. Cada criatura escolhida também recebe os benefícios da magia pela duração. - Vínculo Mental. Pela duração da magia, você e as criaturas escolhidas podem se comunicar telepaticamente (telepathy) entre si enquanto estiverem a até ...",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Escriba Talentoso do seu talento Marca Arcana da Escrita, você rola 1d6 em vez de 1d4. | Escrita Inspirada. Quando você conjura Compreender Idiomas (Comprehend Languages), você pode modificar a magia para abranger até 3 criaturas voluntárias que você possa ver a até 9 metros[30 pés] de você. Cada criatura escolhida também recebe os benefícios da magia pela duração. - Vínculo Mental. Pela duração da magia, você e as criaturas escolhidas podem se comunicar telepaticamente (telepathy) entre si enquanto estiverem a até 1,6 km[1 milha] umas das outras.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Escriba Talentoso do seu talento Marca Arcana da Escrita, você rola 1d6 em vez de 1d4.",
+    "Escrita Inspirada. Quando você conjura Compreender Idiomas (Comprehend Languages), você pode modificar a magia para abranger até 3 criaturas voluntárias que você possa ver a até 9 metros[30 pés] de você. Cada criatura escolhida também recebe os benefícios da magia pela duração. - Vínculo Mental. Pela duração da magia, você e as criaturas escolhidas podem se comunicar telepaticamente (telepathy) entre si enquanto estiverem a até 1,6 km[1 milha] umas das outras."
+  ],
+  "grantedSpells": [
+    "Escrita Inspirada. Quando você conjura Compreender Idiomas (Comprehend Languages), você pode modificar a magia para abranger até 3 criaturas voluntárias que você possa ver a até 9 metros[30 pés] de você. Cada criatura escolhida também recebe os benefícios da magia pela duração. - Vínculo Mental. Pela duração da magia, você e as criaturas escolhidas podem se comunicar telepaticamente (telepathy) entre si enquanto estiverem a até 1,6 km[1 milha] umas das outras."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Escriba Talentoso do seu talento Marca Arcana da Escrita, você rola 1d6 em vez de 1d4. | Escrita Inspirada. Quando você conjura Compreender Idiomas (Comprehend Languages), você pode modificar a magia para abranger até 3 criaturas voluntárias que você possa ver a até 9 metros[30 pés] de você. Cada criatura escolhida também recebe os benefícios da magia pela duração. - Vínculo Mental. Pela duração da magia, você e as criaturas escolhidas podem se comunicar telepaticamente (telepathy) entre si enquanto estiverem a até 1,6 km[1 milha] umas das outras."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

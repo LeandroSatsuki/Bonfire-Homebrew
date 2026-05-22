@@ -1,0 +1,62 @@
+{
+  "id": "envenenador",
+  "name": "Envenenador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza ou Inteligência."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Destreza ou Inteligência.\n\n Entre frascos, lâminas e medidas precisas, você escolhe a substância certa para o corpo certo cair. Você aprimora seu domínio de toxinas e corrosivos, tornando seus venenos mais confiáveis e fáceis de aplicar no calor do combate.\n - Veneno Potente: Quando você fizer uma rolagem de dano que cause dano de veneno, esse dano ignora Resistência a dano de veneno. Além disso, quando você causar dano de veneno, você pode escolher causar dano de Ácido em vez de Veneno.\n- Preparar Veneno: Você ganha proficiência com o Kit de Envenenador. Com 1 hora de trabalho usando esse kit e gastando materiais no valor de 50 PO, você cria um número de doses de veneno igual ao seu Bônus de Proficiência.\n- Aplicação Rápida: Como uma Ação Bônus, você pode aplicar 1 dose do veneno criado por este talento a uma arma ou munição. Depois ...",
+  "mechanicsSummary": "Veneno Potente: Quando você fizer uma rolagem de dano que cause dano de veneno, esse dano ignora Resistência a dano de veneno. Além disso, quando você causar dano de veneno, você pode escolher causar dano de Ácido em vez de Veneno. | Preparar Veneno: Você ganha proficiência com o Kit de Envenenador. Com 1 hora de trabalho usando esse kit e gastando materiais no valor de 50 PO, você cria um número de doses de veneno igual ao seu Bônus de Proficiência. | Aplicação Rápida: Como uma Ação Bônus, você pode aplicar 1 dose do veneno criado por este talento a uma arma ou munição. Depois de aplicado, o veneno mantém sua potência por 1 minuto ou até você causar dano com o item envenenado, o que ocorrer primeiro. | Efeito do Veneno: Quando uma criatura sofre dano do item envenenado, ela deve ser bem-sucedida em um teste de resistência de Constituição com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência, ou sofrer os efeitos abaixo: - Dano: 2d8 de dano de veneno ou Ácido, se você tiver escolhido converter o dano). | Condição: a criatura fica na condição Envenenado até o final do próximo turno dela.",
+  "benefits": [
+    "Veneno Potente: Quando você fizer uma rolagem de dano que cause dano de veneno, esse dano ignora Resistência a dano de veneno. Além disso, quando você causar dano de veneno, você pode escolher causar dano de Ácido em vez de Veneno.",
+    "Preparar Veneno: Você ganha proficiência com o Kit de Envenenador. Com 1 hora de trabalho usando esse kit e gastando materiais no valor de 50 PO, você cria um número de doses de veneno igual ao seu Bônus de Proficiência.",
+    "Aplicação Rápida: Como uma Ação Bônus, você pode aplicar 1 dose do veneno criado por este talento a uma arma ou munição. Depois de aplicado, o veneno mantém sua potência por 1 minuto ou até você causar dano com o item envenenado, o que ocorrer primeiro.",
+    "Efeito do Veneno: Quando uma criatura sofre dano do item envenenado, ela deve ser bem-sucedida em um teste de resistência de Constituição com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência, ou sofrer os efeitos abaixo: - Dano: 2d8 de dano de veneno ou Ácido, se você tiver escolhido converter o dano).",
+    "Condição: a criatura fica na condição Envenenado até o final do próximo turno dela."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Preparar Veneno: Você ganha proficiência com o Kit de Envenenador. Com 1 hora de trabalho usando esse kit e gastando materiais no valor de 50 PO, você cria um número de doses de veneno igual ao seu Bônus de Proficiência."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Veneno Potente: Quando você fizer uma rolagem de dano que cause dano de veneno, esse dano ignora Resistência a dano de veneno. Além disso, quando você causar dano de veneno, você pode escolher causar dano de Ácido em vez de Veneno. | Aplicação Rápida: Como uma Ação Bônus, você pode aplicar 1 dose do veneno criado por este talento a uma arma ou munição. Depois de aplicado, o veneno mantém sua potência por 1 minuto ou até você causar dano com o item envenenado, o que ocorrer primeiro. | Efeito do Veneno: Quando uma criatura sofre dano do item envenenado, ela deve ser bem-sucedida em um teste de resistência de Constituição com CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência, ou sofrer os efeitos abaixo: - Dano: 2d8 de dano de veneno ou Ácido, se você tiver escolhido converter o dano)."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

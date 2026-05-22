@@ -1,0 +1,565 @@
+# Revisão da primeira geração real de Talentos Gerais
+
+## 1. Status
+
+- dados reais autorais criados, ainda não convertidos para Foundry
+
+## 2. Lista dos 96 arquivos criados
+
+- `content/general-feats/adepto-da-dor.json`
+- `content/general-feats/apodrecer.json`
+- `content/general-feats/matador-de-magos.json`
+- `content/general-feats/repreensao.json`
+- `content/general-feats/investida.json`
+- `content/general-feats/luchador.json`
+- `content/general-feats/maestria-em-armaduras-medias.json`
+- `content/general-feats/mestre-de-armas.json`
+- `content/general-feats/perfurador.json`
+- `content/general-feats/treinamento-moderado.json`
+- `content/general-feats/retalhador.json`
+- `content/general-feats/senhor-da-guerra-de-escamas.json`
+- `content/general-feats/sentinela.json`
+- `content/general-feats/treinamento-com-armas-marciais.json`
+- `content/general-feats/adepto-marcial.json`
+- `content/general-feats/cavaleiro-do-escudo-brilhante.json`
+- `content/general-feats/combatente-montado.json`
+- `content/general-feats/formacao-bastionica.json`
+- `content/general-feats/estigma-draconico.json`
+- `content/general-feats/duelista-defensivo.json`
+- `content/general-feats/precisao.json`
+- `content/general-feats/envenenador.json`
+- `content/general-feats/trapaceiro-dos-bastidores.json`
+- `content/general-feats/cavaleiro-da-lamina-do-albor.json`
+- `content/general-feats/dom-da-infusao-elemental.json`
+- `content/general-feats/dom-do-impeto-telecinetico.json`
+- `content/general-feats/iniciado-artifice.json`
+- `content/general-feats/cartomante.json`
+- `content/general-feats/adepto-do-fogo-espiritual.json`
+- `content/general-feats/adepto-elemental.json`
+- `content/general-feats/adepto-da-veste-negra.json`
+- `content/general-feats/adepto-da-veste-vermelha.json`
+- `content/general-feats/adepto-da-veste-branca.json`
+- `content/general-feats/atirador-de-magias.json`
+- `content/general-feats/bencaos-dos-caminhos-de-eldara.json`
+- `content/general-feats/brumas-ofuscantes.json`
+- `content/general-feats/conjurador-de-guerra.json`
+- `content/general-feats/conjurador-relampago.json`
+- `content/general-feats/legado-do-norte.json`
+- `content/general-feats/magia-ancestral-zouhri.json`
+- `content/general-feats/ritualista.json`
+- `content/general-feats/tocado-pelas-sombras.json`
+- `content/general-feats/tocado-pelo-feerico.json`
+- `content/general-feats/tocado-pelo-vampiro.json`
+- `content/general-feats/adepto-mistico.json`
+- `content/general-feats/adepto-de-metamagia.json`
+- `content/general-feats/atleta.json`
+- `content/general-feats/espreitador.json`
+- `content/general-feats/velocista.json`
+- `content/general-feats/observador.json`
+- `content/general-feats/adepto-da-hemomancia.json`
+- `content/general-feats/guerreiro-hemomante.json`
+- `content/general-feats/sobrevivente-carmesim.json`
+- `content/general-feats/sacrificio-vital.json`
+- `content/general-feats/marca-anomala-maior.json`
+- `content/general-feats/marca-arcana-superior-da-revelacao.json`
+- `content/general-feats/marca-arcana-superior-da-busca.json`
+- `content/general-feats/marca-arcana-superior-do-pastoreio.json`
+- `content/general-feats/marca-arcana-superior-da-restauracao.json`
+- `content/general-feats/marca-arcana-superior-do-refugio.json`
+- `content/general-feats/marca-arcana-superior-da-criacao.json`
+- `content/general-feats/marca-arcana-superior-da-travessia.json`
+- `content/general-feats/marca-arcana-superior-da-escrita.json`
+- `content/general-feats/marca-arcana-superior-da-vigilia.json`
+- `content/general-feats/marca-arcana-superior-do-veu.json`
+- `content/general-feats/marca-arcana-superior-da-tormenta.json`
+- `content/general-feats/marca-arcana-superior-da-protecao.json`
+- `content/general-feats/marca-potente.json`
+- `content/general-feats/mestre-de-armas-grandes.json`
+- `content/general-feats/mestre-de-escudo.json`
+- `content/general-feats/mestre-da-ambidestria.json`
+- `content/general-feats/mestre-de-armas-de-arremesso.json`
+- `content/general-feats/mestre-de-armas-de-haste.json`
+- `content/general-feats/mestre-de-armas-duplas.json`
+- `content/general-feats/mestre-de-armas-versateis.json`
+- `content/general-feats/mestre-pistoleiro.json`
+- `content/general-feats/mestre-atirador-de-elite.json`
+- `content/general-feats/especialista-em-besta.json`
+- `content/general-feats/duravel.json`
+- `content/general-feats/telepatico.json`
+- `content/general-feats/ator.json`
+- `content/general-feats/resiliente.json`
+- `content/general-feats/determinacao-da-cavalaria.json`
+- `content/general-feats/trovador-de-arvoria.json`
+- `content/general-feats/chef.json`
+- `content/general-feats/curandeiro-de-batalha.json`
+- `content/general-feats/cavaleiro-do-voto-branco.json`
+- `content/general-feats/asas-templarias-do-pacto-de-luz.json`
+- `content/general-feats/portador-da-luz.json`
+- `content/general-feats/lider-inspirador.json`
+- `content/general-feats/raizes-profundas.json`
+- `content/general-feats/especialista-em-pericias.json`
+- `content/general-feats/linguista.json`
+- `content/general-feats/mente-afiada.json`
+- `content/general-feats/telecinetico.json`
+- `content/general-feats/tocado-pelo-no-do-selamento.json`
+
+## 3. Talentos com nível mínimo identificado
+
+- `Adepto da Dor`
+- `Apodrecer`
+- `Matador de Magos`
+- `Repreensão`
+- `Investida`
+- `Luchador`
+- `Maestria em Armaduras Médias`
+- `Mestre de Armas`
+- `Perfurador`
+- `Treinamento Moderado`
+- `Retalhador`
+- `Senhor da Guerra de Escamas`
+- `Sentinela`
+- `Treinamento com Armas Marciais`
+- `Adepto Marcial`
+- `Cavaleiro do Escudo Brilhante`
+- `Combatente Montado`
+- `Formação Bastiônica`
+- `Estigma Dracônico`
+- `Duelista Defensivo`
+- `Precisão`
+- `Envenenador`
+- `Trapaceiro dos Bastidores`
+- `Cavaleiro da Lâmina do Albor`
+- `Dom da Infusão Elemental`
+- `Dom do Ímpeto Telecinético`
+- `Iniciado Artífice`
+- `Cartomante`
+- `Adepto do Fogo Espiritual`
+- `Adepto Elemental`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Atirador de Magias`
+- `Bênçãos dos Caminhos de Eldára`
+- `Brumas Ofuscantes`
+- `Conjurador de Guerra`
+- `Conjurador Relâmpago`
+- `Legado do Norte`
+- `Magia Ancestral Zouhri`
+- `Ritualista`
+- `Tocado pelas Sombras`
+- `Tocado pelo Feérico`
+- `Tocado pelo Vampiro`
+- `Adepto Místico`
+- `Adepto de Metamagia`
+- `Atleta`
+- `Espreitador`
+- `Velocista`
+- `Observador`
+- `Adepto da Hemomancia`
+- `Guerreiro Hemomante`
+- `Sobrevivente Carmesim`
+- `Sacrifício Vital`
+- `Marca Anômala Maior`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior da Vigília`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Arcana Superior da Proteção`
+- `Marca Potente`
+- `Mestre de Armas Grandes`
+- `Mestre de Escudo`
+- `Mestre da Ambidestria`
+- `Mestre de Armas de Arremesso`
+- `Mestre de Armas de Haste`
+- `Mestre de Armas Duplas`
+- `Mestre de Armas Versáteis`
+- `Mestre Atirador de Elite`
+- `Especialista em Besta`
+- `Durável`
+- `Telepático`
+- `Ator`
+- `Resiliente`
+- `Determinação da Cavalaria`
+- `Trovador de Árvoria`
+- `Chef`
+- `Curandeiro de Batalha`
+- `Cavaleiro do Voto Branco`
+- `Asas Templárias do Pacto de Luz`
+- `Portador da Luz`
+- `Líder Inspirador`
+- `Raízes Profundas`
+- `Especialista em Perícias`
+- `Mente Afiada`
+- `Telecinético`
+- `Tocado pelo Nó do Selamento`
+
+## 4. Talentos com aumento de atributo
+
+- `Adepto da Dor`
+- `Apodrecer`
+- `Matador de Magos`
+- `Repreensão`
+- `Investida`
+- `Luchador`
+- `Maestria em Armaduras Médias`
+- `Mestre de Armas`
+- `Perfurador`
+- `Treinamento Moderado`
+- `Retalhador`
+- `Senhor da Guerra de Escamas`
+- `Sentinela`
+- `Treinamento com Armas Marciais`
+- `Adepto Marcial`
+- `Cavaleiro do Escudo Brilhante`
+- `Combatente Montado`
+- `Formação Bastiônica`
+- `Estigma Dracônico`
+- `Duelista Defensivo`
+- `Precisão`
+- `Envenenador`
+- `Trapaceiro dos Bastidores`
+- `Cavaleiro da Lâmina do Albor`
+- `Dom da Infusão Elemental`
+- `Dom do Ímpeto Telecinético`
+- `Iniciado Artífice`
+- `Cartomante`
+- `Adepto do Fogo Espiritual`
+- `Adepto Elemental`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Atirador de Magias`
+- `Bênçãos dos Caminhos de Eldára`
+- `Brumas Ofuscantes`
+- `Conjurador de Guerra`
+- `Conjurador Relâmpago`
+- `Legado do Norte`
+- `Magia Ancestral Zouhri`
+- `Ritualista`
+- `Tocado pelas Sombras`
+- `Tocado pelo Feérico`
+- `Tocado pelo Vampiro`
+- `Adepto Místico`
+- `Adepto de Metamagia`
+- `Atleta`
+- `Espreitador`
+- `Velocista`
+- `Observador`
+- `Adepto da Hemomancia`
+- `Guerreiro Hemomante`
+- `Sobrevivente Carmesim`
+- `Sacrifício Vital`
+- `Marca Anômala Maior`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior da Vigília`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Arcana Superior da Proteção`
+- `Marca Potente`
+- `Mestre de Armas Grandes`
+- `Mestre de Escudo`
+- `Mestre da Ambidestria`
+- `Mestre de Armas de Arremesso`
+- `Mestre de Armas de Haste`
+- `Mestre de Armas Duplas`
+- `Mestre de Armas Versáteis`
+- `Mestre Pistoleiro`
+- `Mestre Atirador de Elite`
+- `Especialista em Besta`
+- `Durável`
+- `Telepático`
+- `Ator`
+- `Resiliente`
+- `Determinação da Cavalaria`
+- `Trovador de Árvoria`
+- `Chef`
+- `Curandeiro de Batalha`
+- `Cavaleiro do Voto Branco`
+- `Asas Templárias do Pacto de Luz`
+- `Portador da Luz`
+- `Líder Inspirador`
+- `Raízes Profundas`
+- `Especialista em Perícias`
+- `Linguista`
+- `Mente Afiada`
+- `Telecinético`
+- `Tocado pelo Nó do Selamento`
+
+## 5. Talentos com dependências de magia/conjuração
+
+- `Matador de Magos`
+- `Maestria em Armaduras Médias`
+- `Adepto Marcial`
+- `Estigma Dracônico`
+- `Duelista Defensivo`
+- `Trapaceiro dos Bastidores`
+- `Dom do Ímpeto Telecinético`
+- `Iniciado Artífice`
+- `Cartomante`
+- `Adepto do Fogo Espiritual`
+- `Adepto Elemental`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Atirador de Magias`
+- `Bênçãos dos Caminhos de Eldára`
+- `Brumas Ofuscantes`
+- `Conjurador de Guerra`
+- `Conjurador Relâmpago`
+- `Legado do Norte`
+- `Magia Ancestral Zouhri`
+- `Ritualista`
+- `Tocado pelas Sombras`
+- `Tocado pelo Feérico`
+- `Tocado pelo Vampiro`
+- `Adepto Místico`
+- `Adepto de Metamagia`
+- `Adepto da Hemomancia`
+- `Sacrifício Vital`
+- `Marca Anômala Maior`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Potente`
+- `Mestre de Escudo`
+- `Telepático`
+- `Asas Templárias do Pacto de Luz`
+- `Portador da Luz`
+- `Linguista`
+- `Telecinético`
+- `Tocado pelo Nó do Selamento`
+
+## 6. Talentos com uso por Bônus de Proficiência
+
+- `Adepto da Dor`
+- `Apodrecer`
+- `Repreensão`
+- `Senhor da Guerra de Escamas`
+- `Cavaleiro do Escudo Brilhante`
+- `Trapaceiro dos Bastidores`
+- `Cavaleiro da Lâmina do Albor`
+- `Dom da Infusão Elemental`
+- `Dom do Ímpeto Telecinético`
+- `Adepto da Veste Vermelha`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior da Proteção`
+- `Cavaleiro do Voto Branco`
+- `Asas Templárias do Pacto de Luz`
+- `Portador da Luz`
+- `Líder Inspirador`
+- `Telecinético`
+- `Tocado pelo Nó do Selamento`
+
+## 7. Talentos com reação ou gatilho de combate
+
+- `Adepto da Dor`
+- `Apodrecer`
+- `Matador de Magos`
+- `Repreensão`
+- `Investida`
+- `Luchador`
+- `Perfurador`
+- `Retalhador`
+- `Senhor da Guerra de Escamas`
+- `Sentinela`
+- `Adepto Marcial`
+- `Cavaleiro do Escudo Brilhante`
+- `Combatente Montado`
+- `Formação Bastiônica`
+- `Estigma Dracônico`
+- `Duelista Defensivo`
+- `Precisão`
+- `Envenenador`
+- `Trapaceiro dos Bastidores`
+- `Cavaleiro da Lâmina do Albor`
+- `Dom da Infusão Elemental`
+- `Dom do Ímpeto Telecinético`
+- `Iniciado Artífice`
+- `Cartomante`
+- `Adepto do Fogo Espiritual`
+- `Adepto Elemental`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Atirador de Magias`
+- `Bênçãos dos Caminhos de Eldára`
+- `Brumas Ofuscantes`
+- `Conjurador de Guerra`
+- `Conjurador Relâmpago`
+- `Legado do Norte`
+- `Tocado pelo Feérico`
+- `Tocado pelo Vampiro`
+- `Adepto Místico`
+- `Adepto de Metamagia`
+- `Atleta`
+- `Velocista`
+- `Adepto da Hemomancia`
+- `Guerreiro Hemomante`
+- `Sobrevivente Carmesim`
+- `Sacrifício Vital`
+- `Marca Anômala Maior`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior da Vigília`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Arcana Superior da Proteção`
+- `Marca Potente`
+- `Mestre de Armas Grandes`
+- `Mestre de Escudo`
+- `Mestre da Ambidestria`
+- `Mestre de Armas de Arremesso`
+- `Mestre de Armas de Haste`
+- `Mestre de Armas Duplas`
+- `Mestre de Armas Versáteis`
+- `Mestre Atirador de Elite`
+- `Especialista em Besta`
+- `Durável`
+- `Telepático`
+- `Determinação da Cavalaria`
+- `Trovador de Árvoria`
+- `Chef`
+- `Curandeiro de Batalha`
+- `Cavaleiro do Voto Branco`
+- `Asas Templárias do Pacto de Luz`
+- `Portador da Luz`
+- `Líder Inspirador`
+- `Linguista`
+- `Telecinético`
+- `Tocado pelo Nó do Selamento`
+
+## 8. Talentos com pré-requisito de talento anterior
+
+- `Senhor da Guerra de Escamas`
+- `Cavaleiro do Escudo Brilhante`
+- `Estigma Dracônico`
+- `Cavaleiro da Lâmina do Albor`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior da Vigília`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Arcana Superior da Proteção`
+- `Mestre de Escudo`
+- `Determinação da Cavalaria`
+- `Trovador de Árvoria`
+- `Curandeiro de Batalha`
+- `Cavaleiro do Voto Branco`
+
+## 9. Talentos ligados a sistemas próprios do cenário
+
+- `Maestria em Armaduras Médias`
+- `Senhor da Guerra de Escamas`
+- `Adepto Marcial`
+- `Cavaleiro do Escudo Brilhante`
+- `Estigma Dracônico`
+- `Cavaleiro da Lâmina do Albor`
+- `Dom da Infusão Elemental`
+- `Cartomante`
+- `Adepto do Fogo Espiritual`
+- `Adepto Elemental`
+- `Adepto da Veste Negra`
+- `Adepto da Veste Vermelha`
+- `Adepto da Veste Branca`
+- `Atirador de Magias`
+- `Bênçãos dos Caminhos de Eldára`
+- `Conjurador de Guerra`
+- `Conjurador Relâmpago`
+- `Legado do Norte`
+- `Adepto Místico`
+- `Adepto de Metamagia`
+- `Observador`
+- `Adepto da Hemomancia`
+- `Guerreiro Hemomante`
+- `Marca Anômala Maior`
+- `Marca Arcana Superior da Revelação`
+- `Marca Arcana Superior da Busca`
+- `Marca Arcana Superior do Pastoreio`
+- `Marca Arcana Superior da Restauração`
+- `Marca Arcana Superior do Refúgio`
+- `Marca Arcana Superior da Criação`
+- `Marca Arcana Superior da Travessia`
+- `Marca Arcana Superior da Escrita`
+- `Marca Arcana Superior da Vigília`
+- `Marca Arcana Superior do Véu`
+- `Marca Arcana Superior da Tormenta`
+- `Marca Arcana Superior da Proteção`
+- `Marca Potente`
+- `Mestre de Escudo`
+- `Determinação da Cavalaria`
+- `Trovador de Árvoria`
+- `Curandeiro de Batalha`
+- `Cavaleiro do Voto Branco`
+- `Tocado pelo Nó do Selamento`
+
+## 10. Talentos ligados a armas de fogo, bombas ou misfire
+
+- `Bênçãos dos Caminhos de Eldára`
+- `Marca Arcana Superior do Pastoreio`
+- `Mestre Pistoleiro`
+- `Especialista em Besta`
+
+## 11. Talentos aparentemente simples
+
+
+## 12. Pendências antes de converter para Foundry
+
+- validar como o `dnd5e 5.2.4+` representa pré-requisitos complexos, incluindo nível, atributos mínimos, talentos anteriores e cadeias temáticas
+- validar talentos que concedem magias, incluindo atributo de conjuração, uso gratuito e recuperação
+- validar talentos com `Bônus de Proficiência`, reações, gatilhos e benefícios por descanso
+- validar talentos ligados a `Marcas`, `Hemomancia`, ordens, armas de fogo, bombas e `misfire` antes da conversão final
+- revisar talentos com escolhas abertas de atributo, perícia, ferramenta, magia ou efeito contextual
+- decidir como os `Talentos Gerais` serão organizados futuramente em compendium, sem criar pack nesta etapa
+
+## 13. Checklist de revisão humana
+
+- [ ] nomes revisados
+- [ ] ids em kebab-case revisados
+- [ ] descriptions fiéis à extração
+- [ ] mechanicsSummary fiel à extração
+- [ ] benefits separados corretamente
+- [ ] minimumLevel revisado
+- [ ] abilityIncrease revisado
+- [ ] prerequisites revisados
+- [ ] grantedSpells revisados
+- [ ] grantedProficiencies revisadas
+- [ ] uses revisado
+- [ ] actions revisado
+- [ ] índice `_index.json` revisado
+- [ ] autorização explícita do autor antes da conversão para Foundry

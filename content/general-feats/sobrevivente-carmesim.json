@@ -1,0 +1,50 @@
+{
+  "id": "sobrevivente-carmesim",
+  "name": "Sobrevivente Carmesim",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Constituição.\n\n Você já sentiu o mundo ficando distante e aprendeu a puxá-lo de volta pelo pulso. \n A fronteira entre vida e morte virou algo que você mede, negocia e atravessa à força. \n Você aprende a usar sua própria vitalidade como alavanca para resistir ao fim, endurecer a recuperação e forçar o corpo a continuar respondendo.\n\n - Aposta na Última Batida: Quando você fizer um Teste de Morte (Death Saving Throw), você pode gastar 1 Dado de Vida para alterar o resultado. Você rola o Dado de Vida e adiciona o resultado ao d20 do Teste de Morte. Você decide usar este benefício depois de rolar o d20, mas antes do Mestre dizer se você obteve sucesso ou falha. - Total 10 ou mais: O teste conta como sucesso.\n- Total 20 ou mais: Você recupera Pontos de Vida iguais a 1 Dado de Vida e deixa de estar com 0 Pontos de Vida.\n\n\n- Recuperação que ...",
+  "mechanicsSummary": "Aposta na Última Batida: Quando você fizer um Teste de Morte (Death Saving Throw), você pode gastar 1 Dado de Vida para alterar o resultado. Você rola o Dado de Vida e adiciona o resultado ao d20 do Teste de Morte. Você decide usar este benefício depois de rolar o d20, mas antes do Mestre dizer se você obteve sucesso ou falha. - Total 10 ou mais: O teste conta como sucesso. | Total 20 ou mais: Você recupera Pontos de Vida iguais a 1 Dado de Vida e deixa de estar com 0 Pontos de Vida. | Recuperação que Não Cede: Quando você gastar Dados de Vida durante um Descanso Curto para recuperar Pontos de Vida, você pode rolar 1 Dado de Vida adicional para reforçar a recuperação. Se fizer isso, você não gasta esse segundo dado. | Custo da Mortalha: Sempre que você gastar um Dado de Vida por Aposta na Última Batida, role o Dado de Vida gasto. Você tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo.",
+  "benefits": [
+    "Aposta na Última Batida: Quando você fizer um Teste de Morte (Death Saving Throw), você pode gastar 1 Dado de Vida para alterar o resultado. Você rola o Dado de Vida e adiciona o resultado ao d20 do Teste de Morte. Você decide usar este benefício depois de rolar o d20, mas antes do Mestre dizer se você obteve sucesso ou falha. - Total 10 ou mais: O teste conta como sucesso.",
+    "Total 20 ou mais: Você recupera Pontos de Vida iguais a 1 Dado de Vida e deixa de estar com 0 Pontos de Vida.",
+    "Recuperação que Não Cede: Quando você gastar Dados de Vida durante um Descanso Curto para recuperar Pontos de Vida, você pode rolar 1 Dado de Vida adicional para reforçar a recuperação. Se fizer isso, você não gasta esse segundo dado.",
+    "Custo da Mortalha: Sempre que você gastar um Dado de Vida por Aposta na Última Batida, role o Dado de Vida gasto. Você tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Aposta na Última Batida: Quando você fizer um Teste de Morte (Death Saving Throw), você pode gastar 1 Dado de Vida para alterar o resultado. Você rola o Dado de Vida e adiciona o resultado ao d20 do Teste de Morte. Você decide usar este benefício depois de rolar o d20, mas antes do Mestre dizer se você obteve sucesso ou falha. - Total 10 ou mais: O teste conta como sucesso. | Recuperação que Não Cede: Quando você gastar Dados de Vida durante um Descanso Curto para recuperar Pontos de Vida, você pode rolar 1 Dado de Vida adicional para reforçar a recuperação. Se fizer isso, você não gasta esse segundo dado. | Custo da Mortalha: Sempre que você gastar um Dado de Vida por Aposta na Última Batida, role o Dado de Vida gasto. Você tem seu máximo de Pontos de Vida reduzido em uma quantidade igual ao total rolado (mínimo 1). Essa perda e redução não podem ser reduzidas ou prevenidas de forma alguma. A redução do máximo de Pontos de Vida termina quando você conclui um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

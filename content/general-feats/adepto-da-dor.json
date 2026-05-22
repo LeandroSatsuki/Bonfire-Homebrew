@@ -1,0 +1,52 @@
+{
+  "id": "adepto-da-dor",
+  "name": "Adepto da Dor",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de (atributo à sua escolha)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de (atributo à sua escolha).\n\n Você aprendeu a conversar com a dor em vez de fugir dela. \n Quando o golpe entra, você responde com o corpo duro, como se a carne lembrasse como sobreviver. Você transforma impacto em resistência por um breve instante, endurecendo o corpo no momento certo.\n - Carne Endurecida: Imediatamente após você sofrer dano contundente, perfurante ou cortante, você pode usar uma Reação para ganhar Resistência a dano contundente, perfurante e cortante até o início do seu próximo turno.\n- Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo .",
+  "mechanicsSummary": "Carne Endurecida: Imediatamente após você sofrer dano contundente, perfurante ou cortante, você pode usar uma Reação para ganhar Resistência a dano contundente, perfurante e cortante até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo .",
+  "benefits": [
+    "Carne Endurecida: Imediatamente após você sofrer dano contundente, perfurante ou cortante, você pode usar uma Reação para ganhar Resistência a dano contundente, perfurante e cortante até o início do seu próximo turno.",
+    "Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Carne Endurecida: Imediatamente após você sofrer dano contundente, perfurante ou cortante, você pode usar uma Reação para ganhar Resistência a dano contundente, perfurante e cortante até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

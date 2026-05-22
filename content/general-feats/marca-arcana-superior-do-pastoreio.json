@@ -1,0 +1,60 @@
+{
+  "id": "marca-arcana-superior-do-pastoreio",
+  "name": "Marca Arcana Superior do Pastoreio",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana do Pastoreio"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana do Pastoreio.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Você não domina o instinto, você conversa com ele no idioma certo.A runa encontra o nó do medo e o solta com um toque de vontade. \n Sua Marca melhora seu comando em campo, especialmente quando você depende de vínculo, montaria e presença.\n\n - Intuição Aprimorada. Quando você usa Intuição Primal do seu talento Marca Arcana do Pastoreio, você rola 1d6 em vez de 1d4.\n- Pastoreio Aprimorado. Enquanto você estiver montado, imediatamente após você acertar um alvo a até 1,5 metro [5 pés] da sua montaria com uma jogada de ataque corpo a corpo, sua montaria pode usar uma Reação para se mover até o deslocamento dela ou realizar a ação de Ataque para fazer apenas 1 ataque (à sua escolha).\n- Subjugar Fera. Como uma Ação Mágica, você exerce comando sobre 1 Besta (Beast) ou Monstruosidade (Mon ...",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição Primal do seu talento Marca Arcana do Pastoreio, você rola 1d6 em vez de 1d4. | Pastoreio Aprimorado. Enquanto você estiver montado, imediatamente após você acertar um alvo a até 1,5 metro [5 pés] da sua montaria com uma jogada de ataque corpo a corpo, sua montaria pode usar uma Reação para se mover até o deslocamento dela ou realizar a ação de Ataque para fazer apenas 1 ataque (à sua escolha). | Subjugar Fera. Como uma Ação Mágica, você exerce comando sobre 1 Besta (Beast) ou Monstruosidade (Monstrosity) que você possa ver a até 9 metros[30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria (CD 8 + seu modificador de Sabedoria + seu Bônus de Proficiência) ou terá a condição Amedrontado até o início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos ao terminar um Descanso Longo.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição Primal do seu talento Marca Arcana do Pastoreio, você rola 1d6 em vez de 1d4.",
+    "Pastoreio Aprimorado. Enquanto você estiver montado, imediatamente após você acertar um alvo a até 1,5 metro [5 pés] da sua montaria com uma jogada de ataque corpo a corpo, sua montaria pode usar uma Reação para se mover até o deslocamento dela ou realizar a ação de Ataque para fazer apenas 1 ataque (à sua escolha).",
+    "Subjugar Fera. Como uma Ação Mágica, você exerce comando sobre 1 Besta (Beast) ou Monstruosidade (Monstrosity) que você possa ver a até 9 metros[30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria (CD 8 + seu modificador de Sabedoria + seu Bônus de Proficiência) ou terá a condição Amedrontado até o início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos ao terminar um Descanso Longo."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição Primal do seu talento Marca Arcana do Pastoreio, você rola 1d6 em vez de 1d4. | Pastoreio Aprimorado. Enquanto você estiver montado, imediatamente após você acertar um alvo a até 1,5 metro [5 pés] da sua montaria com uma jogada de ataque corpo a corpo, sua montaria pode usar uma Reação para se mover até o deslocamento dela ou realizar a ação de Ataque para fazer apenas 1 ataque (à sua escolha). | Subjugar Fera. Como uma Ação Mágica, você exerce comando sobre 1 Besta (Beast) ou Monstruosidade (Monstrosity) que você possa ver a até 9 metros[30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria (CD 8 + seu modificador de Sabedoria + seu Bônus de Proficiência) ou terá a condição Amedrontado até o início do seu próximo turno. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos gastos ao terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

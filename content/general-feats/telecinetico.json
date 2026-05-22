@@ -1,0 +1,64 @@
+{
+  "id": "telecinetico",
+  "name": "Telecinético",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você aprende a tratar o mundo como direção e força. \n\n Quando o perigo te toca, sua mente responde com um pulso que rearranja o espaço. \n Você domina telecinese utilitária e um contragolpe psiónico para manter distância e controlar aproximações.\n\n - Telecinese Menor: Você aprende o truque Mão Mística (Mage Hand). Você pode conjurá-lo sem componentes Verbais ou Somáticos, você pode tornar a mão espectral Invisível, e o alcance do truque e a distância máxima que a mão pode ficar afastada de você aumentam em 9 metros [30 pés] quando você o conjura. O atributo de conjuração do truque é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento).\n- Empurrão Vetorial: Como uma Ação Bônus, você pode empurrar telecineticamente uma criatura que você possa ver a até 9 metros [30 pés] de você ...",
+  "mechanicsSummary": "Telecinese Menor: Você aprende o truque Mão Mística (Mage Hand). Você pode conjurá-lo sem componentes Verbais ou Somáticos, você pode tornar a mão espectral Invisível, e o alcance do truque e a distância máxima que a mão pode ficar afastada de você aumentam em 9 metros [30 pés] quando você o conjura. O atributo de conjuração do truque é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento). | Empurrão Vetorial: Como uma Ação Bônus, você pode empurrar telecineticamente uma criatura que você possa ver a até 9 metros [30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Força (CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência) ou será movido até 3 metros [10 pés] em direção a você ou para longe de você (à sua escolha). | Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros [10 pés] de você, você pode usar sua Reação para emanar um pulso telecinético. A criatura que causou o dano deve fazer um teste de resistência de Força (CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento). - Condição A: Se falhar, a criatura sofre 2d8 de dano de força e é empurrada até 3 metros [10 pés] para longe de você. | Condição B: Se for bem-sucedida, a criatura sofre metade do dano e não é empurrada. | Usos: Você pode usar Represália Telecinética um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo.",
+  "benefits": [
+    "Telecinese Menor: Você aprende o truque Mão Mística (Mage Hand). Você pode conjurá-lo sem componentes Verbais ou Somáticos, você pode tornar a mão espectral Invisível, e o alcance do truque e a distância máxima que a mão pode ficar afastada de você aumentam em 9 metros [30 pés] quando você o conjura. O atributo de conjuração do truque é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento).",
+    "Empurrão Vetorial: Como uma Ação Bônus, você pode empurrar telecineticamente uma criatura que você possa ver a até 9 metros [30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Força (CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência) ou será movido até 3 metros [10 pés] em direção a você ou para longe de você (à sua escolha).",
+    "Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros [10 pés] de você, você pode usar sua Reação para emanar um pulso telecinético. A criatura que causou o dano deve fazer um teste de resistência de Força (CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento). - Condição A: Se falhar, a criatura sofre 2d8 de dano de força e é empurrada até 3 metros [10 pés] para longe de você.",
+    "Condição B: Se for bem-sucedida, a criatura sofre metade do dano e não é empurrada.",
+    "Usos: Você pode usar Represália Telecinética um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Telecinese Menor: Você aprende o truque Mão Mística (Mage Hand). Você pode conjurá-lo sem componentes Verbais ou Somáticos, você pode tornar a mão espectral Invisível, e o alcance do truque e a distância máxima que a mão pode ficar afastada de você aumentam em 9 metros [30 pés] quando você o conjura. O atributo de conjuração do truque é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento)."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Telecinese Menor: Você aprende o truque Mão Mística (Mage Hand). Você pode conjurá-lo sem componentes Verbais ou Somáticos, você pode tornar a mão espectral Invisível, e o alcance do truque e a distância máxima que a mão pode ficar afastada de você aumentam em 9 metros [30 pés] quando você o conjura. O atributo de conjuração do truque é Inteligência, Sabedoria ou Carisma (escolha quando selecionar este talento). | Empurrão Vetorial: Como uma Ação Bônus, você pode empurrar telecineticamente uma criatura que você possa ver a até 9 metros [30 pés] de você. O alvo deve ser bem-sucedido em um teste de resistência de Força (CD igual a 8 + o modificador do atributo aumentado por este talento + seu Bônus de Proficiência) ou será movido até 3 metros [10 pés] em direção a você ou para longe de você (à sua escolha). | Represália Telecinética: Quando você sofrer dano de uma criatura que esteja a até 3 metros [10 pés] de você, você pode usar sua Reação para emanar um pulso telecinético. A criatura que causou o dano deve fazer um teste de resistência de Força (CD igual a 8 + seu Bônus de Proficiência + o modificador do atributo aumentado por este talento). - Condição A: Se falhar, a criatura sofre 2d8 de dano de força e é empurrada até 3 metros [10 pés] para longe de você. | Usos: Você pode usar Represália Telecinética um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "investida",
+  "name": "Investida",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Você não corre para alcançar. Você corre para esmagar a distância. \n No instante do impacto, o mundo entende que você virou a própria arrancada. \n Você aprimora sua corrida e transforma deslocamento em pressão, derrubando ou empurrando um alvo ao acertar no embalo.\n\n - Disparada Aprimorada: Quando você realiza a ação Correr (Dash), seu Deslocamentoaumenta em 3 metros[10 pés] para essa ação.\n- Ataque de Carga: Se você se mover pelo menos 4,5 metros[15 pés] em linha reta em direção a um alvo imediatamente antes de acertá-lo com uma jogada de ataque corpo a corpo como parte da ação de Ataque, você causa 1d8 de dano adicional e escolhe um dos seguintes efeitos: o alvo fica Caído (Prone) se falhar em um Teste de Resistência de Força CD igual 8 + Bônus de Proficiência + Modificador de Fo ...",
+  "mechanicsSummary": "Disparada Aprimorada: Quando você realiza a ação Correr (Dash), seu Deslocamentoaumenta em 3 metros[10 pés] para essa ação. | Ataque de Carga: Se você se mover pelo menos 4,5 metros[15 pés] em linha reta em direção a um alvo imediatamente antes de acertá-lo com uma jogada de ataque corpo a corpo como parte da ação de Ataque, você causa 1d8 de dano adicional e escolhe um dos seguintes efeitos: o alvo fica Caído (Prone) se falhar em um Teste de Resistência de Força CD igual 8 + Bônus de Proficiência + Modificador de Força ou escolher que ele é empurrado em até 3 metros [10 pés] sem necessidade de teste para longe de você, essas condições são aplicadas apenas caso o alvo não seja mais do que 1 categoria de tamanho maior que você. Você pode usar este benefício apenas uma vez em cada um dos seus turnos.",
+  "benefits": [
+    "Disparada Aprimorada: Quando você realiza a ação Correr (Dash), seu Deslocamentoaumenta em 3 metros[10 pés] para essa ação.",
+    "Ataque de Carga: Se você se mover pelo menos 4,5 metros[15 pés] em linha reta em direção a um alvo imediatamente antes de acertá-lo com uma jogada de ataque corpo a corpo como parte da ação de Ataque, você causa 1d8 de dano adicional e escolhe um dos seguintes efeitos: o alvo fica Caído (Prone) se falhar em um Teste de Resistência de Força CD igual 8 + Bônus de Proficiência + Modificador de Força ou escolher que ele é empurrado em até 3 metros [10 pés] sem necessidade de teste para longe de você, essas condições são aplicadas apenas caso o alvo não seja mais do que 1 categoria de tamanho maior que você. Você pode usar este benefício apenas uma vez em cada um dos seus turnos."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Disparada Aprimorada: Quando você realiza a ação Correr (Dash), seu Deslocamentoaumenta em 3 metros[10 pés] para essa ação. | Ataque de Carga: Se você se mover pelo menos 4,5 metros[15 pés] em linha reta em direção a um alvo imediatamente antes de acertá-lo com uma jogada de ataque corpo a corpo como parte da ação de Ataque, você causa 1d8 de dano adicional e escolhe um dos seguintes efeitos: o alvo fica Caído (Prone) se falhar em um Teste de Resistência de Força CD igual 8 + Bônus de Proficiência + Modificador de Força ou escolher que ele é empurrado em até 3 metros [10 pés] sem necessidade de teste para longe de você, essas condições são aplicadas apenas caso o alvo não seja mais do que 1 categoria de tamanho maior que você. Você pode usar este benefício apenas uma vez em cada um dos seus turnos."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

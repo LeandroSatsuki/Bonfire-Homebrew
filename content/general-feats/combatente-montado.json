@@ -1,0 +1,58 @@
+{
+  "id": "combatente-montado",
+  "name": "Combatente Montado",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza",
+      "Sabedoria"
+    ],
+    "description": "+1 de Força, Destreza ou Sabedoria."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força, Destreza ou Sabedoria.\n\n Há quem monte por velocidade. Você monta por domínio. \n No caos de uma investida, você e sua montaria viram um só corpo, um só instinto, uma só linha impossível de quebrar. \n Enquanto você estiver montado, sua técnica transforma a sela em vantagem, a manobra em defesa e o risco em controle.\n\n - Golpe Montado: Enquanto estiver montado, você tem Vantagem em jogadas de ataque contra qualquer criatura desmontada a até 1,5 metro [5 pés] da sua montaria que seja, no mínimo, um tamanho menor do que a montaria.\n- Salto de Evasão: Se sua montaria for submetida a um efeito que permita que ela faça um teste de resistência de Destreza para sofrer apenas metade do dano, ela, em vez disso: - Sucesso: não sofre dano algum.\n- Falha: sofre apenas metade do dano.\n\nPara que sua montaria receba este benefício, você deve es ...",
+  "mechanicsSummary": "Golpe Montado: Enquanto estiver montado, você tem Vantagem em jogadas de ataque contra qualquer criatura desmontada a até 1,5 metro [5 pés] da sua montaria que seja, no mínimo, um tamanho menor do que a montaria. | Salto de Evasão: Se sua montaria for submetida a um efeito que permita que ela faça um teste de resistência de Destreza para sofrer apenas metade do dano, ela, em vez disso: - Sucesso: não sofre dano algum. | Falha: sofre apenas metade do dano. | Desvio Protetor: Enquanto estiver montado, quando um ataque acertaria sua montaria, você pode fazer com que ele acerte você em vez disso, desde que você não esteja com a condição Incapacitado (Incapacitated) .",
+  "benefits": [
+    "Golpe Montado: Enquanto estiver montado, você tem Vantagem em jogadas de ataque contra qualquer criatura desmontada a até 1,5 metro [5 pés] da sua montaria que seja, no mínimo, um tamanho menor do que a montaria.",
+    "Salto de Evasão: Se sua montaria for submetida a um efeito que permita que ela faça um teste de resistência de Destreza para sofrer apenas metade do dano, ela, em vez disso: - Sucesso: não sofre dano algum.",
+    "Falha: sofre apenas metade do dano.",
+    "Desvio Protetor: Enquanto estiver montado, quando um ataque acertaria sua montaria, você pode fazer com que ele acerte você em vez disso, desde que você não esteja com a condição Incapacitado (Incapacitated) ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Salto de Evasão: Se sua montaria for submetida a um efeito que permita que ela faça um teste de resistência de Destreza para sofrer apenas metade do dano, ela, em vez disso: - Sucesso: não sofre dano algum. | Desvio Protetor: Enquanto estiver montado, quando um ataque acertaria sua montaria, você pode fazer com que ele acerte você em vez disso, desde que você não esteja com a condição Incapacitado (Incapacitated) ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

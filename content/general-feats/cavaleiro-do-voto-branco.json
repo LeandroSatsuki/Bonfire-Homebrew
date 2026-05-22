@@ -1,0 +1,60 @@
+{
+  "id": "cavaleiro-do-voto-branco",
+  "name": "Cavaleiro do Voto Branco",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Constituição, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Escudeiro do Amanhecer"
+  ],
+  "description": "Pré-requisito: Nível 4+, Escudeiro do Amanhecer.\n\n Aumento de Atributo: +1 de Constituição, Sabedoria ou Carisma.\n\n Você não promete que nada vai doer. Você promete que ninguém vai atravessar isso sozinho. \n Nas rotas de Auralon, você aprende a ler a respiração de um grupo inteiro e a decidir, em um instante, quem precisa de fôlego, quem precisa de firmeza, e quem só precisa ouvir “eu estou aqui”. \n Você é treinado para proteger viajantes, sustentar a moral e manter a linha viva em marcha ou em batalha, usando presença, técnica e cuidados rápidos para impedir que o medo vire debandada.\n\n - Reunião Fortalecedora: Como uma Ação Bônus, você pode encorajar 1 criatura que você possa ver a até 9 metros[30 pés] de você (você pode escolher você mesmo). Se o alvo puder ver ou ouvir você, o alvo ganha Pontos de Vida Temporários iguais a 1d8 + seu bônus de proficiência + o modificador do atributo a ...",
+  "mechanicsSummary": "Reunião Fortalecedora: Como uma Ação Bônus, você pode encorajar 1 criatura que você possa ver a até 9 metros[30 pés] de você (você pode escolher você mesmo). Se o alvo puder ver ou ouvir você, o alvo ganha Pontos de Vida Temporários iguais a 1d8 + seu bônus de proficiência + o modificador do atributo aumentado por este talento. Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo. | Médico de Campo: Você ganha proficiência em Medicina (Medicine). Além disso, quando você usa um Kit de Curandeiro (Healer’s Kit) para estabilizar uma criatura, você pode fazer isso como uma Ação Bônus.",
+  "benefits": [
+    "Reunião Fortalecedora: Como uma Ação Bônus, você pode encorajar 1 criatura que você possa ver a até 9 metros[30 pés] de você (você pode escolher você mesmo). Se o alvo puder ver ou ouvir você, o alvo ganha Pontos de Vida Temporários iguais a 1d8 + seu bônus de proficiência + o modificador do atributo aumentado por este talento. Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo.",
+    "Médico de Campo: Você ganha proficiência em Medicina (Medicine). Além disso, quando você usa um Kit de Curandeiro (Healer’s Kit) para estabilizar uma criatura, você pode fazer isso como uma Ação Bônus."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Médico de Campo: Você ganha proficiência em Medicina (Medicine). Além disso, quando você usa um Kit de Curandeiro (Healer’s Kit) para estabilizar uma criatura, você pode fazer isso como uma Ação Bônus."
+  ],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Reunião Fortalecedora: Como uma Ação Bônus, você pode encorajar 1 criatura que você possa ver a até 9 metros[30 pés] de você (você pode escolher você mesmo). Se o alvo puder ver ou ouvir você, o alvo ganha Pontos de Vida Temporários iguais a 1d8 + seu bônus de proficiência + o modificador do atributo aumentado por este talento. Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos quando termina um Descanso Longo. | Médico de Campo: Você ganha proficiência em Medicina (Medicine). Além disso, quando você usa um Kit de Curandeiro (Healer’s Kit) para estabilizar uma criatura, você pode fazer isso como uma Ação Bônus."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

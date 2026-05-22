@@ -1,0 +1,66 @@
+{
+  "id": "portador-da-luz",
+  "name": "Portador da Luz",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n Você não acende uma chama, você declara presença: uma luz que corta o medo e denuncia o oculto. \n Quando a escuridão tenta tomar espaço, sua resposta é simples: brilhar primeiro e sustentar o brilho. \n Você canaliza luz sagrada em formas práticas, do truque mais simples até bênçãos que mudam o ritmo de uma luta.\n\n - Magia Sagrada: Você aprende o truque Luz (Light) e pode conjurá-lo sem componentes materiais. Se você já conhece esse truque, você aprende um truque diferente de Clérigo, à sua escolha. O atributo de conjuração é o atributo aumentado por este talento.\n- Luminescência Solar: Quando você conjura Luz (Light), você pode fazer com que a luz do truque conte como luz do sol. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo.\n- Imbuir Claridade (Imbue ...",
+  "mechanicsSummary": "Magia Sagrada: Você aprende o truque Luz (Light) e pode conjurá-lo sem componentes materiais. Se você já conhece esse truque, você aprende um truque diferente de Clérigo, à sua escolha. O atributo de conjuração é o atributo aumentado por este talento. | Luminescência Solar: Quando você conjura Luz (Light), você pode fazer com que a luz do truque conte como luz do sol. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. | Imbuir Claridade (Imbue Light): Quando você conjura Luz (Light), você pode, em vez do efeito normal, imbuir um objeto que você toque com a luz do truque: - Arma imbuída: O dano da arma se torna Radiante pela duração do truque. | Armadura imbuída: O portador da armadura ganha Resistência a dano Necrótico (Necrotic) pela duração do truque. | Bênção do Sol: Como uma Ação Bônus, você ganha Pontos de Vida Temporários iguais a 1d8 + o modificador do atributo aumentado por este talento. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo.",
+  "benefits": [
+    "Magia Sagrada: Você aprende o truque Luz (Light) e pode conjurá-lo sem componentes materiais. Se você já conhece esse truque, você aprende um truque diferente de Clérigo, à sua escolha. O atributo de conjuração é o atributo aumentado por este talento.",
+    "Luminescência Solar: Quando você conjura Luz (Light), você pode fazer com que a luz do truque conte como luz do sol. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo.",
+    "Imbuir Claridade (Imbue Light): Quando você conjura Luz (Light), você pode, em vez do efeito normal, imbuir um objeto que você toque com a luz do truque: - Arma imbuída: O dano da arma se torna Radiante pela duração do truque.",
+    "Armadura imbuída: O portador da armadura ganha Resistência a dano Necrótico (Necrotic) pela duração do truque.",
+    "Bênção do Sol: Como uma Ação Bônus, você ganha Pontos de Vida Temporários iguais a 1d8 + o modificador do atributo aumentado por este talento. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Magia Sagrada: Você aprende o truque Luz (Light) e pode conjurá-lo sem componentes materiais. Se você já conhece esse truque, você aprende um truque diferente de Clérigo, à sua escolha. O atributo de conjuração é o atributo aumentado por este talento.",
+    "Luminescência Solar: Quando você conjura Luz (Light), você pode fazer com que a luz do truque conte como luz do sol. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Luminescência Solar: Quando você conjura Luz (Light), você pode fazer com que a luz do truque conte como luz do sol. Depois de usar este benefício, você não pode usá-lo novamente até terminar um Descanso Longo. | Imbuir Claridade (Imbue Light): Quando você conjura Luz (Light), você pode, em vez do efeito normal, imbuir um objeto que você toque com a luz do truque: - Arma imbuída: O dano da arma se torna Radiante pela duração do truque. | Bênção do Sol: Como uma Ação Bônus, você ganha Pontos de Vida Temporários iguais a 1d8 + o modificador do atributo aumentado por este talento. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "adepto-da-veste-vermelha",
+  "name": "Adepto da Veste Vermelha",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Inteligência, Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Iniciado no Juramento das Três Luas (Lua de Sangue)"
+  ],
+  "description": "Pré-requisito: Nível 4+, Iniciado no Juramento das Três Luas (Lua de Sangue).\n\n Aumento de Atributo: +1 de Inteligência, Sabedoria ou Carisma.\n\n A Veste Vermelha ensina que o impossível não se rompe: ele se regula, como uma lâmina em equilíbrio sobre o fio. \n Você não força o destino, você o endireita quando ele tenta cair. \n Você afina sua magia lunar para estabilizar resultados, aprendendo uma magia mais perspicaz e corrigindo falhas no momento em que elas nascem.\n\n - Magia Perspicaz: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Ilusão ou Transmutação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo ...",
+  "mechanicsSummary": "Magia Perspicaz: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Ilusão ou Transmutação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris. | Equilíbrio Mágico: Quando você fizer uma jogada de ataque ou um teste de habilidade e rolar 9 ou menos no d20, você pode equilibrar o destino e tratar a rolagem como um 10. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos ao terminar um Descanso Longo.",
+  "benefits": [
+    "Magia Perspicaz: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Ilusão ou Transmutação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris.",
+    "Equilíbrio Mágico: Quando você fizer uma jogada de ataque ou um teste de habilidade e rolar 9 ou menos no d20, você pode equilibrar o destino e tratar a rolagem como um 10. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos ao terminar um Descanso Longo."
+  ],
+  "grantedSpells": [
+    "Magia Perspicaz: Você aprende 1 magia de 2º nível à sua escolha. A magia deve ser da escola de Ilusão ou Transmutação. Você pode conjurar essa magia sem gastar um espaço de magia. Depois de conjurá-la dessa forma, você deve terminar um Descanso Longo para poder fazê-lo novamente. Você também pode conjurar essa magia usando espaços de magia que você tenha do nível apropriado. O atributo de conjuração dessa magia é o mesmo escolhido no talento Iniciado nas Vestes Lunares de Lunaris."
+  ],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Equilíbrio Mágico: Quando você fizer uma jogada de ataque ou um teste de habilidade e rolar 9 ou menos no d20, você pode equilibrar o destino e tratar a rolagem como um 10. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos ao terminar um Descanso Longo."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

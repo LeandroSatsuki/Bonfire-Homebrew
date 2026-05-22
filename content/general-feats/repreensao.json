@@ -1,0 +1,52 @@
+{
+  "id": "repreensao",
+  "name": "Repreensão",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de (atributo à sua escolha)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de (atributo à sua escolha).\n\n Sua luz não é gentil. Ela julga, pesa e derruba. \n Quando o brilho toca, até gigantes lembram que podem cair. \n Quando você causa dano radiante, você pode usar esse impacto como correção imediata, derrubando o alvo.\n\n - Golpe Radiante: Quando você fizer uma rolagem de dano que cause dano radiante, você pode fazer com que uma criatura Enorme ou menor que esteja sofrendo esse dano fique na condição Caído (Prone) até o início do seu próximo turno.\n- Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo .\n\n\n Força ou Destreza",
+  "mechanicsSummary": "Golpe Radiante: Quando você fizer uma rolagem de dano que cause dano radiante, você pode fazer com que uma criatura Enorme ou menor que esteja sofrendo esse dano fique na condição Caído (Prone) até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo .",
+  "benefits": [
+    "Golpe Radiante: Quando você fizer uma rolagem de dano que cause dano radiante, você pode fazer com que uma criatura Enorme ou menor que esteja sofrendo esse dano fique na condição Caído (Prone) até o início do seu próximo turno.",
+    "Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo ."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Golpe Radiante: Quando você fizer uma rolagem de dano que cause dano radiante, você pode fazer com que uma criatura Enorme ou menor que esteja sofrendo esse dano fique na condição Caído (Prone) até o início do seu próximo turno. | Usos: Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Curto ou Descanso Longo ."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

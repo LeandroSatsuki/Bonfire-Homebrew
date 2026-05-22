@@ -1,0 +1,56 @@
+{
+  "id": "marca-arcana-superior-da-vigilia",
+  "name": "Marca Arcana Superior da Vigília",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de um atributo à sua escolha."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Arcana da Vigília"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Arcana da Vigília.\n\n Aumento de Atributo: +1 de um atributo à sua escolha.\n\n Você sente o intervalo entre o perigo e o impacto, e aprende a morar nele. Sua runa não dorme, ela negocia o golpe no último segundo. \n Sua Marca aprimora sua prontidão e permite responder à ameaça com proteção e contra-ataque no mesmo gesto.\n\n - Intuição Aprimorada. Quando você usa Intuição do Sentinela do seu talento Marca Arcana da Vigília, você rola 1d6 em vez de 1d4.\n- Vigília Aprimorada. Quando você usa Guardião Vigilante do seu talento Marca Arcana da Vigília, você também pode fazer 1 ataque com uma arma ou 1 Ataque Desarmado como parte dessa mesma Reação.",
+  "mechanicsSummary": "Intuição Aprimorada. Quando você usa Intuição do Sentinela do seu talento Marca Arcana da Vigília, você rola 1d6 em vez de 1d4. | Vigília Aprimorada. Quando você usa Guardião Vigilante do seu talento Marca Arcana da Vigília, você também pode fazer 1 ataque com uma arma ou 1 Ataque Desarmado como parte dessa mesma Reação.",
+  "benefits": [
+    "Intuição Aprimorada. Quando você usa Intuição do Sentinela do seu talento Marca Arcana da Vigília, você rola 1d6 em vez de 1d4.",
+    "Vigília Aprimorada. Quando você usa Guardião Vigilante do seu talento Marca Arcana da Vigília, você também pode fazer 1 ataque com uma arma ou 1 Ataque Desarmado como parte dessa mesma Reação."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Intuição Aprimorada. Quando você usa Intuição do Sentinela do seu talento Marca Arcana da Vigília, você rola 1d6 em vez de 1d4. | Vigília Aprimorada. Quando você usa Guardião Vigilante do seu talento Marca Arcana da Vigília, você também pode fazer 1 ataque com uma arma ou 1 Ataque Desarmado como parte dessa mesma Reação."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "duravel",
+  "name": "Durável",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Constituição.\n\n Você não é imortal. Você só aprendeu a continuar, mesmo quando o corpo pede pausa e a dor tenta negociar sua rendição. \n Corte, febre, impacto, exaustão. Você cai, respira fundo, e levanta com a mesma teimosia de sempre. \n Você fortalece sua resistência e sua recuperação, suportando melhor o limite entre queda e sobrevivência.\n\n - Desafiar a Morte: Você tem Vantagem em Testes de Morte.\n- Fortitude Poderosa: Quando você rolar um Dado de Vida para recuperar Pontos de Vida, você pode tratar qualquer resultado 1 ou 2 como 3.\n- Recuperação Rápida: Como uma Ação Bônus, você pode gastar 1 dos seus Dados de Vida, rolar o dado e recuperar uma quantidade de Pontos de Vida igual ao resultado rolado + seu modificador de Constituição.\n\n \n \n \n Social \n \n Inteligência, Sabedoria ou Carisma",
+  "mechanicsSummary": "Desafiar a Morte: Você tem Vantagem em Testes de Morte. | Fortitude Poderosa: Quando você rolar um Dado de Vida para recuperar Pontos de Vida, você pode tratar qualquer resultado 1 ou 2 como 3. | Recuperação Rápida: Como uma Ação Bônus, você pode gastar 1 dos seus Dados de Vida, rolar o dado e recuperar uma quantidade de Pontos de Vida igual ao resultado rolado + seu modificador de Constituição.",
+  "benefits": [
+    "Desafiar a Morte: Você tem Vantagem em Testes de Morte.",
+    "Fortitude Poderosa: Quando você rolar um Dado de Vida para recuperar Pontos de Vida, você pode tratar qualquer resultado 1 ou 2 como 3.",
+    "Recuperação Rápida: Como uma Ação Bônus, você pode gastar 1 dos seus Dados de Vida, rolar o dado e recuperar uma quantidade de Pontos de Vida igual ao resultado rolado + seu modificador de Constituição."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Fortitude Poderosa: Quando você rolar um Dado de Vida para recuperar Pontos de Vida, você pode tratar qualquer resultado 1 ou 2 como 3. | Recuperação Rápida: Como uma Ação Bônus, você pode gastar 1 dos seus Dados de Vida, rolar o dado e recuperar uma quantidade de Pontos de Vida igual ao resultado rolado + seu modificador de Constituição."
+  },
+  "automation": "parcial",
+  "dependencies": [],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

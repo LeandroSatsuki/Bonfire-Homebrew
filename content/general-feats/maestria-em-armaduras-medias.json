@@ -1,0 +1,59 @@
+{
+  "id": "maestria-em-armaduras-medias",
+  "name": "Maestria em Armaduras Médias",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "proficiência em Armaduras Médias"
+  ],
+  "description": "Pré-requisito: Nível 4+, proficiência em Armaduras Médias.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Você veste a proteção como quem veste um hábito: sem barulho, sem hesitar. \n A armadura acompanha seu corpo, e seu corpo aprende a não ser alcançado. \n Você aperfeiçoa o uso de armaduras médias, ganhando melhor aproveitamento da sua agilidade sem perder discrição e reflexo.\n\n - Usuário Destro: Enquanto estiver vestindo armadura média, você pode adicionar 3, em vez de 2, à sua Classe de Armadura se tiver Destreza 16 ou maior.\n- Passos Silenciosos: Vestir uma armadura média não lhe impõe Desvantagem em testes de Destreza (Furtividade).\n- Reflexo Protegido: Você tem Vantagem em testes de resistência de Destreza que permitam sofrer apenas metade do dano em caso de sucesso.",
+  "mechanicsSummary": "Usuário Destro: Enquanto estiver vestindo armadura média, você pode adicionar 3, em vez de 2, à sua Classe de Armadura se tiver Destreza 16 ou maior. | Passos Silenciosos: Vestir uma armadura média não lhe impõe Desvantagem em testes de Destreza (Furtividade). | Reflexo Protegido: Você tem Vantagem em testes de resistência de Destreza que permitam sofrer apenas metade do dano em caso de sucesso.",
+  "benefits": [
+    "Usuário Destro: Enquanto estiver vestindo armadura média, você pode adicionar 3, em vez de 2, à sua Classe de Armadura se tiver Destreza 16 ou maior.",
+    "Passos Silenciosos: Vestir uma armadura média não lhe impõe Desvantagem em testes de Destreza (Furtividade).",
+    "Reflexo Protegido: Você tem Vantagem em testes de resistência de Destreza que permitam sofrer apenas metade do dano em caso de sucesso."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

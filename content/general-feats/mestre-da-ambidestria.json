@@ -1,0 +1,60 @@
+{
+  "id": "mestre-da-ambidestria",
+  "name": "Mestre da Ambidestria",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Força 13+ ou Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Força 13+ ou Destreza 13+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n Uma lâmina abre caminho. A outra escreve o fim. \n Seu combate é ritmo e troca, como respiração treinada entre aço e silêncio. \n Você se torna um especialista em lutar com duas armas, superando limitações comuns e criando um fluxo alternado de golpes que recompensa coordenação e pressão constante.\n - Saque Rápido: Você pode sacar ou guardar duas armas que não possuam a propriedade Duas Mãos (Two-Handed) quando normalmente só poderia sacar ou guardar uma.\n- Técnica Versátil: Você pode atacar com outras armas como se elas tivessem a propriedade Leve (Light) para combater com duas armas, desde que elas não tenham a propriedade Duas Mãos (Two-Handed) ou Pesada (Heavy). Além disso, se você possuir a característica Maestria de Arma com uma arma que você está empunhando, você pode alterar ...",
+  "mechanicsSummary": "Saque Rápido: Você pode sacar ou guardar duas armas que não possuam a propriedade Duas Mãos (Two-Handed) quando normalmente só poderia sacar ou guardar uma. | Técnica Versátil: Você pode atacar com outras armas como se elas tivessem a propriedade Leve (Light) para combater com duas armas, desde que elas não tenham a propriedade Duas Mãos (Two-Handed) ou Pesada (Heavy). Além disso, se você possuir a característica Maestria de Arma com uma arma que você está empunhando, você pode alterar as propriedades de maestria dessa arma da seguinte forma: - Troca de Maestria: Você pode substituir uma propriedade de maestria original da arma pela propriedade Corte Rápido (Nick). | Arma com Corte Rápido Nativo: Se a arma já possuir Corte Rápido (Nick) nativamente, você pode substituir essa propriedade por Provocar (Vex). | Fluxo de Lâminas Leves: Quando você utiliza Corte Rápido (Nick) para realizar um ataque extra como parte da sua ação de Ataque, você pode realizar um ataque adicional usando sua Ação Bônus, mas apenas se a arma utilizada possuir Corte Rápido (Nick) nativamente (ou seja, se ela já tinha essa propriedade antes de qualquer alteração deste talento). | Ritmo de Duas Armas: No seu turno, quando você acertar uma criatura com um ataque usando uma das armas que você está empunhando, você inicia o ritmo com essa arma. Até o fim do seu turno, na próxima vez que você acertar a mesma criatura com um ataque usando a outra arma que você está empunhando, esse ataque causa dano adicional igual a 1 dado de dano da arma usada nesse ataque. Depois que esse dano adicional acontece, o ritmo é encerrado e só pode ser iniciado novamente quando você acertar outro ataque (começando um novo par). - Par de Armas Leves: Se ambas as armas forem Leves (Light), o ataque que recebe esse dano adicional também causa dano adicional igual ao seu Bônus de Proficiência.",
+  "benefits": [
+    "Saque Rápido: Você pode sacar ou guardar duas armas que não possuam a propriedade Duas Mãos (Two-Handed) quando normalmente só poderia sacar ou guardar uma.",
+    "Técnica Versátil: Você pode atacar com outras armas como se elas tivessem a propriedade Leve (Light) para combater com duas armas, desde que elas não tenham a propriedade Duas Mãos (Two-Handed) ou Pesada (Heavy). Além disso, se você possuir a característica Maestria de Arma com uma arma que você está empunhando, você pode alterar as propriedades de maestria dessa arma da seguinte forma: - Troca de Maestria: Você pode substituir uma propriedade de maestria original da arma pela propriedade Corte Rápido (Nick).",
+    "Arma com Corte Rápido Nativo: Se a arma já possuir Corte Rápido (Nick) nativamente, você pode substituir essa propriedade por Provocar (Vex).",
+    "Fluxo de Lâminas Leves: Quando você utiliza Corte Rápido (Nick) para realizar um ataque extra como parte da sua ação de Ataque, você pode realizar um ataque adicional usando sua Ação Bônus, mas apenas se a arma utilizada possuir Corte Rápido (Nick) nativamente (ou seja, se ela já tinha essa propriedade antes de qualquer alteração deste talento).",
+    "Ritmo de Duas Armas: No seu turno, quando você acertar uma criatura com um ataque usando uma das armas que você está empunhando, você inicia o ritmo com essa arma. Até o fim do seu turno, na próxima vez que você acertar a mesma criatura com um ataque usando a outra arma que você está empunhando, esse ataque causa dano adicional igual a 1 dado de dano da arma usada nesse ataque. Depois que esse dano adicional acontece, o ritmo é encerrado e só pode ser iniciado novamente quando você acertar outro ataque (começando um novo par). - Par de Armas Leves: Se ambas as armas forem Leves (Light), o ataque que recebe esse dano adicional também causa dano adicional igual ao seu Bônus de Proficiência."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": true,
+    "hasBonusAction": true,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Saque Rápido: Você pode sacar ou guardar duas armas que não possuam a propriedade Duas Mãos (Two-Handed) quando normalmente só poderia sacar ou guardar uma. | Fluxo de Lâminas Leves: Quando você utiliza Corte Rápido (Nick) para realizar um ataque extra como parte da sua ação de Ataque, você pode realizar um ataque adicional usando sua Ação Bônus, mas apenas se a arma utilizada possuir Corte Rápido (Nick) nativamente (ou seja, se ela já tinha essa propriedade antes de qualquer alteração deste talento). | Ritmo de Duas Armas: No seu turno, quando você acertar uma criatura com um ataque usando uma das armas que você está empunhando, você inicia o ritmo com essa arma. Até o fim do seu turno, na próxima vez que você acertar a mesma criatura com um ataque usando a outra arma que você está empunhando, esse ataque causa dano adicional igual a 1 dado de dano da arma usada nesse ataque. Depois que esse dano adicional acontece, o ritmo é encerrado e só pode ser iniciado novamente quando você acertar outro ataque (começando um novo par). - Par de Armas Leves: Se ambas as armas forem Leves (Light), o ataque que recebe esse dano adicional também causa dano adicional igual ao seu Bônus de Proficiência."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

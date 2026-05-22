@@ -1,0 +1,58 @@
+{
+  "id": "lider-inspirador",
+  "name": "Líder Inspirador",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Sabedoria",
+      "Carisma"
+    ],
+    "description": "+1 de Sabedoria ou Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Sabedoria 13+ ou Carisma 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Sabedoria 13+ ou Carisma 13+.\n\n Aumento de Atributo: +1 de Sabedoria ou Carisma.\n\n Você encontra a frase certa quando a mão treme e a coragem vacila. \n Não é discurso bonito. É direção, presença e a certeza de que alguém está vendo o todo. \n Você inspira aliados no instante em que isso muda o resultado e fortalece o grupo durante os descansos.\n\n - Motivação Crucial: Como uma Reação, você pode conceder Vantagem em uma rolagem de ataque, teste de resistência ou teste de habilidade para um aliado a até 9 metros[30 pés] de você que possa ver e ouvir você. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo.\n- Performance Fortificante: Quando você termina um Descanso Curto ou Descanso Longo, você pode fazer uma performance inspiradora, como um discurso, canção ou dança. Ao fazer iss ...",
+  "mechanicsSummary": "Motivação Crucial: Como uma Reação, você pode conceder Vantagem em uma rolagem de ataque, teste de resistência ou teste de habilidade para um aliado a até 9 metros[30 pés] de você que possa ver e ouvir você. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo. | Performance Fortificante: Quando você termina um Descanso Curto ou Descanso Longo, você pode fazer uma performance inspiradora, como um discurso, canção ou dança. Ao fazer isso, escolha até 6 aliados (podendo incluir você) a até 9 metros[30 pés] de você que testemunhem a performance. Cada criatura escolhida ganha: - Pontos de Vida Temporários: iguais ao seu nível de personagem + o modificador do atributo aumentado por este talento. | Firmeza contra medo: Vantagem em testes para evitar ou encerrar a condição Amedrontado (Frightened) enquanto possuirem esses Pontos de Vida Temporários.",
+  "benefits": [
+    "Motivação Crucial: Como uma Reação, você pode conceder Vantagem em uma rolagem de ataque, teste de resistência ou teste de habilidade para um aliado a até 9 metros[30 pés] de você que possa ver e ouvir você. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo.",
+    "Performance Fortificante: Quando você termina um Descanso Curto ou Descanso Longo, você pode fazer uma performance inspiradora, como um discurso, canção ou dança. Ao fazer isso, escolha até 6 aliados (podendo incluir você) a até 9 metros[30 pés] de você que testemunhem a performance. Cada criatura escolhida ganha: - Pontos de Vida Temporários: iguais ao seu nível de personagem + o modificador do atributo aumentado por este talento.",
+    "Firmeza contra medo: Vantagem em testes para evitar ou encerrar a condição Amedrontado (Frightened) enquanto possuirem esses Pontos de Vida Temporários."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": true,
+    "scalesWithProficiency": true,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": true,
+    "description": "Motivação Crucial: Como uma Reação, você pode conceder Vantagem em uma rolagem de ataque, teste de resistência ou teste de habilidade para um aliado a até 9 metros[30 pés] de você que possa ver e ouvir você. Você pode usar este benefício um número de vezes igual ao seu Bônus de Proficiência e recupera todos os usos ao terminar um Descanso Longo. | Performance Fortificante: Quando você termina um Descanso Curto ou Descanso Longo, você pode fazer uma performance inspiradora, como um discurso, canção ou dança. Ao fazer isso, escolha até 6 aliados (podendo incluir você) a até 9 metros[30 pés] de você que testemunhem a performance. Cada criatura escolhida ganha: - Pontos de Vida Temporários: iguais ao seu nível de personagem + o modificador do atributo aumentado por este talento."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD",
+    "confirmar condicoes e gatilhos contextuais"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "marca-anomala-maior",
+  "name": "Marca Anômala Maior",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de Constituição."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Marca Anômala"
+  ],
+  "description": "Pré-requisito: Nível 4+, Marca Anômala.\n\n Aumento de Atributo: +1 de Constituição.\n\n Sua runa não amadurece como as outras, ela cicatriza por dentro.O Arcano tenta “organizar” a anomalia, mas ela responde com fome e retorno. \n Sua Marca Anômala se aprofunda, tornando seu corpo mais resistente ao choque e sua magia mais explosiva quando atravessa a Trama.\n\n - Fortitude Aprimorada. Quando você usa Fortitude Aberrante do seu talento Marca Anômala, você rola 1d6 em vez de 1d4. Além disso, você recupera o uso de Fortitude Aberrante ao terminar um Descanso Curto ou Descanso Longo.\n- Marca da Inspiração. Quando você conjura um Truque, você pode rolar 1 ou 2 Dados de Vida não gastos. - Pontos de Vida Temporários. Você ganha Pontos de Vida Temporários iguais ao total rolado + seu modificador de Constituição.\n- Retorno da Anomalia. Uma criatura à sua escolha a até 9 metros[30 pés] de você (não inc ...",
+  "mechanicsSummary": "Fortitude Aprimorada. Quando você usa Fortitude Aberrante do seu talento Marca Anômala, você rola 1d6 em vez de 1d4. Além disso, você recupera o uso de Fortitude Aberrante ao terminar um Descanso Curto ou Descanso Longo. | Marca da Inspiração. Quando você conjura um Truque, você pode rolar 1 ou 2 Dados de Vida não gastos. - Pontos de Vida Temporários. Você ganha Pontos de Vida Temporários iguais ao total rolado + seu modificador de Constituição. | Retorno da Anomalia. Uma criatura à sua escolha a até 9 metros[30 pés] de você (não incluindo você) sofre dano de Força igual ao total rolado. | Custo. Os Dados de Vida rolados são gastos.",
+  "benefits": [
+    "Fortitude Aprimorada. Quando você usa Fortitude Aberrante do seu talento Marca Anômala, você rola 1d6 em vez de 1d4. Além disso, você recupera o uso de Fortitude Aberrante ao terminar um Descanso Curto ou Descanso Longo.",
+    "Marca da Inspiração. Quando você conjura um Truque, você pode rolar 1 ou 2 Dados de Vida não gastos. - Pontos de Vida Temporários. Você ganha Pontos de Vida Temporários iguais ao total rolado + seu modificador de Constituição.",
+    "Retorno da Anomalia. Uma criatura à sua escolha a até 9 metros[30 pés] de você (não incluindo você) sofre dano de Força igual ao total rolado.",
+    "Custo. Os Dados de Vida rolados são gastos."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": "short-or-long-rest"
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": true,
+    "description": "Fortitude Aprimorada. Quando você usa Fortitude Aberrante do seu talento Marca Anômala, você rola 1d6 em vez de 1d4. Além disso, você recupera o uso de Fortitude Aberrante ao terminar um Descanso Curto ou Descanso Longo. | Marca da Inspiração. Quando você conjura um Truque, você pode rolar 1 ou 2 Dados de Vida não gastos. - Pontos de Vida Temporários. Você ganha Pontos de Vida Temporários iguais ao total rolado + seu modificador de Constituição."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "magias/conjuracao",
+    "proficiencias, pericias ou ferramentas",
+    "sistema proprio do cenario",
+    "prerequisito nomeado na cadeia de talentos"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar encadeamento com talento anterior ou requisito nomeado",
+    "confirmar atributo de conjuracao, magias concedidas e usos",
+    "confirmar usos por proficiencia e recarga por descanso"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

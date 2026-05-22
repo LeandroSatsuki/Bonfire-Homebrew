@@ -1,0 +1,55 @@
+{
+  "id": "treinamento-com-armas-marciais",
+  "name": "Treinamento com Armas Marciais",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Força ou +1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de Força ou +1 de Destreza.\n\n O peso deixou de ser incômodo e virou informação. O alcance deixou de ser distância e virou ameaça. Você entende o que cada lâmina, cada haste e cada arco pedem do corpo. \n Seu treinamento se expandiu para os padrões de guerra, armas feitas para quebrar linhas e decidir batalhas.\n\n - Proficiência em Armas: Você ganha proficiência com armas marciais.\n\n\n Força, Destreza ou Constituição",
+  "mechanicsSummary": "Proficiência em Armas: Você ganha proficiência com armas marciais.",
+  "benefits": [
+    "Proficiência em Armas: Você ganha proficiência com armas marciais."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [
+    "Proficiência em Armas: Você ganha proficiência com armas marciais."
+  ],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "sim",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "duelista-defensivo",
+  "name": "Duelista Defensivo",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Destreza"
+    ],
+    "description": "+1 de Destreza."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Destreza 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Destreza 13+.\n\n Aumento de Atributo: +1 de Destreza.\n\n Você não bloqueia a lâmina. Você muda o destino dela por um fio, desviando o golpe com um toque no tempo exato. Você transforma sua técnica de esgrima em defesa imediata, punindo qualquer erro de alcance do oponente.\n\n - Aparar: Se você estiver empunhando uma arma com a propriedade Acuidade e outra criatura acertar você com um ataque corpo a corpo, você pode usar uma Reação para adicionar seu Bônus de Proficiência à sua Classe de Armadura, potencialmente fazendo o ataque errar. Você mantém esse bônus contra ataques corpo a corpo até o início do seu próximo turno.\n\n\n Destreza, Inteligência, Sabedoria ou Carisma",
+  "mechanicsSummary": "Aparar: Se você estiver empunhando uma arma com a propriedade Acuidade e outra criatura acertar você com um ataque corpo a corpo, você pode usar uma Reação para adicionar seu Bônus de Proficiência à sua Classe de Armadura, potencialmente fazendo o ataque errar. Você mantém esse bônus contra ataques corpo a corpo até o início do seu próximo turno.",
+  "benefits": [
+    "Aparar: Se você estiver empunhando uma arma com a propriedade Acuidade e outra criatura acertar você com um ataque corpo a corpo, você pode usar uma Reação para adicionar seu Bônus de Proficiência à sua Classe de Armadura, potencialmente fazendo o ataque errar. Você mantém esse bônus contra ataques corpo a corpo até o início do seu próximo turno."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": true,
+    "hasTrigger": false,
+    "description": "Aparar: Se você estiver empunhando uma arma com a propriedade Acuidade e outra criatura acertar você com um ataque corpo a corpo, você pode usar uma Reação para adicionar seu Bônus de Proficiência à sua Classe de Armadura, potencialmente fazendo o ataque errar. Você mantém esse bônus contra ataques corpo a corpo até o início do seu próximo turno."
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "armas, combate ou equipamento",
+    "proficiencias, pericias ou ferramentas",
+    "interacao com classe ou conjuracao existente"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar interacao com armas, escudos, bombas ou outro equipamento",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

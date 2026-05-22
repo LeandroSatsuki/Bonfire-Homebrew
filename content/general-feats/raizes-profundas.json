@@ -1,0 +1,49 @@
+{
+  "id": "raizes-profundas",
+  "name": "Raízes Profundas",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [],
+    "description": "+1 de (atributo à sua escolha)."
+  },
+  "prerequisites": [
+    "Nível 4+"
+  ],
+  "description": "Pré-requisito: Nível 4+.\n\n Aumento de Atributo: +1 de (atributo à sua escolha).\n\n O que te trouxe até aqui não foi apagado pela aventura. \n Você carrega sua origem como ferramenta, e aprende a transformar esse começo em vantagem real. \n Você reforça aquilo que te formou, ganhando um impulso direto no atributo e recuperando um traço marcante do seu início de jornada.\n\n - Talento de Origem Extra: Você escolhe 1 Talento de Origem para ganhar. Você deve cumprir quaisquer pré-requisitos desse talento.",
+  "mechanicsSummary": "Talento de Origem Extra: Você escolhe 1 Talento de Origem para ganhar. Você deve cumprir quaisquer pré-requisitos desse talento.",
+  "benefits": [
+    "Talento de Origem Extra: Você escolhe 1 Talento de Origem para ganhar. Você deve cumprir quaisquer pré-requisitos desse talento."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}

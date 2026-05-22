@@ -1,0 +1,55 @@
+{
+  "id": "ator",
+  "name": "Ator",
+  "type": "general-feat",
+  "foundryType": "feat",
+  "source": "Bonfire Tales RPG - Talentos Gerais",
+  "rules": "2024",
+  "status": "authorial-draft",
+  "featCategory": "general",
+  "minimumLevel": 4,
+  "abilityIncrease": {
+    "hasIncrease": true,
+    "options": [
+      "Carisma"
+    ],
+    "description": "+1 de Carisma."
+  },
+  "prerequisites": [
+    "Nível 4+",
+    "Carisma 13+"
+  ],
+  "description": "Pré-requisito: Nível 4+, Carisma 13+.\n\n Aumento de Atributo: +1 de Carisma.\n\n Você aprendeu que a verdade não entra numa sala sozinha. Ela precisa de postura, ritmo, olhar e pausa. \n Com um ajuste de voz e um detalhe no sorriso, você muda o clima, muda a história e, às vezes, muda quem as pessoas “juram” ter visto. \n Você domina a arte de parecer alguém, soar como alguém e sustentar a cena até o mundo aceitar o papel como real.\n\n - Imitação: Enquanto você estiver disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Enganação (Deception) ou Performance (Performance)) para convencer os outros de que você é essa pessoa.\n- Mimetismo: Você pode imitar os sons de outras criaturas, incluindo fala. Uma criatura que ouvir a imitação deve ser bem-sucedida em um teste de Sabedoria (Intuição (Insight)) para determinar que o efeito é falso (CD 8 + seu modificador de Ca ...",
+  "mechanicsSummary": "Imitação: Enquanto você estiver disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Enganação (Deception) ou Performance (Performance)) para convencer os outros de que você é essa pessoa. | Mimetismo: Você pode imitar os sons de outras criaturas, incluindo fala. Uma criatura que ouvir a imitação deve ser bem-sucedida em um teste de Sabedoria (Intuição (Insight)) para determinar que o efeito é falso (CD 8 + seu modificador de Carisma + seu Bônus de Proficiência).",
+  "benefits": [
+    "Imitação: Enquanto você estiver disfarçado como uma pessoa real ou fictícia, você tem Vantagem em testes de Carisma (Enganação (Deception) ou Performance (Performance)) para convencer os outros de que você é essa pessoa.",
+    "Mimetismo: Você pode imitar os sons de outras criaturas, incluindo fala. Uma criatura que ouvir a imitação deve ser bem-sucedida em um teste de Sabedoria (Intuição (Insight)) para determinar que o efeito é falso (CD 8 + seu modificador de Carisma + seu Bônus de Proficiência)."
+  ],
+  "grantedSpells": [],
+  "grantedProficiencies": [],
+  "uses": {
+    "hasUses": false,
+    "scalesWithProficiency": false,
+    "recovery": ""
+  },
+  "actions": {
+    "hasAction": false,
+    "hasBonusAction": false,
+    "hasReaction": false,
+    "hasTrigger": false,
+    "description": ""
+  },
+  "automation": "parcial",
+  "dependencies": [
+    "proficiencias, pericias ou ferramentas"
+  ],
+  "questions": [
+    "confirmar nivel minimo no Foundry",
+    "confirmar usos por proficiencia e recarga por descanso",
+    "confirmar modelagem de atividade, acao/reacao e CD"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de Talentos Gerais.",
+    "Conteudo autoral ainda nao convertido para o schema nativo do Foundry."
+  ]
+}
