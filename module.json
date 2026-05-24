@@ -91,6 +91,42 @@
       "flags": {}
     },
     {
+      "name": "Backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/Backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "TalentosOrigem",
+      "label": "Talentos de Origem",
+      "path": "packs/TalentosOrigem",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "TalentosGerais",
+      "label": "Talentos Gerais",
+      "path": "packs/TalentosGerais",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
       "name": "Macros",
       "label": "Macros",
       "path": "packs/Macros",
