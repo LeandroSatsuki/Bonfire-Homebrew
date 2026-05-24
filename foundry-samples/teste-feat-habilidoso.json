@@ -1,0 +1,79 @@
+{
+  "name": "[TESTE] Habilidoso — Talento de Origem simples",
+  "type": "feat",
+  "_id": "GHKmomURGjhm2Xtw",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "Ivf967w9s9P9z9Yb",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Aprendizado Versátil",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>Talento de Origem.</p><p>Aprendizado Versátil:</p><p>Você ganha proficiência em qualquer combinação de três Perícias ou Ferramentas de sua escolha.</p><p>Repetível:</p><p>Você pode escolher este talento mais de uma vez.</p>",
+      "chat": ""
+    },
+    "identifier": "teste-habilidoso--talento-de-origem-simples",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WWUngmZuaDTY5p2F": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.GHKmomURGjhm2Xtw",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1779636346020,
+    "modifiedTime": 1779636534182,
+    "lastModifiedBy": "WWUngmZuaDTY5p2F"
+  }
+}
