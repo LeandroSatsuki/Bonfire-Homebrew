@@ -15,6 +15,7 @@ Samples analisados:
 - `foundry-samples/teste-feat-adepto-do-fogo-espiritual.json`
 - `foundry-samples/teste-feat-tocado-pelo-no-do-selamento.json`
 - `foundry-samples/teste-feat-talento-origem-vinculo.json`
+- `foundry-samples/teste-feat-habilidoso.json`
 
 Arquivos autorais comparados:
 
@@ -34,7 +35,7 @@ Resultado manual registrado:
 
 ## 4. Estrutura geral encontrada nos feats
 
-Nos cinco samples, o tipo real exportado foi:
+Nos seis samples, o tipo real exportado foi:
 
 ```json
 "type": "feat"
@@ -69,6 +70,9 @@ Observação importante:
 
 - `system.type.value` e `system.type.subtype` não vieram de forma uniforme
 - no sample de `Treinamento Moderado`, apareceu:
+  - `system.type.value: "feat"`
+  - `system.type.subtype: "origin"`
+- no sample de `Habilidoso`, apareceu:
   - `system.type.value: "feat"`
   - `system.type.subtype: "origin"`
 - nos outros samples de feat testados, `system.type.value` e `system.type.subtype` vieram vazios
@@ -227,9 +231,9 @@ O que permaneceu textual/manual:
 
 ### E. Habilidoso / Talento de Origem
 
-O sample exportado disponível não é uma exportação do `Habilidoso`, e sim um feat genérico de teste:
+Agora existe sample real exportado de `Habilidoso`:
 
-- `foundry-samples/teste-feat-talento-origem-vinculo.json`
+- `foundry-samples/teste-feat-habilidoso.json`
 
 Nele, o tipo foi salvo como:
 
@@ -239,30 +243,38 @@ Nele, o tipo foi salvo como:
 
 Estrutura encontrada:
 
-- `system.advancement: []`
+- `system.type.value: "feat"`
+- `system.type.subtype: "origin"`
+- `system.advancement` com `Trait`
+- `Trait.configuration.choices` com:
+  - `count: 3`
+  - `pool: ["skills:*", "tool:*"]`
 - `system.activities: {}`
 - `system.uses.max: ""`
 - `system.requirements: ""`
-- `system.type.value: ""`
-- `system.type.subtype: ""`
+- `system.prerequisites.level: null`
+- `effects: []`
 
 Isso permite concluir:
 
 - `Talento de Origem` pode existir como `feat`
-- não apareceu uma marcação estrutural clara de “Talento de Origem” no sample exportado
-- no sample, isso ficou apenas textual/descritivo
+- o Foundry consegue marcar esse caso com `system.type.subtype: "origin"`
+- o Foundry consegue representar escolha de `3` entre Perícias e Ferramentas
+- a mistura entre Perícias e Ferramentas foi confirmada no pool:
+  - `skills:*`
+  - `tool:*`
 
-Sobre `Habilidoso` especificamente:
+Comparacao com o arquivo autoral `content/origin-feats/habilidoso.json`:
 
-- o arquivo autoral `content/origin-feats/habilidoso.json` modela:
-  - proficiência em qualquer combinação de `3` Perícias ou Ferramentas
-- porém isso **não foi confirmado neste conjunto de samples exportados**, porque não há export real do `Habilidoso`
+- a modelagem autoral de `Habilidoso` foi validada pelo sample real
+- a ideia de "qualquer combinacao de tres Pericias ou Ferramentas" mapeia bem para `Trait.configuration.choices`
 
-Portanto, ainda não é possível afirmar por este teste:
+O que permaneceu vazio no sample:
 
-- como a escolha de `3` perícias/ferramentas foi salva
-- se foi possível misturar perícias e ferramentas no export analisado
-- se houve marcação estrutural clara de categoria `origin`
+- `system.activities`
+- `system.uses`
+- `effects`
+- `system.requirements`
 
 ## 6. Comparação com os arquivos autorais
 
@@ -316,7 +328,7 @@ Portanto, ainda não é possível afirmar por este teste:
 - tabelas e resultados aleatórios contextuais
 - resolução de dano adicional situacional
 - vínculos conceituais entre `Talento Geral` e `Talento de Origem`
-- escolhas abertas de perícia/ferramenta sem sample exportado correspondente
+- outros casos de escolhas abertas além do sample já validado de `Habilidoso`
 
 ## 7. Conclusões técnicas
 
@@ -336,7 +348,10 @@ Portanto, ainda não é possível afirmar por este teste:
 - validar como separar `Talento de Origem` de `Talento Geral` no Foundry
 - decidir se haverá pack separado para `Talentos de Origem` e `Talentos Gerais`
 - decidir se a conversão será por macro, script ou criação manual controlada
-- obter um sample exportado específico de `Habilidoso` ou outro `Talento de Origem` com escolhas reais para confirmar mistura entre perícias e ferramentas
+
+Pendencia resolvida neste teste:
+
+- `Habilidoso` agora possui sample real exportado e confirmou escolha de `3` entre Pericias e Ferramentas
 
 ## 9. Critérios para liberar conversão real
 

@@ -10,6 +10,12 @@ Arquivos analisados:
 - `foundry-samples/teste-class.json`
 - `foundry-samples/teste-background-completo.json`
 - `foundry-samples/teste-talento-origem.json`
+- `foundry-samples/teste-feat-treinamento-moderado.json`
+- `foundry-samples/teste-feat-perfurador.json`
+- `foundry-samples/teste-feat-adepto-do-fogo-espiritual.json`
+- `foundry-samples/teste-feat-tocado-pelo-no-do-selamento.json`
+- `foundry-samples/teste-feat-talento-origem-vinculo.json`
+- `foundry-samples/teste-feat-habilidoso.json`
 
 Observação:
 
@@ -306,3 +312,90 @@ Observacoes objetivas:
 - o teste manual de `Backgrounds` foi informado como funcional
 - o sample de `Background` e o sample de `Talento de Origem` confirmam os `type` reais esperados
 - a referencia explicita entre o `Background` exportado e o `Talento de Origem` exportado ainda precisa de novo export ou novo teste
+
+## 14. Samples adicionais de Feats testados
+
+Arquivos analisados:
+
+- `foundry-samples/teste-feat-treinamento-moderado.json`
+- `foundry-samples/teste-feat-perfurador.json`
+- `foundry-samples/teste-feat-adepto-do-fogo-espiritual.json`
+- `foundry-samples/teste-feat-tocado-pelo-no-do-selamento.json`
+- `foundry-samples/teste-feat-talento-origem-vinculo.json`
+- `foundry-samples/teste-feat-habilidoso.json`
+
+Estrutura real observada nos samples:
+
+- todos usam `type: "feat"`
+- `AbilityScoreImprovement` foi usado para aumento de atributo
+- `Trait` foi usado para proficiencias em `Treinamento Moderado`
+- `Talento de Origem` pode ser representado como `type: "feat"` com `system.type.subtype: "origin"`
+- `system.requirements` carregou os pre-requisitos textuais
+- `system.prerequisites` permaneceu sem estrutura rica nos samples, com `items: []`, `repeatable: false` e `level: null`
+- `system.activities` foi usado para blocos acionaveis
+- `system.uses` com `max: "@prof"` e recuperacao em `lr` funcionou em `Tocado pelo No do Selamento`
+- `effects` veio vazio nos samples
+- `system.source.rules` veio como `2024`
+
+Observacoes por item:
+
+### `Treinamento Moderado`
+
+- `AbilityScoreImprovement` foi usado para o aumento de atributo
+- `Trait` foi usado para proficiencias com:
+  - `armor:lgt`
+  - `armor:med`
+  - `armor:shl`
+- o pre-requisito `Nivel 4+` ficou salvo em `system.requirements`
+
+### `Perfurador`
+
+- `AbilityScoreImprovement` foi usado para o aumento de atributo
+- `system.activities` trouxe duas `utility` activities:
+  - `Puncao`
+  - `Critico Aprimorado`
+- o comportamento detalhado de gatilho e limite por turno continuou dependente de texto
+
+### `Adepto do Fogo Espiritual`
+
+- `AbilityScoreImprovement` foi usado para o aumento de atributo
+- `system.activities` trouxe uma `utility` activity:
+  - `Feitiolume Alimentado`
+- `system.uses` veio sem configuracao funcional
+- `effects` veio vazio
+
+### `Tocado pelo No do Selamento`
+
+- `AbilityScoreImprovement` foi usado para o aumento de atributo
+- `system.activities` trouxe uma `utility` activity com `activation.type: "reaction"`
+- `system.uses.max` veio como `@prof`
+- `system.uses.recovery` veio com recuperacao em `lr`
+- o consumo da activity foi ligado ao uso do item
+
+### `Talento de Origem` generico
+
+- o sample continua usando `type: "feat"`
+- nao apareceu marcacao estrutural clara de categoria `origin`
+- o vinculo ficou apenas textual/descritivo no teste exportado
+
+### `Habilidoso`
+
+- o sample usa `type: "feat"`
+- `system.type.value` veio como `feat`
+- `system.type.subtype` veio como `origin`
+- `system.advancement` trouxe um `Trait`
+- `Trait.configuration.choices` veio com:
+  - `count: 3`
+  - `pool: ["skills:*", "tool:*"]`
+- isso confirma que o Foundry consegue representar escolha de `3` entre Pericias e Ferramentas
+- isso valida a modelagem autoral de `Habilidoso`
+- `system.activities` veio vazio
+- `system.uses` veio vazio
+- `effects` veio vazio
+- `system.requirements` veio vazio
+- `system.prerequisites.level` veio como `null`
+
+Pendencias mantidas:
+
+- ainda falta decidir se `Talentos de Origem` e `Talentos Gerais` terao packs separados
+- ainda falta decidir qual conversor, script ou rotina controlada vai transformar `content/` em itens reais do Foundry
