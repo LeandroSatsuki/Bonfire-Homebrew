@@ -1,0 +1,105 @@
+{
+  "name": "[TESTE] Treinamento Moderado",
+  "type": "feat",
+  "_id": "tD1ZOs9nSwwQCsFG",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "v8NrJkiw7gPM6WPp",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "Treinamento Moderado",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "gcsrntdLaixHZNs4",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><span>Pré-requisito: Nível 4+.</span><br /><br /><span>Aumento de Atributo: +1 de Força ou +1 de Destreza.</span><br /><br /><span>Treinamento de Armadura:</span><br /><span>Você ganha treinamento com armaduras leves, armaduras médias e escudos.</span></p>",
+      "chat": ""
+    },
+    "identifier": "treinamento-moderado",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Nível 4+",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "WWUngmZuaDTY5p2F": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.tD1ZOs9nSwwQCsFG",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.4",
+    "createdTime": 1779634826607,
+    "modifiedTime": 1779636575119,
+    "lastModifiedBy": "WWUngmZuaDTY5p2F"
+  }
+}
