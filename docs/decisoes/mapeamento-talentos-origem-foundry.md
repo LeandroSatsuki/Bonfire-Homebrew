@@ -312,3 +312,54 @@ Regra operacional do v2.2:
 - a activity serve apenas para reduzir o contador do item
 - o efeito mecanico permanece manual/textual
 - se o consumo nao ocorrer ao clicar no item, o problema volta para revisao da estrutura da activity
+
+## 11. Ajuste v2.3: texto funcional no chat da activity
+
+O v2.2 ja consumia corretamente a carga, mas o chat ainda mostrava apenas o nome do talento.
+
+O ajuste v2.3 preenche `activity.description.chatFlavor` com texto funcional original do JSON autoral, sem reescrita.
+
+Regras deste ajuste:
+
+- usar o texto autoral existente em `benefits` quando houver conteudo
+- cair para `mechanicsSummary` quando `benefits` estiver vazio
+- cair para `description` quando os anteriores estiverem vazios
+- remover apenas blocos editoriais, notas de importacao e marcadores tecnicos
+- manter o texto original, alterando apenas o HTML de apresentacao
+- aplicar negrito somente em trechos que ja existam no texto
+
+Talentos afetados no v2.3:
+
+- `Centelha de Fogo Espiritual`
+- `Escudeiro do Amanhecer`
+- `Explorador de Masmorras`
+- `Marca Arcana da Vigília`
+- `Assecla do Reinado Dracônico`
+- `Folião Incansável`
+- `Joguete de Vampiro`
+- `Sortudo`
+
+Regra operacional do v2.3:
+
+- a activity continua sendo apenas consumidora de `itemUses`
+- o chat deve exibir texto funcional do talento
+- notas de fonte, pipeline e importacao nao entram no chat
+- o importador nao reescreve mecânica, ele só reapresenta o texto autoral existente
+
+## 12. Ajuste v2.4: limpeza de activities antigas
+
+Na v2.3 a activity funcional passou a consumir carga e mostrar o texto correto, mas alguns itens ficaram com duas activities ao mesmo tempo.
+
+Isso acontece porque Foundry pode mesclar `system.activities` durante updates se a estrutura antiga nao for removida antes da nova gravação.
+
+Decisão v2.4:
+
+- antes de atualizar um item existente, remover todas as activities já gravadas em `system.activities`
+- depois reaplicar o `itemData` novo com a activity funcional única
+- manter a utility sem nome como a activity funcional exibida como `Utilidade Midi`
+
+Regra operacional:
+
+- o importador v2.4 continua conservador
+- a limpeza de activities antigas existe apenas para evitar duplicidade
+- a activity funcional continua sendo a mesma da v2.3, sem alterar consumo, chatFlavor ou escopo mecânico

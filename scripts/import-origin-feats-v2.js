@@ -1,15 +1,37 @@
-// Importador real v2.2 de Talentos de Origem para Foundry VTT.
+// Importador real v2.3 de Talentos de Origem para Foundry VTT.
 // Executar como Script Macro dentro do Foundry.
 // Cria/atualiza feats conservadores e, para os 8 talentos validados, cria
 // uma utility activity consumivel baseada no sample manual funcional do Sortudo.
 
 (async () => {
   const MODULE_ID = "bonfire-homebrew";
-  const IMPORTED_BY = "import-origin-feats-v2.2";
+  const IMPORTED_BY = "import-origin-feats-v2.4";
   const PACK_ID = `${MODULE_ID}.TalentosOrigem`;
   const INDEX_PATH = "content/origin-feats/_index.json";
   const DEFAULT_IMG = "systems/dnd5e/icons/svg/items/feature.svg";
   const ACTIVITY_TEMPLATE = "manual-sortudo-working-sample";
+  const CHAT_FLAVOR_BOLD_TERMS = [
+    "Bônus de Proficiência",
+    "Descanso Longo",
+    "Teste de Resistência",
+    "Jogada de Ataque",
+    "Teste de d20",
+    "Ação Bônus",
+    "Pontos de Vida",
+    "Pontos de Sorte",
+    "1 Ponto de Sorte",
+    "1 uso",
+    "Vantagem",
+    "Desvantagem",
+    "Reação",
+    "Ação",
+    "CD",
+    "Quando",
+    "Sempre que",
+    "Se",
+  ].sort((a, b) => b.length - a.length);
+  const CHAT_FLAVOR_MARKER_OPEN = "__CHAT_FLAVOR_BOLD_OPEN__";
+  const CHAT_FLAVOR_MARKER_CLOSE = "__CHAT_FLAVOR_BOLD_CLOSE__";
 
   const TRAIT_CHOICE_RULES = new Map([
     ["habilidoso", { count: 3, pool: ["skills:*", "tool:*"], title: "Aprendizado Versátil" }],
@@ -63,6 +85,8 @@
     updated: 0,
     comTrait: 0,
     comUses: 0,
+    comChatFlavor: 0,
+    activitiesLimpas: 0,
     somenteTexto: 0,
     erros: 0,
     comActivityConsumivel: 0,
@@ -76,6 +100,10 @@
 
   function unique(values) {
     return [...new Set(values.filter(Boolean))];
+  }
+
+  function escapeRegExp(value) {
+    return String(value ?? "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
   function randomId() {
@@ -102,6 +130,54 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function isChatFlavorBoundaryChar(char) {
+    return !char || /[\s\u00A0.,;:!?()[\]{}<>/\\'"'"'"`~\-–—|]/u.test(char);
+  }
+
+  function isSafeChatFlavorMatch(text, start, end) {
+    return isChatFlavorBoundaryChar(text[start - 1]) && isChatFlavorBoundaryChar(text[end]);
+  }
+
+  function applySafeChatFlavorBolding(text, term) {
+    const source = String(text ?? "");
+    const needle = String(term ?? "");
+    if (!source || !needle) return source;
+
+    let cursor = 0;
+    let output = "";
+
+    while (cursor < source.length) {
+      const index = source.indexOf(needle, cursor);
+      if (index === -1) {
+        output += source.slice(cursor);
+        break;
+      }
+
+      const end = index + needle.length;
+      if (isSafeChatFlavorMatch(source, index, end)) {
+        output += source.slice(cursor, index);
+        output += `${CHAT_FLAVOR_MARKER_OPEN}${needle}${CHAT_FLAVOR_MARKER_CLOSE}`;
+        cursor = end;
+        continue;
+      }
+
+      output += source.slice(cursor, end);
+      cursor = end;
+    }
+
+    return output;
+  }
+
+  function markChatFlavorEmphasis(text) {
+    return CHAT_FLAVOR_BOLD_TERMS.reduce((currentText, term) => applySafeChatFlavorBolding(currentText, term), String(text ?? ""));
+  }
+
+  function finalizeChatFlavorHtml(html) {
+    return String(html ?? "")
+      .replaceAll(CHAT_FLAVOR_MARKER_OPEN, "<strong>")
+      .replaceAll(CHAT_FLAVOR_MARKER_CLOSE, "</strong>");
   }
 
   function textToHtml(text) {
@@ -171,6 +247,104 @@
     sections.push(buildTitledListSection("Notas", feat.notes));
 
     return sections.filter(Boolean).join("");
+  }
+
+  function isEditorialChatFlavorLine(line) {
+    const normalized = normalizeText(String(line ?? "").replace(/^[\-•]\s*/, "").trim());
+    if (!normalized) return true;
+
+    const blockedStarts = [
+      "gerado a partir",
+      "conteudo autoral ainda nao convertido",
+      "conteudo autoral ainda nao convertido para o schema nativo do foundry",
+      "resumo mecanico",
+      "fonte",
+      "notas",
+      "talentos gerais",
+      "utilidade",
+      "social",
+      "pipeline",
+      "importador",
+      "importacao",
+    ];
+
+    return blockedStarts.some((prefix) => normalized === prefix || normalized.startsWith(prefix));
+  }
+
+  function buildChatFlavorHtmlFromText(text, { preserveParagraphs = false } = {}) {
+    const normalized = String(text ?? "").replace(/\r\n/g, "\n").trim();
+    if (!normalized) return "";
+
+    const cleanedText = preserveParagraphs
+      ? normalized
+          .split(/\n{2,}/)
+          .map((block) =>
+            block
+              .split("\n")
+              .map((line) => line.trim())
+              .filter((line) => line && !isEditorialChatFlavorLine(line))
+              .join("\n")
+              .trim()
+          )
+          .filter(Boolean)
+          .join("\n\n")
+      : normalized
+          .split("\n")
+          .map((line) => line.trim())
+          .filter((line) => line && !isEditorialChatFlavorLine(line))
+          .join("\n")
+          .trim();
+
+    if (!cleanedText) return "";
+
+    return finalizeChatFlavorHtml(textToHtml(markChatFlavorEmphasis(cleanedText)));
+  }
+
+  function buildActivityChatFlavor(feat) {
+    const benefitTexts = asArray(feat.benefits).map(stringifyTextEntry).filter(Boolean);
+    if (benefitTexts.length) {
+      return {
+        chatFlavor: buildChatFlavorHtmlFromText(benefitTexts.map((entry) => `- ${entry}`).join("\n")),
+        source: "benefits",
+      };
+    }
+
+    const mechanicsSummary = stringifyTextEntry(feat.mechanicsSummary);
+    if (mechanicsSummary) {
+      return {
+        chatFlavor: buildChatFlavorHtmlFromText(
+          mechanicsSummary
+            .split(/\s*\|\s*/)
+            .map((entry) => entry.trim())
+            .filter(Boolean)
+            .map((entry) => `- ${entry}`)
+            .join("\n")
+        ),
+        source: "mechanicsSummary",
+      };
+    }
+
+    const description = stringifyTextEntry(feat.description);
+    if (description) {
+      return {
+        chatFlavor: buildChatFlavorHtmlFromText(description, { preserveParagraphs: true }),
+        source: "description",
+      };
+    }
+
+    return { chatFlavor: "", source: "" };
+  }
+
+  function buildActivityDeletionPayload(existingDoc) {
+    const existingData = existingDoc?.toObject?.() ?? {};
+    const existingActivities = existingData.system?.activities ?? {};
+    const payload = {};
+
+    for (const activityKey of Object.keys(existingActivities)) {
+      payload[`system.activities.-=${activityKey}`] = null;
+    }
+
+    return payload;
   }
 
   async function fetchJson(modulePath) {
@@ -273,7 +447,7 @@
     };
   }
 
-  function buildConsumableUtilityActivity(feat) {
+  function buildConsumableUtilityActivity(feat, chatFlavorData) {
     if (!CONSUMABLE_ACTIVITY_RULES.has(feat.id)) return {};
 
     const activityId = randomId();
@@ -302,7 +476,7 @@
           ],
         },
         description: {
-          chatFlavor: "",
+          chatFlavor: chatFlavorData?.chatFlavor ?? "",
         },
         duration: {
           units: "inst",
@@ -430,8 +604,9 @@
   function buildItemData(feat) {
     const advancements = buildTraitAdvancement(feat);
     const uses = buildUses(feat);
+    const chatFlavorData = buildActivityChatFlavor(feat);
     const activityHints = detectActivityHints(feat);
-    const activities = buildConsumableUtilityActivity(feat);
+    const activities = buildConsumableUtilityActivity(feat, chatFlavorData);
     const hasConsumableActivity = Object.keys(activities).length > 0;
     const blockedAutomations = detectBlockedAutomations(feat, activityHints, hasConsumableActivity);
     const automationClassification = getAutomationClassification(feat, advancements, uses, activities);
@@ -480,6 +655,8 @@
                   activityConsumesItemUses: true,
                   activityTemplate: ACTIVITY_TEMPLATE,
                   activityActivationForcedToAction: true,
+                  activityChatFlavorBuilt: Boolean(chatFlavorData.chatFlavor),
+                  activityChatFlavorSource: chatFlavorData.source,
                 }
               : {}),
             blockedAutomations,
@@ -491,6 +668,7 @@
         hasTrait: advancements.length > 0,
         hasUses: uses.max === "@prof",
         hasConsumableActivity,
+        hasChatFlavor: Boolean(chatFlavorData.chatFlavor),
         onlyText: advancements.length === 0 && uses.max !== "@prof" && !hasConsumableActivity,
         automationClassification,
       },
@@ -504,6 +682,7 @@
       trait: row.hasTrait ? "sim" : "nao",
       uses: row.hasUses ? "@prof/lr" : "nao",
       activityConsumivel: row.hasConsumableActivity ? "sim" : "nao",
+      chatFlavor: row.hasChatFlavor ? "sim" : "nao",
       classificacao: row.automationClassification,
     };
   }
@@ -552,8 +731,8 @@
 
           if (existing) {
             updatePayload.push({
-              _id: existing.id,
-              ...itemData,
+              existing,
+              itemData,
             });
             summary.updated += 1;
             importRows.push({
@@ -574,6 +753,10 @@
           if (metrics.hasTrait) summary.comTrait += 1;
           if (metrics.hasUses) summary.comUses += 1;
           if (metrics.hasConsumableActivity) summary.comActivityConsumivel += 1;
+          if (metrics.hasChatFlavor) summary.comChatFlavor += 1;
+          if (existing && Object.keys(existing.toObject?.().system?.activities ?? {}).length > 0) {
+            summary.activitiesLimpas += 1;
+          }
           if (metrics.onlyText) summary.somenteTexto += 1;
         } catch (error) {
           summary.erros += 1;
@@ -585,14 +768,19 @@
         await Item.createDocuments(createPayload, { pack: PACK_ID });
       }
 
-      if (updatePayload.length) {
-        await Item.updateDocuments(updatePayload, { pack: PACK_ID });
+      for (const updateEntry of updatePayload) {
+        const { existing, itemData } = updateEntry;
+        const deletionPayload = buildActivityDeletionPayload(existing);
+        if (Object.keys(deletionPayload).length > 0) {
+          await existing.update(deletionPayload);
+        }
+        await existing.update(itemData);
       }
 
       console.table(importRows.map(logImportRow));
       console.info(`[${IMPORTED_BY}] Resumo final:`, summary);
       ui.notifications?.info(
-        `Talentos de Origem v2.2: criados ${summary.created}, atualizados ${summary.updated}, comTrait ${summary.comTrait}, comUses ${summary.comUses}, comActivityConsumivel ${summary.comActivityConsumivel}, somenteTexto ${summary.somenteTexto}, erros ${summary.erros}.`
+        `Talentos de Origem v2.4: criados ${summary.created}, atualizados ${summary.updated}, comTrait ${summary.comTrait}, comUses ${summary.comUses}, comActivityConsumivel ${summary.comActivityConsumivel}, comChatFlavor ${summary.comChatFlavor}, activitiesLimpas ${summary.activitiesLimpas}, somenteTexto ${summary.somenteTexto}, erros ${summary.erros}.`
       );
     } finally {
       if (pack.locked !== wasLocked) {
@@ -601,6 +789,6 @@
     }
   } catch (error) {
     console.error(`[${IMPORTED_BY}] Falha geral:`, error);
-    ui.notifications?.error(`Falha no importador v2.2 de Talentos de Origem: ${error.message}`);
+    ui.notifications?.error(`Falha no importador v2.4 de Talentos de Origem: ${error.message}`);
   }
 })();

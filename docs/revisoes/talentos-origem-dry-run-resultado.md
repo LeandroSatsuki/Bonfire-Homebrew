@@ -181,3 +181,58 @@ O v2.1 ainda nao consumiu corretamente a carga no Foundry, mesmo com `system.use
 Ao usar a activity, o contador do item deve diminuir.
 
 Se o contador nao diminuir, a estrutura da activity precisa ser revisada antes de liberar importacao maior.
+
+## 16. Ajuste pós-v2.2: chat da activity sem descrição
+
+### Causa
+
+A v2.2 passou a consumir carga corretamente, mas o chat ainda mostrava somente o nome do talento.
+
+Isso acontecia porque `activity.description.chatFlavor` permanecia vazio, então o Foundry não tinha texto funcional para exibir na mensagem da atividade.
+
+### Decisão v2.3
+
+- preencher `activity.description.chatFlavor` com texto autoral original
+- preferir `benefits`
+- cair para `mechanicsSummary`
+- cair para `description`
+- remover apenas blocos editoriais, notas técnicas e textos de pipeline/importação
+- não reescrever o conteúdo, apenas reapresentá-lo com HTML seguro e negrito pontual
+
+### Talentos afetados
+
+- `Centelha de Fogo Espiritual`
+- `Escudeiro do Amanhecer`
+- `Explorador de Masmorras`
+- `Marca Arcana da Vigília`
+- `Assecla do Reinado Dracônico`
+- `Folião Incansável`
+- `Joguete de Vampiro`
+- `Sortudo`
+
+### Critério de aceite
+
+- usar a activity consome carga
+- o chat mostra texto funcional do talento
+- o chat não mostra notas de fonte ou importação
+- o texto não é reescrito
+
+## 17. Ajuste pós-v2.3: duplicidade de activities
+
+### Causa provável
+
+A v2.3 passou a funcionar corretamente, mas alguns itens ficaram com uma activity antiga e a nova activity funcional ao mesmo tempo.
+
+Isso sugere mesclagem de `system.activities` durante o update de itens já existentes no pack.
+
+### Decisão v2.4
+
+- remover todas as activities antigas de `system.activities` antes de atualizar itens existentes
+- reaplicar o `itemData` limpo depois da remoção
+- manter a activity funcional única como a utility sem nome exibida como `Utilidade Midi`
+
+### Critério de aceite
+
+- o item deve ficar com apenas uma activity
+- essa activity deve consumir uso
+- essa activity deve mostrar `chatFlavor`
