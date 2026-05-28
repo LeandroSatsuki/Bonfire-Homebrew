@@ -1,52 +1,22 @@
-// Importador real v2 de Talentos de Origem para Foundry VTT.
-// Executar como Script Macro dentro do Foundry. Nao cria Activities, Active Effects ou Spells.
+// Importador real v2.2 de Talentos de Origem para Foundry VTT.
+// Executar como Script Macro dentro do Foundry.
+// Cria/atualiza feats conservadores e, para os 8 talentos validados, cria
+// uma utility activity consumivel baseada no sample manual funcional do Sortudo.
 
 (async () => {
   const MODULE_ID = "bonfire-homebrew";
-  const IMPORTED_BY = "import-origin-feats-v2";
+  const IMPORTED_BY = "import-origin-feats-v2.2";
   const PACK_ID = `${MODULE_ID}.TalentosOrigem`;
   const INDEX_PATH = "content/origin-feats/_index.json";
   const DEFAULT_IMG = "systems/dnd5e/icons/svg/items/feature.svg";
+  const ACTIVITY_TEMPLATE = "manual-sortudo-working-sample";
 
   const TRAIT_CHOICE_RULES = new Map([
-    [
-      "habilidoso",
-      {
-        count: 3,
-        pool: ["skills:*", "tool:*"],
-        title: "Aprendizado Versátil",
-      },
-    ],
-    [
-      "lingua-de-prata",
-      {
-        count: 1,
-        pool: ["skills:per", "skills:prf"],
-      },
-    ],
-    [
-      "assecla-do-reinado-draconico",
-      {
-        count: 1,
-        pool: ["skills:itm", "skills:per"],
-      },
-    ],
-    [
-      "porta-estandarte-da-wyrm",
-      {
-        count: 1,
-        pool: ["skills:ins", "skills:per", "skills:prf"],
-      },
-    ],
-    [
-      "neofito-dos-caminhos-de-eldara",
-      {
-        count: 1,
-        pool: ["skills:ani", "skills:nat"],
-      },
-    ],
-    // "musico" fica sem Trait no v2: o pool amplo "tool:*" ainda nao valida
-    // com seguranca a escolha restrita de instrumentos musicais.
+    ["habilidoso", { count: 3, pool: ["skills:*", "tool:*"], title: "Aprendizado Versátil" }],
+    ["lingua-de-prata", { count: 1, pool: ["skills:per", "skills:prf"] }],
+    ["assecla-do-reinado-draconico", { count: 1, pool: ["skills:itm", "skills:per"] }],
+    ["porta-estandarte-da-wyrm", { count: 1, pool: ["skills:ins", "skills:per", "skills:prf"] }],
+    ["neofito-dos-caminhos-de-eldara", { count: 1, pool: ["skills:ani", "skills:nat"] }],
   ]);
 
   const TRAIT_GRANT_RULES = new Map([
@@ -57,6 +27,17 @@
   ]);
 
   const USES_BY_PROF_LR = new Set([
+    "centelha-de-fogo-espiritual",
+    "escudeiro-do-amanhecer",
+    "explorador-de-masmorras",
+    "marca-arcana-da-vigilia",
+    "assecla-do-reinado-draconico",
+    "foliao-incansavel",
+    "joguete-de-vampiro",
+    "sortudo",
+  ]);
+
+  const CONSUMABLE_ACTIVITY_RULES = new Set([
     "centelha-de-fogo-espiritual",
     "escudeiro-do-amanhecer",
     "explorador-de-masmorras",
@@ -84,6 +65,7 @@
     comUses: 0,
     somenteTexto: 0,
     erros: 0,
+    comActivityConsumivel: 0,
   };
 
   function asArray(value) {
@@ -119,7 +101,7 @@
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
-      .replace(/\"/g, "&quot;");
+      .replace(/"/g, "&quot;");
   }
 
   function textToHtml(text) {
@@ -157,16 +139,7 @@
     if (typeof value === "number" || typeof value === "boolean") return String(value);
 
     if (typeof value === "object") {
-      return [
-        value.name,
-        value.label,
-        value.value,
-        value.text,
-        value.description,
-      ]
-        .filter((entry) => typeof entry === "string" && entry.trim())
-        .join(" - ")
-        .trim();
+      return [value.name, value.label, value.value, value.text, value.description].filter(Boolean).join(" - ").trim();
     }
 
     return String(value).trim();
@@ -209,31 +182,19 @@
   }
 
   function detectActivityHints(feat) {
-    const text = normalizeText(
-      [
-        feat.description,
-        feat.mechanicsSummary,
-        ...asArray(feat.benefits),
-      ].join(" ")
-    );
-
+    const text = normalizeText([feat.description, feat.mechanicsSummary, ...asArray(feat.benefits)].join(" "));
     const hints = [];
-    if (text.includes("acao bonus") || text.includes("acao adicional") || text.includes("bonus action")) {
-      hints.push("bonusAction");
-    }
-    if (text.includes("reacao") || text.includes("reaction")) {
-      hints.push("reaction");
-    }
-    if (text.includes("acao") || text.includes("action")) {
-      hints.push("action");
-    }
+    if (text.includes("acao bonus") || text.includes("acao adicional") || text.includes("bonus action")) hints.push("bonusAction");
+    if (text.includes("reacao") || text.includes("reaction")) hints.push("reaction");
+    if (text.includes("acao") || text.includes("action")) hints.push("action");
     return unique(hints);
   }
 
-  function detectBlockedAutomations(feat, activityHints) {
+  function detectBlockedAutomations(feat, activityHints, hasConsumableActivity) {
     const blocked = [...(BLOCKED_AUTOMATION_BY_ID.get(feat.id) ?? [])];
 
-    if (activityHints.length) blocked.push("activities");
+    if (activityHints.length && !hasConsumableActivity) blocked.push("activities-unmodeled");
+    if (hasConsumableActivity) blocked.push("activity-effect-manual");
     if (asArray(feat.grantedSpells).length) blocked.push("granted-spells");
 
     const normalizedDescription = normalizeText(feat.description);
@@ -312,17 +273,155 @@
     };
   }
 
-  function getAutomationClassification(feat, advancements, uses) {
+  function buildConsumableUtilityActivity(feat) {
+    if (!CONSUMABLE_ACTIVITY_RULES.has(feat.id)) return {};
+
+    const activityId = randomId();
+    return {
+      [activityId]: {
+        type: "utility",
+        _id: activityId,
+        sort: 0,
+        activation: {
+          type: "action",
+          override: false,
+          condition: "",
+        },
+        consumption: {
+          scaling: {
+            allowed: false,
+          },
+          spellSlot: true,
+          targets: [
+            {
+              type: "itemUses",
+              value: "1",
+              target: "",
+              scaling: {},
+            },
+          ],
+        },
+        description: {
+          chatFlavor: "",
+        },
+        duration: {
+          units: "inst",
+          concentration: false,
+          override: false,
+        },
+        effects: [],
+        flags: {},
+        range: {
+          units: "self",
+          override: false,
+          special: "",
+        },
+        target: {
+          template: {
+            contiguous: false,
+            units: "ft",
+            type: "",
+          },
+          affects: {
+            choice: false,
+            type: "",
+          },
+          override: false,
+          prompt: true,
+        },
+        uses: {
+          spent: 0,
+          recovery: [],
+          max: "",
+        },
+        visibility: {
+          level: {
+            min: null,
+            max: null,
+          },
+          requireAttunement: false,
+          requireIdentification: false,
+          requireMagic: false,
+          identifier: "",
+        },
+        roll: {
+          prompt: false,
+          visible: false,
+          formula: "",
+          name: "",
+        },
+        useConditionText: "",
+        useConditionReason: "",
+        effectConditionText: "",
+        macroData: {
+          name: "",
+          command: "",
+        },
+        ignoreTraits: {
+          idi: false,
+          idr: false,
+          idv: false,
+          ida: false,
+          idm: false,
+        },
+        midiProperties: {
+          ignoreTraits: [],
+          triggeredActivityId: "none",
+          triggeredActivityConditionText: "",
+          triggeredActivityTargets: "targets",
+          triggeredActivityRollAs: "self",
+          autoConsume: false,
+          forceConsumeDialog: "default",
+          forceRollDialog: "default",
+          forceDamageDialog: "default",
+          confirmTargets: "default",
+          autoTargetType: "any",
+          autoTargetAction: "default",
+          automationOnly: false,
+          otherActivityCompatible: true,
+          otherActivityAsParentType: true,
+          identifier: "",
+          displayActivityName: false,
+          rollMode: "default",
+          chooseEffects: false,
+          toggleEffect: false,
+          ignoreFullCover: false,
+          removeChatButtons: "default",
+          magicEffect: false,
+          magicDamage: false,
+          noConcentrationCheck: false,
+          skipConcentrationCheck: false,
+          autoCEEffects: "default",
+        },
+        isOverTimeFlag: false,
+        overTimeProperties: {
+          saveRemoves: true,
+          preRemoveConditionText: "",
+          postRemoveConditionText: "",
+        },
+        otherActivityId: "none",
+        otherActivityAsParentType: true,
+        name: "",
+      },
+    };
+  }
+
+  function getAutomationClassification(feat, advancements, uses, activities) {
     const hasChoice = TRAIT_CHOICE_RULES.has(feat.id);
     const hasGrant = TRAIT_GRANT_RULES.has(feat.id);
     const hasUses = uses.max === "@prof";
+    const hasActivity = Object.keys(activities).length > 0;
 
+    if (hasChoice && hasGrant && hasUses && hasActivity) return "trait-choice+grant+uses+activity";
     if (hasChoice && hasGrant && hasUses) return "trait-choice+grant+uses";
     if (hasChoice && hasGrant) return "trait-choice+grant";
+    if (hasChoice && hasUses && hasActivity) return "trait-choice+uses+activity";
     if (hasChoice && hasUses) return "trait-choice+uses";
+    if (hasGrant && hasUses && hasActivity) return "trait-grant+uses+activity";
     if (hasGrant && hasUses) return "trait-grant+uses";
     if (hasChoice) return "trait-choice";
     if (hasGrant) return "trait-grant";
+    if (hasUses && hasActivity) return "uses+activity";
     if (hasUses) return "uses";
     if (advancements.length) return "trait";
     return "text-only";
@@ -332,59 +431,67 @@
     const advancements = buildTraitAdvancement(feat);
     const uses = buildUses(feat);
     const activityHints = detectActivityHints(feat);
-    const blockedAutomations = detectBlockedAutomations(feat, activityHints);
-    const automationClassification = getAutomationClassification(feat, advancements, uses);
+    const activities = buildConsumableUtilityActivity(feat);
+    const hasConsumableActivity = Object.keys(activities).length > 0;
+    const blockedAutomations = detectBlockedAutomations(feat, activityHints, hasConsumableActivity);
+    const automationClassification = getAutomationClassification(feat, advancements, uses, activities);
     const requirements = asArray(feat.prerequisites).map(stringifyTextEntry).filter(Boolean).join(" | ");
 
-    const itemData = {
-      name: feat.name,
-      type: "feat",
-      img: DEFAULT_IMG,
-      system: {
-        activities: {},
-        uses,
-        advancement: advancements,
-        description: {
-          value: buildDescriptionHtml(feat),
-          chat: "",
-        },
-        identifier: slugify(feat.name || feat.id),
-        source: {
-          revision: 1,
-          rules: "2024",
-        },
-        crewed: false,
-        enchant: {},
-        prerequisites: {
-          items: [],
-          repeatable: false,
-          level: null,
-        },
-        properties: [],
-        requirements,
-        type: {
-          value: "feat",
-          subtype: "origin",
-        },
-      },
-      effects: [],
-      flags: {
-        [MODULE_ID]: {
-          authorialId: feat.id,
-          automationClassification,
-          importedBy: IMPORTED_BY,
-          activityHints,
-          blockedAutomations,
-        },
-      },
-    };
-
     return {
-      itemData,
+      itemData: {
+        name: feat.name,
+        type: "feat",
+        img: DEFAULT_IMG,
+        system: {
+          activities,
+          uses,
+          advancement: advancements,
+          description: {
+            value: buildDescriptionHtml(feat),
+            chat: "",
+          },
+          identifier: slugify(feat.name || feat.id),
+          source: {
+            revision: 1,
+            rules: "2024",
+          },
+          crewed: false,
+          enchant: {},
+          prerequisites: {
+            items: [],
+            repeatable: false,
+            level: null,
+          },
+          properties: [],
+          requirements,
+          type: {
+            value: "feat",
+            subtype: "origin",
+          },
+        },
+        effects: [],
+        flags: {
+          [MODULE_ID]: {
+            authorialId: feat.id,
+            automationClassification,
+            importedBy: IMPORTED_BY,
+            ...(hasConsumableActivity
+              ? {
+                  activityConsumesItemUses: true,
+                  activityTemplate: ACTIVITY_TEMPLATE,
+                  activityActivationForcedToAction: true,
+                }
+              : {}),
+            blockedAutomations,
+            activityHints,
+          },
+        },
+      },
       metrics: {
         hasTrait: advancements.length > 0,
         hasUses: uses.max === "@prof",
-        onlyText: advancements.length === 0 && uses.max !== "@prof",
+        hasConsumableActivity,
+        onlyText: advancements.length === 0 && uses.max !== "@prof" && !hasConsumableActivity,
         automationClassification,
       },
     };
@@ -396,8 +503,17 @@
       operacao: row.operation,
       trait: row.hasTrait ? "sim" : "nao",
       uses: row.hasUses ? "@prof/lr" : "nao",
+      activityConsumivel: row.hasConsumableActivity ? "sim" : "nao",
       classificacao: row.automationClassification,
     };
+  }
+
+  function getIndexEntries(indexData) {
+    if (Array.isArray(indexData)) return indexData;
+    if (Array.isArray(indexData.items)) return indexData.items;
+    if (Array.isArray(indexData.feats)) return indexData.feats;
+    if (Array.isArray(indexData.originFeats)) return indexData.originFeats;
+    throw new Error("Formato de _index.json não reconhecido.");
   }
 
   try {
@@ -411,7 +527,7 @@
 
     try {
       const index = await fetchJson(INDEX_PATH);
-      const entries = asArray(index.originFeats);
+      const entries = getIndexEntries(index);
       const existingDocs = await pack.getDocuments();
       const existingByName = new Map();
 
@@ -457,6 +573,7 @@
 
           if (metrics.hasTrait) summary.comTrait += 1;
           if (metrics.hasUses) summary.comUses += 1;
+          if (metrics.hasConsumableActivity) summary.comActivityConsumivel += 1;
           if (metrics.onlyText) summary.somenteTexto += 1;
         } catch (error) {
           summary.erros += 1;
@@ -475,7 +592,7 @@
       console.table(importRows.map(logImportRow));
       console.info(`[${IMPORTED_BY}] Resumo final:`, summary);
       ui.notifications?.info(
-        `Talentos de Origem v2: criados ${summary.created}, atualizados ${summary.updated}, comTrait ${summary.comTrait}, comUses ${summary.comUses}, somenteTexto ${summary.somenteTexto}, erros ${summary.erros}.`
+        `Talentos de Origem v2.2: criados ${summary.created}, atualizados ${summary.updated}, comTrait ${summary.comTrait}, comUses ${summary.comUses}, comActivityConsumivel ${summary.comActivityConsumivel}, somenteTexto ${summary.somenteTexto}, erros ${summary.erros}.`
       );
     } finally {
       if (pack.locked !== wasLocked) {
@@ -484,6 +601,6 @@
     }
   } catch (error) {
     console.error(`[${IMPORTED_BY}] Falha geral:`, error);
-    ui.notifications?.error(`Falha no importador v2 de Talentos de Origem: ${error.message}`);
+    ui.notifications?.error(`Falha no importador v2.2 de Talentos de Origem: ${error.message}`);
   }
 })();

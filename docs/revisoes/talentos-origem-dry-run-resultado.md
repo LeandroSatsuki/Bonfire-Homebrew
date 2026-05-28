@@ -124,3 +124,60 @@ Decisão aplicada:
 - `Músico` entra como texto/manual no importador real v2
 - o bloqueio fica registrado como `musical-instrument-choice-unvalidated`
 - a automação so deve ser liberada depois de validar um pool real e restrito para instrumentos musicais
+
+## 14. Ajuste pós-importação v2: uses não consumiam
+
+Depois da importacao real v2, o autor confirmou que os talentos com `system.uses` apareciam no chat, mas nao abriam fluxo de uso nem consumiam carga ao clicar no item.
+
+Causa tecnica confirmada:
+
+- o importador v2 criou `system.uses`
+- mas manteve `system.activities = {}`
+- no sample real `foundry-samples/teste-feat-tocado-pelo-no-do-selamento.json`, o consumo depende de `activity.consumption.targets` com `type: "itemUses"` e `value: "1"`
+
+Decisao v2.1:
+
+- criar `utility activities` consumiveis apenas para os talentos com `@prof` + `lr` ja validados
+- a `activity` serve so para consumir o recurso
+- o efeito mecanico continua textual/manual
+
+Talentos afetados no v2.1:
+
+- `Centelha de Fogo Espiritual`
+- `Escudeiro do Amanhecer`
+- `Explorador de Masmorras`
+- `Marca Arcana da Vigília`
+- `Assecla do Reinado Dracônico`
+- `Folião Incansável`
+- `Joguete de Vampiro`
+- `Sortudo`
+
+## 15. Ajuste pós-v2.1: usar sample manual funcional de Sortudo
+
+### Causa
+
+O v2.1 ainda nao consumiu corretamente a carga no Foundry, mesmo com `system.uses` presente no item.
+
+### Decisão v2.2
+
+- usar o sample manual funcional de `Sortudo` como padrão exato para a `utility activity`
+- forcar `activation.type = "action"` nos oito talentos com `uses`
+- manter a activity apenas como consumidora de `itemUses`
+- nao automatizar o efeito mecanico
+
+### Talentos afetados
+
+- `Centelha de Fogo Espiritual`
+- `Escudeiro do Amanhecer`
+- `Explorador de Masmorras`
+- `Marca Arcana da Vigília`
+- `Assecla do Reinado Dracônico`
+- `Folião Incansável`
+- `Joguete de Vampiro`
+- `Sortudo`
+
+### Critério de aceite
+
+Ao usar a activity, o contador do item deve diminuir.
+
+Se o contador nao diminuir, a estrutura da activity precisa ser revisada antes de liberar importacao maior.

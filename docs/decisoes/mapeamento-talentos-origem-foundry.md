@@ -220,6 +220,14 @@ Regra de ouro:
 
 O importador real v2 deve permanecer estritamente conservador e automatizar apenas o que foi validado pelo dry-run v2.
 
+### 9.0 Ajuste de consumo no v2.1
+
+O importador v2 provou que `system.uses` sozinho nao basta para consumo real pelo clique do item.
+
+Sem `activity` com `consumption.targets` apontando para `itemUses`, o Foundry apenas envia o item para o chat e nao pergunta pelo uso nem consome a carga.
+
+O ajuste v2.1 corrige isso criando `utility activities` consumiveis apenas para os `8` talentos ja validados com `@prof` + `lr`.
+
 ### 9.1 Escopo permitido
 
 Automatizar somente:
@@ -244,12 +252,20 @@ Automatizar somente:
   - `Folião Incansável`
   - `Joguete de Vampiro`
   - `Sortudo`
+- `utility activities` consumindo `itemUses` apenas para:
+  - `Centelha de Fogo Espiritual`
+  - `Escudeiro do Amanhecer`
+  - `Explorador de Masmorras`
+  - `Marca Arcana da Vigília`
+  - `Assecla do Reinado Dracônico`
+  - `Folião Incansável`
+  - `Joguete de Vampiro`
+  - `Sortudo`
 
 ### 9.2 Escopo bloqueado
 
 Continuam bloqueados no importador v2:
 
-- `system.activities` reais
 - `Active Effects`
 - criação de `Spell` ou qualquer importação de `grantedSpells`
 - `Músico` como `Trait`, até validar um pool real de instrumentos musicais em vez do genérico `tool:*`
@@ -265,4 +281,34 @@ Continuam bloqueados no importador v2:
 - `system.source.rules` deve ser `2024`
 - o importador v2 preserva `description`, `mechanicsSummary`, `benefits`, `prerequisites` e `notes` dentro de `system.description.value`
 - `system.requirements` deve preservar os pré-requisitos textuais quando existirem
-- ações, reações e ações bônus ficam apenas no texto e em `flags`
+- no v2.1, a `activity` serve apenas para consumir `itemUses`
+- o efeito mecanico de cada talento continua textual/manual
+
+## 10. Ajuste v2.2: activity baseada no Sortudo manual funcional
+
+O v2.1 ainda nao consumiu corretamente a carga ao clicar no item, mesmo com `system.uses` configurado.
+
+O sample manual funcional de `Sortudo` foi tomado como padrao tecnico para o ajuste v2.2.
+
+Decisao v2.2:
+
+- forcar `activation.type = "action"` nas `utility activities` consumiveis
+- manter a activity apenas como consumidora de `itemUses`
+- nao automatizar dano, cura, magia ou efeito contextual
+
+Talentos afetados no v2.2:
+
+- `Centelha de Fogo Espiritual`
+- `Escudeiro do Amanhecer`
+- `Explorador de Masmorras`
+- `Marca Arcana da Vigília`
+- `Assecla do Reinado Dracônico`
+- `Folião Incansável`
+- `Joguete de Vampiro`
+- `Sortudo`
+
+Regra operacional do v2.2:
+
+- a activity serve apenas para reduzir o contador do item
+- o efeito mecanico permanece manual/textual
+- se o consumo nao ocorrer ao clicar no item, o problema volta para revisao da estrutura da activity
