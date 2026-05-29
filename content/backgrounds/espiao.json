@@ -7,25 +7,43 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "rede secreta de apoiadores em grandes cidades; acesso a esconderijo, hospedagem, alimentacao e assistencia para achar informacoes; compra informacoes gastando metade do ouro em pesquisas ligadas a contatos",
-    "mechanicsSummary": "beneficio social/narrativo; custo reduzido em pesquisas por contato",
-    "automation": "parcial",
-    "dependencies": ["rede de espionagem", "contatos", "grandes cidades", "ouro"],
-    "questions": ["validar reducao de custo em pesquisa", "validar esconderijos e contatos como regra manual"]
+    "description": "Como um espião, você tem acesso a uma rede secreta de apoiadores e agentes de espionagem que podem fornecer assistência em meio às grandes cidades. Você conhece um conjunto de sinais secretos e senhas que pode usar para identificar esses agentes, que podem fornecer acesso a um esconderijo, hospedagem e alimentação gratuitas ou assistência para encontrar informações. Esses agentes nunca arriscam as suas vidas por você ou arriscam revelar as suas verdadeiras identidades. Adicionalmente, você pode comprar informações por meio de seus contatos, você então gasta metade do ouro em pesquisas relacionadas a coleta de informação, que possam ser adiquiridas por seus contatos."
   },
-  "description": "infiltrador acostumado a se misturar, observar e comprar informacoes",
+  "description": "\"Neste mundo, não existe espionagem maior do que as lentes da história.\"\nA tarefa do espião não é se esconder onde ninguém possa vê-lo, uma vez que ele mesmo não será capaz de enxergar coisa alguma. A tarefa de um espião é se esconder onde todo mundo possa vê-lo e onde ele possa ver tudo. Você sabe como se misturar, se infiltrar e até mesmo se passar por outra pessoa com certa facilidade. A arte da espionagem, com toda certeza você domina.",
   "mechanicsSummary": "beneficio social/narrativo; custo reduzido em pesquisas por contato",
   "automation": "parcial",
-  "dependencies": ["rede de espionagem", "contatos", "grandes cidades", "ouro"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "rede de espionagem",
+    "contatos",
+    "grandes cidades",
+    "ouro"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

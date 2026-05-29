@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "rede de mercenarios e contratantes em grandes cidades; acesso a esconderijo, hospedagem, alimentacao e ajuda para obter informacoes; lista semanal de contratos com acontecimentos locais e regionais",
-    "mechanicsSummary": "beneficio social/narrativo; acesso periodico a informacoes",
-    "automation": "parcial",
-    "dependencies": ["rede de mercenarios", "contratantes", "grandes cidades"],
-    "questions": ["validar lista semanal de contratos", "validar rede de contato como regra manual"]
+    "description": "Como um mercenário, você tem acesso a uma rede de mercenários e contratantes que podem fornecer assistência em meio às grandes cidades. Você conhece um conjunto de sinais secretos e senhas que pode usar para identificar esses colegas de profissão, que podem fornecer acesso a um esconderijo, hospedagem e alimentação gratuitas ou assistência para encontrar informações. Esses contatos nunca irão arriscar as suas vidas por você ou arriscar revelar as suas verdadeiras identidades. Adicionalmente, você possui uma lista de contratos que é atualizada toda semana, trazendo informações sobre acontecimentos locais e regionais."
   },
-  "description": "combatente pago, habituado a contratos, riscos e rede profissional",
+  "description": "\"Eu vim do nada e eu não tenho medo de voltar. O que importa é o dinheiro que eu vou ganhar\"\nVocê é um mercenário que lutou batalhas por riquesas. Agora, você tem uma visão mais à frente, lutando contra inimigos e adquirindo espólios ainda maiores como um aventureiro. Sua grande experiência lhe deixou a par da vida difícil de um mercenário, mas ainda assim, decidiu trilhar esse caminho tortuoso.\"",
   "mechanicsSummary": "beneficio social/narrativo; acesso periodico a informacoes",
   "automation": "parcial",
-  "dependencies": ["rede de mercenarios", "contratantes", "grandes cidades"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "rede de mercenarios",
+    "contratantes",
+    "grandes cidades"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

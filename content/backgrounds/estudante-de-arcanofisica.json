@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em testes ligados a raciocinio logico e matematico; bonus igual ao bonus de proficiencia em pesquisas sobre `Arcanofisica`",
-    "mechanicsSummary": "vantagem e bonus fixo em pesquisas especificas",
-    "automation": "parcial",
-    "dependencies": ["Arcanofisica", "pesquisas"],
-    "questions": ["validar como representar bonus em pesquisa tematica"]
+    "description": "Como um estudante de Arcanofísica, você acabou por estudar as inúmeras leis da mesma. Assim, tendo um conhecimento vasto o bastante para relembrar e buscar informações sobre o seu estudo, tendo, portanto, vantagem em Testes relacionados a raciocínio lógico e matemático. Adicionalmente, você possui um bônus igual a sua proficiência bônus em testes de pesquisas sobre Arcanofísica."
   },
-  "description": "pesquisador de magia moderna focado na compreensao fisica da magia arcana",
+  "description": "A Arcanofísica é uma área de estudo de Magia Moderna que foca na compreensão física da magia arcana. Essa energia potencial se desdobra de maneiras que podem ser explicar com fórmulas, das mais simples até as mais complexas. Por isso, os números são os seus melhores amigos no entendimento da magia, mas também são os que tiram as suas noites de sono por serem muitas vezes difíceis de se compreender. Por conta disso, muitos brincam com os arcanofísicos chamando-os de \"matemágicos\".",
   "mechanicsSummary": "vantagem e bonus fixo em pesquisas especificas",
   "automation": "parcial",
-  "dependencies": ["Arcanofisica", "pesquisas"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "Arcanofisica",
+    "pesquisas"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

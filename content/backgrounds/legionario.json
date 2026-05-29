@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "simbolos de armadura/escudo sao reconhecidos; discurso de `1` minuto motiva pessoas e concede vantagem em `Persuasao` para coordenar civis em emergencia",
-    "mechanicsSummary": "vantagem contextual apos discurso",
-    "automation": "parcial",
-    "dependencies": ["ordem", "deus-fe", "civis em emergencia"],
-    "questions": ["validar ordem especifica", "validar gatilho do discurso e seu alcance"]
+    "description": "Os cidadãos de seu reino reconhecem os símbolos de sua armadura e escudo, visto como um arauto e seguidor de seu deus, você chega a trazer um alivio para todos aqueles que acreditam em sua fé. Além disso, a sua feição calma e olhos esperançosos em meio a eventos catastróficos acaba por trazer um olhar de esperança a todos que lhe observam. Você pode realizar um grande discurso para motivar todos ao seu redor. O discurso deve durar por pelo menos um minuto e, ao final dele, aqueles ao seu redor se sentem protegidos e motivados pelas suas palavras, assim concedendo-lhe vantagem em Testes de Persuasão para coordenar civis em situações de emergência."
   },
-  "description": "membro de ordem legionaria com objetivo comum e forte presenca de fe",
+  "description": "\"Um legionário demonstra habilidade e força inegáveis, mas de nada adiantaria se a sua sabedoria não lhe desse propósito.\"\nVocê pertence a uma ordem de legionários que que possuem um objetivo em comum. Esse objetivo depende da ordem que você serve, mas que a seus olhos é sem dúvída uma necessidade vítal e honrosa. O continente possui uma vasta variedade de ordens de legionários, todos os quais possuem um perfil parecido no que se diz às suas ações e suas responsabilidades.\"",
   "mechanicsSummary": "vantagem contextual apos discurso",
   "automation": "parcial",
-  "dependencies": ["ordem", "deus-fe", "civis em emergencia"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "ordem",
+    "deus-fe",
+    "civis em emergencia"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

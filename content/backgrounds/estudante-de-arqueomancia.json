@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em testes ligados a datacao de ruinas e objetos; bonus igual ao bonus de proficiencia em pesquisas sobre `Arqueomancia`",
-    "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
-    "automation": "parcial",
-    "dependencies": ["Arqueomancia", "ruinas", "objetos"],
-    "questions": ["validar como distinguir pesquisa geral de uso tematico"]
+    "description": "Como um estudante de Arqueomancia, você acabou por estudar as inúmeras leis dela. Assim, tendo um conhecimento vasto o bastante para relembrar e buscar informações sobre o seu estudo. Portanto, você possui vantagem em Testes relacionados a datação de ruínas e objetos. Adicionalmente, você possui um bônus igual a sua proficiência bônus em testes de pesquisas sobre Arqueomancia."
   },
-  "description": "pesquisador de magia moderna voltado para historia da magia e leitura do passado por meios magicos",
+  "description": "A Arqueomancia é uma área de estudo de Magia Moderna que abarca a história da magia e o estudo do passado por meio de magia. Ela busca cada momento do estudo mágico que tornou a magia no que conhecemos hoje para entender quais novos passos devem ser dados para evoluir mais. Além disso, a arqueomancia também pesquisa novas formas de aplicar a magia para compreender o passado, seja em meios de realizar a datação de ruínas e objetos, a leitura de traços arcanos há muito apagados em algo, entre outras uniões entre arqueologia e magia.",
   "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
   "automation": "parcial",
-  "dependencies": ["Arqueomancia", "ruinas", "objetos"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "Arqueomancia",
+    "ruinas",
+    "objetos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

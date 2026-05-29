@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem social para obter ajuda de autoridades no reino de origem; vantagem em `Investigacao`, `Percepcao` e `Intuicao` em contexto de caso",
-    "mechanicsSummary": "vantagens contextuais de investigacao e leitura de mentiras",
-    "automation": "parcial",
-    "dependencies": ["autoridades", "reino de origem", "cena de crime"],
-    "questions": ["validar fronteira entre caso investigado e uso geral", "validar autoridade como camada narrativa"]
+    "description": "Você possui uma certa fama como investigador a ponto de autoridades acabarem por lhe ajudar a nível de colegas de trabalho, possuindo assim vantagem em testes sociais para obter auxílio de autoridades em seu reino de origem. Além disso, quando estiver investigando a cena de um crime, os testes de Investigação e Percepção para solucionar o caso são realizados com vantagem. Adicionalmente, você tem vantagem em testes de Intuição para saber se uma criatura está mentindo referente a um caso investigado por você."
   },
-  "description": "investigador atento a sinais, omissoes e cenas de crime",
+  "description": "\"O descontentamento é a chave para a descoberta.\"\nNada passa por sua audição, visão, olfato e tato. você tem o talento nato para perceber o que passa despercebido por leigos, e destrinchar aquilo que foi descoberto, para assim, mostrar ao mundo a verdade que estava encoberta talvez pelo tempo, ou por alguma omissão. Seu trabalho encarece de antenção e de um raciocício rápido para trabalhar com precisão.\"",
   "mechanicsSummary": "vantagens contextuais de investigacao e leitura de mentiras",
   "automation": "parcial",
-  "dependencies": ["autoridades", "reino de origem", "cena de crime"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "autoridades",
+    "reino de origem",
+    "cena de crime"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

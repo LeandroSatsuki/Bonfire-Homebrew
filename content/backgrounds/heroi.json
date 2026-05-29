@@ -7,25 +7,43 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "encontra local para descansar e comer em vilarejos e cidades quando reconhecido; vantagem em `Persuasao` para inspirar/acalmar aldeoes e plebeus e obter informacoes sobre problemas locais",
-    "mechanicsSummary": "beneficio social/narrativo; vantagem contextual",
-    "automation": "parcial",
-    "dependencies": ["fama", "boatos", "vilarejos", "cidades"],
-    "questions": ["validar quando a fama e reconhecida", "validar hospedagem e alimentacao como regra manual"]
+    "description": "Graças a um de seus atos heróicos que ecoou por meio de boatos por todo um reino, quando ouvem o seu nome, você pode encontrar facilmente um local para descansar e comer em meio a vilarejos e cidades. Adicionalmente, você possui vantagem em Testes de Persuasão para inspirar ou acalmar aldeões e plebeus, como também para conseguir informações sobre problemas referentes a arredores de vilarejos ou cidades."
   },
-  "description": "personagem conhecido por ato heroico que ecoou por um reino",
+  "description": "\"Todo mundo falha em ser quem deveria ser. O valor de alguém, de um herói, está em conseguir ser quem realmente é.\"\nParece que o destinho escolheu você para algo superior. Os seus feitos em terra, foram notados por todos os outros e você é admirado por eles. Um herói geralmente é ovacionado por grandes feitos que cidadãos comuns, não costumam serem capazes de se fazer. Em pequenos vilarejos vizinhos perto de onde você nasceu ou ao qual você foi reconhecido, você é querido e todos o querem por perto.",
   "mechanicsSummary": "beneficio social/narrativo; vantagem contextual",
   "automation": "parcial",
-  "dependencies": ["fama", "boatos", "vilarejos", "cidades"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "fama",
+    "boatos",
+    "vilarejos",
+    "cidades"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

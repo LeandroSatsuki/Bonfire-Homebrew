@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "acesso a alta sociedade, torneios e conversas com cavaleiros; possui um escudeiro com ficha de `Noble` que ajuda fora de combate",
-    "mechanicsSummary": "vantagem em `Persuasao` com cavaleiros; escudeiro auxiliar contextual",
-    "automation": "parcial",
-    "dependencies": ["nobreza", "escudeiro", "torneios"],
-    "questions": ["validar como tratar NPC auxiliar", "validar limites do escudeiro no Foundry"]
+    "description": "Graças ao seu título de nobreza, você é bem-vindo na alta sociedade. Você pode facilmente participar de campeonatos de cavalaria e outros torneios organizados pela nobreza. Além disso, você possui vantagem em Testes de Persuasão para conversar com outros cavaleiros.\nVocê possui a ajuda de um nobre que serve como seu escudeiro, ajudando você em troca de treinamento em seu próprio caminho para a cavalaria (Ele possui a mesma ficha do Noble do MM p348).\nSeu escudeiro pode lhe ajuda a polir suas armas e armaduras, ajudar a vestir suas roupas, carregar alguns de seus equipamentos e ajudar na manutenção deles. Adicionalmente, ele está disposto a te seguir e ajudar até mesmo em áreas perigosas, porém ele não irá entrar em combate a menos que sua própria vida esteja em perigo. Ele irá embora se for frequentemente ameaçado ou abusado. Caso ele morra, você não poderá conseguir um novo escudeiro."
   },
-  "description": "nobreza menor ligada a torneios, honra e reconhecimento social",
+  "description": "\"Um cavaleiro possui sabedoria e a proporção desta, é a força que se empunha a espada.\"\nA alta-roda, está entre os títulos de nobreza mais baixos na maioria das sociedades, mas ele pode ser o caminho para posições maiores. Se você deseja ser um cavaleiro. Por mais que a fidalguea não seja um título de nobreza igual ao de um aristocrata, tem lá o seu valor pela sociedade. Cavaleiros são bem vistos diante do povo e são respeitados em suas cidades residentes.",
   "mechanicsSummary": "vantagem em `Persuasao` com cavaleiros; escudeiro auxiliar contextual",
   "automation": "parcial",
-  "dependencies": ["nobreza", "escudeiro", "torneios"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "nobreza",
+    "escudeiro",
+    "torneios"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

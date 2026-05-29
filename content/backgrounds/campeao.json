@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "famoso em um reino a escolha; acesso a competicoes e arenas desse reino; pode usar `Forca` em `Atuacao` para performances atleticas",
-    "mechanicsSummary": "mudanca de atributo em `Atuacao`; acesso narrativo a competicoes",
-    "automation": "parcial",
-    "dependencies": ["reino de escolha", "competicoes", "arenas"],
-    "questions": ["validar escolha de reino", "validar substituicao de atributo em `Atuacao`"]
+    "description": "Você é um campeão famoso em um reino de sua escolha. Assim, possuindo acesso a competições deste reino e podendo competir em arenas de luta oficiais e clandestinas do mesmo livremente. Além disso, graças ao seu grande histórico vitorioso, você pode realizar Testes de Atuação utilizando o seu modificador de Força, ao invés do de Carisma, para testes relacionados a se apresentar com performances atléticas para um publico."
   },
-  "description": "atleta e competidor conhecido por feitos fisicos e fama em arenas",
+  "description": "\"Um atleta nunca tenta descobrir qual o seu limite,mas sim deseja superá-lo a cada instante.\"\nVocê se esforça para se aperfeiçoar fisicamente e na execução de tudo o que faz. A emoção da competição acende fogo em seu sangue, e o rugido da multidão o impulsiona para frente. Contos de suas façanhas o precedem e podem abrir portas ou soltar línguas.\nSeja em uma das poleis, entre elas, ou entre os povos não humanos, as disputas físicas e aqueles que as perseguem impõem um respeito que beira a reverência. Campões surgem de todas as esferas da vida e de todas as culturas e muitas vezes cruzam-se uns com os outros.",
   "mechanicsSummary": "mudanca de atributo em `Atuacao`; acesso narrativo a competicoes",
   "automation": "parcial",
-  "dependencies": ["reino de escolha", "competicoes", "arenas"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "reino de escolha",
+    "competicoes",
+    "arenas"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

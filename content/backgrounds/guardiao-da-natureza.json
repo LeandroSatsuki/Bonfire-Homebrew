@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em `Lidar com Animais` com bestas selvagens; possui companheiro animal com ficha de `Sled Dog`",
-    "mechanicsSummary": "vantagem contextual; companheiro animal auxiliar",
-    "automation": "parcial",
-    "dependencies": ["bestas selvagens", "companheiro animal"],
-    "questions": ["validar como tratar companheiro no Foundry", "validar se a ficha do animal entra so como referencia manual"]
+    "description": "A fauna e a flora são a sua maior aliada, vivendo de forma plena e em harmonia com a natureza. Você acaba por se acostumar principalmente com os animais à sua volta. Desta maneira, os animais acabam por serem mais dóceis a você, fazendo o ter vantagem em Testes de Lidar com Animais com bestas selvagens. Adicionalmente, você possui um fiel companheiro, um pequeno animal que você chegou a acolher em meio as suas viagens. (A ficha do animal é a mesma do Sled Dog, RoT p27, mas não precisa ser necessariamente um cachorro)."
   },
-  "description": "defensor da natureza que vive em harmonia com fauna e flora",
+  "description": "Você é um dos defensores da natureza, que busca viver em plena harmonia com a natureza, sem tirar mais do que o necessário para viver. Por conta disso, muitos guardiões possuem uma opinião radical a cerca das cidades, acusando-as de serem sempre um abuso da natureza e de seus recursos. Contudo, uma vertente mais moderada vem crescendo ao longo do último século, em que vários guardiões passaram a entender que há sim pessoas nas grandes cidades que abusam da natureza, mas há outros que apenas vivem à moda urbana e são produtos do meio, de forma que só fazem o que é necessário para sobreviver no urbano.",
   "mechanicsSummary": "vantagem contextual; companheiro animal auxiliar",
   "automation": "parcial",
-  "dependencies": ["bestas selvagens", "companheiro animal"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "bestas selvagens",
+    "companheiro animal"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

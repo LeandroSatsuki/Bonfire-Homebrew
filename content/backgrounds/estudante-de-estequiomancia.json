@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em testes ligados a conhecimento primordial e elemental; bonus igual ao bonus de proficiencia em pesquisas sobre `Estequiomancia`",
-    "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
-    "automation": "parcial",
-    "dependencies": ["Estequiomancia", "conhecimento elemental"],
-    "questions": ["validar como classificar \"conhecimento primordial e elemental\" no Foundry"]
+    "description": "Como um estudante de Estequiomancia, você acabou por estudar as inúmeras leis da alquimia. Assim, tendo um conhecimento vasto o bastante para relembrar e buscar informações sobre o seu estudo, tendo, portanto, vantagem em Testes relacionados a conhecimento primordial e elemental. Adicionalmente, você possui um bônus igual a sua proficiência bônus em testes de pesquisas sobre Estequiomancia."
   },
-  "description": "pesquisador de magia moderna focado em elementos e conhecimento elemental",
+  "description": "A Estequiomancia é uma área de estudo de Magia Moderna que foca nos elementos como um todo. Os elementos químicos a tudo constituem, e você estuda como manipulá-los de todas as maneiras possíveis. Para um estudante de sua área, os elementos primais (ar, água, fogo e terra) e os configurativos (ordem e caos) são só uma maneira simplificada de se ver a imensidade elemental real do mundo, que é muito mais complexa que isso e se une e interage de formas muito mais difíceis de se compreender.",
   "mechanicsSummary": "vantagem e bonus fixo em pesquisa tematica",
   "automation": "parcial",
-  "dependencies": ["Estequiomancia", "conhecimento elemental"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "Estequiomancia",
+    "conhecimento elemental"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

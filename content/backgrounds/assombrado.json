@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em `Arcanismo`, `Historia` ou `Religiao` sobre espiritos e vida apos a morte; ganha ferramenta/dispositivo de adivinhacao para falar com espiritos; sente locais profanos",
-    "mechanicsSummary": "proficiencia com ferramenta de adivinhacao; vantagens em pesquisas especificas; percepcao contextual de profanacao",
-    "automation": "parcial",
-    "dependencies": ["espiritos", "ferramenta de adivinhacao", "local profano"],
-    "questions": ["validar a ferramenta de adivinhacao", "validar deteccao de local profano"]
+    "description": "Depois de uma experiência aterrorizante, você se alinhou com os espíritos e pode servir como um porta voz dos mesmos. Você tem vantagem em qualquer Teste de Arcanismo, Historia ou Religião que fizer para lembrar ou pesquisar informações sobre espíritos e a vida após a morte. Além disso, você começa sua carreira de aventureiro com um dispositivo personalizado para se comunicar com forças sobrenaturais, como: Um baralho de Tarot, um tabuleiro espiritual ou um dispositivo de seu próprio estilo. Você é proficiente com esta ferramenta de adivinhação, podendo realizar Testes de Atributo (Escolha do Mestre) com a ferramenta para se comunicar e recolher informações com espíritos. Adicionalmente, quando você está em um local profano, você sente que aquele local está profanado."
   },
-  "description": "personagem marcado por trauma, perda ou experiencia aterrorizante que ainda o persegue",
+  "description": "\"A pior maldição que um homem pode carregar, é estar perdido e ser assombrado pelos seus próprios pensamentos.\"\nAlgo no seu passado deixou sequelas que nem mesmo o tempo pode apagar de sua memória. Você é constantemente perturbado por isso, seja lá um trauma, uma perda marcante, ou até mesmo por ter presenciado um ato que possa ter impactado na sua vida, independente do que tenha acontecido ou se foi a muito tempo. As vezes você tem pesadelos com tal acontecido e a sua mente sempre lhe prega umas peças, fazendo você reviver tal memória.",
   "mechanicsSummary": "proficiencia com ferramenta de adivinhacao; vantagens em pesquisas especificas; percepcao contextual de profanacao",
   "automation": "parcial",
-  "dependencies": ["espiritos", "ferramenta de adivinhacao", "local profano"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "espiritos",
+    "ferramenta de adivinhacao",
+    "local profano"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

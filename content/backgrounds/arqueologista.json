@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "pode gastar `1` hora analisando antiguidades de pelo menos um seculo para descobrir proposito e cultura; se for item de raca conhecida, descobre propriedades e como usa-lo, mas nao detecta magia; vantagem em pesquisas sobre arqueologia",
-    "mechanicsSummary": "identificacao contextual de antiguidades; vantagem em pesquisas",
-    "automation": "parcial",
-    "dependencies": ["antiguidades", "itens", "cultura"],
-    "questions": ["validar como representar analise de item antigo sem virar identificacao magica automatica"]
+    "description": "Com o seu conhecimento arqueológico, você pode gastar uma hora para analisar antiguidades de pelo menos um século. Você então descobre o propósito daquela antiguidade e de que cultura ela pertence. Se for de uma raça conhecida, e caso a antiguidade for um item, você descobre suas propriedades e como usa-lo, mas não descobre se tem qualquer magia o influenciando. Adicionalmente, você possui vantagem em pesquisas que envolvem arqueologia."
   },
-  "description": "explorador de culturas perdidas, ruinas, fosseis, obras antigas e templos esquecidos",
+  "description": "\"Estudiosos comparavam que o inconsciente é como uma grande escavação da arqueologia e a partir desse pensamento metafórico, compreendo o inconsciente como algo infinitamente complexo e instigante, em que cada descoberta, um novo enigma a desvendar.\"\nUm arqueólogo basicamente esquadrinha culturas perdidas, fósseis, ruínas, obras de arte e até mesmo antigos templos. Todo arqueólogo caminha para todos os cantos mais distantes do mundo para procurar cidades ou masmorras perdidas, buscando artefatos, ou até mesmo ruinas de civilizações ou estudos antigos que possam explicar o porquê das coisas serem como são hoje.",
   "mechanicsSummary": "identificacao contextual de antiguidades; vantagem em pesquisas",
   "automation": "parcial",
-  "dependencies": ["antiguidades", "itens", "cultura"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "antiguidades",
+    "itens",
+    "cultura"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

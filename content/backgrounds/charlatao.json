@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "pode falsificar documentos com dificuldade baseada em `Enganacao`; vantagem em jogos de azar e em esconder trapaça",
-    "mechanicsSummary": "criacao contextual de documentos; vantagem em interacoes especificas",
-    "automation": "parcial",
-    "dependencies": ["documentos", "jogos de azar"],
-    "questions": ["validar como registrar a CD baseada em `Enganacao`", "validar falsificacao como fluxo manual"]
+    "description": "Você é capaz de falsificar documentos, como papéis oficiais e cartas pessoais. Quando você o faz, role um dado do seu Teste de Enganação. Uma criatura que veja o documento pode realizar um Teste de Investigação com o teste de dificuldade sendo igual ao número obtido na sua jogada de Enganação de quando o documento foi forjado. Adicionalmente, você tem vantagem em jogos de azar e em esconder que está trapaceando em um jogo."
   },
-  "description": "manipulador, orador e trapaceiro acostumado a dobrar situacoes e pessoas",
+  "description": "\"Eu Achava a palavra charlatão uma ofensa. Agora a vejo como um elogio para os mágicos das profissões.\"\nVocê sabe o que falar na hora certa. A arte de manipular situações, coisas e pessoas, com toda certeza você possui maestria. A sua capacidade de fazer aflorar o mais genuino dos sentimentos é surreal e como um bom orador, você sabe usar isso ao seu favor nas horas mais oportunas e também nas mais difíceis.",
   "mechanicsSummary": "criacao contextual de documentos; vantagem em interacoes especificas",
   "automation": "parcial",
-  "dependencies": ["documentos", "jogos de azar"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "documentos",
+    "jogos de azar"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

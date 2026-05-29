@@ -7,25 +7,43 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "possui patente militar; pode influenciar soldados de patente inferior, requisitar equipamentos simples ou cavalos temporarios e obter acesso a acampamentos/fortalezas amigaveis; move-se ate `16` horas por dia antes de marcha forcada",
-    "mechanicsSummary": "acesso narrativo militar; extensao de marcha",
-    "automation": "parcial",
-    "dependencies": ["patente militar", "organizacao militar", "cavalos", "acampamentos"],
-    "questions": ["validar como tratar requisicao temporaria de equipamento", "validar regra de viagem ampliada"]
+    "description": "Você tem uma patente militar de sua carreira como soldado. Soldados leais à sua antiga organização militar ainda reconhecem sua autoridade e influência, e se submetem a você se forem de uma patente inferior. Você pode invocar seu posto para exercer influência sobre outros soldados e requisitar equipamentos simples ou cavalos para uso temporário. Você também pode obter acesso a acampamentos e fortalezas militares amigáveis, onde sua classificação é reconhecida. Adicionalmente, você pode se mover duas vezes o tempo normal (até 16 horas) a cada dia antes de ser sujeito ao efeito de uma marcha forçada (veja \"Ritmo de Viagem\" no capítulo 8 do Livro do Jogador)."
   },
-  "description": "combatente treinado desde cedo em guerra, sobrevivencia e uso de equipamento militar",
+  "description": "\"Os soldados mais fortes não são descobertos em tempos de paz e sim resistindo em meio suas guerras.\"\nA batalha está presente em sua vida desde sempre. Você foi treinado desde jovem, estudou o uso dos equipamentos de guerra, aprendeu técnicas básicas de sobrevivência, incluindo como permanecer vivo no campo de batalha. Você pode ter feito parte de uma esquadra militar, ou uma ordem de mercenários, talvez até mesmo uma milícia local, que cresceu graças a alguma guerra recente.",
   "mechanicsSummary": "acesso narrativo militar; extensao de marcha",
   "automation": "parcial",
-  "dependencies": ["patente militar", "organizacao militar", "cavalos", "acampamentos"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "patente militar",
+    "organizacao militar",
+    "cavalos",
+    "acampamentos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

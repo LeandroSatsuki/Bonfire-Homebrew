@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "encontra lugar para se apresentar e recebe hospedagem/alimentacao enquanto se apresenta; vantagem em `Atuacao`; depois de boa performance, ganha vantagem em `Enganacao` e `Persuasao` contra presentes",
-    "mechanicsSummary": "vantagens sociais e acesso narrativo a apresentacoes",
-    "automation": "parcial",
-    "dependencies": ["estabelecimento", "publico", "performance"],
-    "questions": ["validar duracao e gatilho da \"boa performance\"", "validar hospedagem/alimentacao como regra manual"]
+    "description": "Você sempre pode encontrar um lugar para se apresentar, geralmente em uma pousada ou taverna, mas possivelmente em um circo, em um teatro ou mesmo na corte de um nobre. Nesse local, você recebe hospedagem e alimentação gratuitas enquanto estiver se apresentando. Além disso, você tem vantagem em Testes de Atuação para se apresentar em estabelecimentos. Depois de uma boa performance em um palco, os seus Testes de Enganação e Persuasão são feitos com vantagem em criaturas que estavam presentes em sua apresentação."
   },
-  "description": "personagem feito para o publico, para entreter, inspirar e prender a atencao",
+  "description": "\"O artista tem que ser gênio para alguns e imbecil para outros. Se puder ser imbecil para todos, melhor ainda.\"\nVocê nasceu para o público. Você faz com que a atenção fique fixada em ti entretendo, inspirando, elogiando ou até mesmo performando. Seus repentes são ouvidos com muito louvor, suas canções são sempre cantadas por bardos menores e seus movimentos de danças são sempre bem vistos pelo público que te assiste e te ovaciona com muita admiração. \"",
   "mechanicsSummary": "vantagens sociais e acesso narrativo a apresentacoes",
   "automation": "parcial",
-  "dependencies": ["estabelecimento", "publico", "performance"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "estabelecimento",
+    "publico",
+    "performance"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

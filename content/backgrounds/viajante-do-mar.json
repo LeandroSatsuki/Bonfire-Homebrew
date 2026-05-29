@@ -7,25 +7,43 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em `Persuasao` e `Enganacao` com pessoas de vida maritima; encontra bares/tavernas com jogos de azar em cidade portuaria; com ferramentas de carpinteiro e madeira, repara veiculo aquatico e restaura PV do casco igual a `5 x modificador de proficiencia`",
-    "mechanicsSummary": "vantagens sociais contextuais; reparo de veiculo aquatico",
-    "automation": "parcial",
-    "dependencies": ["cidade portuaria", "jogos de azar", "ferramentas de carpinteiro", "veiculo aquatico"],
-    "questions": ["validar como representar reparo de casco", "validar dependencia de ferramenta especifica"]
+    "description": "Por ser um viajante do mar, você tem vantagem em Persuasão e Enganação com pessoas que vivem em portos ou que tenham uma vida marítima. Além disso, enquanto estiver em uma cidade portuária, você facilmente encontrará bares e tavernas que tenham jogos de azar.\nAdicionalmente, desde que você tenha ferramentas de carpinteiro e madeira, você pode com um minuto de trabalho realizar reparos em um veículo aquático. Quando você usa essa habilidade, você restaura um número de pontos de vida no casco de um veículo aquático igual a 5 × seu modificador de proficiência. Um veículo não pode ser consertado por você dessa maneira novamente até que tenha sido puxado para terra e totalmente reparado."
   },
-  "description": "navegante experiente acostumado a perigos do mar, criaturas monstruosas e piratas",
+  "description": "\"Às vezes os deuses acalmam as tempestades, às vezes eles acalmam o marinheiro. Outras eles nos ensina a nadar.\"\nVocê passou seu tempo mais no mar do que na terra. Você navegou durante anos e nesse período, você passou por diversos perigos, enfrentou criaturas monstruosas e ainda teve que lidar com piratas vez ou outra. Se tratando da vida marítima, com toda certeza você é a pessoa mais adequada para comandar uma espedição marítima por exemplo.",
   "mechanicsSummary": "vantagens sociais contextuais; reparo de veiculo aquatico",
   "automation": "parcial",
-  "dependencies": ["cidade portuaria", "jogos de azar", "ferramentas de carpinteiro", "veiculo aquatico"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "cidade portuaria",
+    "jogos de azar",
+    "ferramentas de carpinteiro",
+    "veiculo aquatico"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

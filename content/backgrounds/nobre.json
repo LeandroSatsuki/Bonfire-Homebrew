@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "bem-vindo na alta sociedade; pode garantir audiencia com nobre local; vantagem em `Persuasao` com nobres; possui `3` retentores leais, incluindo um conselheiro nobre",
-    "mechanicsSummary": "beneficio social/narrativo; retentores auxiliares fora de combate",
-    "automation": "parcial",
-    "dependencies": ["nobreza", "audiencia", "retentores"],
-    "questions": ["validar como tratar retentores", "validar audiencia e status social como camada manual"]
+    "description": "Graças ao seu nascimento nobre, as pessoas tendem a pensar o melhor de você. Você é bem-vindo na alta sociedade, e as pessoas assumem que você tem o direito de estar onde quer que esteja. As pessoas comuns se esforçam para acomodá-lo e evitar seu desagrado, e outras pessoas de origem nobre o tratam como um membro da mesma esfera social. Você pode garantir uma audiência com um nobre local, se precisar. Além disso, você possui vantagem em Testes de Persuasão para conversar com outros nobres.\nVocê tem o serviço de três retentores leais à sua família. Esses retentores podem ser atendentes ou mensageiros, e um pode ser um mordomo. Um de seus retentores é um nobre que serve como seu conselheiro. (Eles possuem a ficha de um commoner do MM p345).\nSeus lacaios podem realizar tarefas mundanas para você, mas eles não lutam por você, não o seguirão em áreas obviamente perigosas (como masmorras) e irão embora se forem frequentemente ameaçados ou abusados."
   },
-  "description": "personagem de linhagem nobre, com terras, impostos e influencia politica",
+  "description": "\"O dinheiro não traz felicidade — para quem não sabe o que fazer com ele.\"\nVocê possui um nome ou descendência nobre, sua família possui terras, arrecada impostos e exerce uma influência política significativa. Você pode ser um nobre mimado pouco familiarizado com o trabalho ou pode ser um dono de terra honesto e trabalhador que se preocupa com as pessoas que vivem e trabalham em sua terra, sutilmente ciente da sua responsabilidade para com eles.",
   "mechanicsSummary": "beneficio social/narrativo; retentores auxiliares fora de combate",
   "automation": "parcial",
-  "dependencies": ["nobreza", "audiencia", "retentores"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "nobreza",
+    "audiencia",
+    "retentores"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

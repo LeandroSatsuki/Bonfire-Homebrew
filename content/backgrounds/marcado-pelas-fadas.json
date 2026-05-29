@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "criaturas feericas amigaveis tendem a ajudar em troca de favor; vantagem em `Intuicao` e `Persuasao` em conversas com criatura feerica",
-    "mechanicsSummary": "vantagens sociais contextuais",
-    "automation": "parcial",
-    "dependencies": ["criaturas feericas", "favores"],
-    "questions": ["validar ajuda feerica como camada narrativa", "validar escopo das conversas"]
+    "description": "A sua forma de agir e conhecimento dos costumes feéricos são reconhecidos pelos nativos da Terra das Fadas, que o vêem como um deles. Por causa disso, criaturas feéricas amigáveis estão inclinadas a lhe ajudar, mas normalmente em troca de um favor. Adicionalmente, você possui vantagem em Testes de Intuição e Teste de Persuasão derivados de uma conversa entre uma criatura feérica e você."
   },
-  "description": "personagem tocado pelo mundo feerico e reconhecido por seus costumes",
+  "description": "\"Mergulhemos completamente nesse universo feérico, a fim de ampliar nossa visão do mundo e apurar a percepção de\nnosso próprio destino.\"\nVocê teve contato com seres feéricos jamais vistos. Você foi tocado por eles e possui uma ligação institiva com esse tipo de criatura, que naturalmente conseguem ter uma conexão, fazendo assim desses seres talvez, seus aliados ou até mesmo entes \"imaginários\". Se por acaso um feérico aparecer, provavelmente ele pode te tirar de alguma adversidade ao invés de te colocar nela.",
   "mechanicsSummary": "vantagens sociais contextuais",
   "automation": "parcial",
-  "dependencies": ["criaturas feericas", "favores"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "criaturas feericas",
+    "favores"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

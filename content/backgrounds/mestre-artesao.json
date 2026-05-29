@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "recebe proficiencia em uma ferramenta de artesao a escolha e vantagem nos testes dessa ferramenta; vantagem social para negociar com mercadores",
-    "mechanicsSummary": "proficiencia; vantagem em testes com ferramenta; vantagem social contextual",
-    "automation": "parcial",
-    "dependencies": ["ferramenta de artesao a escolha", "mercadores"],
-    "questions": ["validar como representar \"ferramenta de artesao a escolha\"", "validar vantagem com ferramenta"]
+    "description": "Você recebe proficiência em uma ferramenta de artesão de sua escolha (Veja a tabela abaixo) e possui vantagem nos testes da mesma. Adicionalmente, a sua fama lhe persegue por todo o seu reino de origem, você possui vantagem em testes sociais para negociar com mercadores."
   },
-  "description": "artesao treinado desde a aprendizagem ate a maestria",
+  "description": "\"Eu procuro por mim, tal qual o artesão procura sua arte escondida nos excessos da matéria bruta de seu mármore.\"\nQuando o trabalho é manual, é a você que eles chamam. Você é totalmente proficiênte em trabalhos braçais. Você aprendeu suas habilidades como aprendiz de um mestre artesão e depois de estudar e praticar por tanto tempo, acabou por se tornar um artesão nato pelos seus próprios feitos.",
   "mechanicsSummary": "proficiencia; vantagem em testes com ferramenta; vantagem social contextual",
   "automation": "parcial",
-  "dependencies": ["ferramenta de artesao a escolha", "mercadores"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "ferramenta de artesao a escolha",
+    "mercadores"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

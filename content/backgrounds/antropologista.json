@@ -7,25 +7,41 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "apos observar e interagir com uma civilizacao por `6` horas, aprende palavras e gestos suficientes para comunicacao rudimentar; vantagem em pesquisas de antropologia",
-    "mechanicsSummary": "comunicacao rudimentar contextual; vantagem em pesquisas",
-    "automation": "parcial",
-    "dependencies": ["idioma", "civilizacao"],
-    "questions": ["validar como registrar aprendizado rudimentar de idioma", "validar pesquisas contextuais"]
+    "description": "Você pode observar e interagir com uma civilização por pelo menos 6 horas. Dessa forma, você aprende um punhado de palavras, expressões e gestos importantes da civilização respectiva - assim aprendendo o suficiente do idioma para poder se comunicar em um nível rudimentar. Adicionalmente, você possui vantagem em pesquisas que envolvam antropologia."
   },
-  "description": "estudioso de civilizacoes perdidas, lugares esquecidos e formas de organizacao social",
+  "description": "\"A coisa mais indispensável a um homem é reconhecer o uso que deve fazer do seu próprio conhecimento.\"\nEstudar outras civilizações perdidas, descobrir aquilo que talvez o passado tenha enterrado, se tornou a sua paixão. Independente se é algo que foi esquecido a mais de milênios, ou se foi recentemente inventado por algum gênio contemporâneo ou cientista. Você estudou cada linha de canções em que bardos citam lugares perdidos, livros que relatam a existência de impérios míticos ou até mesmo todas as formas de agremiação já existentes.",
   "mechanicsSummary": "comunicacao rudimentar contextual; vantagem em pesquisas",
   "automation": "parcial",
-  "dependencies": ["idioma", "civilizacao"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "idioma",
+    "civilizacao"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

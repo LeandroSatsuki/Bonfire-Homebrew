@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "rede de contatos no reino de origem; encontra abrigos de velhos parceiros nas cidades",
-    "mechanicsSummary": "beneficio principalmente narrativo/social",
-    "automation": "parcial",
-    "dependencies": ["reino de origem", "contatos", "abrigos"],
-    "questions": ["validar como representar rede de contatos sem automacao mecanica direta"]
+    "description": "Graças ao seu passado marcado por seus crimes, você possui inúmeros contatos. Assim, tendo um conhecimento amplo a ponto de criar uma rede de contatos em meio ao seu reino de origem. Adicionalmente, você facilmente achará abrigos de velhos parceiros em meio às suas idas até as cidades."
   },
-  "description": "personagem ligado a submundos, maus feitos e antigos parceiros",
+  "description": "\"Um criminoso é uma pessoa com instintos predatórios sem capital suficiente para formar uma empresa.\"\nVocê com toda certeza já possui uma série de maus feitos em seu antecedente e passou tanto tempo com esse tipo de gente, que ainda possui contatos nas subferias espalhadas pelo continente. A lei para você, nada mais é do que um conjunto de regras que foi feito para você quebrá-las.\"",
   "mechanicsSummary": "beneficio principalmente narrativo/social",
   "automation": "parcial",
-  "dependencies": ["reino de origem", "contatos", "abrigos"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "reino de origem",
+    "contatos",
+    "abrigos"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

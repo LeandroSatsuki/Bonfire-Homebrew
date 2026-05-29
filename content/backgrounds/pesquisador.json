@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "em bibliotecas, universidades ou monasterios sabe onde procurar a informacao ou a quem perguntar; vantagem em pesquisas sobre qualquer tipo de estudo",
-    "mechanicsSummary": "beneficio investigativo/narrativo; vantagem ampla em pesquisas",
-    "automation": "parcial",
-    "dependencies": ["bibliotecas", "universidades", "monasterios"],
-    "questions": ["validar amplitude de \"qualquer tipo de estudo\"", "validar busca intuitiva de informacao"]
+    "description": "Graças a uma vida de estudos árduos, você sabe como conseguir a informação que você precisa rapidamente. Quando você estiver em bibliotecas, universidades ou monastérios, você intuitivamente sabe onde você deve procurar a informação que precisa ou a quem você precisa perguntar. Adicionalmente, você tem vantagem em testes de pesquisas sobre qualquer tipo de estudo."
   },
-  "description": "estudioso guiado pela busca de verdade, conhecimento e investigacao sistematica",
+  "description": "\"O pesquisador que não souber o que está procurando não compreenderá o que encontrar.\"\nSeu vínculo com suas pesquisas está quase certamente associado ao lugar onde você cresceu ou com o conhecimento que você almeja adquirir através da aventura. Seu desejo é, sem dúvida, relacionado à forma como você vê a busca por conhecimento e verdade, talvez como um objetivo digno em si mesmo, ou talvez como um meio para um fim aceitável.",
   "mechanicsSummary": "beneficio investigativo/narrativo; vantagem ampla em pesquisas",
   "automation": "parcial",
-  "dependencies": ["bibliotecas", "universidades", "monasterios"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "bibliotecas",
+    "universidades",
+    "monasterios"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }

@@ -7,25 +7,42 @@
   "rules": "2024",
   "status": "authorial-draft",
   "baseRules": {
-    "abilityScoreChoice": {"type": "+2/+1", "description": "+2 em um atributo e +1 em outro atributo a escolha"},
-    "skillChoices": {"count": 2, "description": "Escolha 2 pericias a escolha"},
-    "fixedLanguages": ["Comum"],
-    "languageToolChoices": {"count": 2, "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"},
+    "abilityScoreChoice": {
+      "type": "+2/+1",
+      "description": "+2 em um atributo e +1 em outro atributo a escolha"
+    },
+    "skillChoices": {
+      "count": 2,
+      "description": "Escolha 2 pericias a escolha"
+    },
+    "fixedLanguages": [
+      "Comum"
+    ],
+    "languageToolChoices": {
+      "count": 2,
+      "description": "Escolha 2 entre idiomas e/ou proficiencias com ferramentas"
+    },
     "startingGold": 100,
     "mundaneGoldRequirement": 50,
-    "originFeatChoice": {"count": 1, "category": "Talento de Origem", "status": "pending-explicit-foundry-link"}
+    "originFeatChoice": {
+      "count": 1,
+      "category": "Talento de Origem",
+      "status": "pending-explicit-foundry-link"
+    }
   },
   "backgroundFeature": {
     "name": "Habilidade do Antecedente",
-    "description": "vantagem em informacoes sobre vida maritima e ambientes aquaticos; vantagem com equipamento de pesca; vantagem em `Enganacao` para historias sobre o mar; consegue comida para si e ate `10` pessoas por dia em viagens maritimas",
-    "mechanicsSummary": "vantagens contextuais; suporte de sobrevivencia no mar",
-    "automation": "parcial",
-    "dependencies": ["equipamento de pesca", "vida maritima", "ambiente aquatico"],
-    "questions": ["validar producao diaria de alimento", "validar escopo de \"mentiras sobre o mar\""]
+    "description": "Você ganha vantagem em Testes de Habilidade para recolher informações referentes à vida marítima e a ambientes aquáticos. Além disso, você ganha vantagem em Testes de Habilidade feitos usando equipamento de pesca e vantagem em Testes de Enganação para contar mentiras sobre algo que já viveu em meio aos mares. Adicionalmente, graças ao seu estilo de vida simples e moderado, você adquiriu a capacidade de pegar comida suficiente para alimentar você e até dez outras pessoas por dia nas suas viagens marítimas."
   },
-  "description": "personagem ligado a pesca, historias de mar e caca de criaturas maritimas",
+  "description": "\"A vida é igual a pescaria, se o material esta preparado para peixes pequenos não pegará peixes grandes.\"\nVocê treinou a arte da pescaria com muito afinco, além de desenvolver a arte de contar histórias. Um bardo sabe declamar poemas, mas jamais contará uma boa história como você conta sobre os seus feitos em mar. Além disso, você aprendeu a caçar criaturas marítimas como ninguém, desenvolvendo suas habilidades de caça para se sustentar em meio aos mares.",
   "mechanicsSummary": "vantagens contextuais; suporte de sobrevivencia no mar",
   "automation": "parcial",
-  "dependencies": ["equipamento de pesca", "vida maritima", "ambiente aquatico"],
-  "notes": ["Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."]
+  "dependencies": [
+    "equipamento de pesca",
+    "vida maritima",
+    "ambiente aquatico"
+  ],
+  "notes": [
+    "Gerado a partir da extracao oficial local de antecedentes; ainda sem conversao para schema nativo do Foundry."
+  ]
 }
